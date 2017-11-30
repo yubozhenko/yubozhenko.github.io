@@ -1,0 +1,87 @@
+{
+  "uid" : "e26839aa5735af3",
+  "name" : "User registration  success 201  (OL-362, US Citizen / Tax Payer - Valid Values)-",
+  "fullName" : "User registration  success 201.User registration  success 201  (OL-362, US Citizen / Tax Payer - Valid Values)-",
+  "historyId" : "ddf67ee1330de69f07fddf505c78fd3a",
+  "time" : {
+    "start" : 1511799361701,
+    "stop" : 1511799362980,
+    "duration" : 1279
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "166e21272ab5a342",
+      "name" : "test_log",
+      "source" : "166e21272ab5a342.txt",
+      "type" : "text/plain",
+      "size" : 4461
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User registration service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "As OL Client i want to enter my personal information so that a client is created (OL-146)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-362"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "User registration  success 201"
+  }, {
+    "name" : "testClass",
+    "value" : "User registration  success 201"
+  }, {
+    "name" : "testMethod",
+    "value" : "User registration  success 201  (OL-362, US Citizen / Tax Payer - Valid Values)-"
+  }, {
+    "name" : "package",
+    "value" : "User registration  success 201"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-362",
+    "url" : "https://jira.fidor.de/browse/OL-362",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e26839aa5735af3.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

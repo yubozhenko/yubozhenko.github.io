@@ -1,0 +1,87 @@
+{
+  "uid" : "e4ae3b44d5aaf03a",
+  "name" : "User registration  fail 422  (OL-327, Email - Invalid Format)-",
+  "fullName" : "User registration  fail 422.User registration  fail 422  (OL-327, Email - Invalid Format)-",
+  "historyId" : "79e21f102ddabb8018d7c58b5bfcc7f5",
+  "time" : {
+    "start" : 1511799390471,
+    "stop" : 1511799391481,
+    "duration" : 1010
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7496b224895f462a",
+      "name" : "test_log",
+      "source" : "7496b224895f462a.txt",
+      "type" : "text/plain",
+      "size" : 3318
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User registration service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "As OL Client i want to enter my personal information so that a client is created (OL-146)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-327"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "User registration  fail 422"
+  }, {
+    "name" : "testClass",
+    "value" : "User registration  fail 422"
+  }, {
+    "name" : "testMethod",
+    "value" : "User registration  fail 422  (OL-327, Email - Invalid Format)-"
+  }, {
+    "name" : "package",
+    "value" : "User registration  fail 422"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-327",
+    "url" : "https://jira.fidor.de/browse/OL-327",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4ae3b44d5aaf03a.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

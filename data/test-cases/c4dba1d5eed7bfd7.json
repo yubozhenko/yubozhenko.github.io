@@ -1,0 +1,87 @@
+{
+  "uid" : "c4dba1d5eed7bfd7",
+  "name" : "User registration via onboarding fail 422  (, Email Address Presence - Invalid Length(more than 50 characters))-",
+  "fullName" : "User registration via onboarding fail 422.User registration via onboarding fail 422  (, Email Address Presence - Invalid Length(more than 50 characters))-",
+  "historyId" : "24f2cd84b394b6d76b6576299e228b98",
+  "time" : {
+    "start" : 1511799633953,
+    "stop" : 1511799634105,
+    "duration" : 152
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "519228c3adf172eb",
+      "name" : "test_log",
+      "source" : "519228c3adf172eb.txt",
+      "type" : "text/plain",
+      "size" : 3498
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User registration service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Customer creation via Onboarding service (OL-724)"
+  }, {
+    "name" : "testId",
+    "value" : ""
+  }, {
+    "name" : "thread",
+    "value" : "8941880"
+  }, {
+    "name" : "suite",
+    "value" : "User registration via onboarding fail 422"
+  }, {
+    "name" : "testClass",
+    "value" : "User registration via onboarding fail 422"
+  }, {
+    "name" : "testMethod",
+    "value" : "User registration via onboarding fail 422  (, Email Address Presence - Invalid Length(more than 50 characters))-"
+  }, {
+    "name" : "package",
+    "value" : "User registration via onboarding fail 422"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "",
+    "url" : "",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4dba1d5eed7bfd7.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

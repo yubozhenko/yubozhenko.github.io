@@ -1,0 +1,87 @@
+{
+  "uid" : "48e7de3acbd47734",
+  "name" : "Unlock pin  fail 401 - two attempts  (OL-627, Incorrect CVC - Two Attempts)-",
+  "fullName" : "Unlock pin  fail 401 - two attempts.Unlock pin  fail 401 - two attempts  (OL-627, Incorrect CVC - Two Attempts)-",
+  "historyId" : "b2f5f4d9a07d55e104aea48f83f4aa5",
+  "time" : {
+    "start" : 1511799311577,
+    "stop" : 1511799320624,
+    "duration" : 9047
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eab2682a590cbb84",
+      "name" : "test_log",
+      "source" : "eab2682a590cbb84.txt",
+      "type" : "text/plain",
+      "size" : 5746
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as Oney live customer i am able to unlock my paypin after entering it wrong 3 times (OL-142)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-627"
+  }, {
+    "name" : "thread",
+    "value" : "12202300"
+  }, {
+    "name" : "suite",
+    "value" : "Unlock pin  fail 401 - two attempts"
+  }, {
+    "name" : "testClass",
+    "value" : "Unlock pin  fail 401 - two attempts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Unlock pin  fail 401 - two attempts  (OL-627, Incorrect CVC - Two Attempts)-"
+  }, {
+    "name" : "package",
+    "value" : "Unlock pin  fail 401 - two attempts"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-627",
+    "url" : "https://jira.fidor.de/browse/OL-627",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48e7de3acbd47734.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

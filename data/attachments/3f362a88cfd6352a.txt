@@ -1,0 +1,91 @@
+D, [2017-11-27 17:15:52#11687] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:15:52#11687] DEBUG -- : Example ( (OL-630,  OL-635, CVC is Blocked)) STARTED
+D, [2017-11-27 17:15:53#11687] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:15:53#11687] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:15:53#11687] DEBUG -- : with body: {
+  "grant_type": "password",
+  "password": "Qwerty123#",
+  "username": "pin.unlock.cvc.blocked@1511798027513.com"
+}
+D, [2017-11-27 17:15:53#11687] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NTMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzcwNjgwMTc2IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjAzMWQwZDNiLWI2NWItNDJiZS1hYTI0LTI4NjgzZmQzNWEwYyIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.uqKD-0sc-oMz0BNbiiNWPQkh-fLc7cq05nultjatKCk",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "e551b0c6e2955bccd0de6a7f8e6e5218"
+}
+D, [2017-11-27 17:15:56#11687] DEBUG -- : REQUEST METHOD: put, to url: https://api.oney-test.fidor.intern/fidor_api/cards/8909/pin
+D, [2017-11-27 17:15:56#11687] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NTMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzcwNjgwMTc2IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjAzMWQwZDNiLWI2NWItNDJiZS1hYTI0LTI4NjgzZmQzNWEwYyIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.uqKD-0sc-oMz0BNbiiNWPQkh-fLc7cq05nultjatKCk",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json",
+  "X-Fidorapi-Authorization": "cvc=6890000, question=FIRST_PET_NAME:Jon"
+}
+D, [2017-11-27 17:15:56#11687] DEBUG -- : with body: ""
+D, [2017-11-27 17:15:56#11687] DEBUG -- : RESPOND WITH: status code 401 and body: {
+  "code": 401,
+  "errors": [
+
+  ],
+  "message": "Cannot allow authorisation with incorrect cvc or insufficient permissions",
+  "key": [
+    "cvc_invalid"
+  ]
+}
+D, [2017-11-27 17:15:58#11687] DEBUG -- : REQUEST METHOD: put, to url: https://api.oney-test.fidor.intern/fidor_api/cards/8909/pin
+D, [2017-11-27 17:15:58#11687] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NTMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzcwNjgwMTc2IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjAzMWQwZDNiLWI2NWItNDJiZS1hYTI0LTI4NjgzZmQzNWEwYyIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.uqKD-0sc-oMz0BNbiiNWPQkh-fLc7cq05nultjatKCk",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json",
+  "X-Fidorapi-Authorization": "cvc=6890000, question=FIRST_PET_NAME:Jon"
+}
+D, [2017-11-27 17:15:58#11687] DEBUG -- : with body: ""
+D, [2017-11-27 17:15:58#11687] DEBUG -- : RESPOND WITH: status code 401 and body: {
+  "code": 401,
+  "errors": [
+
+  ],
+  "message": "Cannot allow authorisation with incorrect cvc or insufficient permissions",
+  "key": [
+    "cvc_invalid"
+  ]
+}
+D, [2017-11-27 17:15:59#11687] DEBUG -- : REQUEST METHOD: put, to url: https://api.oney-test.fidor.intern/fidor_api/cards/8909/pin
+D, [2017-11-27 17:15:59#11687] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NTMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzcwNjgwMTc2IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjAzMWQwZDNiLWI2NWItNDJiZS1hYTI0LTI4NjgzZmQzNWEwYyIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.uqKD-0sc-oMz0BNbiiNWPQkh-fLc7cq05nultjatKCk",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json",
+  "X-Fidorapi-Authorization": "cvc=6890000, question=FIRST_PET_NAME:Jon"
+}
+D, [2017-11-27 17:15:59#11687] DEBUG -- : with body: ""
+D, [2017-11-27 17:15:59#11687] DEBUG -- : RESPOND WITH: status code 403 and body: {
+  "code": 403,
+  "errors": [
+
+  ],
+  "message": "Your cvc is locked",
+  "key": [
+    "cvc_locked"
+  ]
+}
+D, [2017-11-27 17:15:59#11687] DEBUG -- : REQUEST METHOD: get, to url: https://api.oney-test.fidor.intern/fidor_api/cards
+D, [2017-11-27 17:15:59#11687] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NTMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzcwNjgwMTc2IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjAzMWQwZDNiLWI2NWItNDJiZS1hYTI0LTI4NjgzZmQzNWEwYyIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.uqKD-0sc-oMz0BNbiiNWPQkh-fLc7cq05nultjatKCk",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:15:59#11687] DEBUG -- : RESPOND WITH: status code 403 and body: {
+  "message": "Your account is locked",
+  "key": [
+    "account_locked"
+  ],
+  "code": 403,
+  "errors": [
+
+  ]
+}
+D, [2017-11-27 17:15:59#11687] DEBUG -- : Example ( (OL-630,  OL-635, CVC is Blocked)) PASSED
+D, [2017-11-27 17:15:59#11687] DEBUG -- : -----------------------------------------

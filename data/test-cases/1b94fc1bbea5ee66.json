@@ -1,0 +1,87 @@
+{
+  "uid" : "1b94fc1bbea5ee66",
+  "name" : "Card activation  fail 401  (OL-527, No CVC)-",
+  "fullName" : "Card activation  fail 401.Card activation  fail 401  (OL-527, No CVC)-",
+  "historyId" : "347ddd48df01c60caa16a45c460a4e77",
+  "time" : {
+    "start" : 1511799259770,
+    "stop" : 1511799263412,
+    "duration" : 3642
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b3d3cb53d34b0da",
+      "name" : "test_log",
+      "source" : "b3d3cb53d34b0da.txt",
+      "type" : "text/plain",
+      "size" : 3909
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to activate my card so that I can use my card (OL-47)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-527"
+  }, {
+    "name" : "thread",
+    "value" : "16298300"
+  }, {
+    "name" : "suite",
+    "value" : "Card activation  fail 401"
+  }, {
+    "name" : "testClass",
+    "value" : "Card activation  fail 401"
+  }, {
+    "name" : "testMethod",
+    "value" : "Card activation  fail 401  (OL-527, No CVC)-"
+  }, {
+    "name" : "package",
+    "value" : "Card activation  fail 401"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-527",
+    "url" : "https://jira.fidor.de/browse/OL-527",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b94fc1bbea5ee66.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

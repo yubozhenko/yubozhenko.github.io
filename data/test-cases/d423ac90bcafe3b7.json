@@ -1,0 +1,93 @@
+{
+  "uid" : "d423ac90bcafe3b7",
+  "name" : "Foreign Country SEPA Transfers  success 200  (should verify money was charged from account balance)-",
+  "fullName" : "Foreign Country SEPA Transfers  success 200.Foreign Country SEPA Transfers  success 200  (should verify money was charged from account balance)-",
+  "historyId" : "5b0f1da89d0af3bed6e850a914c6df43",
+  "time" : {
+    "start" : 1511799704841,
+    "stop" : 1511799704842,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "undefined method `[]' for nil:NilClass",
+    "trace" : "/home/jenkins/workspace/oney.by.demand.api.tests/spec/spec_helper.rb:72:in `block (2 levels) in <top (required)>'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:447:in `instance_exec'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:447:in `instance_exec'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:350:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:509:in `block in run_owned_hooks_for'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:508:in `each'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:508:in `run_owned_hooks_for'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:595:in `block in run_example_hooks_for'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:594:in `reverse_each'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:594:in `run_example_hooks_for'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:464:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:494:in `run_before_example'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:253:in `block in run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:500:in `block in with_around_and_singleton_context_hooks'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:457:in `block in with_around_example_hooks'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:466:in `block in run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:604:in `run_around_example_hooks_for'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:466:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:457:in `with_around_example_hooks'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:500:in `with_around_and_singleton_context_hooks'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:251:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:628:in `block in run_examples'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:624:in `map'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:624:in `run_examples'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:590:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:591:in `block in run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:591:in `map'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:591:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `map'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/configuration.rb:1896:in `with_suite_hooks'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:113:in `block in run_specs'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/reporter.rb:79:in `report'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:112:in `run_specs'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:87:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:71:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:45:in `invoke'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/exe/rspec:4:in `<top (required)>'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/bin/rspec:23:in `load'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/bin/rspec:23:in `<main>'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/bin/ruby_executable_hooks:15:in `eval'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/bin/ruby_executable_hooks:15:in `<main>'",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "undefined method `[]' for nil:NilClass",
+      "trace" : "/home/jenkins/workspace/oney.by.demand.api.tests/spec/spec_helper.rb:72:in `block (2 levels) in <top (required)>'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:447:in `instance_exec'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:447:in `instance_exec'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:350:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:509:in `block in run_owned_hooks_for'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:508:in `each'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:508:in `run_owned_hooks_for'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:595:in `block in run_example_hooks_for'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:594:in `reverse_each'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:594:in `run_example_hooks_for'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:464:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:494:in `run_before_example'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:253:in `block in run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:500:in `block in with_around_and_singleton_context_hooks'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:457:in `block in with_around_example_hooks'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:466:in `block in run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:604:in `run_around_example_hooks_for'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:466:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:457:in `with_around_example_hooks'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:500:in `with_around_and_singleton_context_hooks'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:251:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:628:in `block in run_examples'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:624:in `map'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:624:in `run_examples'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:590:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:591:in `block in run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:591:in `map'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:591:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `map'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/configuration.rb:1896:in `with_suite_hooks'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:113:in `block in run_specs'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/reporter.rb:79:in `report'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:112:in `run_specs'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:87:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:71:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:45:in `invoke'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/exe/rspec:4:in `<top (required)>'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/bin/rspec:23:in `load'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/bin/rspec:23:in `<main>'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/bin/ruby_executable_hooks:15:in `eval'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/bin/ruby_executable_hooks:15:in `<main>'",
+      "flaky" : false
+    },
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8386caa93be5a10e",
+      "name" : "test_log",
+      "source" : "8386caa93be5a10e.txt",
+      "type" : "text/plain",
+      "size" : 199
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Transfer service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as an Ony live client i want to make a SEPA transfer so that i transfer money using Name and IBAN of a receiver (OL-392)"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "Foreign Country SEPA Transfers  success 200"
+  }, {
+    "name" : "testClass",
+    "value" : "Foreign Country SEPA Transfers  success 200"
+  }, {
+    "name" : "testMethod",
+    "value" : "Foreign Country SEPA Transfers  success 200  (should verify money was charged from account balance)-"
+  }, {
+    "name" : "package",
+    "value" : "Foreign Country SEPA Transfers  success 200"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d423ac90bcafe3b7.json",
+  "statusDetailsSafe" : {
+    "message" : "undefined method `[]' for nil:NilClass",
+    "trace" : "/home/jenkins/workspace/oney.by.demand.api.tests/spec/spec_helper.rb:72:in `block (2 levels) in <top (required)>'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:447:in `instance_exec'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:447:in `instance_exec'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:350:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:509:in `block in run_owned_hooks_for'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:508:in `each'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:508:in `run_owned_hooks_for'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:595:in `block in run_example_hooks_for'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:594:in `reverse_each'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:594:in `run_example_hooks_for'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:464:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:494:in `run_before_example'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:253:in `block in run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:500:in `block in with_around_and_singleton_context_hooks'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:457:in `block in with_around_example_hooks'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:466:in `block in run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:604:in `run_around_example_hooks_for'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:466:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:457:in `with_around_example_hooks'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:500:in `with_around_and_singleton_context_hooks'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:251:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:628:in `block in run_examples'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:624:in `map'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:624:in `run_examples'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:590:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:591:in `block in run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:591:in `map'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:591:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `map'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/configuration.rb:1896:in `with_suite_hooks'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:113:in `block in run_specs'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/reporter.rb:79:in `report'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:112:in `run_specs'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:87:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:71:in `run'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:45:in `invoke'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/gems/rspec-core-3.7.0/exe/rspec:4:in `<top (required)>'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/bin/rspec:23:in `load'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/bin/rspec:23:in `<main>'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/bin/ruby_executable_hooks:15:in `eval'\r\n/usr/local/rvm/gems/ruby-2.3.1@oney-api-test/bin/ruby_executable_hooks:15:in `<main>'",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

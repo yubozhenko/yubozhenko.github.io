@@ -1,0 +1,87 @@
+{
+  "uid" : "9e9a1c059c41461c",
+  "name" : "Unlock pin  success 204  (OL-590, Correct Data)-",
+  "fullName" : "Unlock pin  success 204.Unlock pin  success 204  (OL-590, Correct Data)-",
+  "historyId" : "d6528b6c3a0620316a99b2f24603d420",
+  "time" : {
+    "start" : 1511799301502,
+    "stop" : 1511799306280,
+    "duration" : 4778
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3b8f70f14716d2b5",
+      "name" : "test_log",
+      "source" : "3b8f70f14716d2b5.txt",
+      "type" : "text/plain",
+      "size" : 3763
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as Oney live customer i am able to unlock my paypin after entering it wrong 3 times (OL-142)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-590"
+  }, {
+    "name" : "thread",
+    "value" : "12202300"
+  }, {
+    "name" : "suite",
+    "value" : "Unlock pin  success 204"
+  }, {
+    "name" : "testClass",
+    "value" : "Unlock pin  success 204"
+  }, {
+    "name" : "testMethod",
+    "value" : "Unlock pin  success 204  (OL-590, Correct Data)-"
+  }, {
+    "name" : "package",
+    "value" : "Unlock pin  success 204"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-590",
+    "url" : "https://jira.fidor.de/browse/OL-590",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e9a1c059c41461c.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

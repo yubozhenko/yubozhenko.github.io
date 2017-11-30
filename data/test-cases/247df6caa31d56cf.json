@@ -1,0 +1,87 @@
+{
+  "uid" : "247df6caa31d56cf",
+  "name" : "Unlock pin  fail 404  (OL-632, Card ID - Not Registered)-",
+  "fullName" : "Unlock pin  fail 404.Unlock pin  fail 404  (OL-632, Card ID - Not Registered)-",
+  "historyId" : "e552c5753b36d9b7772a6cab513e3402",
+  "time" : {
+    "start" : 1511799362509,
+    "stop" : 1511799366416,
+    "duration" : 3907
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a1a89ecbcee39093",
+      "name" : "test_log",
+      "source" : "a1a89ecbcee39093.txt",
+      "type" : "text/plain",
+      "size" : 3898
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as Oney live customer i am able to unlock my paypin after entering it wrong 3 times (OL-142)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-632"
+  }, {
+    "name" : "thread",
+    "value" : "12202300"
+  }, {
+    "name" : "suite",
+    "value" : "Unlock pin  fail 404"
+  }, {
+    "name" : "testClass",
+    "value" : "Unlock pin  fail 404"
+  }, {
+    "name" : "testMethod",
+    "value" : "Unlock pin  fail 404  (OL-632, Card ID - Not Registered)-"
+  }, {
+    "name" : "package",
+    "value" : "Unlock pin  fail 404"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-632",
+    "url" : "https://jira.fidor.de/browse/OL-632",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "247df6caa31d56cf.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

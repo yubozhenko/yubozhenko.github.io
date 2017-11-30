@@ -1,0 +1,87 @@
+{
+  "uid" : "580c04ac2dabc204",
+  "name" : "User authentication  fail 400  (OL-354, Correct Email and Incorrect Password)-",
+  "fullName" : "User authentication  fail 400.User authentication  fail 400  (OL-354, Correct Email and Incorrect Password)-",
+  "historyId" : "e0e6b7eef5454037fdba538a221f6ef7",
+  "time" : {
+    "start" : 1511799359156,
+    "stop" : 1511799359732,
+    "duration" : 576
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e40e516b962c8bba",
+      "name" : "test_log",
+      "source" : "e40e516b962c8bba.txt",
+      "type" : "text/plain",
+      "size" : 1055
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Authentication service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as Prospect client i want to receive a SMS to check my phone number and bind my device so that the system is sure that the phone number belong to me (OL-31)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-354"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "User authentication  fail 400"
+  }, {
+    "name" : "testClass",
+    "value" : "User authentication  fail 400"
+  }, {
+    "name" : "testMethod",
+    "value" : "User authentication  fail 400  (OL-354, Correct Email and Incorrect Password)-"
+  }, {
+    "name" : "package",
+    "value" : "User authentication  fail 400"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-354",
+    "url" : "https://jira.fidor.de/browse/OL-354",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "580c04ac2dabc204.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

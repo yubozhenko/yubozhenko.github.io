@@ -1,0 +1,87 @@
+{
+  "uid" : "2a7c1eea1f100499",
+  "name" : "Create Card  success 201  (no manual test case, No Paypin value inserted)-",
+  "fullName" : "Create Card  success 201.Create Card  success 201  (no manual test case, No Paypin value inserted)-",
+  "historyId" : "4bce570766723bbb037ce68bbee5800c",
+  "time" : {
+    "start" : 1511799379397,
+    "stop" : 1511799383001,
+    "duration" : 3604
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9189fb3699dbb22a",
+      "name" : "test_log",
+      "source" : "9189fb3699dbb22a.txt",
+      "type" : "text/plain",
+      "size" : 4857
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to create my paypin so that i can use it for future transactions (OL-147)"
+  }, {
+    "name" : "testId",
+    "value" : "no manual test case"
+  }, {
+    "name" : "thread",
+    "value" : "16298300"
+  }, {
+    "name" : "suite",
+    "value" : "Create Card  success 201"
+  }, {
+    "name" : "testClass",
+    "value" : "Create Card  success 201"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create Card  success 201  (no manual test case, No Paypin value inserted)-"
+  }, {
+    "name" : "package",
+    "value" : "Create Card  success 201"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "no manual test case",
+    "url" : "no manual test case",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2a7c1eea1f100499.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

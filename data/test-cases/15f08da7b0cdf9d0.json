@@ -1,0 +1,87 @@
+{
+  "uid" : "15f08da7b0cdf9d0",
+  "name" : "Get Questions List  fail 403  (OL-410, Users are not allowed to get the security questions list if they aren't authorized)-",
+  "fullName" : "Get Questions List  fail 403.Get Questions List  fail 403  (OL-410, Users are not allowed to get the security questions list if they aren't authorized)-",
+  "historyId" : "b77679086f9d24223d835c8ff8c53ca5",
+  "time" : {
+    "start" : 1511799265179,
+    "stop" : 1511799265216,
+    "duration" : 37
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4fbd4b878372427b",
+      "name" : "test_log",
+      "source" : "4fbd4b878372427b.txt",
+      "type" : "text/plain",
+      "size" : 1060
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Security Question service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL customer i can create my security question's answer so that i use it for future authentications (OL-148)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-410"
+  }, {
+    "name" : "thread",
+    "value" : "12054840"
+  }, {
+    "name" : "suite",
+    "value" : "Get Questions List  fail 403"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Questions List  fail 403"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Questions List  fail 403  (OL-410, Users are not allowed to get the security questions list if they aren't authorized)-"
+  }, {
+    "name" : "package",
+    "value" : "Get Questions List  fail 403"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-410",
+    "url" : "https://jira.fidor.de/browse/OL-410",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15f08da7b0cdf9d0.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

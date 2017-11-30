@@ -1,0 +1,87 @@
+{
+  "uid" : "424c79c7eaa697c",
+  "name" : "Get Transactions  success 200 (OL-756, Merchant - Cash Disbursement)-",
+  "fullName" : "Get Transactions  success 200.Get Transactions  success 200 (OL-756, Merchant - Cash Disbursement)-",
+  "historyId" : "91b9d6de7a743c250a9632d0313feefe",
+  "time" : {
+    "start" : 1511799419088,
+    "stop" : 1511799433731,
+    "duration" : 14643
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "37d7a4006694dc53",
+      "name" : "test_log",
+      "source" : "37d7a4006694dc53.txt",
+      "type" : "text/plain",
+      "size" : 102779
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Transactions service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client I want to change the Limit Per Transactions, Daily Limit and Limit per ATM withdrawal (OL-26)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-756"
+  }, {
+    "name" : "thread",
+    "value" : "3625280"
+  }, {
+    "name" : "suite",
+    "value" : "Get Transactions  success 200"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Transactions  success 200"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Transactions  success 200 (OL-756, Merchant - Cash Disbursement)-"
+  }, {
+    "name" : "package",
+    "value" : "Get Transactions  success 200"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-756",
+    "url" : "https://jira.fidor.de/browse/OL-756",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "424c79c7eaa697c.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

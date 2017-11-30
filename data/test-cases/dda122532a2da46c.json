@@ -1,0 +1,87 @@
+{
+  "uid" : "dda122532a2da46c",
+  "name" : "Get Card cvc  fail 404  (no manual test case, try to get cvc number from card with wrong card id)-",
+  "fullName" : "Get Card cvc  fail 404.Get Card cvc  fail 404  (no manual test case, try to get cvc number from card with wrong card id)-",
+  "historyId" : "921e239c22f245397f91233c0d5ac45d",
+  "time" : {
+    "start" : 1511799254682,
+    "stop" : 1511799258555,
+    "duration" : 3873
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7c1fcb9054e633ee",
+      "name" : "test_log",
+      "source" : "7c1fcb9054e633ee.txt",
+      "type" : "text/plain",
+      "size" : 3887
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to activate my card so that I can use my card (OL-47)"
+  }, {
+    "name" : "testId",
+    "value" : "no manual test case"
+  }, {
+    "name" : "thread",
+    "value" : "3625280"
+  }, {
+    "name" : "suite",
+    "value" : "Get Card cvc  fail 404"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Card cvc  fail 404"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Card cvc  fail 404  (no manual test case, try to get cvc number from card with wrong card id)-"
+  }, {
+    "name" : "package",
+    "value" : "Get Card cvc  fail 404"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "no manual test case",
+    "url" : "no manual test case",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dda122532a2da46c.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

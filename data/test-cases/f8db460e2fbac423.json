@@ -1,0 +1,87 @@
+{
+  "uid" : "f8db460e2fbac423",
+  "name" : "Get Question by MSISDN  success 200  (OL-423, The appropriate response with SQ is returned for MSISDN if it is answered)-",
+  "fullName" : "Get Question by MSISDN  success 200.Get Question by MSISDN  success 200  (OL-423, The appropriate response with SQ is returned for MSISDN if it is answered)-",
+  "historyId" : "d38ef64f1c6c67e920d7d45f84f03d2b",
+  "time" : {
+    "start" : 1511799257573,
+    "stop" : 1511799258599,
+    "duration" : 1026
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "def19d08be7e9df5",
+      "name" : "test_log",
+      "source" : "def19d08be7e9df5.txt",
+      "type" : "text/plain",
+      "size" : 2524
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Security Question service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL customer i can create my security question's answer so that i use it for future authentications (OL-148)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-423"
+  }, {
+    "name" : "thread",
+    "value" : "11202880"
+  }, {
+    "name" : "suite",
+    "value" : "Get Question by MSISDN  success 200"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Question by MSISDN  success 200"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Question by MSISDN  success 200  (OL-423, The appropriate response with SQ is returned for MSISDN if it is answered)-"
+  }, {
+    "name" : "package",
+    "value" : "Get Question by MSISDN  success 200"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-423",
+    "url" : "https://jira.fidor.de/browse/OL-423",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f8db460e2fbac423.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "3736a288bdf7f42f",
+  "name" : "Block Card  -  fail 404  (OL-725, Card Id Does Not Exist)-",
+  "fullName" : "Block Card  -  fail 404.Block Card  -  fail 404  (OL-725, Card Id Does Not Exist)-",
+  "historyId" : "868ac021e36bd85d30ba9c8d7075c7b4",
+  "time" : {
+    "start" : 1511799260747,
+    "stop" : 1511799265671,
+    "duration" : 4924
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a30485018e1158b1",
+      "name" : "test_log",
+      "source" : "a30485018e1158b1.txt",
+      "type" : "text/plain",
+      "size" : 6664
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to block my card so that anyone isn't able to use it(OL-49)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-725"
+  }, {
+    "name" : "thread",
+    "value" : "12202300"
+  }, {
+    "name" : "suite",
+    "value" : "Block Card  -  fail 404"
+  }, {
+    "name" : "testClass",
+    "value" : "Block Card  -  fail 404"
+  }, {
+    "name" : "testMethod",
+    "value" : "Block Card  -  fail 404  (OL-725, Card Id Does Not Exist)-"
+  }, {
+    "name" : "package",
+    "value" : "Block Card  -  fail 404"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-725",
+    "url" : "https://jira.fidor.de/browse/OL-725",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3736a288bdf7f42f.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

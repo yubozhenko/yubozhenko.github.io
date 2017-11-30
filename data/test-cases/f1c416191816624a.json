@@ -1,0 +1,90 @@
+{
+  "uid" : "f1c416191816624a",
+  "name" : "Set Card Limit  success 204  (OL-799, Set Card Limit - ATM - Maximum ( atm - 2000 EUR))-",
+  "fullName" : "Set Card Limit  success 204.Set Card Limit  success 204  (OL-799, Set Card Limit - ATM - Maximum ( atm - 2000 EUR))-",
+  "historyId" : "26b4803ff6c444df996669756b7ef5fd",
+  "time" : {
+    "start" : 1511799246347,
+    "stop" : 1511799252044,
+    "duration" : 5697
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3747eb7630a409ce",
+      "name" : "test_log",
+      "source" : "3747eb7630a409ce.txt",
+      "type" : "text/plain",
+      "size" : 5508
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "major"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client I want to change the Limit Per Transactions, Daily Limit and Limit per ATM withdrawal (OL-26)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-799"
+  }, {
+    "name" : "thread",
+    "value" : "8941880"
+  }, {
+    "name" : "suite",
+    "value" : "Set Card Limit  success 204"
+  }, {
+    "name" : "testClass",
+    "value" : "Set Card Limit  success 204"
+  }, {
+    "name" : "testMethod",
+    "value" : "Set Card Limit  success 204  (OL-799, Set Card Limit - ATM - Maximum ( atm - 2000 EUR))-"
+  }, {
+    "name" : "package",
+    "value" : "Set Card Limit  success 204"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-799",
+    "url" : "https://jira.fidor.de/browse/OL-799",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f1c416191816624a.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

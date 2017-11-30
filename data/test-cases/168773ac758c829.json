@@ -1,0 +1,87 @@
+{
+  "uid" : "168773ac758c829",
+  "name" : "Block Card  -  success 204  (OL-726, Card Is Locked - Correct Data)-",
+  "fullName" : "Block Card  -  success 204.Block Card  -  success 204  (OL-726, Card Is Locked - Correct Data)-",
+  "historyId" : "90c6c03c359182dccfc01d4f40f8148d",
+  "time" : {
+    "start" : 1511799250736,
+    "stop" : 1511799257100,
+    "duration" : 6364
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6801635b30594441",
+      "name" : "test_log",
+      "source" : "6801635b30594441.txt",
+      "type" : "text/plain",
+      "size" : 6587
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to block my card so that anyone isn't able to use it(OL-49)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-726"
+  }, {
+    "name" : "thread",
+    "value" : "12202300"
+  }, {
+    "name" : "suite",
+    "value" : "Block Card  -  success 204"
+  }, {
+    "name" : "testClass",
+    "value" : "Block Card  -  success 204"
+  }, {
+    "name" : "testMethod",
+    "value" : "Block Card  -  success 204  (OL-726, Card Is Locked - Correct Data)-"
+  }, {
+    "name" : "package",
+    "value" : "Block Card  -  success 204"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-726",
+    "url" : "https://jira.fidor.de/browse/OL-726",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "168773ac758c829.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

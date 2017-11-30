@@ -1,0 +1,87 @@
+{
+  "uid" : "66c7c2e1a646b961",
+  "name" : "Get Card Pin  fail 401  (OL-688, CVC - Not Entered)-",
+  "fullName" : "Get Card Pin  fail 401.Get Card Pin  fail 401  (OL-688, CVC - Not Entered)-",
+  "historyId" : "19fd51057f811f0cb13f74441debe87b",
+  "time" : {
+    "start" : 1511799271277,
+    "stop" : 1511799276604,
+    "duration" : 5327
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c315061f893f8dd1",
+      "name" : "test_log",
+      "source" : "c315061f893f8dd1.txt",
+      "type" : "text/plain",
+      "size" : 3880
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to Get Paypin (OL-712)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-688"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "Get Card Pin  fail 401"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Card Pin  fail 401"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Card Pin  fail 401  (OL-688, CVC - Not Entered)-"
+  }, {
+    "name" : "package",
+    "value" : "Get Card Pin  fail 401"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-688",
+    "url" : "https://jira.fidor.de/browse/OL-688",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "66c7c2e1a646b961.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

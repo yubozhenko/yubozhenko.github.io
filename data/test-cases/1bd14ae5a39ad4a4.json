@@ -1,0 +1,87 @@
+{
+  "uid" : "1bd14ae5a39ad4a4",
+  "name" : "Create transfers  success 201  (OL-848, SEPA - Non-OL Client - Create)-",
+  "fullName" : "Create transfers  success 201.Create transfers  success 201  (OL-848, SEPA - Non-OL Client - Create)-",
+  "historyId" : "ae82994163421519facae3973f3cda06",
+  "time" : {
+    "start" : 1511799289472,
+    "stop" : 1511799296209,
+    "duration" : 6737
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e01eb8fba6938cdd",
+      "name" : "test_log",
+      "source" : "e01eb8fba6938cdd.txt",
+      "type" : "text/plain",
+      "size" : 5343
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Transfer service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as an Ony live client i want to make a SEPA transfer so that i transfer money using Name and IBAN of a receiver (OL-392)as OL client i want to make P2P transfers to an oney live user so that I can easily and instantly send money to other OL users (OL-43)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-848"
+  }, {
+    "name" : "thread",
+    "value" : "12054840"
+  }, {
+    "name" : "suite",
+    "value" : "Create transfers  success 201"
+  }, {
+    "name" : "testClass",
+    "value" : "Create transfers  success 201"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create transfers  success 201  (OL-848, SEPA - Non-OL Client - Create)-"
+  }, {
+    "name" : "package",
+    "value" : "Create transfers  success 201"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-848",
+    "url" : "https://jira.fidor.de/browse/OL-848",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1bd14ae5a39ad4a4.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

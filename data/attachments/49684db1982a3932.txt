@@ -1,0 +1,87 @@
+D, [2017-11-27 17:14:24#11684] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:14:24#11684] DEBUG -- : Example ( (OL-568, Valid Data)) STARTED
+D, [2017-11-27 17:14:26#11684] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:14:26#11684] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:14:26#11684] DEBUG -- : with body: {
+  "grant_type": "password",
+  "password": "Qwerty123#",
+  "username": "unfreeze.card.valid.data@1511798025554.com"
+}
+D, [2017-11-27 17:14:26#11684] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI4NjYsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzk0ODIyMzU5IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6ImVjNzBjYTg5LTc1ZDYtNDllZi1hMjk2LWI5MzlhMDE4MjQ5MyIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.AxMVZxlHpZdad0p9NEfQJjsFB7gUOruejGZGbx71CCc",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "7296d57eb2f25e4ed22dafc94cbdc7b1"
+}
+D, [2017-11-27 17:14:27#11684] DEBUG -- : REQUEST METHOD: put, to url: https://api.oney-test.fidor.intern/fidor_api/cards/8897/unlock
+D, [2017-11-27 17:14:27#11684] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI4NjYsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzk0ODIyMzU5IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6ImVjNzBjYTg5LTc1ZDYtNDllZi1hMjk2LWI5MzlhMDE4MjQ5MyIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.AxMVZxlHpZdad0p9NEfQJjsFB7gUOruejGZGbx71CCc",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json",
+  "X-Fidorapi-Authorization": "pin=1604"
+}
+D, [2017-11-27 17:14:27#11684] DEBUG -- : with body: ""
+D, [2017-11-27 17:14:27#11684] DEBUG -- : RESPOND WITH: status code 204 and body: 
+D, [2017-11-27 17:14:29#11684] DEBUG -- : REQUEST METHOD: get, to url: https://api.oney-test.fidor.intern/fidor_api/cards
+D, [2017-11-27 17:14:29#11684] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI4NjYsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzk0ODIyMzU5IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6ImVjNzBjYTg5LTc1ZDYtNDllZi1hMjk2LWI5MzlhMDE4MjQ5MyIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.AxMVZxlHpZdad0p9NEfQJjsFB7gUOruejGZGbx71CCc",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:14:29#11684] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "data": [
+    {
+      "id": 8897,
+      "account_id": "94822359",
+      "inscription": "VASUL QWDYSGGMAILVUID",
+      "type": "fidor_smartcard",
+      "design": "smart-card",
+      "currency": "EUR",
+      "physical": true,
+      "valid_until": "2020-11-29T23:00:00Z",
+      "balance": 0,
+      "atm_limit": 100000,
+      "transaction_single_limit": 100000,
+      "transaction_volume_limit": 100000,
+      "limits": {
+        "atm": 100000,
+        "single": 100000,
+        "volume": 100000
+      },
+      "email_notification": true,
+      "sms_notification": false,
+      "payed": true,
+      "state": "active",
+      "lock_reason": null,
+      "disabled": false,
+      "atm_details": {
+        "free_period": {
+          "range": "1month",
+          "beginning_at": "2017-10-31T23:00:00Z",
+          "ending_at": "2017-11-30T22:59:59Z",
+          "recurring": true,
+          "card_template_monthly_free_occurrences": 2,
+          "unused_free_atm_withdrawals": 2,
+          "free_occurrences": 2,
+          "occurrences": 0
+        },
+        "fee_fixed": 200
+      },
+      "pan": null,
+      "created_at": "2017-11-27T16:03:25Z",
+      "updated_at": "2017-11-27T16:14:27Z"
+    }
+  ],
+  "collection": {
+    "current_page": 1,
+    "per_page": 10,
+    "total_entries": 1,
+    "total_pages": 1
+  }
+}
+D, [2017-11-27 17:14:29#11684] DEBUG -- : Example ( (OL-568, Valid Data)) PASSED
+D, [2017-11-27 17:14:29#11684] DEBUG -- : -----------------------------------------

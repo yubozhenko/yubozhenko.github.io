@@ -1,0 +1,87 @@
+{
+  "uid" : "a14989be88f0b9dc",
+  "name" : "Get account data  success 200  (OL-707, Get Account Data)-",
+  "fullName" : "Get account data  success 200.Get account data  success 200  (OL-707, Get Account Data)-",
+  "historyId" : "9fcc33cce3ffd0ceee1b10c84ed996af",
+  "time" : {
+    "start" : 1511799253447,
+    "stop" : 1511799257572,
+    "duration" : 4125
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7fdb04aaa59734e0",
+      "name" : "test_log",
+      "source" : "7fdb04aaa59734e0.txt",
+      "type" : "text/plain",
+      "size" : 6045
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Accounts service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to see my private information so that I can know if my information is up-to-date (OL-45)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-707"
+  }, {
+    "name" : "thread",
+    "value" : "11202880"
+  }, {
+    "name" : "suite",
+    "value" : "Get account data  success 200"
+  }, {
+    "name" : "testClass",
+    "value" : "Get account data  success 200"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get account data  success 200  (OL-707, Get Account Data)-"
+  }, {
+    "name" : "package",
+    "value" : "Get account data  success 200"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-707",
+    "url" : "https://jira.fidor.de/browse/OL-707",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a14989be88f0b9dc.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

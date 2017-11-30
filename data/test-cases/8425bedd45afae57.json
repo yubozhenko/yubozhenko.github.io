@@ -1,0 +1,87 @@
+{
+  "uid" : "8425bedd45afae57",
+  "name" : "Confirm transfers  fail 422  (OL-893, P2P - Blank Paypin)-",
+  "fullName" : "Confirm transfers  fail 422.Confirm transfers  fail 422  (OL-893, P2P - Blank Paypin)-",
+  "historyId" : "fd462859152692592aa069773ddaff45",
+  "time" : {
+    "start" : 1511799504788,
+    "stop" : 1511799512623,
+    "duration" : 7835
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "27a9f653b35b034f",
+      "name" : "test_log",
+      "source" : "27a9f653b35b034f.txt",
+      "type" : "text/plain",
+      "size" : 7314
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Transfer service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as an Ony live client i want to make a SEPA transfer so that i transfer money using Name and IBAN of a receiver (OL-392)as OL client i want to make P2P transfers to an oney live user so that I can easily and instantly send money to other OL users (OL-43)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-893"
+  }, {
+    "name" : "thread",
+    "value" : "11202880"
+  }, {
+    "name" : "suite",
+    "value" : "Confirm transfers  fail 422"
+  }, {
+    "name" : "testClass",
+    "value" : "Confirm transfers  fail 422"
+  }, {
+    "name" : "testMethod",
+    "value" : "Confirm transfers  fail 422  (OL-893, P2P - Blank Paypin)-"
+  }, {
+    "name" : "package",
+    "value" : "Confirm transfers  fail 422"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-893",
+    "url" : "https://jira.fidor.de/browse/OL-893",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8425bedd45afae57.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

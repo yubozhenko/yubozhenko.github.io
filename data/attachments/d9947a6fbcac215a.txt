@@ -1,0 +1,3 @@
+D, [2017-11-27 17:16:14#11681] DEBUG -- : Test was skipped, because of unresolved defects (OL-1241) 
+D, [2017-11-27 17:16:14#11681] DEBUG -- : Example ( (OL-432, invalid Paypin data -  the Paypin contains descending consecutive digits)) PASSED
+D, [2017-11-27 17:16:14#11681] DEBUG -- : -----------------------------------------

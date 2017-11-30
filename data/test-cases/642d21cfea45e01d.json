@@ -1,0 +1,87 @@
+{
+  "uid" : "642d21cfea45e01d",
+  "name" : "User registration  fail 422  (OL-342, Account is NOT created if user used the BD with invalid date (Account is NOT created if user used the BD with invalid date))-",
+  "fullName" : "User registration  fail 422.User registration  fail 422  (OL-342, Account is NOT created if user used the BD with invalid date (Account is NOT created if user used the BD with invalid date))-",
+  "historyId" : "5ac8aaa2833ce156153156c899b809a6",
+  "time" : {
+    "start" : 1511799408565,
+    "stop" : 1511799409286,
+    "duration" : 721
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "13637aa7ac35c63c",
+      "name" : "test_log",
+      "source" : "13637aa7ac35c63c.txt",
+      "type" : "text/plain",
+      "size" : 3542
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User registration service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "As OL Client i want to enter my personal information so that a client is created (OL-146)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-342"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "User registration  fail 422"
+  }, {
+    "name" : "testClass",
+    "value" : "User registration  fail 422"
+  }, {
+    "name" : "testMethod",
+    "value" : "User registration  fail 422  (OL-342, Account is NOT created if user used the BD with invalid date (Account is NOT created if user used the BD with invalid date))-"
+  }, {
+    "name" : "package",
+    "value" : "User registration  fail 422"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-342",
+    "url" : "https://jira.fidor.de/browse/OL-342",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "642d21cfea45e01d.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

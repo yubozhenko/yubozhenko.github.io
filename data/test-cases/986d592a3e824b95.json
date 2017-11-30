@@ -1,0 +1,87 @@
+{
+  "uid" : "986d592a3e824b95",
+  "name" : "Update Customer  fail 401  (OL-937, Customer is not updated if PayPin is blank)-",
+  "fullName" : "Update Customer  fail 401.Update Customer  fail 401  (OL-937, Customer is not updated if PayPin is blank)-",
+  "historyId" : "1f9cfe74d8e0020a88750d076e231b85",
+  "time" : {
+    "start" : 1511799338166,
+    "stop" : 1511799343653,
+    "duration" : 5487
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d5e271cc56285ef5",
+      "name" : "test_log",
+      "source" : "d5e271cc56285ef5.txt",
+      "type" : "text/plain",
+      "size" : 6988
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Update customer service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as an Oney live client i want to update my email/ address so that my private info remains updated(OL-416)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-937"
+  }, {
+    "name" : "thread",
+    "value" : "8941880"
+  }, {
+    "name" : "suite",
+    "value" : "Update Customer  fail 401"
+  }, {
+    "name" : "testClass",
+    "value" : "Update Customer  fail 401"
+  }, {
+    "name" : "testMethod",
+    "value" : "Update Customer  fail 401  (OL-937, Customer is not updated if PayPin is blank)-"
+  }, {
+    "name" : "package",
+    "value" : "Update Customer  fail 401"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-937",
+    "url" : "https://jira.fidor.de/browse/OL-937",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "986d592a3e824b95.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

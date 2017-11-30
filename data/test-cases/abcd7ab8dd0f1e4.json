@@ -1,0 +1,87 @@
+{
+  "uid" : "abcd7ab8dd0f1e4",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Ireland)-",
+  "fullName" : "Foreign Country SEPA Transfers  success 200.Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Ireland)-",
+  "historyId" : "17f781d50419eab494c65c1c6b4f1aa0",
+  "time" : {
+    "start" : 1511799463317,
+    "stop" : 1511799468980,
+    "duration" : 5663
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6dfb186c42e8bffa",
+      "name" : "test_log",
+      "source" : "6dfb186c42e8bffa.txt",
+      "type" : "text/plain",
+      "size" : 7463
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Transfer service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as an Ony live client i want to make a SEPA transfer so that i transfer money using Name and IBAN of a receiver (OL-392)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-1062, https://jira.fidor.de/browse/OL-1049, https://jira.fidor.de/browse/OL-1051"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "Foreign Country SEPA Transfers  success 200"
+  }, {
+    "name" : "testClass",
+    "value" : "Foreign Country SEPA Transfers  success 200"
+  }, {
+    "name" : "testMethod",
+    "value" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Ireland)-"
+  }, {
+    "name" : "package",
+    "value" : "Foreign Country SEPA Transfers  success 200"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-1062, https://jira.fidor.de/browse/OL-1049, https://jira.fidor.de/browse/OL-1051",
+    "url" : "https://jira.fidor.de/browse/OL-1062, https://jira.fidor.de/browse/OL-1049, https://jira.fidor.de/browse/OL-1051",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "abcd7ab8dd0f1e4.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "1ed3dcffef69fae9",
+  "name" : "User registration  fail 422  (OL-343, Birthday - Invalid Date - Invalid Format(with letter))-",
+  "fullName" : "User registration  fail 422.User registration  fail 422  (OL-343, Birthday - Invalid Date - Invalid Format(with letter))-",
+  "historyId" : "2e757d4fb99eed072b105be2520b6fc4",
+  "time" : {
+    "start" : 1511799412599,
+    "stop" : 1511799412722,
+    "duration" : 123
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "665d9dbb639a9a52",
+      "name" : "test_log",
+      "source" : "665d9dbb639a9a52.txt",
+      "type" : "text/plain",
+      "size" : 3424
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User registration service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "As OL Client i want to enter my personal information so that a client is created (OL-146)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-343"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "User registration  fail 422"
+  }, {
+    "name" : "testClass",
+    "value" : "User registration  fail 422"
+  }, {
+    "name" : "testMethod",
+    "value" : "User registration  fail 422  (OL-343, Birthday - Invalid Date - Invalid Format(with letter))-"
+  }, {
+    "name" : "package",
+    "value" : "User registration  fail 422"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-343",
+    "url" : "https://jira.fidor.de/browse/OL-343",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ed3dcffef69fae9.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

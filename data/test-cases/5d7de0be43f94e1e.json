@@ -1,0 +1,90 @@
+{
+  "uid" : "5d7de0be43f94e1e",
+  "name" : "Set Card Limit  success 204  (OL-810, Set Card Limit - Transaction - Less Than 2000)-",
+  "fullName" : "Set Card Limit  success 204.Set Card Limit  success 204  (OL-810, Set Card Limit - Transaction - Less Than 2000)-",
+  "historyId" : "47399c5ca64344df1959690a1aeb884b",
+  "time" : {
+    "start" : 1511799262465,
+    "stop" : 1511799267081,
+    "duration" : 4616
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6cba0c6520a7ef1f",
+      "name" : "test_log",
+      "source" : "6cba0c6520a7ef1f.txt",
+      "type" : "text/plain",
+      "size" : 5505
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "major"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client I want to change the Limit Per Transactions, Daily Limit and Limit per ATM withdrawal (OL-26)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-810"
+  }, {
+    "name" : "thread",
+    "value" : "8941880"
+  }, {
+    "name" : "suite",
+    "value" : "Set Card Limit  success 204"
+  }, {
+    "name" : "testClass",
+    "value" : "Set Card Limit  success 204"
+  }, {
+    "name" : "testMethod",
+    "value" : "Set Card Limit  success 204  (OL-810, Set Card Limit - Transaction - Less Than 2000)-"
+  }, {
+    "name" : "package",
+    "value" : "Set Card Limit  success 204"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-810",
+    "url" : "https://jira.fidor.de/browse/OL-810",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d7de0be43f94e1e.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

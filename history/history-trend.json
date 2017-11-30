@@ -1,0 +1,22 @@
+[ {
+  "statistic" : {
+    "failed" : 86,
+    "broken" : 20,
+    "skipped" : 35,
+    "passed" : 299,
+    "unknown" : 0,
+    "total" : 440
+  },
+  "buildOrder" : 152,
+  "reportUrl" : "http://10.1.25.51/job/oney.by.demand.api.tests/152/allure",
+  "reportName" : "AllureReport"
+}, {
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 0
+  }
+} ]

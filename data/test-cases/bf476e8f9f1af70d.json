@@ -1,0 +1,87 @@
+{
+  "uid" : "bf476e8f9f1af70d",
+  "name" : "Unlock pin  fail 403 - three attempts  (OL-624, Security Question is Blocked)-",
+  "fullName" : "Unlock pin  fail 403 - three attempts.Unlock pin  fail 403 - three attempts  (OL-624, Security Question is Blocked)-",
+  "historyId" : "224304b37b55bd2fe05fe677566b01e8",
+  "time" : {
+    "start" : 1511799342145,
+    "stop" : 1511799352297,
+    "duration" : 10152
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f21113fedd28ca14",
+      "name" : "test_log",
+      "source" : "f21113fedd28ca14.txt",
+      "type" : "text/plain",
+      "size" : 9188
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as Oney live customer i am able to unlock my paypin after entering it wrong 3 times (OL-142)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-624"
+  }, {
+    "name" : "thread",
+    "value" : "12202300"
+  }, {
+    "name" : "suite",
+    "value" : "Unlock pin  fail 403 - three attempts"
+  }, {
+    "name" : "testClass",
+    "value" : "Unlock pin  fail 403 - three attempts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Unlock pin  fail 403 - three attempts  (OL-624, Security Question is Blocked)-"
+  }, {
+    "name" : "package",
+    "value" : "Unlock pin  fail 403 - three attempts"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-624",
+    "url" : "https://jira.fidor.de/browse/OL-624",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf476e8f9f1af70d.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

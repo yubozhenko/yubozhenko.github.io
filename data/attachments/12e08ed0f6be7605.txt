@@ -1,0 +1,3 @@
+D, [2017-11-27 17:14:45#11680] DEBUG -- : Test was skipped, because of unresolved defects (OL-1170) 
+D, [2017-11-27 17:14:45#11680] DEBUG -- : Example ( (OL-566, Card State - Registration Completed)) PASSED
+D, [2017-11-27 17:14:45#11680] DEBUG -- : -----------------------------------------

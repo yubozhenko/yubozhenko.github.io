@@ -1,0 +1,37 @@
+D, [2017-11-27 17:16:12#11687] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:16:12#11687] DEBUG -- : Example ( (OL-407, Password Grant Type)) STARTED
+D, [2017-11-27 17:16:13#11687] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:16:13#11687] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:16:13#11687] DEBUG -- : with body: {
+  "grant_type": "password",
+  "password": "Qwerty123#",
+  "username": "access.refresh.token@1511798030829.com"
+}
+D, [2017-11-27 17:16:13#11687] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NzMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzM3ODkyMDE4IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6ImFkMjAzZGJmLTZhNGMtNGE2MC1hOGI1LTE5Mjc2ZGI4NTIyYiIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.8B7UQwYjcE9BYHZEYN0f4MEx6p4dzJIvnaBgLTxndLU",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "fae489a4f9dd0a87643201a168e26c21"
+}
+D, [2017-11-27 17:16:14#11687] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:16:14#11687] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:16:14#11687] DEBUG -- : with body: {
+  "grant_type": "refresh_token",
+  "refresh_token": "fae489a4f9dd0a87643201a168e26c21"
+}
+D, [2017-11-27 17:16:14#11687] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NzQsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzM3ODkyMDE4IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjlkNjY2MjU5LTJjMDMtNGFkMi1hYzJjLWFmM2RjMjBlNzAzNSIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.B1nv9uwnuMjQD56O1wX14RbjRyrPy5RfL81ql47W6y8",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "fae489a4f9dd0a87643201a168e26c21"
+}
+D, [2017-11-27 17:16:14#11687] DEBUG -- : Example ( (OL-407, Password Grant Type)) PASSED
+D, [2017-11-27 17:16:14#11687] DEBUG -- : -----------------------------------------

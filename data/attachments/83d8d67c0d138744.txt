@@ -1,0 +1,3 @@
+D, [2017-11-27 17:16:31#11679] DEBUG -- : Test was skipped, because of unresolved defects (OL-1251) 
+D, [2017-11-27 17:16:31#11679] DEBUG -- : Example ( (OL-838, TC - SEPA transfer is confirmed successfully with Oney Live client's IBAN and BIC)) PASSED
+D, [2017-11-27 17:16:31#11679] DEBUG -- : -----------------------------------------

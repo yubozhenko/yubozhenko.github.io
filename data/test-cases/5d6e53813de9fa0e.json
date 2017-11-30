@@ -1,0 +1,103 @@
+{
+  "uid" : "5d6e53813de9fa0e",
+  "name" : "Get Transactions  success 200 (OL-761, Merchant - Fee Return)-Test was skipped, because of unresolved defects (OL-913) ",
+  "fullName" : "Get Transactions  success 200.Get Transactions  success 200 (OL-761, Merchant - Fee Return)-Test was skipped, because of unresolved defects (OL-913) ",
+  "historyId" : "237a8579be2a2e76cb000fd992a87632",
+  "time" : {
+    "start" : 1511799465180,
+    "stop" : 1511799465181,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusDetails" : {
+    "message" : "",
+    "trace" : "",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusDetails" : {
+      "message" : "",
+      "trace" : "",
+      "flaky" : false
+    },
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a0ecc1e0945d4ede",
+      "name" : "test_log",
+      "source" : "a0ecc1e0945d4ede.txt",
+      "type" : "text/plain",
+      "size" : 275
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Transactions service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "issue",
+    "value" : "https://jira.fidor.de/browse/OL-913"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client I want to change the Limit Per Transactions, Daily Limit and Limit per ATM withdrawal (OL-26)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-761"
+  }, {
+    "name" : "thread",
+    "value" : "3625280"
+  }, {
+    "name" : "suite",
+    "value" : "Get Transactions  success 200"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Transactions  success 200"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Transactions  success 200 (OL-761, Merchant - Fee Return)-Test was skipped, because of unresolved defects (OL-913) "
+  }, {
+    "name" : "package",
+    "value" : "Get Transactions  success 200"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-913",
+    "url" : "https://jira.fidor.de/browse/OL-913",
+    "type" : "issue"
+  }, {
+    "name" : "https://jira.fidor.de/browse/OL-761",
+    "url" : "https://jira.fidor.de/browse/OL-761",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d6e53813de9fa0e.json",
+  "statusDetailsSafe" : {
+    "message" : "",
+    "trace" : "",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,125 @@
+D, [2017-11-27 17:17:43#11677] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:17:43#11677] DEBUG -- : Example ( (OL-1062,  OL-1049,  OL-1051, Ireland)) STARTED
+D, [2017-11-27 17:17:44#11677] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:17:44#11677] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:17:44#11677] DEBUG -- : with body: {
+  "grant_type": "password",
+  "password": "Qwerty123#",
+  "username": "create.foreign.transfer@1511798035799.com"
+}
+D, [2017-11-27 17:17:44#11677] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDMwNjQsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzE3NDMxMTA0IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjliYjZiNjdiLWQwZjgtNGJmNy04OTkwLTAwMjI1ODNhMzY2OCIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.uawpa5f-lGgEWx96eY44tmMxJsKSQu-nFkoCFgmLiZQ",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "ccfaa78c48feb8536c0190c718082782"
+}
+D, [2017-11-27 17:17:48#11677] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/fidor_api/transfers
+D, [2017-11-27 17:17:48#11677] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDMwNjQsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzE3NDMxMTA0IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjliYjZiNjdiLWQwZjgtNGJmNy04OTkwLTAwMjI1ODNhMzY2OCIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.uawpa5f-lGgEWx96eY44tmMxJsKSQu-nFkoCFgmLiZQ",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:17:48#11677] DEBUG -- : with body: {
+  "account_id": "17431104",
+  "amount": 10,
+  "currency": "EUR",
+  "subject": "money",
+  "additional_attributes": {
+    "transfer_purpose": "Airline Ticket/Transport"
+  },
+  "validation_mode": "false",
+  "beneficiary": {
+    "contact": {
+      "name": "Noran Norwayer",
+      "address_line_1": null,
+      "city": "Bergen"
+    },
+    "routing_type": "SEPA",
+    "routing_info": {
+      "remote_iban": "IE29AIBK93115212345678",
+      "remote_bic": "AIBKIE2D"
+    }
+  },
+  "create_beneficiary": false,
+  "external_uid": "ijme9l54zd7vrayhwp6sc-qtbo0g823uxn"
+}
+D, [2017-11-27 17:17:48#11677] DEBUG -- : RESPOND WITH: status code 201 and body: {
+  "id": "f8a81962-c0f1-4860-aea3-d9b4c4947eeb",
+  "account_id": "17431104",
+  "amount": 10,
+  "currency": "EUR",
+  "subject": "money",
+  "state": "created",
+  "beneficiary": {
+    "unique_name": null,
+    "contact": {
+      "name": "Noran Norwayer",
+      "address_line_1": null,
+      "address_line_2": null,
+      "city": "Bergen",
+      "country": null
+    },
+    "bank": {
+      "name": null,
+      "address_line_1": null,
+      "address_line_2": null,
+      "city": null,
+      "country": null
+    },
+    "routing_type": "SEPA",
+    "routing_info": {
+      "remote_iban": "IE29AIBK93115212345678",
+      "remote_bic": "AIBKIE2D"
+    }
+  },
+  "created_at": "2017-11-27T16:17:48Z",
+  "updated_at": "2017-11-27T16:17:48Z",
+  "sender": {
+    "firstname": "Vasul",
+    "lastname": "RSBSGJDBASUSELT"
+  },
+  "additional_attributes": {
+    "transfer_purpose": "Airline Ticket/Transport"
+  },
+  "external_uid": "ijme9l54zd7vrayhwp6sc-qtbo0g823uxn",
+  "beneficiary_id": null,
+  "exchange_rate": null,
+  "exchange_rate_fee": null,
+  "beneficiary_amount": null
+}
+D, [2017-11-27 17:17:48#11677] DEBUG -- : REQUEST METHOD: put, to url: https://api.oney-test.fidor.intern/fidor_api/confirmable/actions/cd87a128-4bcd-461e-b275-ec310fc87e7f
+D, [2017-11-27 17:17:48#11677] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDMwNjQsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzE3NDMxMTA0IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjliYjZiNjdiLWQwZjgtNGJmNy04OTkwLTAwMjI1ODNhMzY2OCIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.uawpa5f-lGgEWx96eY44tmMxJsKSQu-nFkoCFgmLiZQ",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:17:48#11677] DEBUG -- : with body: {
+  "pin": "1604"
+}
+D, [2017-11-27 17:17:48#11677] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "id": "cd87a128-4bcd-461e-b275-ec310fc87e7f",
+  "type": "confirmable/transfer/complete",
+  "message": "Action requires confirmation",
+  "steps_left": [
+
+  ],
+  "steps_completed": [
+    "pin"
+  ],
+  "path": "/fidor_api/confirmable/actions/cd87a128-4bcd-461e-b275-ec310fc87e7f",
+  "result": null,
+  "succeeded_at": "2017-11-27T16:17:48Z",
+  "failed_at": null,
+  "errored_at": null,
+  "created_at": "2017-11-27T16:17:48Z",
+  "updated_at": "2017-11-27T16:17:48Z",
+  "failed_attempts": {
+    "pin": 0
+  }
+}
+D, [2017-11-27 17:17:48#11677] DEBUG -- : Example ( (OL-1062,  OL-1049,  OL-1051, Ireland)) PASSED
+D, [2017-11-27 17:17:48#11677] DEBUG -- : -----------------------------------------

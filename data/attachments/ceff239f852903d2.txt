@@ -1,0 +1,33 @@
+D, [2017-11-27 17:16:14#11687] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:16:14#11687] DEBUG -- : Example ( (OL-408, Incorrect Refresh Token)) STARTED
+D, [2017-11-27 17:16:14#11687] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:16:14#11687] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:16:14#11687] DEBUG -- : with body: {
+  "grant_type": "password",
+  "password": "Qwerty123#",
+  "username": "access.refresh.token"
+}
+D, [2017-11-27 17:16:14#11687] DEBUG -- : RESPOND WITH: status code 400 and body: {
+  "error": "invalid_credentials",
+  "error_description": "invalid"
+}
+D, [2017-11-27 17:16:14#11687] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:16:14#11687] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:16:14#11687] DEBUG -- : with body: {
+  "grant_type": "refresh_token",
+  "refresh_token": "ghsaeh!!WRONG_REFRESH_TOKEN!!suaysd"
+}
+D, [2017-11-27 17:16:14#11687] DEBUG -- : RESPOND WITH: status code 400 and body: {
+  "error": "invalid_grant",
+  "error_description": "The provided refresh token is invalid"
+}
+D, [2017-11-27 17:16:14#11687] DEBUG -- : Example ( (OL-408, Incorrect Refresh Token)) PASSED
+D, [2017-11-27 17:16:14#11687] DEBUG -- : -----------------------------------------

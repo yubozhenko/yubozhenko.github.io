@@ -1,0 +1,175 @@
+D, [2017-11-27 17:18:54#11679] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:18:54#11679] DEBUG -- : Example ( (OL-892, P2P- Invalid Paypin - Three Attempts)) STARTED
+D, [2017-11-27 17:18:57#11679] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:18:57#11679] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:18:57#11679] DEBUG -- : with body: {
+  "grant_type": "password",
+  "password": "Qwerty123#",
+  "username": "transfer.p2p.confirm.wrong.pin@1511798036553.com"
+}
+D, [2017-11-27 17:18:57#11679] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDMxMzcsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzk1MjY3OTUzIiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6ImYzZjExYjBhLTI0MGEtNDRmNy1iZjcyLWZlMjZjNDE2OWM5ZSIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.jeNTvoYwAUzLRwrqGjSBklxMz6tASgiTS4qXENZBVGU",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "99eb7218ab67b335785acc592ac99209"
+}
+D, [2017-11-27 17:19:00#11679] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/fidor_api/transfers
+D, [2017-11-27 17:19:00#11679] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDMxMzcsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzk1MjY3OTUzIiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6ImYzZjExYjBhLTI0MGEtNDRmNy1iZjcyLWZlMjZjNDE2OWM5ZSIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.jeNTvoYwAUzLRwrqGjSBklxMz6tASgiTS4qXENZBVGU",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:19:00#11679] DEBUG -- : with body: {
+  "amount": 10,
+  "currency": "EUR",
+  "subject": "money",
+  "additional_attributes": {
+    "transfer_purpose": "Airline Ticket/Transport"
+  },
+  "validation_mode": "false",
+  "beneficiary": {
+    "contact": {
+      "name": "Kate Meier",
+      "address_line_1": "st. Luiza sqr",
+      "city": "Paris"
+    },
+    "routing_type": "FOS_P2P_EMAIL",
+    "routing_info": {
+      "email": "transfer.receiver@1511798036704.com",
+      "remote_bic": "BACCFR22XXX",
+      "remote_iban": "FR7612869000010000031548688"
+    }
+  },
+  "create_beneficiary": false,
+  "account_id": "95267953",
+  "external_uid": "2ibtyehoj3fqgrzaku1cvn-l0x7ws9m6d5"
+}
+D, [2017-11-27 17:19:00#11679] DEBUG -- : RESPOND WITH: status code 201 and body: {
+  "id": "144e8411-1730-4f58-99c8-0ea493a28808",
+  "account_id": "95267953",
+  "amount": 10,
+  "currency": "EUR",
+  "subject": "money",
+  "state": "created",
+  "beneficiary": {
+    "unique_name": null,
+    "contact": {
+      "name": "Kate Meier",
+      "address_line_1": "st. Luiza sqr",
+      "address_line_2": null,
+      "city": "Paris",
+      "country": null
+    },
+    "bank": {
+      "name": null,
+      "address_line_1": null,
+      "address_line_2": null,
+      "city": null,
+      "country": null
+    },
+    "routing_type": "FOS_P2P_EMAIL",
+    "routing_info": {
+      "email": "transfer.receiver@1511798036704.com",
+      "remote_bic": "BACCFR22XXX",
+      "remote_iban": "FR7612869000010000031548688"
+    }
+  },
+  "created_at": "2017-11-27T16:19:00Z",
+  "updated_at": "2017-11-27T16:19:00Z",
+  "sender": {
+    "firstname": "Vasul",
+    "lastname": "MOONSLYLXAJCONO"
+  },
+  "additional_attributes": {
+    "transfer_purpose": "Airline Ticket/Transport"
+  },
+  "external_uid": "2ibtyehoj3fqgrzaku1cvn-l0x7ws9m6d5",
+  "beneficiary_id": null,
+  "exchange_rate": null,
+  "exchange_rate_fee": null,
+  "beneficiary_amount": null
+}
+D, [2017-11-27 17:19:02#11679] DEBUG -- : REQUEST METHOD: put, to url: https://api.oney-test.fidor.intern/fidor_api/confirmable/actions/2d23fe2f-c93e-49bd-bd5b-07611ced9c33
+D, [2017-11-27 17:19:02#11679] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDMxMzcsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzk1MjY3OTUzIiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6ImYzZjExYjBhLTI0MGEtNDRmNy1iZjcyLWZlMjZjNDE2OWM5ZSIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.jeNTvoYwAUzLRwrqGjSBklxMz6tASgiTS4qXENZBVGU",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:19:02#11679] DEBUG -- : with body: {
+  "pin": 223325
+}
+D, [2017-11-27 17:19:02#11679] DEBUG -- : RESPOND WITH: status code 422 and body: {
+  "code": 422,
+  "errors": [
+    {
+      "field": "pin",
+      "message": "is not correct"
+    }
+  ],
+  "message": "Action not valid",
+  "key": [
+    "pin_invalid"
+  ],
+  "steps_left": [
+    "pin"
+  ],
+  "steps_completed": null
+}
+D, [2017-11-27 17:19:04#11679] DEBUG -- : REQUEST METHOD: put, to url: https://api.oney-test.fidor.intern/fidor_api/confirmable/actions/2d23fe2f-c93e-49bd-bd5b-07611ced9c33
+D, [2017-11-27 17:19:04#11679] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDMxMzcsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzk1MjY3OTUzIiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6ImYzZjExYjBhLTI0MGEtNDRmNy1iZjcyLWZlMjZjNDE2OWM5ZSIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.jeNTvoYwAUzLRwrqGjSBklxMz6tASgiTS4qXENZBVGU",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:19:04#11679] DEBUG -- : with body: {
+  "pin": 223325
+}
+D, [2017-11-27 17:19:04#11679] DEBUG -- : RESPOND WITH: status code 422 and body: {
+  "code": 422,
+  "errors": [
+    {
+      "field": "pin",
+      "message": "is not correct"
+    }
+  ],
+  "message": "Action not valid",
+  "key": [
+    "pin_invalid"
+  ],
+  "steps_left": [
+    "pin"
+  ],
+  "steps_completed": null
+}
+D, [2017-11-27 17:19:06#11679] DEBUG -- : REQUEST METHOD: put, to url: https://api.oney-test.fidor.intern/fidor_api/confirmable/actions/2d23fe2f-c93e-49bd-bd5b-07611ced9c33
+D, [2017-11-27 17:19:06#11679] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDMxMzcsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzk1MjY3OTUzIiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6ImYzZjExYjBhLTI0MGEtNDRmNy1iZjcyLWZlMjZjNDE2OWM5ZSIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.jeNTvoYwAUzLRwrqGjSBklxMz6tASgiTS4qXENZBVGU",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:19:06#11679] DEBUG -- : with body: {
+  "pin": 223325
+}
+D, [2017-11-27 17:19:06#11679] DEBUG -- : RESPOND WITH: status code 422 and body: {
+  "code": 422,
+  "errors": [
+    {
+      "field": "pin",
+      "message": "was incorrect too many times"
+    }
+  ],
+  "message": "Action not valid",
+  "key": [
+    "pin_over_threshold"
+  ],
+  "steps_left": [
+    "pin"
+  ],
+  "steps_completed": null
+}
+D, [2017-11-27 17:19:06#11679] DEBUG -- : Example ( (OL-892, P2P- Invalid Paypin - Three Attempts)) PASSED
+D, [2017-11-27 17:19:06#11679] DEBUG -- : -----------------------------------------

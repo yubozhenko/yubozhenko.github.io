@@ -1,0 +1,68 @@
+D, [2017-11-27 17:16:44#11677] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:16:44#11677] DEBUG -- : Example ( (OL-322, Mandatory Field Is Missed)) STARTED
+D, [2017-11-27 17:16:44#11677] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:16:44#11677] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:16:44#11677] DEBUG -- : with body: {
+  "grant_type": "client_credentials"
+}
+D, [2017-11-27 17:16:44#11677] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDMwMDQsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiNzA1MDkyZDUtMTI1MS00NTEyLTgzYTItZDFlZWNmYTQxOWIwIiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.np4FSOguOND0iGuBwSl4EQy6WD0ckuN0Q1JYdGfe1i8",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "a44892c753ddb545fad6fc87aa4660f4"
+}
+D, [2017-11-27 17:16:45#11677] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/fidor_api/customers
+D, [2017-11-27 17:16:45#11677] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDMwMDQsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiNzA1MDkyZDUtMTI1MS00NTEyLTgzYTItZDFlZWNmYTQxOWIwIiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.np4FSOguOND0iGuBwSl4EQy6WD0ckuN0Q1JYdGfe1i8",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json",
+  "Cache-Control": "No-Cache"
+}
+D, [2017-11-27 17:16:45#11677] DEBUG -- : with body: {
+  "email": "mandatory.field.ismissed@verify.com",
+  "last_name": "Tatiemceeflp",
+  "password": "Qwerty123#",
+  "birthday": "1992-04-28",
+  "maiden_name": "noname",
+  "adr_street": "Cool st. 11/8",
+  "adr_street_number": 111,
+  "adr_post_code": 66974,
+  "adr_city": "Boston",
+  "birthplace": "Boston",
+  "adr_country": "US",
+  "marital_status": 2,
+  "nationality": "DE",
+  "adr_phone": null,
+  "title": 1,
+  "us_citizen": false,
+  "us_tax_payer": false,
+  "verification_token": "123321",
+  "gender": "m",
+  "own_interest": true,
+  "tos": true,
+  "privacy_policy": true,
+  "adr_mobile": "+330030000006",
+  "affiliate_uid": "7a3c4c03-0001-4483-91d4-999146a3dd9f"
+}
+D, [2017-11-27 17:16:45#11677] DEBUG -- : RESPOND WITH: status code 422 and body: {
+  "code": 422,
+  "errors": [
+    {
+      "field": "first_name",
+      "message": "can't be blank",
+      "options": {
+      },
+      "key": "blank"
+    }
+  ],
+  "message": "Validation failed",
+  "key": [
+    "validation_failed"
+  ]
+}
+D, [2017-11-27 17:16:45#11677] DEBUG -- : Example ( (OL-322, Mandatory Field Is Missed)) PASSED
+D, [2017-11-27 17:16:45#11677] DEBUG -- : -----------------------------------------

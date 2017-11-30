@@ -1,0 +1,87 @@
+{
+  "uid" : "5831322abb34a5cc",
+  "name" : "Unfreeze Card  fail 404  (OL-571, Card ID - Not Registered)-",
+  "fullName" : "Unfreeze Card  fail 404.Unfreeze Card  fail 404  (OL-571, Card ID - Not Registered)-",
+  "historyId" : "12a3484d8d259a3db8d0a75820f90114",
+  "time" : {
+    "start" : 1511799274113,
+    "stop" : 1511799279301,
+    "duration" : 5188
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cf22548868a8330b",
+      "name" : "test_log",
+      "source" : "cf22548868a8330b.txt",
+      "type" : "text/plain",
+      "size" : 3879
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to freeze  my debit card so that I can block my card temporary if I can't find it (OL-22)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-571"
+  }, {
+    "name" : "thread",
+    "value" : "3625280"
+  }, {
+    "name" : "suite",
+    "value" : "Unfreeze Card  fail 404"
+  }, {
+    "name" : "testClass",
+    "value" : "Unfreeze Card  fail 404"
+  }, {
+    "name" : "testMethod",
+    "value" : "Unfreeze Card  fail 404  (OL-571, Card ID - Not Registered)-"
+  }, {
+    "name" : "package",
+    "value" : "Unfreeze Card  fail 404"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-571",
+    "url" : "https://jira.fidor.de/browse/OL-571",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5831322abb34a5cc.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "bd0c91031ce4ad9e",
+  "name" : "Get Card Pin  success 200  (OL-682, Valid Data)-",
+  "fullName" : "Get Card Pin  success 200.Get Card Pin  success 200  (OL-682, Valid Data)-",
+  "historyId" : "85ce8076321d19aed13dc37c9ca909d5",
+  "time" : {
+    "start" : 1511799246452,
+    "stop" : 1511799251928,
+    "duration" : 5476
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3712ed93987cdcf4",
+      "name" : "test_log",
+      "source" : "3712ed93987cdcf4.txt",
+      "type" : "text/plain",
+      "size" : 3730
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to Get Paypin (OL-712)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-682"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "Get Card Pin  success 200"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Card Pin  success 200"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Card Pin  success 200  (OL-682, Valid Data)-"
+  }, {
+    "name" : "package",
+    "value" : "Get Card Pin  success 200"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-682",
+    "url" : "https://jira.fidor.de/browse/OL-682",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd0c91031ce4ad9e.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

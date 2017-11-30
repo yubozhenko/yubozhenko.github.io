@@ -1,0 +1,103 @@
+{
+  "uid" : "7132c8e5b8ef6995",
+  "name" : "Lock Card  fail 403  (OL-557, Card State - Requirments Check)-Test was skipped, because of unresolved defects (OL-1036) ",
+  "fullName" : "Lock Card  fail 403.Lock Card  fail 403  (OL-557, Card State - Requirments Check)-Test was skipped, because of unresolved defects (OL-1036) ",
+  "historyId" : "4a174cd4beaa30e35e35ac41c2a81980",
+  "time" : {
+    "start" : 1511799285468,
+    "stop" : 1511799285469,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusDetails" : {
+    "message" : "",
+    "trace" : "",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusDetails" : {
+      "message" : "",
+      "trace" : "",
+      "flaky" : false
+    },
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "25605af7891ce2c0",
+      "name" : "test_log",
+      "source" : "25605af7891ce2c0.txt",
+      "type" : "text/plain",
+      "size" : 286
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "issue",
+    "value" : "https://jira.fidor.de/browse/OL-1036"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to freeze  my debit card so that I can block my card temporary if I can't find it (OL-22)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-557"
+  }, {
+    "name" : "thread",
+    "value" : "11415860"
+  }, {
+    "name" : "suite",
+    "value" : "Lock Card  fail 403"
+  }, {
+    "name" : "testClass",
+    "value" : "Lock Card  fail 403"
+  }, {
+    "name" : "testMethod",
+    "value" : "Lock Card  fail 403  (OL-557, Card State - Requirments Check)-Test was skipped, because of unresolved defects (OL-1036) "
+  }, {
+    "name" : "package",
+    "value" : "Lock Card  fail 403"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-1036",
+    "url" : "https://jira.fidor.de/browse/OL-1036",
+    "type" : "issue"
+  }, {
+    "name" : "https://jira.fidor.de/browse/OL-557",
+    "url" : "https://jira.fidor.de/browse/OL-557",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7132c8e5b8ef6995.json",
+  "statusDetailsSafe" : {
+    "message" : "",
+    "trace" : "",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

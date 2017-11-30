@@ -1,0 +1,2 @@
+D, [2017-11-27 17:21:44#11677] DEBUG -- : Example ( (should verify money was charged from account balance)) FAILED
+D, [2017-11-27 17:21:44#11677] DEBUG -- : -----------------------------------------

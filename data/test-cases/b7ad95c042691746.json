@@ -1,0 +1,87 @@
+{
+  "uid" : "b7ad95c042691746",
+  "name" : "Unfreeze Card  fail 401  (OL-573, Incorrect Paypin)-",
+  "fullName" : "Unfreeze Card  fail 401.Unfreeze Card  fail 401  (OL-573, Incorrect Paypin)-",
+  "historyId" : "8edae291960f7932eded76ebedb067e9",
+  "time" : {
+    "start" : 1511799286251,
+    "stop" : 1511799298317,
+    "duration" : 12066
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d71a5dd8b4ba575d",
+      "name" : "test_log",
+      "source" : "d71a5dd8b4ba575d.txt",
+      "type" : "text/plain",
+      "size" : 6715
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to freeze  my debit card so that I can block my card temporary if I can't find it (OL-22)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-573"
+  }, {
+    "name" : "thread",
+    "value" : "3625280"
+  }, {
+    "name" : "suite",
+    "value" : "Unfreeze Card  fail 401"
+  }, {
+    "name" : "testClass",
+    "value" : "Unfreeze Card  fail 401"
+  }, {
+    "name" : "testMethod",
+    "value" : "Unfreeze Card  fail 401  (OL-573, Incorrect Paypin)-"
+  }, {
+    "name" : "package",
+    "value" : "Unfreeze Card  fail 401"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-573",
+    "url" : "https://jira.fidor.de/browse/OL-573",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b7ad95c042691746.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "1421a6cf1233edb4",
+  "name" : "Block Card  -  fail 403  (OL-732, No Card ID)-",
+  "fullName" : "Block Card  -  fail 403.Block Card  -  fail 403  (OL-732, No Card ID)-",
+  "historyId" : "1b037f27d733ccfc07040d96bf0da83f",
+  "time" : {
+    "start" : 1511799298092,
+    "stop" : 1511799301501,
+    "duration" : 3409
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1af59e10c8faa6a9",
+      "name" : "test_log",
+      "source" : "1af59e10c8faa6a9.txt",
+      "type" : "text/plain",
+      "size" : 6611
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to block my card so that anyone isn't able to use it(OL-49)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-732"
+  }, {
+    "name" : "thread",
+    "value" : "12202300"
+  }, {
+    "name" : "suite",
+    "value" : "Block Card  -  fail 403"
+  }, {
+    "name" : "testClass",
+    "value" : "Block Card  -  fail 403"
+  }, {
+    "name" : "testMethod",
+    "value" : "Block Card  -  fail 403  (OL-732, No Card ID)-"
+  }, {
+    "name" : "package",
+    "value" : "Block Card  -  fail 403"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-732",
+    "url" : "https://jira.fidor.de/browse/OL-732",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1421a6cf1233edb4.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "3768449bbc44cdb1",
+  "name" : "Block Card  -  success 204  (OL-716, Active Card - Correct Data)-",
+  "fullName" : "Block Card  -  success 204.Block Card  -  success 204  (OL-716, Active Card - Correct Data)-",
+  "historyId" : "867d0b8bd7fa0736c3edfc0a0f0e92ac",
+  "time" : {
+    "start" : 1511799246326,
+    "stop" : 1511799250736,
+    "duration" : 4410
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e6a1ff610f45b6e2",
+      "name" : "test_log",
+      "source" : "e6a1ff610f45b6e2.txt",
+      "type" : "text/plain",
+      "size" : 6575
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to block my card so that anyone isn't able to use it(OL-49)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-716"
+  }, {
+    "name" : "thread",
+    "value" : "12202300"
+  }, {
+    "name" : "suite",
+    "value" : "Block Card  -  success 204"
+  }, {
+    "name" : "testClass",
+    "value" : "Block Card  -  success 204"
+  }, {
+    "name" : "testMethod",
+    "value" : "Block Card  -  success 204  (OL-716, Active Card - Correct Data)-"
+  }, {
+    "name" : "package",
+    "value" : "Block Card  -  success 204"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-716",
+    "url" : "https://jira.fidor.de/browse/OL-716",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3768449bbc44cdb1.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

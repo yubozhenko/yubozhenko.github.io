@@ -1,0 +1,87 @@
+{
+  "uid" : "edc8fb06d22280dd",
+  "name" : "Renew token  success 200  (OL-407, Password Grant Type)-",
+  "fullName" : "Renew token  success 200.Renew token  success 200  (OL-407, Password Grant Type)-",
+  "historyId" : "103323532a815dbccffc618778ca9a69",
+  "time" : {
+    "start" : 1511799372745,
+    "stop" : 1511799374034,
+    "duration" : 1289
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4b0247b7058e726a",
+      "name" : "test_log",
+      "source" : "4b0247b7058e726a.txt",
+      "type" : "text/plain",
+      "size" : 3958
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Authentication service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as an Oney live App i want to be able to renew API tokens (OL-155)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-407"
+  }, {
+    "name" : "thread",
+    "value" : "12202300"
+  }, {
+    "name" : "suite",
+    "value" : "Renew token  success 200"
+  }, {
+    "name" : "testClass",
+    "value" : "Renew token  success 200"
+  }, {
+    "name" : "testMethod",
+    "value" : "Renew token  success 200  (OL-407, Password Grant Type)-"
+  }, {
+    "name" : "package",
+    "value" : "Renew token  success 200"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-407",
+    "url" : "https://jira.fidor.de/browse/OL-407",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "edc8fb06d22280dd.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

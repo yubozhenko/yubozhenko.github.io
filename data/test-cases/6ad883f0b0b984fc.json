@@ -1,0 +1,87 @@
+{
+  "uid" : "6ad883f0b0b984fc",
+  "name" : "User registration  success 201  (OL-364, Account is created if different verification Tokens are provided (letters + numbers))-",
+  "fullName" : "User registration  success 201.User registration  success 201  (OL-364, Account is created if different verification Tokens are provided (letters + numbers))-",
+  "historyId" : "b5d0ba641587302c42276b8f7b360b1e",
+  "time" : {
+    "start" : 1511799381629,
+    "stop" : 1511799383534,
+    "duration" : 1905
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5fdd5b8edd221656",
+      "name" : "test_log",
+      "source" : "5fdd5b8edd221656.txt",
+      "type" : "text/plain",
+      "size" : 4583
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User registration service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "As OL Client i want to enter my personal information so that a client is created (OL-146)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-364"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "User registration  success 201"
+  }, {
+    "name" : "testClass",
+    "value" : "User registration  success 201"
+  }, {
+    "name" : "testMethod",
+    "value" : "User registration  success 201  (OL-364, Account is created if different verification Tokens are provided (letters + numbers))-"
+  }, {
+    "name" : "package",
+    "value" : "User registration  success 201"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-364",
+    "url" : "https://jira.fidor.de/browse/OL-364",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ad883f0b0b984fc.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "ea7706c0c1a7cf35",
+  "name" : "Reorder Card  fail 422  (OL-850, Existent Card Is In Card Registration Completed Status)-",
+  "fullName" : "Reorder Card  fail 422.Reorder Card  fail 422  (OL-850, Existent Card Is In Card Registration Completed Status)-",
+  "historyId" : "a9cea0c36ce98ca22fef976638a971ed",
+  "time" : {
+    "start" : 1511799344465,
+    "stop" : 1511799350791,
+    "duration" : 6326
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f17c05c1061392f8",
+      "name" : "test_log",
+      "source" : "f17c05c1061392f8.txt",
+      "type" : "text/plain",
+      "size" : 4137
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to order a new card  (OL-24)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-850"
+  }, {
+    "name" : "thread",
+    "value" : "16298300"
+  }, {
+    "name" : "suite",
+    "value" : "Reorder Card  fail 422"
+  }, {
+    "name" : "testClass",
+    "value" : "Reorder Card  fail 422"
+  }, {
+    "name" : "testMethod",
+    "value" : "Reorder Card  fail 422  (OL-850, Existent Card Is In Card Registration Completed Status)-"
+  }, {
+    "name" : "package",
+    "value" : "Reorder Card  fail 422"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-850",
+    "url" : "https://jira.fidor.de/browse/OL-850",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea7706c0c1a7cf35.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

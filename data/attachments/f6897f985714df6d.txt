@@ -1,0 +1,97 @@
+D, [2017-11-27 17:15:09#11678] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:15:09#11678] DEBUG -- : Example ( (OL-733, P2P - Correct Data - FOS_P2P_EMAIL - Create)) STARTED
+D, [2017-11-27 17:15:11#11678] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:15:11#11678] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:15:11#11678] DEBUG -- : with body: {
+  "grant_type": "password",
+  "password": "Qwerty123#",
+  "username": "transfer.create@1511798035648.com"
+}
+D, [2017-11-27 17:15:11#11678] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5MTEsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzQ2MDQ4MzA1IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjFhOGEyYjZlLWY4MzEtNDZjMy1hNWEyLTFkMGY3MDc1MzFiMSIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.x66i-_MEGY08SqZsn4hVCFbNzlZFmkVSbE0LgUkO88A",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "8366e0dcf0448d4692b02b199652f339"
+}
+D, [2017-11-27 17:15:14#11678] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/fidor_api/transfers
+D, [2017-11-27 17:15:14#11678] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5MTEsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzQ2MDQ4MzA1IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjFhOGEyYjZlLWY4MzEtNDZjMy1hNWEyLTFkMGY3MDc1MzFiMSIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.x66i-_MEGY08SqZsn4hVCFbNzlZFmkVSbE0LgUkO88A",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:15:14#11678] DEBUG -- : with body: {
+  "amount": 10,
+  "currency": "EUR",
+  "subject": "money",
+  "additional_attributes": {
+    "transfer_purpose": "Airline Ticket/Transport"
+  },
+  "validation_mode": "false",
+  "beneficiary": {
+    "contact": {
+      "name": "Sepp Meier",
+      "address_line_1": "",
+      "city": ""
+    },
+    "routing_type": "FOS_P2P_EMAIL",
+    "routing_info": {
+      "email": "transfer.receiver@1511798036704.com",
+      "remote_bic": "BACCFR22XXX",
+      "remote_iban": "FR7612869000010000031548688"
+    }
+  },
+  "create_beneficiary": false,
+  "account_id": "46048305",
+  "external_uid": "ngk-uph79bzltc481x3s5j6m0feryoa2qd"
+}
+D, [2017-11-27 17:15:14#11678] DEBUG -- : RESPOND WITH: status code 201 and body: {
+  "id": "7922ac91-b6f8-4d06-9046-e20e5676c103",
+  "account_id": "46048305",
+  "amount": 10,
+  "currency": "EUR",
+  "subject": "money",
+  "state": "created",
+  "beneficiary": {
+    "unique_name": null,
+    "contact": {
+      "name": "Sepp Meier",
+      "address_line_1": "",
+      "address_line_2": null,
+      "city": "",
+      "country": null
+    },
+    "bank": {
+      "name": null,
+      "address_line_1": null,
+      "address_line_2": null,
+      "city": null,
+      "country": null
+    },
+    "routing_type": "FOS_P2P_EMAIL",
+    "routing_info": {
+      "email": "transfer.receiver@1511798036704.com",
+      "remote_bic": "BACCFR22XXX",
+      "remote_iban": "FR7612869000010000031548688"
+    }
+  },
+  "created_at": "2017-11-27T16:15:14Z",
+  "updated_at": "2017-11-27T16:15:14Z",
+  "sender": {
+    "firstname": "Vasul",
+    "lastname": "EWOWNLYCIDHYCQH"
+  },
+  "additional_attributes": {
+    "transfer_purpose": "Airline Ticket/Transport"
+  },
+  "external_uid": "ngk-uph79bzltc481x3s5j6m0feryoa2qd",
+  "beneficiary_id": null,
+  "exchange_rate": null,
+  "exchange_rate_fee": null,
+  "beneficiary_amount": null
+}
+D, [2017-11-27 17:15:14#11678] DEBUG -- : Example ( (OL-733, P2P - Correct Data - FOS_P2P_EMAIL - Create)) PASSED
+D, [2017-11-27 17:15:14#11678] DEBUG -- : -----------------------------------------

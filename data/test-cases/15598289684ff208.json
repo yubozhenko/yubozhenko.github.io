@@ -1,0 +1,106 @@
+{
+  "uid" : "15598289684ff208",
+  "name" : "Set Card Limit  fail 422  (OL-800, Set Card Limit - Daily - Over Limit (more than 50 000 EUR))-Test was skipped, because of unresolved defects (OL-1169) ",
+  "fullName" : "Set Card Limit  fail 422.Set Card Limit  fail 422  (OL-800, Set Card Limit - Daily - Over Limit (more than 50 000 EUR))-Test was skipped, because of unresolved defects (OL-1169) ",
+  "historyId" : "4825e35bf8ae827be823fc3a009fc5c3",
+  "time" : {
+    "start" : 1511799271795,
+    "stop" : 1511799271796,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusDetails" : {
+    "message" : "",
+    "trace" : "",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusDetails" : {
+      "message" : "",
+      "trace" : "",
+      "flaky" : false
+    },
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fc5aa21c2154ca62",
+      "name" : "test_log",
+      "source" : "fc5aa21c2154ca62.txt",
+      "type" : "text/plain",
+      "size" : 314
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "issue",
+    "value" : "https://jira.fidor.de/browse/OL-1169"
+  }, {
+    "name" : "severity",
+    "value" : "major"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client I want to change the Limit Per Transactions, Daily Limit and Limit per ATM withdrawal (OL-26)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-800"
+  }, {
+    "name" : "thread",
+    "value" : "8941880"
+  }, {
+    "name" : "suite",
+    "value" : "Set Card Limit  fail 422"
+  }, {
+    "name" : "testClass",
+    "value" : "Set Card Limit  fail 422"
+  }, {
+    "name" : "testMethod",
+    "value" : "Set Card Limit  fail 422  (OL-800, Set Card Limit - Daily - Over Limit (more than 50 000 EUR))-Test was skipped, because of unresolved defects (OL-1169) "
+  }, {
+    "name" : "package",
+    "value" : "Set Card Limit  fail 422"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-1169",
+    "url" : "https://jira.fidor.de/browse/OL-1169",
+    "type" : "issue"
+  }, {
+    "name" : "https://jira.fidor.de/browse/OL-800",
+    "url" : "https://jira.fidor.de/browse/OL-800",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15598289684ff208.json",
+  "statusDetailsSafe" : {
+    "message" : "",
+    "trace" : "",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,3 @@
+D, [2017-11-27 17:14:24#11677] DEBUG -- : Test was skipped, because of unresolved defects (OL-736) 
+D, [2017-11-27 17:14:24#11677] DEBUG -- : Example ( (OL-685, Security Question and CVC - Missing)) PASSED
+D, [2017-11-27 17:14:24#11677] DEBUG -- : -----------------------------------------

@@ -1,0 +1,87 @@
+{
+  "uid" : "5718f27d3e70794b",
+  "name" : "Card activation  success 204  (OL-515, Valid Data)-",
+  "fullName" : "Card activation  success 204.Card activation  success 204  (OL-515, Valid Data)-",
+  "historyId" : "ae471dc7aef9a30a0b482bfc5fcc3db",
+  "time" : {
+    "start" : 1511799246314,
+    "stop" : 1511799250445,
+    "duration" : 4131
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8f63f5dab2c65454",
+      "name" : "test_log",
+      "source" : "8f63f5dab2c65454.txt",
+      "type" : "text/plain",
+      "size" : 6541
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to activate my card so that I can use my card (OL-47)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-515"
+  }, {
+    "name" : "thread",
+    "value" : "16298300"
+  }, {
+    "name" : "suite",
+    "value" : "Card activation  success 204"
+  }, {
+    "name" : "testClass",
+    "value" : "Card activation  success 204"
+  }, {
+    "name" : "testMethod",
+    "value" : "Card activation  success 204  (OL-515, Valid Data)-"
+  }, {
+    "name" : "package",
+    "value" : "Card activation  success 204"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-515",
+    "url" : "https://jira.fidor.de/browse/OL-515",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5718f27d3e70794b.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

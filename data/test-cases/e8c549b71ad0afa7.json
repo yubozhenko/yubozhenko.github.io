@@ -1,0 +1,87 @@
+{
+  "uid" : "e8c549b71ad0afa7",
+  "name" : "Get Card Pin  fail 403 - three attempts  (OL-691, Security Question - Three Incorrect Attempts)-",
+  "fullName" : "Get Card Pin  fail 403 - three attempts.Get Card Pin  fail 403 - three attempts  (OL-691, Security Question - Three Incorrect Attempts)-",
+  "historyId" : "9485fc942e00f579d8ba8c687a872272",
+  "time" : {
+    "start" : 1511799307241,
+    "stop" : 1511799316475,
+    "duration" : 9234
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f0e3d2d07df07ff0",
+      "name" : "test_log",
+      "source" : "f0e3d2d07df07ff0.txt",
+      "type" : "text/plain",
+      "size" : 7434
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to Get Paypin (OL-712)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-691"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "Get Card Pin  fail 403 - three attempts"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Card Pin  fail 403 - three attempts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Card Pin  fail 403 - three attempts  (OL-691, Security Question - Three Incorrect Attempts)-"
+  }, {
+    "name" : "package",
+    "value" : "Get Card Pin  fail 403 - three attempts"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-691",
+    "url" : "https://jira.fidor.de/browse/OL-691",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8c549b71ad0afa7.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

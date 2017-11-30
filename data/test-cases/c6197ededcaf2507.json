@@ -1,0 +1,87 @@
+{
+  "uid" : "c6197ededcaf2507",
+  "name" : "Get Card Pin  success 200  (OL-692, PayPin is displayed after two incorrect CVC entering)-",
+  "fullName" : "Get Card Pin  success 200.Get Card Pin  success 200  (OL-692, PayPin is displayed after two incorrect CVC entering)-",
+  "historyId" : "3fbbe086e3aca295073f5484fa03f88a",
+  "time" : {
+    "start" : 1511799251929,
+    "stop" : 1511799258523,
+    "duration" : 6594
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7bbcb0dfcd412d1e",
+      "name" : "test_log",
+      "source" : "7bbcb0dfcd412d1e.txt",
+      "type" : "text/plain",
+      "size" : 7280
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to Get Paypin (OL-712)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-692"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "Get Card Pin  success 200"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Card Pin  success 200"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Card Pin  success 200  (OL-692, PayPin is displayed after two incorrect CVC entering)-"
+  }, {
+    "name" : "package",
+    "value" : "Get Card Pin  success 200"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-692",
+    "url" : "https://jira.fidor.de/browse/OL-692",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6197ededcaf2507.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

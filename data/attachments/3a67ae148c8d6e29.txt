@@ -1,0 +1,3 @@
+D, [2017-11-27 17:14:24#11684] DEBUG -- : Test was skipped, because of unresolved defects (OL-854) 
+D, [2017-11-27 17:14:24#11684] DEBUG -- : Example ( (OL-580 ,  OL-552 ,  OL-856 ,  OL-820 ,  OL-576,  OL-900, PayPin is blocked)) PASSED
+D, [2017-11-27 17:14:24#11684] DEBUG -- : -----------------------------------------

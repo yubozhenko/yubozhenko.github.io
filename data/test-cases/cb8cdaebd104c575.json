@@ -1,0 +1,87 @@
+{
+  "uid" : "cb8cdaebd104c575",
+  "name" : "Get Card cvc  fail 403 - three attempts  (OL-528, Incorrect PayPin - Three Attempts)-",
+  "fullName" : "Get Card cvc  fail 403 - three attempts.Get Card cvc  fail 403 - three attempts  (OL-528, Incorrect PayPin - Three Attempts)-",
+  "historyId" : "c34ed7dd76d6e3403c0c48f33cc5a550",
+  "time" : {
+    "start" : 1511799258555,
+    "stop" : 1511799264428,
+    "duration" : 5873
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b876e1967652c8d2",
+      "name" : "test_log",
+      "source" : "b876e1967652c8d2.txt",
+      "type" : "text/plain",
+      "size" : 7233
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as Oney live customer my paypin is blocked when i enter  a wrong paypin during any confirmation process (OL-140)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-528"
+  }, {
+    "name" : "thread",
+    "value" : "3625280"
+  }, {
+    "name" : "suite",
+    "value" : "Get Card cvc  fail 403 - three attempts"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Card cvc  fail 403 - three attempts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Card cvc  fail 403 - three attempts  (OL-528, Incorrect PayPin - Three Attempts)-"
+  }, {
+    "name" : "package",
+    "value" : "Get Card cvc  fail 403 - three attempts"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-528",
+    "url" : "https://jira.fidor.de/browse/OL-528",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb8cdaebd104c575.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

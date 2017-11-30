@@ -1,0 +1,87 @@
+{
+  "uid" : "19fffe1bfc1827df",
+  "name" : "Reset password  success 200 (OL-771, Happy Path)-",
+  "fullName" : "Reset password  success 200.Reset password  success 200 (OL-771, Happy Path)-",
+  "historyId" : "7cbe4d123c19b76fd0e5fc7376c6a0a5",
+  "time" : {
+    "start" : 1511799246354,
+    "stop" : 1511799252042,
+    "duration" : 5688
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "509470875211fb2",
+      "name" : "test_log",
+      "source" : "509470875211fb2.txt",
+      "type" : "text/plain",
+      "size" : 4352
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Reset password service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as Oney live customer i want to reset my password after 3  wrong password attempts (OL-141)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-771"
+  }, {
+    "name" : "thread",
+    "value" : "12054840"
+  }, {
+    "name" : "suite",
+    "value" : "Reset password  success 200"
+  }, {
+    "name" : "testClass",
+    "value" : "Reset password  success 200"
+  }, {
+    "name" : "testMethod",
+    "value" : "Reset password  success 200 (OL-771, Happy Path)-"
+  }, {
+    "name" : "package",
+    "value" : "Reset password  success 200"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-771",
+    "url" : "https://jira.fidor.de/browse/OL-771",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19fffe1bfc1827df.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

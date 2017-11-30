@@ -1,0 +1,5409 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Update customer service",
+    "children" : [ {
+      "name" : "as an Oney live client i want to update my email/ address so that my private info remains updated(OL-416)",
+      "children" : [ {
+        "name" : "Update Customer  fail 422  (OL-1333, Customer info is not updated if post code has invalid format (letters))-",
+        "uid" : "a04d3c72c136c67b",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799576944,
+          "stop" : 1511799582024,
+          "duration" : 5080
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '*')-",
+        "uid" : "7a2f268b87e9badb",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799453709,
+          "stop" : 1511799458062,
+          "duration" : 4353
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1315, Customer info is not updated if email field is blank)-",
+        "uid" : "e1f1f4065720318b",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799414843,
+          "stop" : 1511799416234,
+          "duration" : 1391
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '!')-",
+        "uid" : "6138c404c81c84e8",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799422945,
+          "stop" : 1511799425538,
+          "duration" : 2593
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1379, Customer info is not updated if phone field is invalid (spec char))-",
+        "uid" : "a40d618435da8790",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799607002,
+          "stop" : 1511799611768,
+          "duration" : 4766
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1326, Customer info is not updated street number field has more than 10 symbols)-",
+        "uid" : "fa98a1ed00faf569",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799481329,
+          "stop" : 1511799487453,
+          "duration" : 6124
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1380, Customer info is not updated if phone field has more than 16 symbols)-",
+        "uid" : "b2ad18f0122c52de",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799611769,
+          "stop" : 1511799613602,
+          "duration" : 1833
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '^')-",
+        "uid" : "a2b5a9d00d510a80",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799442713,
+          "stop" : 1511799446866,
+          "duration" : 4153
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1336, Customer info is not updated if country field is blank)-",
+        "uid" : "8b12fa68fe557303",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799582025,
+          "stop" : 1511799587468,
+          "duration" : 5443
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char ']')-",
+        "uid" : "53e3bb79f2b8c7e0",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799397753,
+          "stop" : 1511799402202,
+          "duration" : 4449
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '@')-",
+        "uid" : "cd8018fe4dedbea3",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799493475,
+          "stop" : 1511799499953,
+          "duration" : 6478
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1322, Customer info is not updated city field is blank)-",
+        "uid" : "dbc1b0b17c8348d0",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799419384,
+          "stop" : 1511799422945,
+          "duration" : 3561
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1304, Customer info is not updated if email has invalid format (No dot in the domain part))-",
+        "uid" : "d492c07cc19637d3",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799412181,
+          "stop" : 1511799413163,
+          "duration" : 982
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1304, Customer info is not updated if email has invalid format (two '@' chars))-",
+        "uid" : "263938c6bfd0e5ad",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799407191,
+          "stop" : 1511799409058,
+          "duration" : 1867
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '%')-",
+        "uid" : "dcb218a32e88816e",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799440561,
+          "stop" : 1511799442712,
+          "duration" : 2151
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1299, Customer info is not updated if already registered email is used)-",
+        "uid" : "14cddbb86f0e7f0d",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799352782,
+          "stop" : 1511799358170,
+          "duration" : 5388
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char \"'\")-",
+        "uid" : "82f0562db2e1d64",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799404231,
+          "stop" : 1511799405347,
+          "duration" : 1116
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1325, Customer info is not updated street field is blank)-",
+        "uid" : "2b7b4715a8ab49b5",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799475098,
+          "stop" : 1511799481327,
+          "duration" : 6229
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '(')-",
+        "uid" : "272c5ef53be929bc",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799368126,
+          "stop" : 1511799372103,
+          "duration" : 3977
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '(')-",
+        "uid" : "bf2084669b11f00",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799458063,
+          "stop" : 1511799460724,
+          "duration" : 2661
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '(')-",
+        "uid" : "3cb6eb53496763f7",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799539095,
+          "stop" : 1511799546070,
+          "duration" : 6975
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '&')-",
+        "uid" : "2a6c63ff1b432ab0",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799446868,
+          "stop" : 1511799453708,
+          "duration" : 6840
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '%')-",
+        "uid" : "7a9d79f30299b85e",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799513438,
+          "stop" : 1511799520824,
+          "duration" : 7386
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 403  (OL-947, Customer is not updated if incorrect PayPin has been entered 3 times)-",
+        "uid" : "58d10be3b2e841dc",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799343653,
+          "stop" : 1511799352782,
+          "duration" : 9129
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1329, Customer info is not updated if post code is blank)-",
+        "uid" : "bd2c0cb83997a9eb",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799564696,
+          "stop" : 1511799568661,
+          "duration" : 3965
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 401  (OL-937, Customer is not updated if PayPin is blank)-",
+        "uid" : "986d592a3e824b95",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799338166,
+          "stop" : 1511799343653,
+          "duration" : 5487
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 401  (OL-945, Customer info is not updated if incorrect PayPin has been entered once)-",
+        "uid" : "82d0038e687e305",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799318251,
+          "stop" : 1511799329169,
+          "duration" : 10918
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1304, Customer info is not updated if email has invalid format (dots at beggining and end of local part))-",
+        "uid" : "78d70d25d05051be",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799409058,
+          "stop" : 1511799410698,
+          "duration" : 1640
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '@')-",
+        "uid" : "a43aae62acc67a4a",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799425539,
+          "stop" : 1511799431510,
+          "duration" : 5971
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '$')-",
+        "uid" : "a36d1064a6c08e42",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799436286,
+          "stop" : 1511799440561,
+          "duration" : 4275
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  success 204  (OL-934, Customer Address is updated in case correct PayPin is provided)-Test was skipped, because of unresolved defects (OL-1400) ",
+        "uid" : "a2e6366d7340631a",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799307319,
+          "stop" : 1511799307320,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char ';')-",
+        "uid" : "da283b796ee9a193",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799377945,
+          "stop" : 1511799381101,
+          "duration" : 3156
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '+')-",
+        "uid" : "1aad1ed651d144ff",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799464200,
+          "stop" : 1511799469481,
+          "duration" : 5281
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '*')-",
+        "uid" : "619567d67998c909",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799533989,
+          "stop" : 1511799539094,
+          "duration" : 5105
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1321, Customer info is not updated city field is more than 100 symbols)-",
+        "uid" : "96aecce64a4e728b",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799416234,
+          "stop" : 1511799419383,
+          "duration" : 3149
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '#')-",
+        "uid" : "2cf551cd506d28ca",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799499954,
+          "stop" : 1511799506362,
+          "duration" : 6408
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1314, Customer info is not updated if email has more than 50 symbols)-",
+        "uid" : "22ccda1d696cda84",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799413164,
+          "stop" : 1511799414842,
+          "duration" : 1678
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1304, Customer info is not updated if has email invalid format (no '@' character))-",
+        "uid" : "3a1878b9eac9a50e",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799410699,
+          "stop" : 1511799412180,
+          "duration" : 1481
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1379, Customer info is not updated if phone field is invalid (letters))-",
+        "uid" : "d9ec689aa6ca8300",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799603154,
+          "stop" : 1511799607002,
+          "duration" : 3848
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '>')-",
+        "uid" : "e4570a7c6950f037",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799385029,
+          "stop" : 1511799390443,
+          "duration" : 5414
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char %)-",
+        "uid" : "3987dd73d274c1e4",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799364281,
+          "stop" : 1511799368125,
+          "duration" : 3844
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char ')')-",
+        "uid" : "1cc7447e88f0e9f2",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799546071,
+          "stop" : 1511799551803,
+          "duration" : 5732
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '$')-",
+        "uid" : "ae1e31183e877168",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799506363,
+          "stop" : 1511799513438,
+          "duration" : 7075
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1324, Customer info is not updated street field has more than 100 symbols)-",
+        "uid" : "42dbfcc3bcce03f2",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799469483,
+          "stop" : 1511799475097,
+          "duration" : 5614
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1328, Customer info is not updated street number is blank)-",
+        "uid" : "17550a4baa44b4ea",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799555881,
+          "stop" : 1511799564695,
+          "duration" : 8814
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1333, Customer info is not updated if post code has invalid format(spec chars))-",
+        "uid" : "44268782caf9704b",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799573045,
+          "stop" : 1511799576943,
+          "duration" : 3898
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  success 204  (OL-1381, Customer info is updated if phone has correct format and valid data)-",
+        "uid" : "484656ea09c5d2d8",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799312401,
+          "stop" : 1511799318249,
+          "duration" : 5848
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char ')')-",
+        "uid" : "d4d2e95c092afae3",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799372103,
+          "stop" : 1511799374439,
+          "duration" : 2336
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '\\')-",
+        "uid" : "255ff619e3b711aa",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799402203,
+          "stop" : 1511799404231,
+          "duration" : 2028
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '|')-",
+        "uid" : "e6c905ef6e63a80",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799405348,
+          "stop" : 1511799407190,
+          "duration" : 1842
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '$')-",
+        "uid" : "6a8b86ca15fa0fb6",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799360727,
+          "stop" : 1511799364280,
+          "duration" : 3553
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '[')-",
+        "uid" : "1b4aac5bdaa37d1e",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799395587,
+          "stop" : 1511799397752,
+          "duration" : 2165
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char ',')-",
+        "uid" : "bc88ae82146d9406",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799374440,
+          "stop" : 1511799375776,
+          "duration" : 1336
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1339, Customer info is not updated if country field is invalid(more than 3 chars))-",
+        "uid" : "36620665250b6f5b",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799590647,
+          "stop" : 1511799595912,
+          "duration" : 5265
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '^')-",
+        "uid" : "e127ae1b5ae0587f",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799520825,
+          "stop" : 1511799526577,
+          "duration" : 5752
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  success 204  (OL-1313, Customer info is updated if email has up to 50 symbols)-",
+        "uid" : "edf6e01162098b10",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799307320,
+          "stop" : 1511799312401,
+          "duration" : 5081
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '<')-",
+        "uid" : "8b1134337f7594eb",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799381102,
+          "stop" : 1511799385029,
+          "duration" : 3927
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '#')-",
+        "uid" : "c9859ec89282fdd0",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799431512,
+          "stop" : 1511799436286,
+          "duration" : 4774
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1378, Customer info is not updated if phone field is blank)-",
+        "uid" : "3ff676812c958e34",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799595913,
+          "stop" : 1511799603153,
+          "duration" : 7240
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '@')-",
+        "uid" : "ffd3e3039c7cd1ab",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799390444,
+          "stop" : 1511799395586,
+          "duration" : 5142
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 401  (OL-946, Customer info is not updated if incorrect PayPin has been entered 2 times)-",
+        "uid" : "32765bb06e69dc60",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799329170,
+          "stop" : 1511799338166,
+          "duration" : 8996
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  success 204  (OL-727, Email is updated if correct PayPin is provided)-Test was skipped, because of unresolved defects (OL-1400) ",
+        "uid" : "a3e35bb9abe3bc3c",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799307317,
+          "stop" : 1511799307319,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '!')-",
+        "uid" : "2b7f2c9b0deece7",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799487453,
+          "stop" : 1511799493473,
+          "duration" : 6020
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1332, Customer info is not updated if post code has more than 5 symbols)-",
+        "uid" : "8ed716712b4a09da",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799568661,
+          "stop" : 1511799573044,
+          "duration" : 4383
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '#')-",
+        "uid" : "e5e4132852e29545",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799358171,
+          "stop" : 1511799360726,
+          "duration" : 2555
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1339, Customer info is not updated if country field is invalid)-",
+        "uid" : "77256ab9093fd72f",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799587469,
+          "stop" : 1511799590647,
+          "duration" : 3178
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '&')-",
+        "uid" : "7960f824a5376295",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799526577,
+          "stop" : 1511799533988,
+          "duration" : 7411
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '+')-",
+        "uid" : "40b51d63aa2c7b38",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799551804,
+          "stop" : 1511799555880,
+          "duration" : 4076
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char ':')-",
+        "uid" : "5e0920f373ca1c33",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799375777,
+          "stop" : 1511799377945,
+          "duration" : 2168
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char ')')-",
+        "uid" : "ffd36f69fc6156f1",
+        "parentUid" : "add18d3283098a5ad25ad3873ac55a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799460725,
+          "stop" : 1511799464199,
+          "duration" : 3474
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "add18d3283098a5ad25ad3873ac55a08"
+    } ],
+    "uid" : "1804dcdbad42e4a1469b7586fbd71a63"
+  }, {
+    "name" : "Transactions service",
+    "children" : [ {
+      "name" : "as OL client I want to change the Limit Per Transactions, Daily Limit and Limit per ATM withdrawal (OL-26)",
+      "children" : [ {
+        "name" : "Get Transactions  success 200 (OL-760, Merchant - Payment)-Test was skipped, because of unresolved defects (OL-913)  (OL-1429) ",
+        "uid" : "a5aaa24bd8c60d67",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799465179,
+          "stop" : 1511799465180,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Transactions  success 200 (OL-759, Merchant - Purchase Return)-Test was skipped, because of unresolved defects (OL-913) ",
+        "uid" : "36d2a222140dd1b4",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799465178,
+          "stop" : 1511799465179,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Transactions  success 200 (OL-758, Merchant - Fee Collection)-",
+        "uid" : "2a42fdcf1fbb2fc8",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799451926,
+          "stop" : 1511799465178,
+          "duration" : 13252
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Transactions  success 200 (OL-761, Merchant - Fee Return)-Test was skipped, because of unresolved defects (OL-913) ",
+        "uid" : "5d6e53813de9fa0e",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799465180,
+          "stop" : 1511799465181,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Transactions  success 200 (OL-751, Merchant - Letters and Numbers)-",
+        "uid" : "a55f03fdd8ab3ba5",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799328267,
+          "stop" : 1511799368297,
+          "duration" : 40030
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Transactions  success 200 (OL-753, Merchant - Purchase)-",
+        "uid" : "f838682fedb0a9d0",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799382613,
+          "stop" : 1511799397070,
+          "duration" : 14457
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Transactions  success 200 (OL-756, Merchant - Cash Disbursement)-",
+        "uid" : "424c79c7eaa697c",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799419088,
+          "stop" : 1511799433731,
+          "duration" : 14643
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Transactions  success 200 (OL-755, Merchant - Purchase with Cashback)-",
+        "uid" : "153e37fb5741eae4",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799409262,
+          "stop" : 1511799419087,
+          "duration" : 9825
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Transactions  success 200 (OL-754, Merchant - ATM Withdrawal)-",
+        "uid" : "54475d9dd68e4f",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799397071,
+          "stop" : 1511799409262,
+          "duration" : 12191
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Transactions  success 200 (OL-752, Merchant - Special Characters)-",
+        "uid" : "a261f6c130d57771",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799368297,
+          "stop" : 1511799382613,
+          "duration" : 14316
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Perform transaction with Pre Authorization success 200 (OL-1479, Clearing of Unique transaction is performed after preauthorization)-",
+        "uid" : "40ee974f4dc11c25",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799268854,
+          "stop" : 1511799268857,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Perform transaction with Pre Authorization success 200 (OL-1464, Clearing of Purchase is performed after preauthorization)-",
+        "uid" : "6c7847f2c662c63a",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799268834,
+          "stop" : 1511799268838,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Perform transaction with Pre Authorization success 200 (OL-1482, Clearing of Fee collection is performed after preauthorization)-",
+        "uid" : "b57ce1c06156098f",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799268858,
+          "stop" : 1511799268862,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Transactions  success 200 (OL-757, Merchant - Unique Transactions)-",
+        "uid" : "dc41ef97a07c391",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799433731,
+          "stop" : 1511799451926,
+          "duration" : 18195
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Perform transaction with Pre Authorization success 200 (OL-1473, Clearing of Purchase with cashback is performed after preauthorization)-",
+        "uid" : "39a82b4a9d28a3eb",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799268844,
+          "stop" : 1511799268848,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Perform transaction with Pre Authorization success 200 (OL-1471, Clearing of ATM withdrawal  is performed after preauthorization)-",
+        "uid" : "8982ce452c252b0f",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799268840,
+          "stop" : 1511799268843,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Perform transaction with Pre Authorization success 200 (OL-1477, Clearing of Cash disbursement is performed after preauthorization)-",
+        "uid" : "472280cca5559783",
+        "parentUid" : "f9d1227fceadb257f2b47100addeaf66",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799268849,
+          "stop" : 1511799268852,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f9d1227fceadb257f2b47100addeaf66"
+    } ],
+    "uid" : "7ce480eb948f597b9c73c301ebdcaf24"
+  }, {
+    "name" : "User registration service",
+    "children" : [ {
+      "name" : "Customer creation via Onboarding service (OL-724)",
+      "children" : [ {
+        "name" : "User registration via onboarding fail 422  (OL-724, MSISDN - Already Registered)-",
+        "uid" : "2af9b5b62acdff75",
+        "parentUid" : "fae7e0f040a2222951dacb904234f73b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799633938,
+          "stop" : 1511799633939,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration via onboarding fail 422  (OL-724, Create Account - Name - Numbers and Special Characters)-",
+        "uid" : "ce864d530efc0a33",
+        "parentUid" : "fae7e0f040a2222951dacb904234f73b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799633951,
+          "stop" : 1511799633952,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration via onboarding fail 422  (OL-724, Gender - Invalid Gender)-",
+        "uid" : "1de9656451f63191",
+        "parentUid" : "fae7e0f040a2222951dacb904234f73b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799633943,
+          "stop" : 1511799633944,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration via onboarding fail 422  (OL-724, Create Account - Birthday - Invalid Date - Invalid Format)-",
+        "uid" : "d9a247577d72119e",
+        "parentUid" : "fae7e0f040a2222951dacb904234f73b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799633948,
+          "stop" : 1511799633949,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration via onboarding fail 422  (OL-724, Title - Invalid Title)-",
+        "uid" : "63f7f082a13d8648",
+        "parentUid" : "fae7e0f040a2222951dacb904234f73b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799633940,
+          "stop" : 1511799633941,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration via onboarding fail 422  (OL-724, Email - Already Registered)-",
+        "uid" : "c556aaa8d0631099",
+        "parentUid" : "fae7e0f040a2222951dacb904234f73b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799633933,
+          "stop" : 1511799633934,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration via onboarding fail 422  (OL-724, Create Account - Birthday - Invalid Date - Valid Format)-",
+        "uid" : "224de26005f5a38",
+        "parentUid" : "fae7e0f040a2222951dacb904234f73b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799633946,
+          "stop" : 1511799633946,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration via onboarding success 200  (OL-1143, Customer can be created with all required/not required fields)-",
+        "uid" : "51a31663aa637d86",
+        "parentUid" : "fae7e0f040a2222951dacb904234f73b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799613603,
+          "stop" : 1511799633927,
+          "duration" : 20324
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration via onboarding fail 422  (OL-724, Mandatory Field Is Missed)-",
+        "uid" : "72646493388b20f4",
+        "parentUid" : "fae7e0f040a2222951dacb904234f73b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799633935,
+          "stop" : 1511799633936,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration via onboarding fail 422  (, Email Address Presence - Invalid Length(more than 50 characters))-",
+        "uid" : "c4dba1d5eed7bfd7",
+        "parentUid" : "fae7e0f040a2222951dacb904234f73b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799633953,
+          "stop" : 1511799634105,
+          "duration" : 152
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration via onboarding fail 422  (OL-724, Email more than 50 charachters)-",
+        "uid" : "cf7c56f15a7b466c",
+        "parentUid" : "fae7e0f040a2222951dacb904234f73b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799633927,
+          "stop" : 1511799633929,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration via onboarding fail 422  (OL-724, Email - Invalid Format)-",
+        "uid" : "f3422de8e324f65e",
+        "parentUid" : "fae7e0f040a2222951dacb904234f73b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799633930,
+          "stop" : 1511799633931,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fae7e0f040a2222951dacb904234f73b"
+    }, {
+      "name" : "As OL Client i want to enter my personal information so that a client is created (OL-146)",
+      "children" : [ {
+        "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (')'))-",
+        "uid" : "6ce6ba193c4703de",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799392289,
+          "stop" : 1511799393673,
+          "duration" : 1384
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters ([))-",
+        "uid" : "3d29353675bdf025",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799400695,
+          "stop" : 1511799401858,
+          "duration" : 1163
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (|))-",
+        "uid" : "3d81daca7bdbf8d7",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799404274,
+          "stop" : 1511799404611,
+          "duration" : 337
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-342, Account is NOT created if user used the BD with invalid date (Account is NOT created if user used the BD with invalid date))-",
+        "uid" : "642d21cfea45e01d",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799408565,
+          "stop" : 1511799409286,
+          "duration" : 721
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (;))-",
+        "uid" : "7bd175d521a91d4e",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799396349,
+          "stop" : 1511799396939,
+          "duration" : 590
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters('))-",
+        "uid" : "883b5f7623038d9c",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799372145,
+          "stop" : 1511799373116,
+          "duration" : 971
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(-))-",
+        "uid" : "4d97995dcb0170c8",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799363918,
+          "stop" : 1511799365503,
+          "duration" : 1585
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(?))-",
+        "uid" : "59dc34d68514f423",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799374944,
+          "stop" : 1511799375336,
+          "duration" : 392
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters ('))-",
+        "uid" : "47436ad994121cd1",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799403372,
+          "stop" : 1511799404273,
+          "duration" : 901
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (not a manual test case, Email - Invalid Length)-",
+        "uid" : "94273d542c05978d",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799414044,
+          "stop" : 1511799414046,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-323, Account is created if user used a regular email during an account creation)-",
+        "uid" : "8b6d01d41e107b0f",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799360389,
+          "stop" : 1511799361701,
+          "duration" : 1312
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (]))-",
+        "uid" : "2de453ecf879508e",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799401858,
+          "stop" : 1511799402962,
+          "duration" : 1104
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(/))-",
+        "uid" : "8079562cdafe4b8b",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799374482,
+          "stop" : 1511799374943,
+          "duration" : 461
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-335, Name - Numbers and Special Characters)-",
+        "uid" : "aa3dfa1309fa7da0",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799413360,
+          "stop" : 1511799414043,
+          "duration" : 683
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-361, Title - Invalid Title)-",
+        "uid" : "cfb745ee9151e825",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799406388,
+          "stop" : 1511799407845,
+          "duration" : 1457
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check login field presence  success 200  (OL-325, Email - Already Registered)-",
+        "uid" : "2b251bc78abc377a",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799390615,
+          "stop" : 1511799391610,
+          "duration" : 995
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check login field presence  success 200  (OL-336, MSISDN - Invalid Length)-",
+        "uid" : "d1974559b02ba119",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799395458,
+          "stop" : 1511799396307,
+          "duration" : 849
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(&))-",
+        "uid" : "7f44e06be8657c2b",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799370870,
+          "stop" : 1511799372144,
+          "duration" : 1274
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(^))-",
+        "uid" : "65746c86308cba6a",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799375337,
+          "stop" : 1511799375853,
+          "duration" : 516
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters({|}))-",
+        "uid" : "88de0b46e99570bd",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799377489,
+          "stop" : 1511799378069,
+          "duration" : 580
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(`))-",
+        "uid" : "1e08eb4b0afe4d3c",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799376823,
+          "stop" : 1511799377489,
+          "duration" : 666
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-339, Account is created if password has 8 characters)-",
+        "uid" : "fa24d9dac2dc9347",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799380544,
+          "stop" : 1511799381627,
+          "duration" : 1083
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (,))-",
+        "uid" : "3b484c8f57a134eb",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799393674,
+          "stop" : 1511799395501,
+          "duration" : 1827
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(~))-",
+        "uid" : "1ca7273faff5dab2",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799378069,
+          "stop" : 1511799379442,
+          "duration" : 1373
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-342, Account is NOT created if user used the BD with invalid date (Year and month is ok, but the day > 31))-",
+        "uid" : "5375e3a8e6cf9144",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799410725,
+          "stop" : 1511799411157,
+          "duration" : 432
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (>))-",
+        "uid" : "3f8cdfbddf5b9d37",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799397416,
+          "stop" : 1511799399952,
+          "duration" : 2536
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-364, Account is created if different verification Tokens are provided (Special characters))-",
+        "uid" : "1843364f6d05759e",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799383534,
+          "stop" : 1511799385904,
+          "duration" : 2370
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (:))-",
+        "uid" : "b14772a87fbed86e",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799395502,
+          "stop" : 1511799396349,
+          "duration" : 847
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters($))-",
+        "uid" : "2bd4d6368f2fb091",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799367498,
+          "stop" : 1511799368337,
+          "duration" : 839
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-342, Account is NOT created if user used the BD with invalid date (Year and day is ok, but the month is 00))-",
+        "uid" : "4b0a9395da6b6fcf",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799409287,
+          "stop" : 1511799409633,
+          "duration" : 346
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-343, Birthday - Invalid Date - Invalid Format(with letter))-",
+        "uid" : "1ed3dcffef69fae9",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799412599,
+          "stop" : 1511799412722,
+          "duration" : 123
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (\\))-",
+        "uid" : "43f454a1a52b3ed4",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799402962,
+          "stop" : 1511799403372,
+          "duration" : 410
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (@))-",
+        "uid" : "fefff5f2e52e17dc",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799399953,
+          "stop" : 1511799400694,
+          "duration" : 741
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-376, Account is NOT createdif Invalid Affiliate ID is provided)-",
+        "uid" : "116a2be204f06d9e",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799414049,
+          "stop" : 1511799415583,
+          "duration" : 1534
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-377, OL-340,  OL-377, OL-372,  OL-341, OL-360, OL-367,  OL-369, OL-375, Mandatory Fields are Valid)-Test was skipped, because of unresolved defects (OL-1117) ",
+        "uid" : "a0dacb16e66ac38",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799360386,
+          "stop" : 1511799360389,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-362, US Citizen / Tax Payer - Valid Values)-",
+        "uid" : "e26839aa5735af3",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799361701,
+          "stop" : 1511799362980,
+          "duration" : 1279
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-364, Account is created if different verification Tokens are provided (letters + numbers))-",
+        "uid" : "6ad883f0b0b984fc",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799381629,
+          "stop" : 1511799383534,
+          "duration" : 1905
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-327, Email - Invalid Format)-",
+        "uid" : "e4ae3b44d5aaf03a",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799390471,
+          "stop" : 1511799391481,
+          "duration" : 1010
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-343, Birthday - Invalid Date - Invalid Format(with special charachter))-",
+        "uid" : "6540c2065bd16385",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799412723,
+          "stop" : 1511799413360,
+          "duration" : 637
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(_))-",
+        "uid" : "d6f87e15cb3977ad",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799375854,
+          "stop" : 1511799376823,
+          "duration" : 969
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-331, Email - Already Registered)-",
+        "uid" : "268dda83c5142fe4",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799404612,
+          "stop" : 1511799404812,
+          "duration" : 200
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(=))-",
+        "uid" : "b4cb40f4c63d0836",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799373715,
+          "stop" : 1511799374481,
+          "duration" : 766
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-342, Account is NOT created if user used the BD with invalid date (Year and day is ok, but the month is > 12))-",
+        "uid" : "e3774b5e5dbf28c9",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799409633,
+          "stop" : 1511799410724,
+          "duration" : 1091
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(!))-",
+        "uid" : "69fbf1dad82801a1",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799365503,
+          "stop" : 1511799366636,
+          "duration" : 1133
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-368, Gender - Invalid Gender)-",
+        "uid" : "868512c917bc2649",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799407845,
+          "stop" : 1511799408564,
+          "duration" : 719
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-343, Birthday - Invalid Date - Invalid Format(dashes only))-",
+        "uid" : "faad32e817fd29fc",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799412210,
+          "stop" : 1511799412598,
+          "duration" : 388
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check login field presence  success 200  (OL-324, MSISDN - Number Is Not Registered)-",
+        "uid" : "f1e37c47914fb8db",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799388853,
+          "stop" : 1511799389940,
+          "duration" : 1087
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(+))-",
+        "uid" : "216a2fe3ac1abb6c",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799362980,
+          "stop" : 1511799363918,
+          "duration" : 938
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-371, MSISDN - Already Registered)-",
+        "uid" : "4f2d59843e797a8a",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799405374,
+          "stop" : 1511799406388,
+          "duration" : 1014
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-343, Birthday - Invalid Date - Invalid Format)-",
+        "uid" : "177b6cf3fd6aff38",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799411699,
+          "stop" : 1511799412209,
+          "duration" : 510
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (())-",
+        "uid" : "a0cb08b30aecdaee",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799391481,
+          "stop" : 1511799392289,
+          "duration" : 808
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(%))-",
+        "uid" : "7b6cf5e7a2849e1a",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799368338,
+          "stop" : 1511799370869,
+          "duration" : 2531
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-333, Name - Regular Name)-",
+        "uid" : "2c7dc044ca1d1088",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799379443,
+          "stop" : 1511799380544,
+          "duration" : 1101
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check login field presence  success 200  (OL-334, Email Address Presence - Invalid Length)-",
+        "uid" : "355cb9c06618791e",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799392305,
+          "stop" : 1511799395458,
+          "duration" : 3153
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (<))-",
+        "uid" : "f1ab25f21977d34b",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799396939,
+          "stop" : 1511799397416,
+          "duration" : 477
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check login field presence  success 200  (OL-328, Email - Not Registered)-",
+        "uid" : "bca905786fbe6666",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799391611,
+          "stop" : 1511799392304,
+          "duration" : 693
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-337, Password - Less than 8 Characters)-",
+        "uid" : "9abefb9c041bec2",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799389273,
+          "stop" : 1511799390471,
+          "duration" : 1198
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-342, Account is NOT created if user used the BD with invalid date (Year and month is ok, but the day is '00'))-",
+        "uid" : "66c4e32b8bc22579",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799411158,
+          "stop" : 1511799411699,
+          "duration" : 541
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check login field presence  success 200  (OL-320, MSISDN - Already Registered)-",
+        "uid" : "66aced04917f905c",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799389941,
+          "stop" : 1511799390615,
+          "duration" : 674
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(#))-",
+        "uid" : "99f12909752660c8",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799366637,
+          "stop" : 1511799367497,
+          "duration" : 860
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  fail 422  (OL-322, Mandatory Field Is Missed)-",
+        "uid" : "f66180b97374c5d2",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799404812,
+          "stop" : 1511799405373,
+          "duration" : 561
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(*))-",
+        "uid" : "b5dfd5aa353be37a",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799373117,
+          "stop" : 1511799373715,
+          "duration" : 598
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User registration  success 201  (OL-364, Account is created if different verification Tokens are provided (128-characters length))-",
+        "uid" : "36c8360887597051",
+        "parentUid" : "0e94a032fa7d1d18715b1cf2d7e61e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799385905,
+          "stop" : 1511799389272,
+          "duration" : 3367
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e94a032fa7d1d18715b1cf2d7e61e56"
+    } ],
+    "uid" : "16f44e51d4dc8fb91e71514ddccd5d10"
+  }, {
+    "name" : "Authentication service",
+    "children" : [ {
+      "name" : "as Prospect client i want to receive a SMS to check my phone number and bind my device so that the system is sure that the phone number belong to me (OL-31)",
+      "children" : [ {
+        "name" : "User authentication  fail 400  (OL-351, Incorrect Email and Correct Password)-",
+        "uid" : "c4cc70b9e5f73777",
+        "parentUid" : "5efe0b196ee442deb30f51b338792122",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799359733,
+          "stop" : 1511799360385,
+          "duration" : 652
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User authentication  fail 400  (OL-354, Correct Email and Incorrect Password)-",
+        "uid" : "580c04ac2dabc204",
+        "parentUid" : "5efe0b196ee442deb30f51b338792122",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799359156,
+          "stop" : 1511799359732,
+          "duration" : 576
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User authentication  fail 400  (OL-346, Correct MSISDN and Incorrect Password)-",
+        "uid" : "79699d432286d168",
+        "parentUid" : "5efe0b196ee442deb30f51b338792122",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799358085,
+          "stop" : 1511799359100,
+          "duration" : 1015
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User authentication  success 200  (OL-350, Correct Email and Password)-",
+        "uid" : "8f448a853b9ff868",
+        "parentUid" : "5efe0b196ee442deb30f51b338792122",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799350439,
+          "stop" : 1511799353507,
+          "duration" : 3068
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User authentication  success 200  (OL-344, Correct MSISDN and Password)-",
+        "uid" : "aef96ec00e27b302",
+        "parentUid" : "5efe0b196ee442deb30f51b338792122",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799353508,
+          "stop" : 1511799356819,
+          "duration" : 3311
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User authentication  fail 400  (OL-345, Incorrect MSISDN and Correct Password)-",
+        "uid" : "6593a7babef847e4",
+        "parentUid" : "5efe0b196ee442deb30f51b338792122",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799356820,
+          "stop" : 1511799358085,
+          "duration" : 1265
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User authentication  fail 400  (OL-348, Incorrect (Empty) Grant Type)-",
+        "uid" : "4fe0a9e102a1cb3f",
+        "parentUid" : "5efe0b196ee442deb30f51b338792122",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799359101,
+          "stop" : 1511799359156,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5efe0b196ee442deb30f51b338792122"
+    }, {
+      "name" : "as an Oney live App i want to be able to renew API tokens (OL-155)",
+      "children" : [ {
+        "name" : "Renew token  fail 400  (OL-408, Incorrect Refresh Token)-",
+        "uid" : "3c1860b9b9041c99",
+        "parentUid" : "7edf4c88a7257124e43999ec031891a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799374184,
+          "stop" : 1511799374622,
+          "duration" : 438
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Renew token  success 200  (OL-415, Client Credentials Grant Type)-",
+        "uid" : "6fd514d8f51673c",
+        "parentUid" : "7edf4c88a7257124e43999ec031891a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799374034,
+          "stop" : 1511799374183,
+          "duration" : 149
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Renew token  success 200  (OL-407, Password Grant Type)-",
+        "uid" : "edc8fb06d22280dd",
+        "parentUid" : "7edf4c88a7257124e43999ec031891a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799372745,
+          "stop" : 1511799374034,
+          "duration" : 1289
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7edf4c88a7257124e43999ec031891a3"
+    } ],
+    "uid" : "4e2e75bff43da3d3cb69eaaac59d10e8"
+  }, {
+    "name" : "Security Question service",
+    "children" : [ {
+      "name" : "as OL customer i can create my security question's answer so that i use it for future authentications (OL-148)",
+      "children" : [ {
+        "name" : "Set Security Answer  fail 422  (OL-417, Incorrect Question)-",
+        "uid" : "e24b2c6e807cca32",
+        "parentUid" : "e5307fc53b830cfe93b2037bbf3e64ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799321565,
+          "stop" : 1511799328266,
+          "duration" : 6701
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Questions List  success 200  (OL-411, Users are allowed to get question list with a token generated by password grant type)-",
+        "uid" : "94202177cda815ee",
+        "parentUid" : "e5307fc53b830cfe93b2037bbf3e64ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799265216,
+          "stop" : 1511799268833,
+          "duration" : 3617
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Question by MSISDN  fail 404  (OL-422, Question is not answered)-",
+        "uid" : "ff1ea046711225f2",
+        "parentUid" : "e5307fc53b830cfe93b2037bbf3e64ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799258600,
+          "stop" : 1511799279233,
+          "duration" : 20633
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Question by MSISDN  fail 404  (OL-420, Mobile phone doesn't match any customer)-",
+        "uid" : "18d0dea399a8607b",
+        "parentUid" : "e5307fc53b830cfe93b2037bbf3e64ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799279233,
+          "stop" : 1511799280478,
+          "duration" : 1245
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Questions List  fail 403  (OL-410, Users are not allowed to get the security questions list if they aren't authorized)-",
+        "uid" : "15f08da7b0cdf9d0",
+        "parentUid" : "e5307fc53b830cfe93b2037bbf3e64ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799265179,
+          "stop" : 1511799265216,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Question by MSISDN  success 200  (OL-423, The appropriate response with SQ is returned for MSISDN if it is answered)-",
+        "uid" : "f8db460e2fbac423",
+        "parentUid" : "e5307fc53b830cfe93b2037bbf3e64ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799257573,
+          "stop" : 1511799258599,
+          "duration" : 1026
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Set Security Answer  success 201  (OL-413, Valid Answer)-",
+        "uid" : "feaa3bf4452980a5",
+        "parentUid" : "e5307fc53b830cfe93b2037bbf3e64ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799315674,
+          "stop" : 1511799321564,
+          "duration" : 5890
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e5307fc53b830cfe93b2037bbf3e64ad"
+    } ],
+    "uid" : "391a491dd121ddd87d65d95197698af2"
+  }, {
+    "name" : "Accounts service",
+    "children" : [ {
+      "name" : "as OL client i want to see my private information so that I can know if my information is up-to-date (OL-45)",
+      "children" : [ {
+        "name" : "Get account data by id fail 404  (OL-710,  OL-714, IBAN - Id Does Not Belong to User)-",
+        "uid" : "ed49562ddf7372a1",
+        "parentUid" : "3d0a89d4da51bd97fcd1ba2a30a36841",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799248566,
+          "stop" : 1511799253446,
+          "duration" : 4880
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get account data by id success 200  (OL-664, IBAN - Correct Data)-Test was skipped, because of unresolved defects (OL-1251) ",
+        "uid" : "4375b1300720fb06",
+        "parentUid" : "3d0a89d4da51bd97fcd1ba2a30a36841",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799246313,
+          "stop" : 1511799246316,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get account data  success 200  (OL-707, Get Account Data)-",
+        "uid" : "a14989be88f0b9dc",
+        "parentUid" : "3d0a89d4da51bd97fcd1ba2a30a36841",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799253447,
+          "stop" : 1511799257572,
+          "duration" : 4125
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get account data by id fail 404  (OL-672, IBAN - Customer Id Does not Exist)-",
+        "uid" : "e9da3546ef1ca9e9",
+        "parentUid" : "3d0a89d4da51bd97fcd1ba2a30a36841",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799246316,
+          "stop" : 1511799248565,
+          "duration" : 2249
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3d0a89d4da51bd97fcd1ba2a30a36841"
+    } ],
+    "uid" : "897923a6f444bbf9dfbd4b542f38aa6c"
+  }, {
+    "name" : "Card service",
+    "children" : [ {
+      "name" : "as OL client i want to Get Paypin (OL-712)",
+      "children" : [ {
+        "name" : "Get Card Pin  success 200  (OL-692, PayPin is displayed after two incorrect CVC entering)-",
+        "uid" : "c6197ededcaf2507",
+        "parentUid" : "d66d5538236d66d0bc64f93adda1fe31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799251929,
+          "stop" : 1511799258523,
+          "duration" : 6594
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card Pin  success 200  (OL-690, Paypin is displayed after two incorrect Security Question entering)-",
+        "uid" : "3d01a840ca5bc5ae",
+        "parentUid" : "d66d5538236d66d0bc64f93adda1fe31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799258523,
+          "stop" : 1511799264135,
+          "duration" : 5612
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card Pin  fail 401  (OL-694, Security Question and CVC - Invalid)-",
+        "uid" : "b0333d3f499f1293",
+        "parentUid" : "d66d5538236d66d0bc64f93adda1fe31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799281325,
+          "stop" : 1511799287212,
+          "duration" : 5887
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card Pin  fail 403 - three attempts  (OL-693, TC - Account is locked after getting Paypin with incorrect CVC entered 3 times in a row)-",
+        "uid" : "cc06d9dca469e401",
+        "parentUid" : "d66d5538236d66d0bc64f93adda1fe31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799298207,
+          "stop" : 1511799307241,
+          "duration" : 9034
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card Pin  fail 401  (OL-686, Security Question - Incorrect value)-",
+        "uid" : "239a338f7df8978e",
+        "parentUid" : "d66d5538236d66d0bc64f93adda1fe31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799264139,
+          "stop" : 1511799267445,
+          "duration" : 3306
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card Pin  fail 401  (OL-689, CVC - Not Valid)-",
+        "uid" : "7669c993309b30b4",
+        "parentUid" : "d66d5538236d66d0bc64f93adda1fe31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799276605,
+          "stop" : 1511799281324,
+          "duration" : 4719
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card Pin  fail 404  (OL-684, can not get Paypin with a not yet registered card)-",
+        "uid" : "84e0c7f806270002",
+        "parentUid" : "d66d5538236d66d0bc64f93adda1fe31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799293480,
+          "stop" : 1511799298206,
+          "duration" : 4726
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card Pin  fail 404  (OL-683, Card ID - does not belong to user)-",
+        "uid" : "26ecf19483530fd6",
+        "parentUid" : "d66d5538236d66d0bc64f93adda1fe31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799287213,
+          "stop" : 1511799293479,
+          "duration" : 6266
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card Pin  fail 401  (OL-687, Security Answer - No value)-Test was skipped, because of unresolved defects (OL-736) ",
+        "uid" : "e73f56c3b7f18214",
+        "parentUid" : "d66d5538236d66d0bc64f93adda1fe31",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799271274,
+          "stop" : 1511799271276,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card Pin  fail 401  (OL-688, CVC - Not Entered)-",
+        "uid" : "66c7c2e1a646b961",
+        "parentUid" : "d66d5538236d66d0bc64f93adda1fe31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799271277,
+          "stop" : 1511799276604,
+          "duration" : 5327
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card Pin  fail 403 - three attempts  (OL-695, Security Question and CVC - Three Incorrect Attempts)-",
+        "uid" : "ed574754759f02b9",
+        "parentUid" : "d66d5538236d66d0bc64f93adda1fe31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799316475,
+          "stop" : 1511799327730,
+          "duration" : 11255
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card Pin  success 200  (OL-682, Valid Data)-",
+        "uid" : "bd0c91031ce4ad9e",
+        "parentUid" : "d66d5538236d66d0bc64f93adda1fe31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799246452,
+          "stop" : 1511799251928,
+          "duration" : 5476
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card Pin  fail 401  (OL-687, Security Question and Answer - No Value)-Test was skipped, because of unresolved defects (OL-736) ",
+        "uid" : "978a9f61dba06a9d",
+        "parentUid" : "d66d5538236d66d0bc64f93adda1fe31",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799264138,
+          "stop" : 1511799264139,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card Pin  fail 403 - three attempts  (OL-691, Security Question - Three Incorrect Attempts)-",
+        "uid" : "e8c549b71ad0afa7",
+        "parentUid" : "d66d5538236d66d0bc64f93adda1fe31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799307241,
+          "stop" : 1511799316475,
+          "duration" : 9234
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card Pin  fail 401  (OL-686, Security Answer - Incorrect value)-",
+        "uid" : "dbbf77ee29ed8493",
+        "parentUid" : "d66d5538236d66d0bc64f93adda1fe31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799267446,
+          "stop" : 1511799271273,
+          "duration" : 3827
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card Pin  fail 401  (OL-685, Security Question and CVC - Missing)-Test was skipped, because of unresolved defects (OL-736) ",
+        "uid" : "73e2ad17a3834f8d",
+        "parentUid" : "d66d5538236d66d0bc64f93adda1fe31",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799264136,
+          "stop" : 1511799264138,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d66d5538236d66d0bc64f93adda1fe31"
+    }, {
+      "name" : "as OL client I want to change the Limit Per Transactions, Daily Limit and Limit per ATM withdrawal (OL-26)",
+      "children" : [ {
+        "name" : "Set Card Limit  fail 422  (OL-800, Set Card Limit - Daily - Over Limit (more than 50 000 EUR))-Test was skipped, because of unresolved defects (OL-1169) ",
+        "uid" : "15598289684ff208",
+        "parentUid" : "49836d9e7a5bb43a1e9f8dfceb8c0c2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799271795,
+          "stop" : 1511799271796,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Set Card Limit  fail 401  (OL-816, Set Card Limit - Incorrect Paypin - Two Attempts)-",
+        "uid" : "b40e7b9968a1f5cb",
+        "parentUid" : "49836d9e7a5bb43a1e9f8dfceb8c0c2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799277508,
+          "stop" : 1511799285779,
+          "duration" : 8271
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Set Card Limit  fail 401  (OL-815, Set Card Limit - Incorrect Paypin)-",
+        "uid" : "b6c4d91011ae5e06",
+        "parentUid" : "49836d9e7a5bb43a1e9f8dfceb8c0c2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799271802,
+          "stop" : 1511799277507,
+          "duration" : 5705
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Set Card Limit  success 204  (OL-808, Set Card Limit - Transaction - Maximum(atm = 50 000 EUR, volume = 50 000 EUR))-",
+        "uid" : "6721ed8b2f5ca653",
+        "parentUid" : "49836d9e7a5bb43a1e9f8dfceb8c0c2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799257862,
+          "stop" : 1511799262465,
+          "duration" : 4603
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Set Card Limit  success 204  (OL-814, Set Card Limit - Daily - Maximum (volume = 50 000 EUR))-",
+        "uid" : "d3e2ccc9cfdcd0ea",
+        "parentUid" : "49836d9e7a5bb43a1e9f8dfceb8c0c2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799267081,
+          "stop" : 1511799271793,
+          "duration" : 4712
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Set Card Limit  success 204  (OL-806, Set Card Limit - Daily - Less Than 2000)-",
+        "uid" : "d0eaaf823b3d8996",
+        "parentUid" : "49836d9e7a5bb43a1e9f8dfceb8c0c2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799252044,
+          "stop" : 1511799257861,
+          "duration" : 5817
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Set Card Limit  success 204  (OL-799, Set Card Limit - ATM - Maximum ( atm - 2000 EUR))-",
+        "uid" : "f1c416191816624a",
+        "parentUid" : "49836d9e7a5bb43a1e9f8dfceb8c0c2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799246347,
+          "stop" : 1511799252044,
+          "duration" : 5697
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Set Card Limit  fail 422  (OL-813, Set Card Limit - ATM - More Than Transaction Limit(volume > singlle < 1999))-Test was skipped, because of unresolved defects (OL-942) ",
+        "uid" : "8b91237a28c1b9d6",
+        "parentUid" : "49836d9e7a5bb43a1e9f8dfceb8c0c2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799271801,
+          "stop" : 1511799271802,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Set Card Limit  fail 403  (OL-817, Set Card Limit - Incorrect Paypin - Three Attempts)-",
+        "uid" : "256a825e44445540",
+        "parentUid" : "49836d9e7a5bb43a1e9f8dfceb8c0c2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799285780,
+          "stop" : 1511799294273,
+          "duration" : 8493
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Set Card Limit  success 204  (OL-810, Set Card Limit - Transaction - Less Than 2000)-",
+        "uid" : "5d7de0be43f94e1e",
+        "parentUid" : "49836d9e7a5bb43a1e9f8dfceb8c0c2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799262465,
+          "stop" : 1511799267081,
+          "duration" : 4616
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Set Card Limit  fail 422  (OL-807, Set Card Limit - Daily - Less Than Transaction Limit (50 000 > single > volume))-Test was skipped, because of unresolved defects (OL-942) ",
+        "uid" : "f9617ac1bf77ae1a",
+        "parentUid" : "49836d9e7a5bb43a1e9f8dfceb8c0c2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799271797,
+          "stop" : 1511799271797,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Set Card Limit  fail 422  (OL-811, Set Card Limit - Transaction - Less Than ATM Limit (volume < atm < 1999.99))-Test was skipped, because of unresolved defects (OL-942) ",
+        "uid" : "83cb980411a70535",
+        "parentUid" : "49836d9e7a5bb43a1e9f8dfceb8c0c2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799271799,
+          "stop" : 1511799271800,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Set Card Limit  fail 403  (OL-819, Paypin Is Blocked (Set Card Limit))-",
+        "uid" : "7b401e5d3fcfc121",
+        "parentUid" : "49836d9e7a5bb43a1e9f8dfceb8c0c2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799294274,
+          "stop" : 1511799298699,
+          "duration" : 4425
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Set Card Limit  fail 422  (OL-812, Set Card Limit - ATM - Over Limit (atm = 2001))-Test was skipped, because of unresolved defects (OL-1169) ",
+        "uid" : "bc519f59a497b907",
+        "parentUid" : "49836d9e7a5bb43a1e9f8dfceb8c0c2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799271800,
+          "stop" : 1511799271801,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Set Card Limit  fail 422  (OL-809, Set Card Limit - Transaction - Over Limit (single = 50 001 EUR))-Test was skipped, because of unresolved defects (OL-1169) ",
+        "uid" : "660f1a08559ebebc",
+        "parentUid" : "49836d9e7a5bb43a1e9f8dfceb8c0c2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799271798,
+          "stop" : 1511799271799,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49836d9e7a5bb43a1e9f8dfceb8c0c2c"
+    }, {
+      "name" : "as OL client i want to block my card so that anyone isn't able to use it(OL-49)",
+      "children" : [ {
+        "name" : "Block Card  -  success 204  (OL-726, Card Is Locked - Correct Data)-",
+        "uid" : "168773ac758c829",
+        "parentUid" : "be5a64c58e46a462969302a9f942ca4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799250736,
+          "stop" : 1511799257100,
+          "duration" : 6364
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Block Card  -  fail 401  (OL-717, Incorrect PayPin - Two Attempts)-",
+        "uid" : "7b77bde63e03d391",
+        "parentUid" : "be5a64c58e46a462969302a9f942ca4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799265672,
+          "stop" : 1511799271389,
+          "duration" : 5717
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Block Card  -  success 204  (OL-716, Active Card - Correct Data)-",
+        "uid" : "3768449bbc44cdb1",
+        "parentUid" : "be5a64c58e46a462969302a9f942ca4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799246326,
+          "stop" : 1511799250736,
+          "duration" : 4410
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Block Card  -  success 204  (OL-802, Card Registration Completed - Correct Data)-Test was skipped, because of unresolved defects (OL-1170) ",
+        "uid" : "e3e275161b915504",
+        "parentUid" : "be5a64c58e46a462969302a9f942ca4c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799257101,
+          "stop" : 1511799257103,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Block Card  -  fail 403  (OL-732, No Card ID)-",
+        "uid" : "1421a6cf1233edb4",
+        "parentUid" : "be5a64c58e46a462969302a9f942ca4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799298092,
+          "stop" : 1511799301501,
+          "duration" : 3409
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Block Card  -  fail 404  (OL-725, Card Id Does Not Exist)-",
+        "uid" : "3736a288bdf7f42f",
+        "parentUid" : "be5a64c58e46a462969302a9f942ca4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799260747,
+          "stop" : 1511799265671,
+          "duration" : 4924
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Block Card  -  fail 403  (OL-720, PayPin is blocked)-",
+        "uid" : "fae5d43ef4bbd30e",
+        "parentUid" : "be5a64c58e46a462969302a9f942ca4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799290233,
+          "stop" : 1511799298091,
+          "duration" : 7858
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Block Card  -  fail 404  (OL-723, Card Id Does Not Belong to User)-",
+        "uid" : "afdd96505f4d75d3",
+        "parentUid" : "be5a64c58e46a462969302a9f942ca4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799257104,
+          "stop" : 1511799260746,
+          "duration" : 3642
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Block Card  -  fail 401  (OL-731, No PayPin)-",
+        "uid" : "a48eaf74087c06dc",
+        "parentUid" : "be5a64c58e46a462969302a9f942ca4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799271390,
+          "stop" : 1511799279376,
+          "duration" : 7986
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Block Card  -  fail 403  (OL-719, Incorrect PayPin - Three Attempts)-",
+        "uid" : "eb5c9091d6893aec",
+        "parentUid" : "be5a64c58e46a462969302a9f942ca4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799279377,
+          "stop" : 1511799290232,
+          "duration" : 10855
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "be5a64c58e46a462969302a9f942ca4c"
+    }, {
+      "name" : "as OL client i want to activate my card so that I can use my card (OL-47)as Oney live customer my paypin is blocked when i enter  a wrong paypin during any confirmation process (OL-140)",
+      "children" : [ {
+        "name" : "Card activation  fail 403  (OL-530, No Card Id  )-",
+        "uid" : "b3ee9675afe05ce6",
+        "parentUid" : "ba47ca057c23fc6196713081ad491cb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799266809,
+          "stop" : 1511799269209,
+          "duration" : 2400
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Card activation  fail 403  (OL-529, Valid Data - Card Already Activated   )-",
+        "uid" : "b938b6329fead4cb",
+        "parentUid" : "ba47ca057c23fc6196713081ad491cb5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799269210,
+          "stop" : 1511799275368,
+          "duration" : 6158
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Card activation  fail 403  (OL-579, PayPin is Blocked)-",
+        "uid" : "241b1cf9804e15ef",
+        "parentUid" : "ba47ca057c23fc6196713081ad491cb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799263413,
+          "stop" : 1511799266808,
+          "duration" : 3395
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ba47ca057c23fc6196713081ad491cb5"
+    }, {
+      "name" : "as OL client i want to create my paypin so that i can use it for future transactions (OL-147)",
+      "children" : [ {
+        "name" : "Create Card  success 201  (OL-596, Account with French Address)-",
+        "uid" : "3ec3058d6a1c3707",
+        "parentUid" : "a8ed40d3b4d84adf8bdb2e98345e75b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799383001,
+          "stop" : 1511799388852,
+          "duration" : 5851
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card  success 200  (no manual test case, User doesn't have a card)-",
+        "uid" : "3c1d0a0975a24a60",
+        "parentUid" : "a8ed40d3b4d84adf8bdb2e98345e75b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799298700,
+          "stop" : 1511799302406,
+          "duration" : 3706
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Card  fail 422  (OL-431, invalid Paypin data - the Paypin starts from 0)-",
+        "uid" : "2519827ca498b3b4",
+        "parentUid" : "a8ed40d3b4d84adf8bdb2e98345e75b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799373210,
+          "stop" : 1511799374903,
+          "duration" : 1693
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Card  fail 422  (OL-432, invalid Paypin data -  the Paypin contains descending consecutive digits)-Test was skipped, because of unresolved defects (OL-1241) ",
+        "uid" : "3bab08b35ffd69f4",
+        "parentUid" : "a8ed40d3b4d84adf8bdb2e98345e75b0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799374905,
+          "stop" : 1511799374906,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Card  fail 422  (OL-435, Already Created)-Test was skipped, because of unresolved defects (OL-1229) ",
+        "uid" : "19b67abc78002101",
+        "parentUid" : "a8ed40d3b4d84adf8bdb2e98345e75b0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799370405,
+          "stop" : 1511799370406,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Card  fail 422  (OL-432, invalid Paypin data -  the Paypin contains ascending consecutive digits)-Test was skipped, because of unresolved defects (OL-1241) ",
+        "uid" : "f3dbad0a1a388b2e",
+        "parentUid" : "a8ed40d3b4d84adf8bdb2e98345e75b0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799374904,
+          "stop" : 1511799374905,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Card  success 201  (no manual test case, No Paypin value inserted)-",
+        "uid" : "2a7c1eea1f100499",
+        "parentUid" : "a8ed40d3b4d84adf8bdb2e98345e75b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799379397,
+          "stop" : 1511799383001,
+          "duration" : 3604
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Card  success 201  (OL-427, Valid Data)-",
+        "uid" : "db978df5384aba8b",
+        "parentUid" : "a8ed40d3b4d84adf8bdb2e98345e75b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799376338,
+          "stop" : 1511799379397,
+          "duration" : 3059
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Card  fail 422  (OL-433, invalid Paypin data - No 3 Unique Digits)-Test was skipped, because of unresolved defects (OL-1241) ",
+        "uid" : "d722ff19054c130",
+        "parentUid" : "a8ed40d3b4d84adf8bdb2e98345e75b0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799373208,
+          "stop" : 1511799373210,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Card  fail 422  (OL-429, Wrong Account ID)-",
+        "uid" : "4122e402bf402823",
+        "parentUid" : "a8ed40d3b4d84adf8bdb2e98345e75b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799370407,
+          "stop" : 1511799373208,
+          "duration" : 2801
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Card  fail 422  (OL-430, invalid Paypin data - the Paypin is not 4-digits long)-",
+        "uid" : "75c386b9e5621c45",
+        "parentUid" : "a8ed40d3b4d84adf8bdb2e98345e75b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799374906,
+          "stop" : 1511799376337,
+          "duration" : 1431
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8ed40d3b4d84adf8bdb2e98345e75b0"
+    }, {
+      "name" : "as OL client i want to order a new card  (OL-24)",
+      "children" : [ {
+        "name" : "Reorder Card  fail 422  (OL-740, Existent Card Is In Active State)-Test was skipped, because of unresolved defects (OL-1229) ",
+        "uid" : "4c03886c34f5364a",
+        "parentUid" : "8730cfd23f62df0a3487b175f8fe5eb3",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799344464,
+          "stop" : 1511799344465,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Reorder Card  fail 401  (OL-872, PayPin - Blank)-",
+        "uid" : "8badb11ced31f127",
+        "parentUid" : "8730cfd23f62df0a3487b175f8fe5eb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799366382,
+          "stop" : 1511799370404,
+          "duration" : 4022
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Reorder Card  fail 422  (OL-739, Existent Card Is In Freeze State)-",
+        "uid" : "bf9e0ee0fa7f7cc9",
+        "parentUid" : "8730cfd23f62df0a3487b175f8fe5eb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799340535,
+          "stop" : 1511799344464,
+          "duration" : 3929
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Reorder Card  success 201  (OL-738, Existent Card Is In Block State)-",
+        "uid" : "5df5e8c52f281102",
+        "parentUid" : "8730cfd23f62df0a3487b175f8fe5eb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799336198,
+          "stop" : 1511799340535,
+          "duration" : 4337
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Reorder Card  fail 403  (OL-868, Paypin - Three Incorrect Attempts)-",
+        "uid" : "99909b2de3cb9d34",
+        "parentUid" : "8730cfd23f62df0a3487b175f8fe5eb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799350792,
+          "stop" : 1511799358566,
+          "duration" : 7774
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Reorder Card  fail 401  (OL-867, Paypin - Two Incorrect Attempts)-",
+        "uid" : "2584f0bfc2a22498",
+        "parentUid" : "8730cfd23f62df0a3487b175f8fe5eb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799360980,
+          "stop" : 1511799366382,
+          "duration" : 5402
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Reorder Card  fail 403  (OL-870, Paypin Blocked)-",
+        "uid" : "838b840850209c90",
+        "parentUid" : "8730cfd23f62df0a3487b175f8fe5eb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799358566,
+          "stop" : 1511799360980,
+          "duration" : 2414
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Reorder Card  fail 422  (OL-850, Existent Card Is In Card Registration Completed Status)-",
+        "uid" : "ea7706c0c1a7cf35",
+        "parentUid" : "8730cfd23f62df0a3487b175f8fe5eb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799344465,
+          "stop" : 1511799350791,
+          "duration" : 6326
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8730cfd23f62df0a3487b175f8fe5eb3"
+    }, {
+      "name" : "as OL client i want to activate my card so that I can use my card (OL-47)",
+      "children" : [ {
+        "name" : "Card activation  fail 403, four attempts  (OL-518, Incorrect PayPin - Three Attempts)-",
+        "uid" : "57f27380e87a75b3",
+        "parentUid" : "4525afd106625bac2b280cb2e8a15dfc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799310761,
+          "stop" : 1511799323897,
+          "duration" : 13136
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Card activation  fail 404  (OL-531, Incorrect Card id - Does not Belong to Current User)-",
+        "uid" : "a3cf2c155a5a9f6e",
+        "parentUid" : "4525afd106625bac2b280cb2e8a15dfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799298241,
+          "stop" : 1511799301875,
+          "duration" : 3634
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Card activation  fail 403, four attempts  (OL-523, TC - Account is locked for card activation with incorrect CVC entered 3 times in a row)-",
+        "uid" : "14bbbf83e4081837",
+        "parentUid" : "4525afd106625bac2b280cb2e8a15dfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799301876,
+          "stop" : 1511799310761,
+          "duration" : 8885
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Card activation  fail 404  (OL-560, Incorrect Card id - Card Id Does Not Exist)-",
+        "uid" : "393d144626cf1c03",
+        "parentUid" : "4525afd106625bac2b280cb2e8a15dfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799293560,
+          "stop" : 1511799298240,
+          "duration" : 4680
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Card activation  fail 401, two attempts  (OL-559, Incorrect CVC Twice)-",
+        "uid" : "88a63994b8b0a569",
+        "parentUid" : "4525afd106625bac2b280cb2e8a15dfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799284431,
+          "stop" : 1511799293559,
+          "duration" : 9128
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card cvc  success 200  (OL-545, Correct Data)-",
+        "uid" : "50107b25fa75403b",
+        "parentUid" : "4525afd106625bac2b280cb2e8a15dfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799246314,
+          "stop" : 1511799249475,
+          "duration" : 3161
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card cvc  fail 404  (no manual test case, try to get cvc number from card with wrong card id)-",
+        "uid" : "dda122532a2da46c",
+        "parentUid" : "4525afd106625bac2b280cb2e8a15dfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799254682,
+          "stop" : 1511799258555,
+          "duration" : 3873
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Card activation  success 204  (OL-515, Valid Data)-",
+        "uid" : "5718f27d3e70794b",
+        "parentUid" : "4525afd106625bac2b280cb2e8a15dfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799246314,
+          "stop" : 1511799250445,
+          "duration" : 4131
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Card activation  success 204  (OL-598, Account with French Address)-",
+        "uid" : "2eb827fbabad0f0e",
+        "parentUid" : "4525afd106625bac2b280cb2e8a15dfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799250446,
+          "stop" : 1511799256644,
+          "duration" : 6198
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Card activation  fail 401, two attempts  (OL-558, Incorrect PayPin Twice)-",
+        "uid" : "159f8c727ad9f942",
+        "parentUid" : "4525afd106625bac2b280cb2e8a15dfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799275368,
+          "stop" : 1511799284430,
+          "duration" : 9062
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Card activation  fail 401  (OL-527, No CVC)-",
+        "uid" : "1b94fc1bbea5ee66",
+        "parentUid" : "4525afd106625bac2b280cb2e8a15dfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799259770,
+          "stop" : 1511799263412,
+          "duration" : 3642
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Card activation  success 204 after previous 2 failed  (OL-562, Correct CVC and PayPin after Two Wrong Attemps)-",
+        "uid" : "85cd7fce5cd14a4e",
+        "parentUid" : "4525afd106625bac2b280cb2e8a15dfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799323898,
+          "stop" : 1511799336197,
+          "duration" : 12299
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Card activation  fail 401  (OL-521, No PayPin)-",
+        "uid" : "56e2f496c9e4b515",
+        "parentUid" : "4525afd106625bac2b280cb2e8a15dfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799256645,
+          "stop" : 1511799259769,
+          "duration" : 3124
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card cvc  fail 401  (no manual test case, try to get cvc number from card, using wrong Paypin)-",
+        "uid" : "ba6cb34f667ccc5e",
+        "parentUid" : "4525afd106625bac2b280cb2e8a15dfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799249476,
+          "stop" : 1511799254681,
+          "duration" : 5205
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4525afd106625bac2b280cb2e8a15dfc"
+    }, {
+      "name" : "as OL client i want to display my pay pin so that I remember my pay pin (OL-50)",
+      "children" : [ {
+        "name" : "Get Card Pin  fail 403  (OL-699, Security Question Blocked)-",
+        "uid" : "775b122183ad7cf0",
+        "parentUid" : "f0a5d653a495f5e18cb92be0a3c067ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799338944,
+          "stop" : 1511799350439,
+          "duration" : 11495
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card Pin  fail 403  (OL-698, CVC Blocked)-",
+        "uid" : "70f8e11a3e2d657a",
+        "parentUid" : "f0a5d653a495f5e18cb92be0a3c067ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799327731,
+          "stop" : 1511799338943,
+          "duration" : 11212
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0a5d653a495f5e18cb92be0a3c067ec"
+    }, {
+      "name" : "as OL client i want to freeze  my debit card so that I can block my card temporary if I can't find it (OL-22)",
+      "children" : [ {
+        "name" : "Lock Card  fail 403  (OL-566, Card State - Registration Completed)-Test was skipped, because of unresolved defects (OL-1170) ",
+        "uid" : "aa93890717662a3",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799285466,
+          "stop" : 1511799285468,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Lock Card  fail 404  (OL-542, Card ID - Doesn't Belong to User)-",
+        "uid" : "8b8603cebb525869",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799257822,
+          "stop" : 1511799260490,
+          "duration" : 2668
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unfreeze Card  fail 404  (OL-571, Card ID - Not Registered)-",
+        "uid" : "5831322abb34a5cc",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799274113,
+          "stop" : 1511799279301,
+          "duration" : 5188
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card  success 200 - pin blocked  (OL-553,  OL-577,  OL-857, Blocked Paypin - Request Doesn't Require Paypin)-",
+        "uid" : "b9b0a01e0664cb3c",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799302407,
+          "stop" : 1511799307316,
+          "duration" : 4909
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Lock Card  fail 404  (OL-543, Card ID - Not Registered)-",
+        "uid" : "b6cb0f11778f56e7",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799253822,
+          "stop" : 1511799257821,
+          "duration" : 3999
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Lock Card  fail 403 three attempts  (OL-547, Incorrect Paypin - Three Attempts)-",
+        "uid" : "3fd2e1f5e551d9d1",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799276399,
+          "stop" : 1511799285465,
+          "duration" : 9066
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Lock Card  fail 401  (OL-541, Incorrect Paypin)-",
+        "uid" : "4773de46e7f38ab9",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799246314,
+          "stop" : 1511799249019,
+          "duration" : 2705
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unfreeze Card  fail 401  (OL-572, Empty Paypin)-",
+        "uid" : "d1a06a173583088f",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799279302,
+          "stop" : 1511799286251,
+          "duration" : 6949
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unfreeze Card  success 204  (OL-568, Valid Data)-",
+        "uid" : "4989a834a51bcd5",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799264431,
+          "stop" : 1511799269094,
+          "duration" : 4663
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unfreeze Card  fail 401  (OL-574, Incorrect Paypin - Two Attempts)-",
+        "uid" : "e68118d5e8aeecb4",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799298317,
+          "stop" : 1511799305567,
+          "duration" : 7250
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unfreeze Card  fail 403  (OL-575, Incorrect Paypin - Three Attempts)-",
+        "uid" : "4103953945ce4cf5",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799305567,
+          "stop" : 1511799315673,
+          "duration" : 10106
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Lock Card  success 204  (OL-526, Valid Data)-",
+        "uid" : "7f68346512ab29ab",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799260491,
+          "stop" : 1511799264893,
+          "duration" : 4402
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Lock Card  fail 401  (OL-539, Empty Paypin)-",
+        "uid" : "a2e9402a0c41c26f",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799249020,
+          "stop" : 1511799253821,
+          "duration" : 4801
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Lock Card  success 204  (OL-555, Card Is Already Frozen)-",
+        "uid" : "b50253971f52d20",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799264894,
+          "stop" : 1511799268585,
+          "duration" : 3691
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unfreeze Card  fail 401  (OL-573, Incorrect Paypin)-",
+        "uid" : "b7ad95c042691746",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799286251,
+          "stop" : 1511799298317,
+          "duration" : 12066
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Lock Card  fail 403  (OL-557, Card State - Requirments Check)-Test was skipped, because of unresolved defects (OL-1036) ",
+        "uid" : "7132c8e5b8ef6995",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799285468,
+          "stop" : 1511799285469,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unfreeze Card  fail 404  (OL-570, Card ID - Doesn't Belong to User)-",
+        "uid" : "beb26b493d062203",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799269095,
+          "stop" : 1511799274112,
+          "duration" : 5017
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Lock Card  success 204 after previous two failed attempts  (OL-546, Incorrect Paypin - Two Attempts)-",
+        "uid" : "106c0d4b550aebae",
+        "parentUid" : "c223b12b03d73edfc7abcb745fef75df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799268586,
+          "stop" : 1511799276398,
+          "duration" : 7812
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c223b12b03d73edfc7abcb745fef75df"
+    }, {
+      "name" : "as Oney live customer i am able to unlock my paypin after entering it wrong 3 times (OL-142)",
+      "children" : [ {
+        "name" : "Unlock pin  fail 401  (OL-603, No Security Question)-Test was skipped, because of unresolved defects (OL-736) ",
+        "uid" : "f0a8ef5cfc62d53b",
+        "parentUid" : "e2c611627ca22301ea32a57525b97c8e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799359720,
+          "stop" : 1511799359721,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unlock pin  fail 403 - three attempts  (OL-630,  OL-635, CVC is Blocked)-",
+        "uid" : "38654f9519d8fd09",
+        "parentUid" : "e2c611627ca22301ea32a57525b97c8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799352297,
+          "stop" : 1511799359719,
+          "duration" : 7422
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unlock pin  fail 403 - three attempts  (OL-624, Security Question is Blocked)-",
+        "uid" : "bf476e8f9f1af70d",
+        "parentUid" : "e2c611627ca22301ea32a57525b97c8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799342145,
+          "stop" : 1511799352297,
+          "duration" : 10152
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unlock pin  fail 404  (OL-633, Card ID - Doesn't Belong to User)-",
+        "uid" : "371dfaccfc88bc69",
+        "parentUid" : "e2c611627ca22301ea32a57525b97c8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799366416,
+          "stop" : 1511799370438,
+          "duration" : 4022
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unlock pin  fail 404  (OL-632, Card ID - Not Registered)-",
+        "uid" : "247df6caa31d56cf",
+        "parentUid" : "e2c611627ca22301ea32a57525b97c8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799362509,
+          "stop" : 1511799366416,
+          "duration" : 3907
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unlock pin  fail 401 - two attempts  (OL-627, Incorrect CVC - Two Attempts)-",
+        "uid" : "48e7de3acbd47734",
+        "parentUid" : "e2c611627ca22301ea32a57525b97c8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799311577,
+          "stop" : 1511799320624,
+          "duration" : 9047
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unlock pin  fail 403  (OL-634, Card ID - No Card id)-",
+        "uid" : "cbc7fbe6f05d6b75",
+        "parentUid" : "e2c611627ca22301ea32a57525b97c8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799370439,
+          "stop" : 1511799372744,
+          "duration" : 2305
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unlock pin  fail 401  (OL-629, No CVC)-",
+        "uid" : "8b89689c92a99171",
+        "parentUid" : "e2c611627ca22301ea32a57525b97c8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799359721,
+          "stop" : 1511799362509,
+          "duration" : 2788
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unlock pin  success 204  (OL-590, Correct Data)-",
+        "uid" : "9e9a1c059c41461c",
+        "parentUid" : "e2c611627ca22301ea32a57525b97c8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799301502,
+          "stop" : 1511799306280,
+          "duration" : 4778
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unlock pin  fail 403 - three attempts  (OL-628, Incorrect CVC - Three Attempts)-",
+        "uid" : "4c92c3b31f6d7c2a",
+        "parentUid" : "e2c611627ca22301ea32a57525b97c8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799332567,
+          "stop" : 1511799342145,
+          "duration" : 9578
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unlock pin  fail 401 - two attempts  (OL-591, Incorrect Security Question - Two Attempts)-",
+        "uid" : "7716b2bea7f7d0f6",
+        "parentUid" : "e2c611627ca22301ea32a57525b97c8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799306281,
+          "stop" : 1511799311577,
+          "duration" : 5296
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Unlock pin  fail 403 - three attempts  (OL-602, Incorrect Security Question - Three Attempts)-",
+        "uid" : "52d23a0f346b9cec",
+        "parentUid" : "e2c611627ca22301ea32a57525b97c8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799320625,
+          "stop" : 1511799332567,
+          "duration" : 11942
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e2c611627ca22301ea32a57525b97c8e"
+    }, {
+      "name" : "as Oney live customer my paypin is blocked when i enter  a wrong paypin during any confirmation process (OL-140)",
+      "children" : [ {
+        "name" : "Get Card cvc  fail 403 - three attempts  (OL-528, Incorrect PayPin - Three Attempts)-",
+        "uid" : "cb8cdaebd104c575",
+        "parentUid" : "f74ea814028346a432fc7828c7c9b640",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799258555,
+          "stop" : 1511799264428,
+          "duration" : 5873
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Card cvc  fail 403  (OL-580 ,  OL-552 ,  OL-856 ,  OL-820 ,  OL-576,  OL-900, PayPin is blocked)-Test was skipped, because of unresolved defects (OL-854) ",
+        "uid" : "2b51af6e92c66ace",
+        "parentUid" : "f74ea814028346a432fc7828c7c9b640",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799264428,
+          "stop" : 1511799264430,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f74ea814028346a432fc7828c7c9b640"
+    } ],
+    "uid" : "52a7fa22385cfbd0cc871faedfe09309"
+  }, {
+    "name" : "Transfer service",
+    "children" : [ {
+      "name" : "as an Ony live client i want to make a SEPA transfer so that i transfer money using Name and IBAN of a receiver (OL-392)",
+      "children" : [ {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, San Marino 2 SET)-",
+        "uid" : "334566030f2382b0",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799678517,
+          "stop" : 1511799685602,
+          "duration" : 7085
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Estonia 2 SET)-",
+        "uid" : "a2015e401cbd65e9",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799618179,
+          "stop" : 1511799623006,
+          "duration" : 4827
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Malta 2 SET)-",
+        "uid" : "f58af47d5de13838",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799654307,
+          "stop" : 1511799658326,
+          "duration" : 4019
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Ireland)-",
+        "uid" : "abcd7ab8dd0f1e4",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799463317,
+          "stop" : 1511799468980,
+          "duration" : 5663
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Latvia)-",
+        "uid" : "52730050ce5bc7a8",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799645702,
+          "stop" : 1511799649742,
+          "duration" : 4040
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (should verify transfer's states are completed)-",
+        "uid" : "98fbdcc9c8994eae",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799704838,
+          "stop" : 1511799704839,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Belgium)-",
+        "uid" : "97434ad568b064c0",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799580537,
+          "stop" : 1511799587059,
+          "duration" : 6522
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (should verify money was charged from account balance)-",
+        "uid" : "d423ac90bcafe3b7",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799704841,
+          "stop" : 1511799704842,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, France 2 SET)-",
+        "uid" : "67f2be33925b1756",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799628399,
+          "stop" : 1511799633592,
+          "duration" : 5193
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Monaco)-",
+        "uid" : "55f8c27abd2a1430",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799552920,
+          "stop" : 1511799562076,
+          "duration" : 9156
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Greece 2 SET)-",
+        "uid" : "5b434218a7f4024f",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799633592,
+          "stop" : 1511799638963,
+          "duration" : 5371
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Slovak Republic)-",
+        "uid" : "b2d0b13f777af4ce",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799685602,
+          "stop" : 1511799690119,
+          "duration" : 4517
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Sweden)-",
+        "uid" : "4d3aa239824b6536",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799528609,
+          "stop" : 1511799537831,
+          "duration" : 9222
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Czech Republic)-",
+        "uid" : "3883190fb10d2be9",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799419028,
+          "stop" : 1511799423519,
+          "duration" : 4491
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Norway)-",
+        "uid" : "fd73370e831c0bdf",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799502353,
+          "stop" : 1511799512210,
+          "duration" : 9857
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Hungary)-",
+        "uid" : "21aa656712a66e82",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799459088,
+          "stop" : 1511799463316,
+          "duration" : 4228
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, France)-",
+        "uid" : "224329dd9b482bf8",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799441533,
+          "stop" : 1511799445643,
+          "duration" : 4110
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Cyprus 2 SET)-",
+        "uid" : "323670626ef63a0",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799599981,
+          "stop" : 1511799606686,
+          "duration" : 6705
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Czech Republic 2 SET)-",
+        "uid" : "81b33ad5ab4f83a8",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799606686,
+          "stop" : 1511799612321,
+          "duration" : 5635
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Monaco 2 SET)-",
+        "uid" : "c843d425a03d1316",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799658329,
+          "stop" : 1511799661411,
+          "duration" : 3082
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Germany)-",
+        "uid" : "a0002eb8ae78c103",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799445644,
+          "stop" : 1511799453241,
+          "duration" : 7597
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Estonia)-",
+        "uid" : "72f737d57faf271d",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799430370,
+          "stop" : 1511799435945,
+          "duration" : 5575
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Norway 2 SET)-",
+        "uid" : "c70ae6c32ab076a3",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799665834,
+          "stop" : 1511799669884,
+          "duration" : 4050
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Poland 2 SET)-",
+        "uid" : "df23e0ab19873057",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799669884,
+          "stop" : 1511799678514,
+          "duration" : 8630
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, San Marino)-",
+        "uid" : "c9bfe9b1f1874187",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799562076,
+          "stop" : 1511799568237,
+          "duration" : 6161
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, United Kingdom 2 SET)-",
+        "uid" : "dd41335b46eacc5c",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799700295,
+          "stop" : 1511799704837,
+          "duration" : 4542
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Bulgaria)-",
+        "uid" : "c245533062450a58",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799587059,
+          "stop" : 1511799592645,
+          "duration" : 5586
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Netherlands)-",
+        "uid" : "38e44d63cc0d43aa",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799492978,
+          "stop" : 1511799502352,
+          "duration" : 9374
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Slovenia 2 SET)-",
+        "uid" : "5e12f51bb6ee3769",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799690119,
+          "stop" : 1511799693458,
+          "duration" : 3339
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Finland 2 SET)-",
+        "uid" : "147f053a0a9607e1",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799623007,
+          "stop" : 1511799628398,
+          "duration" : 5391
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Italy)-",
+        "uid" : "132a069a0eaaa9ff",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799468981,
+          "stop" : 1511799477137,
+          "duration" : 8156
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Luxembourg)-",
+        "uid" : "6c0c0e74f63f98ab",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799477138,
+          "stop" : 1511799484955,
+          "duration" : 7817
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Croatia)-",
+        "uid" : "319557a3b8470b04",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799592645,
+          "stop" : 1511799599981,
+          "duration" : 7336
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Switzerland 2 SET)-",
+        "uid" : "93642091b01578f1",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799696331,
+          "stop" : 1511799700294,
+          "duration" : 3963
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Denmark)-",
+        "uid" : "c6a4cbe9c8150a9f",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799423519,
+          "stop" : 1511799430370,
+          "duration" : 6851
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Hungary 2 SET)-",
+        "uid" : "a13a21c7626de5d7",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799638964,
+          "stop" : 1511799645702,
+          "duration" : 6738
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Liechtenstein)-",
+        "uid" : "c68c74990787565a",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799545473,
+          "stop" : 1511799552920,
+          "duration" : 7447
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Slovenia)-",
+        "uid" : "8ed39dfe412b57bd",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799519319,
+          "stop" : 1511799528609,
+          "duration" : 9290
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Greece)-",
+        "uid" : "77560dd67cffdfd0",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799453242,
+          "stop" : 1511799459088,
+          "duration" : 5846
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Austria)-",
+        "uid" : "b9dc764d82871be2",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799574204,
+          "stop" : 1511799580536,
+          "duration" : 6332
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Poland)-",
+        "uid" : "d9642fd6e0952c02",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799512210,
+          "stop" : 1511799519318,
+          "duration" : 7108
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Switzerland)-",
+        "uid" : "b74d3cfed0da5898",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799537832,
+          "stop" : 1511799545473,
+          "duration" : 7641
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Spain)-",
+        "uid" : "8a5b9c7cddb628bf",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799568237,
+          "stop" : 1511799574203,
+          "duration" : 5966
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Netherlands 2 SET)-",
+        "uid" : "dbc6655f5e44f152",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799661412,
+          "stop" : 1511799665834,
+          "duration" : 4422
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Cyprus)-",
+        "uid" : "91d29772cf2e4b5a",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799415584,
+          "stop" : 1511799419028,
+          "duration" : 3444
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Finland)-",
+        "uid" : "957ee37881388958",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799435946,
+          "stop" : 1511799441533,
+          "duration" : 5587
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Luxembourg 2 SET)-",
+        "uid" : "71286babe0b86436",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799649742,
+          "stop" : 1511799654306,
+          "duration" : 4564
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Malta)-",
+        "uid" : "11358ab5e01d957a",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799484956,
+          "stop" : 1511799492978,
+          "duration" : 8022
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Spain 2 SET)-",
+        "uid" : "13fbc0bf5fe8a232",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799693459,
+          "stop" : 1511799696331,
+          "duration" : 2872
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Denmark 2 SET)-",
+        "uid" : "8584bd30a72e3917",
+        "parentUid" : "4a26db0c9d7bf3ab13a4be390fb768ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799612322,
+          "stop" : 1511799618178,
+          "duration" : 5856
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a26db0c9d7bf3ab13a4be390fb768ba"
+    }, {
+      "name" : "as an Ony live client i want to make a SEPA transfer so that i transfer money using Name and IBAN of a receiver (OL-392)as OL client i want to make P2P transfers to an oney live user so that I can easily and instantly send money to other OL users (OL-43)",
+      "children" : [ {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Kazakhstan)-",
+        "uid" : "328a301d7854e5a8",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799544592,
+          "stop" : 1511799553040,
+          "duration" : 8448
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-834, TC - SEPA transfer is created successfully with Oney Live client's IBAN and BIC)-Test was skipped, because of unresolved defects (OL-1251) ",
+        "uid" : "ef9ed3bcd7edf3b",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799273884,
+          "stop" : 1511799273886,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-846, SEPA - BIC - Invalid (14 letters))-",
+        "uid" : "ed4cd1074f1a0802",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799397377,
+          "stop" : 1511799403331,
+          "duration" : 5954
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-875, P2P - Transfer Purpose - Blank - Create)-",
+        "uid" : "1edafd7bc72498b8",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799332491,
+          "stop" : 1511799337750,
+          "duration" : 5259
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-859, SEPA - Account ID - Does Not Belong to User (another Oney Live client's account))-",
+        "uid" : "f7548582f65207e5",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799385280,
+          "stop" : 1511799392183,
+          "duration" : 6903
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Albania 2)-",
+        "uid" : "c698f1929561d53e",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799579684,
+          "stop" : 1511799587179,
+          "duration" : 7495
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 409  (OL-861, SEPA - External UID - Not Unique)-",
+        "uid" : "62b215a2e853b32c",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799666482,
+          "stop" : 1511799675497,
+          "duration" : 9015
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-865, SEPA - Amount - Exceeds Account Balance)-",
+        "uid" : "a332b7c66613a7ed",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799416349,
+          "stop" : 1511799420454,
+          "duration" : 4105
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Belarus)-",
+        "uid" : "1a746b050762b7eb",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799587179,
+          "stop" : 1511799594502,
+          "duration" : 7323
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-890, SEPA - Subject - Up to 255 Characters - Create)-",
+        "uid" : "60dac8898ea5ce9b",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799279030,
+          "stop" : 1511799284160,
+          "duration" : 5130
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 404  (OL-903, SEPA - Currency - Invalid (not currency acronyms))-",
+        "uid" : "80fd9bb2b1ee0ad7",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799654781,
+          "stop" : 1511799659030,
+          "duration" : 4249
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-866, SEPA - Amount - Invalid (alphabetical characters))-",
+        "uid" : "f35e5574f9b55246",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799411817,
+          "stop" : 1511799414164,
+          "duration" : 2347
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Confirm transfers  success 200  (OL-895, SEPA - Subject - Up to 255 Characters - Confirm)-",
+        "uid" : "f41d6f7d38ac23a",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799314850,
+          "stop" : 1511799342120,
+          "duration" : 27270
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-896, SEPA - Purpose - Blank - Create)-",
+        "uid" : "66c25f4b92a8b9d7",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799273886,
+          "stop" : 1511799279030,
+          "duration" : 5144
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 404  (OL-903, SEPA - Currency - Invalid (Consists of special characters))-",
+        "uid" : "ef639cd8f0070ba",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799659030,
+          "stop" : 1511799662455,
+          "duration" : 3425
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Tunisia)-",
+        "uid" : "c60267876ef0bc49",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799564407,
+          "stop" : 1511799571056,
+          "duration" : 6649
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 409  (OL-795, External UID - Not Unique)-",
+        "uid" : "139e07ede7ca966c",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799675498,
+          "stop" : 1511799682926,
+          "duration" : 7428
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-908, SEPA - Create Beneficiary - True)-",
+        "uid" : "9699daab09d74c90",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799300369,
+          "stop" : 1511799304778,
+          "duration" : 4409
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Confirm transfers  success 200  (OL-881, P2P - Valid Data - Confirm)-",
+        "uid" : "94a30bf0c6a77d4b",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799423642,
+          "stop" : 1511799485229,
+          "duration" : 61587
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-866, SEPA - Amount - Invalid (contains special characters))-",
+        "uid" : "b9be427151384c59",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799414165,
+          "stop" : 1511799416349,
+          "duration" : 2184
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Confirm transfers  success 200 after two failed attempts  (OL-851, SEPA - Invalid Paypin - Two Attempts)-",
+        "uid" : "7d98861fa70f7261",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799546336,
+          "stop" : 1511799582143,
+          "duration" : 35807
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 404  (OL-832, P2P - Currency - Incorrect (Blank))-Test was skipped, because of unresolved defects (OL-927) ",
+        "uid" : "b4a363284c00f6bc",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799666481,
+          "stop" : 1511799666482,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-858, SEPA - Account ID - Blank)-",
+        "uid" : "2b8c749513049fc8",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799373501,
+          "stop" : 1511799375468,
+          "duration" : 1967
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Kazakhstan 2)-",
+        "uid" : "3d9a6b78b8c2c573",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799618380,
+          "stop" : 1511799625636,
+          "duration" : 7256
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Confirm transfers  success 200  (OL-844, SEPA - Foreign Country Client - Confirm)-",
+        "uid" : "23f58507664686ec",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799365986,
+          "stop" : 1511799391983,
+          "duration" : 25997
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Confirm transfers  success 200 after two failed attempts  (OL-886, P2P- Invalid Paypin - Two Attempts)-",
+        "uid" : "5c64c050a7544522",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799582144,
+          "stop" : 1511799612437,
+          "duration" : 30293
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-836, P2P - Subject - Up to 255 Symbols - Create)-",
+        "uid" : "b0c6820b9086bbb0",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799325354,
+          "stop" : 1511799332490,
+          "duration" : 7136
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-840, SEPA - Foreign Country Client - Create)-",
+        "uid" : "bacd7ab23d5022df",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799284161,
+          "stop" : 1511799289471,
+          "duration" : 5310
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Confirm transfers  success 200  (OL-889, SEPA - Subject - Blank - Confirm)-",
+        "uid" : "8ec8f51e350d9b46",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799280479,
+          "stop" : 1511799314850,
+          "duration" : 34371
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-862, SEPA - Amount - Zero)-",
+        "uid" : "477d774b3c6236f5",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799409591,
+          "stop" : 1511799411816,
+          "duration" : 2225
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-781, P2P - Routing Type - Blank)-",
+        "uid" : "b4231835287d9136",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799428164,
+          "stop" : 1511799436405,
+          "duration" : 8241
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Serbia)-",
+        "uid" : "cef0f92d96957425",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799630555,
+          "stop" : 1511799638406,
+          "duration" : 7851
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Confirm transfers  fail 422  (OL-894, P2P - Invalid PayPin)-",
+        "uid" : "6f46b2318f09e08d",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799512623,
+          "stop" : 1511799521590,
+          "duration" : 8967
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - United Arab Emirates)-",
+        "uid" : "84db2ee613d76957",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799571056,
+          "stop" : 1511799579682,
+          "duration" : 8626
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-864, SEPA - Amount - Exceeds Transaction Limit)-",
+        "uid" : "53921606e1e6146a",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799420455,
+          "stop" : 1511799428163,
+          "duration" : 7708
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Moldova)-",
+        "uid" : "bcd88bfd047e5087",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799553041,
+          "stop" : 1511799564406,
+          "duration" : 11365
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-859, SEPA - Account ID - Does Not Belong to User (not yet registered in the system))-",
+        "uid" : "f0c564954305ebbf",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799392183,
+          "stop" : 1511799397375,
+          "duration" : 5192
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-860, SEPA - External UID - Blank)-",
+        "uid" : "5736b0a8bc101158",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799375468,
+          "stop" : 1511799379560,
+          "duration" : 4092
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-733, P2P - Correct Data - FOS_P2P_EMAIL - Create)-",
+        "uid" : "154ea5b629a219b4",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799309030,
+          "stop" : 1511799314729,
+          "duration" : 5699
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-776, SEPA - Contact - Blank - Cannot Create)-",
+        "uid" : "3668e9b8695d5075",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799356366,
+          "stop" : 1511799361105,
+          "duration" : 4739
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Confirm transfers  fail 422  (OL-893, P2P - Blank Paypin)-",
+        "uid" : "8425bedd45afae57",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799504788,
+          "stop" : 1511799512623,
+          "duration" : 7835
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Mauritius)-",
+        "uid" : "ad62d92bc8d210fc",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799498883,
+          "stop" : 1511799512508,
+          "duration" : 13625
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - United Arab Emirates 2)-",
+        "uid" : "87c70076b331b192",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799645821,
+          "stop" : 1511799651858,
+          "duration" : 6037
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-839, SEPA - IBAN - Invalid)-",
+        "uid" : "5d792adc8a42f1f9",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799379562,
+          "stop" : 1511799385278,
+          "duration" : 5716
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-835, Subject - Blank - Create)-",
+        "uid" : "11c50bbcabaab139",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799320196,
+          "stop" : 1511799325353,
+          "duration" : 5157
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Confirm transfers  fail 422  (OL-852, SEPA - Blank Paypin)-",
+        "uid" : "f4b907714e041537",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799493719,
+          "stop" : 1511799504787,
+          "duration" : 11068
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Saudi Arabia)-",
+        "uid" : "9c636d415e0baa0f",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799512509,
+          "stop" : 1511799521887,
+          "duration" : 9378
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-796, Amount - Exceeds Transactions Daily Limit)-",
+        "uid" : "2f2e08a1cfb2f73a",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799447036,
+          "stop" : 1511799455871,
+          "duration" : 8835
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Confirm transfers  success 200  (OL-902, SEPA - Purpose - Blank - Confirm)-",
+        "uid" : "fa539e3ea235137e",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799391985,
+          "stop" : 1511799423641,
+          "duration" : 31656
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Confirm transfers  success 200  (OL-842, SEPA - Non-OL Client - Confirm)-",
+        "uid" : "9bb0263662ce50fa",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799342121,
+          "stop" : 1511799365985,
+          "duration" : 23864
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Confirm transfers  success 200  (OL-838, TC - SEPA transfer is confirmed successfully with Oney Live client's IBAN and BIC)-Test was skipped, because of unresolved defects (OL-1251) ",
+        "uid" : "4bff2d236994159c",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799391983,
+          "stop" : 1511799391984,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Turkey)-",
+        "uid" : "a33390baadab3cc1",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799638406,
+          "stop" : 1511799645820,
+          "duration" : 7414
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-846, SEPA - BIC - Invalid (7 letters))-",
+        "uid" : "230bde4593359ea1",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799403332,
+          "stop" : 1511799405495,
+          "duration" : 2163
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-874, P2P - Subject - More than 255 Symbols)-",
+        "uid" : "1cc5556ef0e7893c",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799462510,
+          "stop" : 1511799469101,
+          "duration" : 6591
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-846, SEPA - BIC - Invalid (8 letters, at least one special character))-",
+        "uid" : "c909105f5fc6cfbb",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799405497,
+          "stop" : 1511799409591,
+          "duration" : 4094
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-847, SEPA - BIC - Blank)-",
+        "uid" : "b59a24fb12f0697a",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799367635,
+          "stop" : 1511799373500,
+          "duration" : 5865
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Confirm transfers  fail 422 - three attempts  (OL-853, SEPA - Invalid Paypin - Three Attempts)-",
+        "uid" : "36ea16fd56e9519f",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799521591,
+          "stop" : 1511799534265,
+          "duration" : 12674
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-878, P2P - Bank - Blank - Create)-",
+        "uid" : "676979eeb39612c2",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799341999,
+          "stop" : 1511799345900,
+          "duration" : 3901
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Confirm transfers  fail 422  (OL-849, SEPA - Invalid Paypin)-",
+        "uid" : "bdccabc1538222de",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799485230,
+          "stop" : 1511799493719,
+          "duration" : 8489
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Georgia 2)-",
+        "uid" : "3d47e19d89ebbbba",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799603432,
+          "stop" : 1511799611451,
+          "duration" : 8019
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-906, TC - SEPA via P2p transfer is created if Routing type is set to Email)-",
+        "uid" : "c1e6b1c46b3c39b6",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799304779,
+          "stop" : 1511799309029,
+          "duration" : 4250
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-909, SEPA - Create Beneficiary - False)-",
+        "uid" : "7817186e9ef1d8a4",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799296210,
+          "stop" : 1511799300369,
+          "duration" : 4159
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-763, P2P - Correct Data - FOS_P2P_PHONE - Create)-",
+        "uid" : "648165bb74e3cd97",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799314730,
+          "stop" : 1511799320195,
+          "duration" : 5465
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Bosnia and Herzegovina)-",
+        "uid" : "d5e5a1a86a46c6c5",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799479824,
+          "stop" : 1511799487901,
+          "duration" : 8077
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-825, P2P - Amount - Exceeds Account Balance)-",
+        "uid" : "a82c17fefe3709b0",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799455874,
+          "stop" : 1511799462510,
+          "duration" : 6636
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-916, P2P - Create Beneficiary - False)-",
+        "uid" : "1964dc02f71a2e0a",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799352214,
+          "stop" : 1511799356365,
+          "duration" : 4151
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-786, P2P - Account Id - Does Not Belong To User)-Test was skipped, because of unresolved defects (OL-793)  (OL-1220) ",
+        "uid" : "90edd6fae9380f17",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799436406,
+          "stop" : 1511799436407,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-798, P2P - Amount - Zero)-Test was skipped, because of unresolved defects (OL-1248) ",
+        "uid" : "743ef7fd0fe7fb5e",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799455873,
+          "stop" : 1511799455874,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-845, SEPA - IBAN - Blank)-",
+        "uid" : "5f59494196399585",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799361106,
+          "stop" : 1511799367635,
+          "duration" : 6529
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 404  (OL-903, SEPA - Currency - Invalid (blank))-",
+        "uid" : "34d51942b5909bcd",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799662456,
+          "stop" : 1511799666479,
+          "duration" : 4023
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Bosnia and Herzegovina 2)-",
+        "uid" : "1130488b1d08619a",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799594503,
+          "stop" : 1511799603431,
+          "duration" : 8928
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Macedonia)-",
+        "uid" : "5f959af7f1b48571",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799487902,
+          "stop" : 1511799498882,
+          "duration" : 10980
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-794, P2P - External UID - Blank)-",
+        "uid" : "5baecc588a91bf73",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799441827,
+          "stop" : 1511799447036,
+          "duration" : 5209
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Albania)-",
+        "uid" : "dcac1b5d80944b72",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799469102,
+          "stop" : 1511799479823,
+          "duration" : 10721
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Moldova 2)-",
+        "uid" : "20aca288325464ab",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799625637,
+          "stop" : 1511799630554,
+          "duration" : 4917
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Israel 2)-",
+        "uid" : "12590feadcc3bf93",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799611451,
+          "stop" : 1511799618380,
+          "duration" : 6929
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-833, SEPA - Subject - Blank - Create)-",
+        "uid" : "2b00e3440e44e813",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799268863,
+          "stop" : 1511799273884,
+          "duration" : 5021
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-910, SEPA - Subject - Over 255 Characters)-Test was skipped, because of unresolved defects (OL-1253) ",
+        "uid" : "57a9d9b5c00d465",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799397376,
+          "stop" : 1511799397377,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 404  (OL-903, SEPA - Currency - Invalid (Consists of numbers))-",
+        "uid" : "6198d108cc7b73d3",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799651859,
+          "stop" : 1511799654781,
+          "duration" : 2922
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 404  (OL-832, P2P - Currency - Incorrect)-Test was skipped, because of unresolved defects (OL-927) ",
+        "uid" : "37f30fbf9268a6fa",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799666480,
+          "stop" : 1511799666481,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Confirm transfers  fail 422 - three attempts  (OL-892, P2P- Invalid Paypin - Three Attempts)-",
+        "uid" : "c70318a5ca67318a",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799534265,
+          "stop" : 1511799546335,
+          "duration" : 12070
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Confirm transfers  fail 422 - confirm again  (OL-898, P2P - Transfer Already Confirmed)-Test was skipped, because of unresolved defects (OL-972) ",
+        "uid" : "ce4f2ca20d25339d",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799612438,
+          "stop" : 1511799612439,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-880, P2P - Create Beneficiary - False)-",
+        "uid" : "ad815686bdeb49c7",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799345901,
+          "stop" : 1511799352213,
+          "duration" : 6312
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-791, P2P - Account ID - Blank)-",
+        "uid" : "69483e683a1dc967",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "failed",
+        "time" : {
+          "start" : 1511799436408,
+          "stop" : 1511799441826,
+          "duration" : 5418
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-797, P2P - Amount - Invalid)-Test was skipped, because of unresolved defects (OL-1248) ",
+        "uid" : "5dc9f05d8c0dc6db",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1511799455871,
+          "stop" : 1511799455873,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-877, P2P - Contact Info - Blank - Create)-",
+        "uid" : "c7052d6ea448ab2",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799337750,
+          "stop" : 1511799341999,
+          "duration" : 4249
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Georgia)-",
+        "uid" : "e3523a4fa6f29e27",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799533573,
+          "stop" : 1511799544592,
+          "duration" : 11019
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Israel)-",
+        "uid" : "6bc80e40159e4a79",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799521888,
+          "stop" : 1511799533573,
+          "duration" : 11685
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create transfers  success 201  (OL-848, SEPA - Non-OL Client - Create)-",
+        "uid" : "1bd14ae5a39ad4a4",
+        "parentUid" : "5eae325ce6090bf92ba9e534eb4eb109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799289472,
+          "stop" : 1511799296209,
+          "duration" : 6737
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5eae325ce6090bf92ba9e534eb4eb109"
+    } ],
+    "uid" : "d21b1e561720ae34b85c7f7cb0d21b04"
+  }, {
+    "name" : "Reset password service",
+    "children" : [ {
+      "name" : "as Oney live customer i want to reset my password after 3  wrong password attempts (OL-141)",
+      "children" : [ {
+        "name" : "Reset password  fail 400 (OL-784, New Password - Short Password)-",
+        "uid" : "f776f47f199eb4ac",
+        "parentUid" : "1a78f781597ddcc09c77fe18e782c32d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799257883,
+          "stop" : 1511799259896,
+          "duration" : 2013
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Reset password  fail 400 (OL-787, Error message is displayed and password is NOT changed if incorrect email format is provided)-",
+        "uid" : "7d84319ea8c6d208",
+        "parentUid" : "1a78f781597ddcc09c77fe18e782c32d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1511799265174,
+          "stop" : 1511799265177,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Reset password  fail 400 (OL-775, Security Question - Incorrect Answer)-",
+        "uid" : "3d420e5df2c0135c",
+        "parentUid" : "1a78f781597ddcc09c77fe18e782c32d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799252042,
+          "stop" : 1511799255491,
+          "duration" : 3449
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Reset password  fail 400 (OL-888, Security Question - Invalid Question)-",
+        "uid" : "a67e99c87dde7f11",
+        "parentUid" : "1a78f781597ddcc09c77fe18e782c32d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799262485,
+          "stop" : 1511799265174,
+          "duration" : 2689
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Reset password  fail 400 (OL-790, Security Question - Answer is Empty)-",
+        "uid" : "d0144606ff96ce55",
+        "parentUid" : "1a78f781597ddcc09c77fe18e782c32d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799259897,
+          "stop" : 1511799262485,
+          "duration" : 2588
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Reset password  fail 400 (OL-777, New Password - Empty Field)-",
+        "uid" : "7b69da442fd75813",
+        "parentUid" : "1a78f781597ddcc09c77fe18e782c32d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799255492,
+          "stop" : 1511799257883,
+          "duration" : 2391
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Reset password  success 200 (OL-771, Happy Path)-",
+        "uid" : "19fffe1bfc1827df",
+        "parentUid" : "1a78f781597ddcc09c77fe18e782c32d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1511799246354,
+          "stop" : 1511799252042,
+          "duration" : 5688
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a78f781597ddcc09c77fe18e782c32d"
+    } ],
+    "uid" : "5067f028b2237d246dad3edb9cc6c8ee"
+  } ],
+  "name" : "behaviors"
+}

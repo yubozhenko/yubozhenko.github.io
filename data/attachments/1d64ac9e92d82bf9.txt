@@ -1,0 +1,27 @@
+D, [2017-11-27 17:16:32#11681] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:16:32#11681] DEBUG -- : Example ( (OL-334, Email Address Presence - Invalid Length)) STARTED
+D, [2017-11-27 17:16:33#11681] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:16:33#11681] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:16:33#11681] DEBUG -- : with body: {
+  "grant_type": "client_credentials"
+}
+D, [2017-11-27 17:16:33#11681] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5OTMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiM2Q4YTAwM2ItYTVlMi00NGUyLTkxMDUtYjliNDY4Y2U5NGYwIiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.p1FNUkF2eoZn2yK6_1lPq-jssjfF3ykqXlEVhHBHhhs",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "38896ee383e26e12706735c5331666a9"
+}
+D, [2017-11-27 17:16:35#11681] DEBUG -- : REQUEST METHOD: get, to url: https://api.oney-test.fidor.intern/fidor_api/accounts/presence?email=email.to.longmfndslfldllsnsdflglsldlsldlslgkvndcsxdcglloskmgksldoooooororriamdislsodislalditewmsidlclsqldkojsjfslslwlsondnnrsds@example.com
+D, [2017-11-27 17:16:35#11681] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5OTMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiM2Q4YTAwM2ItYTVlMi00NGUyLTkxMDUtYjliNDY4Y2U5NGYwIiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.p1FNUkF2eoZn2yK6_1lPq-jssjfF3ykqXlEVhHBHhhs",
+  "Accept": "application/vnd.fidor.de; version=1,text/json"
+}
+D, [2017-11-27 17:16:35#11681] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "present": false
+}
+D, [2017-11-27 17:16:35#11681] DEBUG -- : Example ( (OL-334, Email Address Presence - Invalid Length)) PASSED
+D, [2017-11-27 17:16:35#11681] DEBUG -- : -----------------------------------------

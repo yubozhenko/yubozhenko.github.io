@@ -1,0 +1,87 @@
+{
+  "uid" : "3c1860b9b9041c99",
+  "name" : "Renew token  fail 400  (OL-408, Incorrect Refresh Token)-",
+  "fullName" : "Renew token  fail 400.Renew token  fail 400  (OL-408, Incorrect Refresh Token)-",
+  "historyId" : "83a0d1c33d2d782ec15881cc10ee3213",
+  "time" : {
+    "start" : 1511799374184,
+    "stop" : 1511799374622,
+    "duration" : 438
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ceff239f852903d2",
+      "name" : "test_log",
+      "source" : "ceff239f852903d2.txt",
+      "type" : "text/plain",
+      "size" : 1683
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Authentication service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as an Oney live App i want to be able to renew API tokens (OL-155)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-408"
+  }, {
+    "name" : "thread",
+    "value" : "12202300"
+  }, {
+    "name" : "suite",
+    "value" : "Renew token  fail 400"
+  }, {
+    "name" : "testClass",
+    "value" : "Renew token  fail 400"
+  }, {
+    "name" : "testMethod",
+    "value" : "Renew token  fail 400  (OL-408, Incorrect Refresh Token)-"
+  }, {
+    "name" : "package",
+    "value" : "Renew token  fail 400"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-408",
+    "url" : "https://jira.fidor.de/browse/OL-408",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3c1860b9b9041c99.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

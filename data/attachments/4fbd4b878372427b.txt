@@ -1,0 +1,20 @@
+D, [2017-11-27 17:14:25#11678] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:14:25#11678] DEBUG -- : Example ( (OL-410, Users are not allowed to get the security questions list if they aren't authorized)) STARTED
+D, [2017-11-27 17:14:25#11678] DEBUG -- : REQUEST METHOD: get, to url: https://api.oney-test.fidor.intern/fidor_api/security_questions
+D, [2017-11-27 17:14:25#11678] DEBUG -- : with next headers: {
+  "Authorization": "Bearer kkjf!!NO__VALID!!hugjjkjj5864jh",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json",
+  "Cache-Control": "no-cache"
+}
+D, [2017-11-27 17:14:25#11678] DEBUG -- : RESPOND WITH: status code 403 and body: {
+  "errors": [
+    {
+      "status": 403,
+      "code": "Forbidden",
+      "detail": "Token invalid"
+    }
+  ]
+}
+D, [2017-11-27 17:14:25#11678] DEBUG -- : Example ( (OL-410, Users are not allowed to get the security questions list if they aren't authorized)) PASSED
+D, [2017-11-27 17:14:25#11678] DEBUG -- : -----------------------------------------

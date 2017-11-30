@@ -1,0 +1,87 @@
+{
+  "uid" : "df23e0ab19873057",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Poland 2 SET)-",
+  "fullName" : "Foreign Country SEPA Transfers  success 200.Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Poland 2 SET)-",
+  "historyId" : "20eee71176e285ca49daadb63a8ec8e2",
+  "time" : {
+    "start" : 1511799669884,
+    "stop" : 1511799678514,
+    "duration" : 8630
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8ffbc1d6269adb67",
+      "name" : "test_log",
+      "source" : "8ffbc1d6269adb67.txt",
+      "type" : "text/plain",
+      "size" : 7491
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Transfer service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as an Ony live client i want to make a SEPA transfer so that i transfer money using Name and IBAN of a receiver (OL-392)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-1062, https://jira.fidor.de/browse/OL-1049, https://jira.fidor.de/browse/OL-1051"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "Foreign Country SEPA Transfers  success 200"
+  }, {
+    "name" : "testClass",
+    "value" : "Foreign Country SEPA Transfers  success 200"
+  }, {
+    "name" : "testMethod",
+    "value" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Poland 2 SET)-"
+  }, {
+    "name" : "package",
+    "value" : "Foreign Country SEPA Transfers  success 200"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-1062, https://jira.fidor.de/browse/OL-1049, https://jira.fidor.de/browse/OL-1051",
+    "url" : "https://jira.fidor.de/browse/OL-1062, https://jira.fidor.de/browse/OL-1049, https://jira.fidor.de/browse/OL-1051",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df23e0ab19873057.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

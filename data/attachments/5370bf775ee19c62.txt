@@ -1,0 +1,19 @@
+D, [2017-11-27 17:15:58#11677] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:15:58#11677] DEBUG -- : Example ( (OL-346, Correct MSISDN and Incorrect Password)) STARTED
+D, [2017-11-27 17:15:59#11677] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:15:59#11677] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:15:59#11677] DEBUG -- : with body: {
+  "grant_type": "password",
+  "password": 888888888888888888888,
+  "username": 330010000002
+}
+D, [2017-11-27 17:15:59#11677] DEBUG -- : RESPOND WITH: status code 400 and body: {
+  "error": "invalid_credentials",
+  "error_description": "invalid"
+}
+D, [2017-11-27 17:15:59#11677] DEBUG -- : Example ( (OL-346, Correct MSISDN and Incorrect Password)) PASSED
+D, [2017-11-27 17:15:59#11677] DEBUG -- : -----------------------------------------

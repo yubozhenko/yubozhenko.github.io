@@ -1,0 +1,87 @@
+{
+  "uid" : "7f68346512ab29ab",
+  "name" : "Lock Card  success 204  (OL-526, Valid Data)-",
+  "fullName" : "Lock Card  success 204.Lock Card  success 204  (OL-526, Valid Data)-",
+  "historyId" : "55f73ae9147898166407ded8392f05bb",
+  "time" : {
+    "start" : 1511799260491,
+    "stop" : 1511799264893,
+    "duration" : 4402
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "45d9bf35be1264f5",
+      "name" : "test_log",
+      "source" : "45d9bf35be1264f5.txt",
+      "type" : "text/plain",
+      "size" : 3747
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to freeze  my debit card so that I can block my card temporary if I can't find it (OL-22)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-526"
+  }, {
+    "name" : "thread",
+    "value" : "11415860"
+  }, {
+    "name" : "suite",
+    "value" : "Lock Card  success 204"
+  }, {
+    "name" : "testClass",
+    "value" : "Lock Card  success 204"
+  }, {
+    "name" : "testMethod",
+    "value" : "Lock Card  success 204  (OL-526, Valid Data)-"
+  }, {
+    "name" : "package",
+    "value" : "Lock Card  success 204"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-526",
+    "url" : "https://jira.fidor.de/browse/OL-526",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f68346512ab29ab.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

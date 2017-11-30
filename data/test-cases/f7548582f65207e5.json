@@ -1,0 +1,87 @@
+{
+  "uid" : "f7548582f65207e5",
+  "name" : "Create transfers  fail 422  (OL-859, SEPA - Account ID - Does Not Belong to User (another Oney Live client's account))-",
+  "fullName" : "Create transfers  fail 422.Create transfers  fail 422  (OL-859, SEPA - Account ID - Does Not Belong to User (another Oney Live client's account))-",
+  "historyId" : "55957dec74167618d53fb6295c92e8e",
+  "time" : {
+    "start" : 1511799385280,
+    "stop" : 1511799392183,
+    "duration" : 6903
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e6fbf745ed44d192",
+      "name" : "test_log",
+      "source" : "e6fbf745ed44d192.txt",
+      "type" : "text/plain",
+      "size" : 11632
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Transfer service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as an Ony live client i want to make a SEPA transfer so that i transfer money using Name and IBAN of a receiver (OL-392)as OL client i want to make P2P transfers to an oney live user so that I can easily and instantly send money to other OL users (OL-43)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-859"
+  }, {
+    "name" : "thread",
+    "value" : "12054840"
+  }, {
+    "name" : "suite",
+    "value" : "Create transfers  fail 422"
+  }, {
+    "name" : "testClass",
+    "value" : "Create transfers  fail 422"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create transfers  fail 422  (OL-859, SEPA - Account ID - Does Not Belong to User (another Oney Live client's account))-"
+  }, {
+    "name" : "package",
+    "value" : "Create transfers  fail 422"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-859",
+    "url" : "https://jira.fidor.de/browse/OL-859",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f7548582f65207e5.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

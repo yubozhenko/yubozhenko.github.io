@@ -1,0 +1,103 @@
+{
+  "uid" : "e3e275161b915504",
+  "name" : "Block Card  -  success 204  (OL-802, Card Registration Completed - Correct Data)-Test was skipped, because of unresolved defects (OL-1170) ",
+  "fullName" : "Block Card  -  success 204.Block Card  -  success 204  (OL-802, Card Registration Completed - Correct Data)-Test was skipped, because of unresolved defects (OL-1170) ",
+  "historyId" : "aee0441963531e23a631b724437b6878",
+  "time" : {
+    "start" : 1511799257101,
+    "stop" : 1511799257103,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusDetails" : {
+    "message" : "",
+    "trace" : "",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusDetails" : {
+      "message" : "",
+      "trace" : "",
+      "flaky" : false
+    },
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a589fd210607c0c1",
+      "name" : "test_log",
+      "source" : "a589fd210607c0c1.txt",
+      "type" : "text/plain",
+      "size" : 298
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "issue",
+    "value" : "https://jira.fidor.de/browse/OL-1170"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to block my card so that anyone isn't able to use it(OL-49)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-802"
+  }, {
+    "name" : "thread",
+    "value" : "12202300"
+  }, {
+    "name" : "suite",
+    "value" : "Block Card  -  success 204"
+  }, {
+    "name" : "testClass",
+    "value" : "Block Card  -  success 204"
+  }, {
+    "name" : "testMethod",
+    "value" : "Block Card  -  success 204  (OL-802, Card Registration Completed - Correct Data)-Test was skipped, because of unresolved defects (OL-1170) "
+  }, {
+    "name" : "package",
+    "value" : "Block Card  -  success 204"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-1170",
+    "url" : "https://jira.fidor.de/browse/OL-1170",
+    "type" : "issue"
+  }, {
+    "name" : "https://jira.fidor.de/browse/OL-802",
+    "url" : "https://jira.fidor.de/browse/OL-802",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3e275161b915504.json",
+  "statusDetailsSafe" : {
+    "message" : "",
+    "trace" : "",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

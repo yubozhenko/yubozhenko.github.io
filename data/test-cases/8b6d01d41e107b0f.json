@@ -1,0 +1,87 @@
+{
+  "uid" : "8b6d01d41e107b0f",
+  "name" : "User registration  success 201  (OL-323, Account is created if user used a regular email during an account creation)-",
+  "fullName" : "User registration  success 201.User registration  success 201  (OL-323, Account is created if user used a regular email during an account creation)-",
+  "historyId" : "98abb4f79d27aef9391f1542c3eee56e",
+  "time" : {
+    "start" : 1511799360389,
+    "stop" : 1511799361701,
+    "duration" : 1312
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ad407810af80c845",
+      "name" : "test_log",
+      "source" : "ad407810af80c845.txt",
+      "type" : "text/plain",
+      "size" : 4535
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User registration service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "As OL Client i want to enter my personal information so that a client is created (OL-146)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-323"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "User registration  success 201"
+  }, {
+    "name" : "testClass",
+    "value" : "User registration  success 201"
+  }, {
+    "name" : "testMethod",
+    "value" : "User registration  success 201  (OL-323, Account is created if user used a regular email during an account creation)-"
+  }, {
+    "name" : "package",
+    "value" : "User registration  success 201"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-323",
+    "url" : "https://jira.fidor.de/browse/OL-323",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b6d01d41e107b0f.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

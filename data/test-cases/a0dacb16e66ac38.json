@@ -1,0 +1,103 @@
+{
+  "uid" : "a0dacb16e66ac38",
+  "name" : "User registration  success 201  (OL-377, OL-340,  OL-377, OL-372,  OL-341, OL-360, OL-367,  OL-369, OL-375, Mandatory Fields are Valid)-Test was skipped, because of unresolved defects (OL-1117) ",
+  "fullName" : "User registration  success 201.User registration  success 201  (OL-377, OL-340,  OL-377, OL-372,  OL-341, OL-360, OL-367,  OL-369, OL-375, Mandatory Fields are Valid)-Test was skipped, because of unresolved defects (OL-1117) ",
+  "historyId" : "1cbe698e5950ea2f1acd774a2d08911e",
+  "time" : {
+    "start" : 1511799360386,
+    "stop" : 1511799360389,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusDetails" : {
+    "message" : "",
+    "trace" : "",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusDetails" : {
+      "message" : "",
+      "trace" : "",
+      "flaky" : false
+    },
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e86eb6e2ff2e9fcb",
+      "name" : "test_log",
+      "source" : "e86eb6e2ff2e9fcb.txt",
+      "type" : "text/plain",
+      "size" : 349
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User registration service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "issue",
+    "value" : "https://jira.fidor.de/browse/OL-1117"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "As OL Client i want to enter my personal information so that a client is created (OL-146)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-377,https://jira.fidor.de/browse/OL-340, https://jira.fidor.de/browse/OL-377,https://jira.fidor.de/browse/OL-372, https://jira.fidor.de/browse/OL-341,https://jira.fidor.de/browse/OL-360,https://jira.fidor.de/browse/OL-367, https://jira.fidor.de/browse/OL-369,https://jira.fidor.de/browse/OL-375"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "User registration  success 201"
+  }, {
+    "name" : "testClass",
+    "value" : "User registration  success 201"
+  }, {
+    "name" : "testMethod",
+    "value" : "User registration  success 201  (OL-377, OL-340,  OL-377, OL-372,  OL-341, OL-360, OL-367,  OL-369, OL-375, Mandatory Fields are Valid)-Test was skipped, because of unresolved defects (OL-1117) "
+  }, {
+    "name" : "package",
+    "value" : "User registration  success 201"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-1117",
+    "url" : "https://jira.fidor.de/browse/OL-1117",
+    "type" : "issue"
+  }, {
+    "name" : "https://jira.fidor.de/browse/OL-377,https://jira.fidor.de/browse/OL-340, https://jira.fidor.de/browse/OL-377,https://jira.fidor.de/browse/OL-372, https://jira.fidor.de/browse/OL-341,https://jira.fidor.de/browse/OL-360,https://jira.fidor.de/browse/OL-367, https://jira.fidor.de/browse/OL-369,https://jira.fidor.de/browse/OL-375",
+    "url" : "https://jira.fidor.de/browse/OL-377,https://jira.fidor.de/browse/OL-340, https://jira.fidor.de/browse/OL-377,https://jira.fidor.de/browse/OL-372, https://jira.fidor.de/browse/OL-341,https://jira.fidor.de/browse/OL-360,https://jira.fidor.de/browse/OL-367, https://jira.fidor.de/browse/OL-369,https://jira.fidor.de/browse/OL-375",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0dacb16e66ac38.json",
+  "statusDetailsSafe" : {
+    "message" : "",
+    "trace" : "",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

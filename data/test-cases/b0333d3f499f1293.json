@@ -1,0 +1,87 @@
+{
+  "uid" : "b0333d3f499f1293",
+  "name" : "Get Card Pin  fail 401  (OL-694, Security Question and CVC - Invalid)-",
+  "fullName" : "Get Card Pin  fail 401.Get Card Pin  fail 401  (OL-694, Security Question and CVC - Invalid)-",
+  "historyId" : "8a026a2e08cbc1f912bef3734ba384ea",
+  "time" : {
+    "start" : 1511799281325,
+    "stop" : 1511799287212,
+    "duration" : 5887
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ca00c69af8adb557",
+      "name" : "test_log",
+      "source" : "ca00c69af8adb557.txt",
+      "type" : "text/plain",
+      "size" : 3990
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to Get Paypin (OL-712)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-694"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "Get Card Pin  fail 401"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Card Pin  fail 401"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Card Pin  fail 401  (OL-694, Security Question and CVC - Invalid)-"
+  }, {
+    "name" : "package",
+    "value" : "Get Card Pin  fail 401"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-694",
+    "url" : "https://jira.fidor.de/browse/OL-694",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b0333d3f499f1293.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,90 @@
+{
+  "uid" : "d3e2ccc9cfdcd0ea",
+  "name" : "Set Card Limit  success 204  (OL-814, Set Card Limit - Daily - Maximum (volume = 50 000 EUR))-",
+  "fullName" : "Set Card Limit  success 204.Set Card Limit  success 204  (OL-814, Set Card Limit - Daily - Maximum (volume = 50 000 EUR))-",
+  "historyId" : "831e99fed6f6ad06405c41fc2ee5cdc3",
+  "time" : {
+    "start" : 1511799267081,
+    "stop" : 1511799271793,
+    "duration" : 4712
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c21358a031b2a8e0",
+      "name" : "test_log",
+      "source" : "c21358a031b2a8e0.txt",
+      "type" : "text/plain",
+      "size" : 5523
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "major"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client I want to change the Limit Per Transactions, Daily Limit and Limit per ATM withdrawal (OL-26)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-814"
+  }, {
+    "name" : "thread",
+    "value" : "8941880"
+  }, {
+    "name" : "suite",
+    "value" : "Set Card Limit  success 204"
+  }, {
+    "name" : "testClass",
+    "value" : "Set Card Limit  success 204"
+  }, {
+    "name" : "testMethod",
+    "value" : "Set Card Limit  success 204  (OL-814, Set Card Limit - Daily - Maximum (volume = 50 000 EUR))-"
+  }, {
+    "name" : "package",
+    "value" : "Set Card Limit  success 204"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-814",
+    "url" : "https://jira.fidor.de/browse/OL-814",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d3e2ccc9cfdcd0ea.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

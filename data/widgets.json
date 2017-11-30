@@ -1,0 +1,332 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 86,
+      "broken" : 20,
+      "skipped" : 35,
+      "passed" : 299,
+      "unknown" : 0,
+      "total" : 440
+    },
+    "time" : {
+      "start" : 1511799246313,
+      "stop" : 1511799704842,
+      "duration" : 458529,
+      "minDuration" : 0,
+      "maxDuration" : 61587,
+      "sumDuration" : 2184863
+    }
+  },
+  "environment" : [ {
+    "values" : [ "0.0.5" ],
+    "name" : "backoffice"
+  }, {
+    "values" : [ "test" ],
+    "name" : "environment"
+  }, {
+    "values" : [ "0.0.20" ],
+    "name" : "adapter"
+  }, {
+    "values" : [ "0.0.15" ],
+    "name" : "redemption"
+  }, {
+    "values" : [ "0.0.4" ],
+    "name" : "auth"
+  }, {
+    "values" : [ "v0.0.2_20171122.1" ],
+    "name" : "release"
+  }, {
+    "values" : [ "0.0.26" ],
+    "name" : "onboarding"
+  }, {
+    "values" : [ "0.0.13" ],
+    "name" : "api_gateway"
+  }, {
+    "values" : [ "0.0.12" ],
+    "name" : "communication"
+  }, {
+    "values" : [ "0.0.9" ],
+    "name" : "gateway"
+  }, {
+    "values" : [ "0.0.20" ],
+    "name" : "banking"
+  } ],
+  "suites" : {
+    "total" : 85,
+    "items" : [ {
+      "uid" : "9168ba4346c287817c3ff8d5d92f30bb",
+      "name" : "Update Customer  fail 422",
+      "statistic" : {
+        "failed" : 59,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 62
+      }
+    }, {
+      "uid" : "e04a31ad21015ff97d716a8b1f82aece",
+      "name" : "User registration  success 201",
+      "statistic" : {
+        "failed" : 13,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 25
+      }
+    }, {
+      "uid" : "5246f7a5a4c5f6ae84b248f07f272990",
+      "name" : "User registration  fail 422",
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 27,
+        "unknown" : 0,
+        "total" : 32
+      }
+    }, {
+      "uid" : "bbd591304fe8c84b2fdaf7b103eff09c",
+      "name" : "Create transfers  fail 404",
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      }
+    }, {
+      "uid" : "f879056e34f3888d5e683adf222c055f",
+      "name" : "Create transfers  fail 422",
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 4,
+        "passed" : 41,
+        "unknown" : 0,
+        "total" : 47
+      }
+    }, {
+      "uid" : "27e35ecebcff5a58355f760afc642504",
+      "name" : "Update Customer  success 204",
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      }
+    }, {
+      "uid" : "c2ca62bb690b32ed359bbfe03f8660ea",
+      "name" : "Card activation  fail 403",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      }
+    }, {
+      "uid" : "7a40da195b93d82818122e0d4c8efaa5",
+      "name" : "Card activation  fail 403, four attempts",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "76dd0efe4db33b4e2f9a7bd6d024068a",
+      "name" : "User registration via onboarding fail 422",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 10,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 11
+      }
+    }, {
+      "uid" : "d9e51f516879974fc6437d02806df87f",
+      "name" : "Perform transaction with Pre Authorization success 200",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 86,
+      "broken" : 20,
+      "skipped" : 35,
+      "passed" : 299,
+      "unknown" : 0,
+      "total" : 440
+    },
+    "buildOrder" : 152,
+    "reportUrl" : "http://10.1.25.51/job/oney.by.demand.api.tests/152/allure",
+    "reportName" : "AllureReport"
+  }, {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 0
+    }
+  } ],
+  "behaviors" : {
+    "total" : 9,
+    "items" : [ {
+      "uid" : "52a7fa22385cfbd0cc871faedfe09309",
+      "name" : "Card service",
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 11
+      }
+    }, {
+      "uid" : "16f44e51d4dc8fb91e71514ddccd5d10",
+      "name" : "User registration service",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "d21b1e561720ae34b85c7f7cb0d21b04",
+      "name" : "Transfer service",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "1804dcdbad42e4a1469b7586fbd71a63",
+      "name" : "Update customer service",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "uid" : "7ce480eb948f597b9c73c301ebdcaf24",
+      "name" : "Transactions service",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "uid" : "5067f028b2237d246dad3edb9cc6c8ee",
+      "name" : "Reset password service",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "uid" : "4e2e75bff43da3d3cb69eaaac59d10e8",
+      "name" : "Authentication service",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "391a491dd121ddd87d65d95197698af2",
+      "name" : "Security Question service",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "uid" : "897923a6f444bbf9dfbd4b542f38aa6c",
+      "name" : "Accounts service",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "executors" : [ {
+    "name" : "Jenkins",
+    "type" : "jenkins",
+    "url" : "http://10.1.25.51/",
+    "buildOrder" : 152,
+    "buildName" : "oney.by.demand.api.tests #152",
+    "buildUrl" : "http://10.1.25.51/job/oney.by.demand.api.tests/152/",
+    "reportName" : "AllureReport",
+    "reportUrl" : "http://10.1.25.51/job/oney.by.demand.api.tests/152/allure"
+  } ],
+  "categories" : {
+    "total" : 2,
+    "items" : [ {
+      "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d",
+      "name" : "Product defects",
+      "statistic" : {
+        "failed" : 86,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 86
+      }
+    }, {
+      "uid" : "bdbf199525818fae7a8651db9eafe741",
+      "name" : "Test defects",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 20,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 20
+      }
+    } ]
+  },
+  "launches" : [ ]
+}

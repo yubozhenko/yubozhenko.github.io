@@ -1,0 +1,87 @@
+{
+  "uid" : "f776f47f199eb4ac",
+  "name" : "Reset password  fail 400 (OL-784, New Password - Short Password)-",
+  "fullName" : "Reset password  fail 400.Reset password  fail 400 (OL-784, New Password - Short Password)-",
+  "historyId" : "f39214e66e6b08b4e6e4db6a118ca877",
+  "time" : {
+    "start" : 1511799257883,
+    "stop" : 1511799259896,
+    "duration" : 2013
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2372768d6cf3c7ee",
+      "name" : "test_log",
+      "source" : "2372768d6cf3c7ee.txt",
+      "type" : "text/plain",
+      "size" : 3229
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Reset password service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as Oney live customer i want to reset my password after 3  wrong password attempts (OL-141)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-784"
+  }, {
+    "name" : "thread",
+    "value" : "12054840"
+  }, {
+    "name" : "suite",
+    "value" : "Reset password  fail 400"
+  }, {
+    "name" : "testClass",
+    "value" : "Reset password  fail 400"
+  }, {
+    "name" : "testMethod",
+    "value" : "Reset password  fail 400 (OL-784, New Password - Short Password)-"
+  }, {
+    "name" : "package",
+    "value" : "Reset password  fail 400"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-784",
+    "url" : "https://jira.fidor.de/browse/OL-784",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f776f47f199eb4ac.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

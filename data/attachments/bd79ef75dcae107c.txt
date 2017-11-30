@@ -1,0 +1,104 @@
+D, [2017-11-27 17:14:18#11679] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:14:18#11679] DEBUG -- : Example ( (OL-422, Question is not answered)) STARTED
+D, [2017-11-27 17:14:19#11679] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:14:19#11679] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:14:19#11679] DEBUG -- : with body: {
+  "grant_type": "client_credentials"
+}
+D, [2017-11-27 17:14:19#11679] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI4NTksInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiMTU1NGQyN2EtZmQ1NC00Njg0LWE1MWQtNDE4NTYwZDU1N2Y5IiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.WNqbfA5DTOUv9mNOScoqDtrD517fO539o5lMbBMRKg4",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "50353afb5272d51930770934996f5839"
+}
+D, [2017-11-27 17:14:36#11679] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/onboarding/api/v1/customers
+D, [2017-11-27 17:14:36#11679] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI4NTksInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiMTU1NGQyN2EtZmQ1NC00Njg0LWE1MWQtNDE4NTYwZDU1N2Y5IiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.WNqbfA5DTOUv9mNOScoqDtrD517fO539o5lMbBMRKg4",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json",
+  "Cache-Control": "No-Cache"
+}
+D, [2017-11-27 17:14:36#11679] DEBUG -- : with body: {
+  "email": "user.without.answer@1511799259161.com",
+  "first_name": "Vasul",
+  "last_name": "IDNCYUIXDMJAQHT",
+  "password": "Qwerty123#",
+  "birthday": "1992-04-28",
+  "maiden_name": "noname",
+  "adr_street": "Cool st. 11/8",
+  "adr_street_number": 111,
+  "adr_post_code": 66974,
+  "adr_city": "Boston",
+  "birthplace": "Boston",
+  "adr_country": "US",
+  "marital_status": 2,
+  "nationality": "DE",
+  "adr_phone": null,
+  "title": 1,
+  "us_citizen": true,
+  "us_tax_payer": true,
+  "verification_token": "123321",
+  "gender": "m",
+  "own_interest": true,
+  "tos": true,
+  "privacy_policy": true,
+  "adr_mobile": "+31511799259161",
+  "affiliate_uid": "7a3c4c03-0001-4483-91d4-999146a3dd9f"
+}
+D, [2017-11-27 17:14:36#11679] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "id": 14720,
+  "fosid": "53173013",
+  "context": "email_verified",
+  "account_number": "0000315680",
+  "customer_number": "0031568",
+  "iban": "FR7612869000010000031568088",
+  "email": "user.without.answer@1511799259161.com",
+  "title": 1,
+  "first_name": "Vasul",
+  "additional_first_name": null,
+  "last_name": "IDNCYUIXDMJAQHT",
+  "adr_mobile": "+31511799259161",
+  "gender": "m",
+  "birthday": "1992-04-28",
+  "country_of_birth": null,
+  "nationality": "DE",
+  "adr_street": "Cool st. 11/8",
+  "adr_street_number": "111",
+  "adr_city": "Boston",
+  "birthplace": "Boston",
+  "adr_post_code": "66974",
+  "adr_country": "US",
+  "marital_status": "2",
+  "occupation": null,
+  "privacy_policy": true,
+  "own_interest": true,
+  "tos": true,
+  "newsletter": null,
+  "us_citizen": true,
+  "us_tax_payer": true,
+  "created_at": "2017-11-27T16:14:19Z",
+  "updated_at": "2017-11-27T16:14:35Z"
+}
+D, [2017-11-27 17:14:39#11679] DEBUG -- : REQUEST METHOD: get, to url: https://api.oney-test.fidor.intern/fidor_api/security_answers/current?msisdn=31511799259161
+D, [2017-11-27 17:14:39#11679] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI4NTksInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiMTU1NGQyN2EtZmQ1NC00Njg0LWE1MWQtNDE4NTYwZDU1N2Y5IiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.WNqbfA5DTOUv9mNOScoqDtrD517fO539o5lMbBMRKg4",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json",
+  "Cache-Control": "no-cache"
+}
+D, [2017-11-27 17:14:39#11679] DEBUG -- : RESPOND WITH: status code 404 and body: {
+  "code": 404,
+  "errors": [
+
+  ],
+  "message": "No security question has been answered",
+  "key": [
+    "not_found"
+  ]
+}
+D, [2017-11-27 17:14:39#11679] DEBUG -- : Example ( (OL-422, Question is not answered)) PASSED
+D, [2017-11-27 17:14:39#11679] DEBUG -- : -----------------------------------------

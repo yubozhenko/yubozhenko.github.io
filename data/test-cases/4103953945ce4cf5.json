@@ -1,0 +1,87 @@
+{
+  "uid" : "4103953945ce4cf5",
+  "name" : "Unfreeze Card  fail 403  (OL-575, Incorrect Paypin - Three Attempts)-",
+  "fullName" : "Unfreeze Card  fail 403.Unfreeze Card  fail 403  (OL-575, Incorrect Paypin - Three Attempts)-",
+  "historyId" : "51f3de3c92ebe0820d68bcfcc7e7e912",
+  "time" : {
+    "start" : 1511799305567,
+    "stop" : 1511799315673,
+    "duration" : 10106
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8f17f85740cfcf52",
+      "name" : "test_log",
+      "source" : "8f17f85740cfcf52.txt",
+      "type" : "text/plain",
+      "size" : 10209
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to freeze  my debit card so that I can block my card temporary if I can't find it (OL-22)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-575"
+  }, {
+    "name" : "thread",
+    "value" : "3625280"
+  }, {
+    "name" : "suite",
+    "value" : "Unfreeze Card  fail 403"
+  }, {
+    "name" : "testClass",
+    "value" : "Unfreeze Card  fail 403"
+  }, {
+    "name" : "testMethod",
+    "value" : "Unfreeze Card  fail 403  (OL-575, Incorrect Paypin - Three Attempts)-"
+  }, {
+    "name" : "package",
+    "value" : "Unfreeze Card  fail 403"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-575",
+    "url" : "https://jira.fidor.de/browse/OL-575",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4103953945ce4cf5.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

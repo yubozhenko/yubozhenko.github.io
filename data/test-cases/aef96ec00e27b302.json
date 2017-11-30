@@ -1,0 +1,87 @@
+{
+  "uid" : "aef96ec00e27b302",
+  "name" : "User authentication  success 200  (OL-344, Correct MSISDN and Password)-",
+  "fullName" : "User authentication  success 200.User authentication  success 200  (OL-344, Correct MSISDN and Password)-",
+  "historyId" : "d8dbc22b860b642b7b4fb9aa889d1040",
+  "time" : {
+    "start" : 1511799353508,
+    "stop" : 1511799356819,
+    "duration" : 3311
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7c1e7f6fc76c103f",
+      "name" : "test_log",
+      "source" : "7c1e7f6fc76c103f.txt",
+      "type" : "text/plain",
+      "size" : 2157
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Authentication service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as Prospect client i want to receive a SMS to check my phone number and bind my device so that the system is sure that the phone number belong to me (OL-31)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-344"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "User authentication  success 200"
+  }, {
+    "name" : "testClass",
+    "value" : "User authentication  success 200"
+  }, {
+    "name" : "testMethod",
+    "value" : "User authentication  success 200  (OL-344, Correct MSISDN and Password)-"
+  }, {
+    "name" : "package",
+    "value" : "User authentication  success 200"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-344",
+    "url" : "https://jira.fidor.de/browse/OL-344",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aef96ec00e27b302.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

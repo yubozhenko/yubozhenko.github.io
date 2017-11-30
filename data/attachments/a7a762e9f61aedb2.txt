@@ -1,0 +1,69 @@
+D, [2017-11-27 17:16:17#11677] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:16:17#11677] DEBUG -- : Example ( (OL-326, Email - Valid Email with Special Characters({|}))) STARTED
+D, [2017-11-27 17:16:17#11677] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:16:17#11677] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:16:17#11677] DEBUG -- : with body: {
+  "grant_type": "client_credentials"
+}
+D, [2017-11-27 17:16:17#11677] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NzcsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiOGM4YjkzNTAtZmVlNC00ZDgzLTk2NDUtYmRlODAyMzE4ZWZjIiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.6z0FWrBxQRUA6aiMgMSqvOfiVcF-xPqYRAqOvDiwxbs",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "9838174b3616306487bc7d40601a3e52"
+}
+D, [2017-11-27 17:16:18#11677] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/fidor_api/customers
+D, [2017-11-27 17:16:18#11677] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NzcsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiOGM4YjkzNTAtZmVlNC00ZDgzLTk2NDUtYmRlODAyMzE4ZWZjIiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.6z0FWrBxQRUA6aiMgMSqvOfiVcF-xPqYRAqOvDiwxbs",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json",
+  "Cache-Control": "No-Cache"
+}
+D, [2017-11-27 17:16:18#11677] DEBUG -- : with body: {
+  "email": "email.{with}.sc.aps.some@1511799377563.com",
+  "first_name": "Micle",
+  "last_name": "HITJCAVWKY",
+  "password": "Qwerty123#",
+  "birthday": "1992-04-28",
+  "maiden_name": "noname",
+  "adr_street": "Cool st. 11/8",
+  "adr_street_number": 111,
+  "adr_post_code": 66974,
+  "adr_city": "Boston",
+  "birthplace": "Boston",
+  "adr_country": "US",
+  "marital_status": 2,
+  "nationality": "DE",
+  "adr_phone": null,
+  "title": 1,
+  "us_citizen": true,
+  "us_tax_payer": true,
+  "verification_token": "123321",
+  "gender": "m",
+  "own_interest": true,
+  "tos": true,
+  "privacy_policy": true,
+  "adr_mobile": "+31511799377563",
+  "affiliate_uid": "7a3c4c03-0001-4483-91d4-999146a3dd9f"
+}
+D, [2017-11-27 17:16:18#11677] DEBUG -- : RESPOND WITH: status code 422 and body: {
+  "code": 422,
+  "errors": [
+    {
+      "field": "email",
+      "message": "is invalid",
+      "options": {
+      },
+      "key": "invalid"
+    }
+  ],
+  "message": "Validation failed",
+  "key": [
+    "validation_failed"
+  ]
+}
+D, [2017-11-27 17:16:18#11677] DEBUG -- : Example ( (OL-326, Email - Valid Email with Special Characters({|}))) FAILED
+D, [2017-11-27 17:16:18#11677] DEBUG -- : -----------------------------------------

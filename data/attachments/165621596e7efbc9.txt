@@ -1,0 +1,143 @@
+D, [2017-11-27 17:20:51#11678] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:20:51#11678] DEBUG -- : Example ( (OL-903, SEPA - Currency - Invalid (Consists of numbers))) STARTED
+D, [2017-11-27 17:20:53#11678] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:20:53#11678] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:20:53#11678] DEBUG -- : with body: {
+  "grant_type": "password",
+  "password": "Qwerty123#",
+  "username": "transfer.create@1511798035648.com"
+}
+D, [2017-11-27 17:20:53#11678] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDMyNTMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzQ2MDQ4MzA1IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjNhY2ExNTA4LTY2Y2ItNDI2OC05MGNkLWJlNzgwMmNmNjMxYiIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.UKjYBEy2DciJTZvGuJTsG7q2pYwaC71MfJx6JxburBI",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "c96bee134b6b715953e1e9e8725ef49c"
+}
+D, [2017-11-27 17:20:54#11678] DEBUG -- : REQUEST METHOD: get, to url: https://api.oney-test.fidor.intern/fidor_api/accounts/46048305
+D, [2017-11-27 17:20:54#11678] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDMyNTMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzQ2MDQ4MzA1IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjNhY2ExNTA4LTY2Y2ItNDI2OC05MGNkLWJlNzgwMmNmNjMxYiIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.UKjYBEy2DciJTZvGuJTsG7q2pYwaC71MfJx6JxburBI",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:20:54#11678] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "id": "46048305",
+  "account_number": "0000315419",
+  "iban": "FR7612869000010000031541995",
+  "balance": 10000,
+  "balance_available": 10000,
+  "bic": "BACCFR22XXX",
+  "preauth_amount": 0,
+  "cash_flow_per_year": 0,
+  "is_debit_note_enabled": null,
+  "is_trusted": null,
+  "is_locked": false,
+  "currency": "EUR",
+  "overdraft": 0,
+  "garnishee_protected": false,
+  "created_at": "2017-11-27T15:58:58Z",
+  "updated_at": "2017-11-27T16:06:04Z",
+  "customers": [
+    {
+      "id": "46048305",
+      "email": "transfer.create@1511798035648.com",
+      "first_name": "Vasul",
+      "last_name": "EWOWNLYCIDHYCQH",
+      "additional_first_name": null,
+      "gender": "m",
+      "title": "Mr.",
+      "nick": null,
+      "maiden_name": null,
+      "adr_street": "Cool st. 11/8",
+      "adr_street_number": "111",
+      "adr_post_code": "66974",
+      "adr_city": "Boston",
+      "birthplace": "Boston",
+      "adr_country": "US",
+      "adr_phone": null,
+      "adr_mobile": "+31511798035648",
+      "adr_fax": null,
+      "adr_businessphone": null,
+      "birthday": "1992-04-28T00:00:00+00:00",
+      "is_verified": true,
+      "nationality": "DE",
+      "marital_status": 2,
+      "occupation": null,
+      "religion": 0,
+      "country_of_birth": null,
+      "preferred_language": "EN",
+      "id_card_registration_city": null,
+      "id_card_number": null,
+      "id_card_valid_until": null,
+      "legal": {
+        "tos": true,
+        "privacy_policy": true,
+        "own_interest": true,
+        "community_terms_and_conditions": null,
+        "us_citizen": true,
+        "us_tax_payer": true
+      },
+      "newsletter": null,
+      "affiliate_uid": "7a3c4c03-0001-4483-91d4-999146a3dd9f",
+      "community_user_picture": "https://community./uploads/users/photos//default.jpg",
+      "created_at": "2017-11-27T15:58:58Z",
+      "account_type": "retail",
+      "customer_number": "0031541",
+      "updated_at": "2017-11-27T16:06:04Z",
+      "additional_nationalities": [
+
+      ]
+    }
+  ]
+}
+D, [2017-11-27 17:20:54#11678] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/fidor_api/transfers
+D, [2017-11-27 17:20:54#11678] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDMyNTMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzQ2MDQ4MzA1IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjNhY2ExNTA4LTY2Y2ItNDI2OC05MGNkLWJlNzgwMmNmNjMxYiIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.UKjYBEy2DciJTZvGuJTsG7q2pYwaC71MfJx6JxburBI",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:20:54#11678] DEBUG -- : with body: {
+  "amount": 10,
+  "currency": 101110001,
+  "subject": "money",
+  "additional_attributes": {
+    "transfer_purpose": "Airline Ticket/Transport"
+  },
+  "validation_mode": "false",
+  "beneficiary": {
+    "contact": {
+      "name": "Tom",
+      "address_line_1": "str. Bakerstreet",
+      "city": "Chamonix"
+    },
+    "routing_type": "SEPA",
+    "routing_info": {
+      "remote_iban": "FR7612869000010000031548688",
+      "remote_bic": "BACCFR22XXX"
+    }
+  },
+  "create_beneficiary": false,
+  "account_id": "46048305",
+  "external_uid": "uzov-0fa8bk4c5x1wn93lhgitrsd6ey2mq"
+}
+D, [2017-11-27 17:20:54#11678] DEBUG -- : RESPOND WITH: status code 422 and body: {
+  "code": 422,
+  "errors": [
+    {
+      "field": "currency",
+      "message": "is not ISO 4217 (3 uppercase letters)",
+      "options": {
+      },
+      "key": "invalid"
+    }
+  ],
+  "message": "Invalid transfer",
+  "key": [
+    "validation_failed"
+  ]
+}
+D, [2017-11-27 17:20:54#11678] DEBUG -- : Example ( (OL-903, SEPA - Currency - Invalid (Consists of numbers))) FAILED
+D, [2017-11-27 17:20:54#11678] DEBUG -- : -----------------------------------------

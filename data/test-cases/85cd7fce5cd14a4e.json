@@ -1,0 +1,87 @@
+{
+  "uid" : "85cd7fce5cd14a4e",
+  "name" : "Card activation  success 204 after previous 2 failed  (OL-562, Correct CVC and PayPin after Two Wrong Attemps)-",
+  "fullName" : "Card activation  success 204 after previous 2 failed.Card activation  success 204 after previous 2 failed  (OL-562, Correct CVC and PayPin after Two Wrong Attemps)-",
+  "historyId" : "9385647b7df73e3a2d31b3ce29eeb3ec",
+  "time" : {
+    "start" : 1511799323898,
+    "stop" : 1511799336197,
+    "duration" : 12299
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "12548daa4c6b8cd0",
+      "name" : "test_log",
+      "source" : "12548daa4c6b8cd0.txt",
+      "type" : "text/plain",
+      "size" : 10213
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to activate my card so that I can use my card (OL-47)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-562"
+  }, {
+    "name" : "thread",
+    "value" : "16298300"
+  }, {
+    "name" : "suite",
+    "value" : "Card activation  success 204 after previous 2 failed"
+  }, {
+    "name" : "testClass",
+    "value" : "Card activation  success 204 after previous 2 failed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Card activation  success 204 after previous 2 failed  (OL-562, Correct CVC and PayPin after Two Wrong Attemps)-"
+  }, {
+    "name" : "package",
+    "value" : "Card activation  success 204 after previous 2 failed"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-562",
+    "url" : "https://jira.fidor.de/browse/OL-562",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85cd7fce5cd14a4e.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

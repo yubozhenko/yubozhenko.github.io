@@ -1,0 +1,87 @@
+{
+  "uid" : "a0cb08b30aecdaee",
+  "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (())-",
+  "fullName" : "User registration  fail 422.User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (())-",
+  "historyId" : "e9edec2b6b5cfc21dd6ec78fa38f924a",
+  "time" : {
+    "start" : 1511799391481,
+    "stop" : 1511799392289,
+    "duration" : 808
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e88c0d6e81474c92",
+      "name" : "test_log",
+      "source" : "e88c0d6e81474c92.txt",
+      "type" : "text/plain",
+      "size" : 3513
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User registration service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "As OL Client i want to enter my personal information so that a client is created (OL-146)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-329"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "User registration  fail 422"
+  }, {
+    "name" : "testClass",
+    "value" : "User registration  fail 422"
+  }, {
+    "name" : "testMethod",
+    "value" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (())-"
+  }, {
+    "name" : "package",
+    "value" : "User registration  fail 422"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-329",
+    "url" : "https://jira.fidor.de/browse/OL-329",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0cb08b30aecdaee.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

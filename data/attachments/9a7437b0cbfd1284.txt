@@ -1,0 +1,427 @@
+D, [2017-11-27 17:15:42#11679] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:15:42#11679] DEBUG -- : Example ( (OL-842, SEPA - Non-OL Client - Confirm)) STARTED
+D, [2017-11-27 17:15:43#11679] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:15:43#11679] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:15:43#11679] DEBUG -- : with body: {
+  "grant_type": "password",
+  "password": "Qwerty123#",
+  "username": "confirm.transfer.user@1511798036854.com"
+}
+D, [2017-11-27 17:15:43#11679] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NDMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzk2NTc4OTE0IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjMzN2U0ZGM3LTJjMTktNDYzZS04YzFhLTQ3ZjYxMTZlMGRkZiIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.JclHFbKF8b3kOhO_WLOxQ9OHgg7x_Xvn1QbdHEyWNdE",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "fb0f45cd4d7063b7d116f856a3e3b62e"
+}
+D, [2017-11-27 17:15:47#11679] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/fidor_api/transfers
+D, [2017-11-27 17:15:47#11679] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NDMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzk2NTc4OTE0IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjMzN2U0ZGM3LTJjMTktNDYzZS04YzFhLTQ3ZjYxMTZlMGRkZiIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.JclHFbKF8b3kOhO_WLOxQ9OHgg7x_Xvn1QbdHEyWNdE",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:15:47#11679] DEBUG -- : with body: {
+  "amount": 10,
+  "currency": "EUR",
+  "subject": "money",
+  "additional_attributes": {
+    "transfer_purpose": "Airline Ticket/Transport"
+  },
+  "validation_mode": "false",
+  "beneficiary": {
+    "contact": {
+      "name": "Tom",
+      "address_line_1": "str. Wine",
+      "city": "Chamonix"
+    },
+    "routing_type": "SEPA",
+    "routing_info": {
+      "remote_iban": "DE26700222000072822331",
+      "remote_bic": "FDDODEMMXXX"
+    }
+  },
+  "create_beneficiary": false,
+  "account_id": "96578914",
+  "external_uid": "d0j67ysvnrmkq4iwaf2ehcuxb8g-t519o3"
+}
+D, [2017-11-27 17:15:47#11679] DEBUG -- : RESPOND WITH: status code 201 and body: {
+  "id": "27cd9d89-fdad-4cf1-880f-c90831f02bf9",
+  "account_id": "96578914",
+  "amount": 10,
+  "currency": "EUR",
+  "subject": "money",
+  "state": "created",
+  "beneficiary": {
+    "unique_name": null,
+    "contact": {
+      "name": "Tom",
+      "address_line_1": "str. Wine",
+      "address_line_2": null,
+      "city": "Chamonix",
+      "country": null
+    },
+    "bank": {
+      "name": null,
+      "address_line_1": null,
+      "address_line_2": null,
+      "city": null,
+      "country": null
+    },
+    "routing_type": "SEPA",
+    "routing_info": {
+      "remote_iban": "DE26700222000072822331",
+      "remote_bic": "FDDODEMMXXX"
+    }
+  },
+  "created_at": "2017-11-27T16:15:47Z",
+  "updated_at": "2017-11-27T16:15:47Z",
+  "sender": {
+    "firstname": "Vasul",
+    "lastname": "UDCLJZAYWHFWXCY"
+  },
+  "additional_attributes": {
+    "transfer_purpose": "Airline Ticket/Transport"
+  },
+  "external_uid": "d0j67ysvnrmkq4iwaf2ehcuxb8g-t519o3",
+  "beneficiary_id": null,
+  "exchange_rate": null,
+  "exchange_rate_fee": null,
+  "beneficiary_amount": null
+}
+D, [2017-11-27 17:15:48#11679] DEBUG -- : REQUEST METHOD: get, to url: https://api.oney-test.fidor.intern/fidor_api/accounts/96578914
+D, [2017-11-27 17:15:48#11679] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NDMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzk2NTc4OTE0IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjMzN2U0ZGM3LTJjMTktNDYzZS04YzFhLTQ3ZjYxMTZlMGRkZiIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.JclHFbKF8b3kOhO_WLOxQ9OHgg7x_Xvn1QbdHEyWNdE",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:15:48#11679] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "id": "96578914",
+  "account_number": "0000315494",
+  "iban": "FR7612869000010000031549464",
+  "balance": 9980,
+  "balance_available": 9980,
+  "bic": "BACCFR22XXX",
+  "preauth_amount": 0,
+  "cash_flow_per_year": 0,
+  "is_debit_note_enabled": null,
+  "is_trusted": null,
+  "is_locked": false,
+  "currency": "EUR",
+  "overdraft": 0,
+  "garnishee_protected": false,
+  "created_at": "2017-11-27T15:59:18Z",
+  "updated_at": "2017-11-27T16:06:32Z",
+  "customers": [
+    {
+      "id": "96578914",
+      "email": "confirm.transfer.user@1511798036854.com",
+      "first_name": "Vasul",
+      "last_name": "UDCLJZAYWHFWXCY",
+      "additional_first_name": null,
+      "gender": "m",
+      "title": "Mr.",
+      "nick": null,
+      "maiden_name": null,
+      "adr_street": "Cool st. 11/8",
+      "adr_street_number": "111",
+      "adr_post_code": "66974",
+      "adr_city": "Boston",
+      "birthplace": "Boston",
+      "adr_country": "US",
+      "adr_phone": null,
+      "adr_mobile": "+31511798036854",
+      "adr_fax": null,
+      "adr_businessphone": null,
+      "birthday": "1992-04-28T00:00:00+00:00",
+      "is_verified": true,
+      "nationality": "DE",
+      "marital_status": 2,
+      "occupation": null,
+      "religion": 0,
+      "country_of_birth": null,
+      "preferred_language": "EN",
+      "id_card_registration_city": null,
+      "id_card_number": null,
+      "id_card_valid_until": null,
+      "legal": {
+        "tos": true,
+        "privacy_policy": true,
+        "own_interest": true,
+        "community_terms_and_conditions": null,
+        "us_citizen": true,
+        "us_tax_payer": true
+      },
+      "newsletter": null,
+      "affiliate_uid": "7a3c4c03-0001-4483-91d4-999146a3dd9f",
+      "community_user_picture": "https://community./uploads/users/photos//default.jpg",
+      "created_at": "2017-11-27T15:59:18Z",
+      "account_type": "retail",
+      "customer_number": "0031549",
+      "updated_at": "2017-11-27T16:06:32Z",
+      "additional_nationalities": [
+
+      ]
+    }
+  ]
+}
+D, [2017-11-27 17:15:49#11679] DEBUG -- : REQUEST METHOD: put, to url: https://api.oney-test.fidor.intern/fidor_api/confirmable/actions/2c6ef234-92af-4935-b83c-2bea051df36e
+D, [2017-11-27 17:15:49#11679] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NDMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzk2NTc4OTE0IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjMzN2U0ZGM3LTJjMTktNDYzZS04YzFhLTQ3ZjYxMTZlMGRkZiIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.JclHFbKF8b3kOhO_WLOxQ9OHgg7x_Xvn1QbdHEyWNdE",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:15:49#11679] DEBUG -- : with body: {
+  "pin": "1604"
+}
+D, [2017-11-27 17:15:49#11679] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "id": "2c6ef234-92af-4935-b83c-2bea051df36e",
+  "type": "confirmable/transfer/complete",
+  "message": "Action requires confirmation",
+  "steps_left": [
+
+  ],
+  "steps_completed": [
+    "pin"
+  ],
+  "path": "/fidor_api/confirmable/actions/2c6ef234-92af-4935-b83c-2bea051df36e",
+  "result": null,
+  "succeeded_at": "2017-11-27T16:15:49Z",
+  "failed_at": null,
+  "errored_at": null,
+  "created_at": "2017-11-27T16:15:47Z",
+  "updated_at": "2017-11-27T16:15:49Z",
+  "failed_attempts": {
+    "pin": 0
+  }
+}
+D, [2017-11-27 17:15:52#11679] DEBUG -- : REQUEST METHOD: get, to url: https://api.oney-test.fidor.intern/fidor_api/transfers/27cd9d89-fdad-4cf1-880f-c90831f02bf9
+D, [2017-11-27 17:15:52#11679] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NDMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzk2NTc4OTE0IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjMzN2U0ZGM3LTJjMTktNDYzZS04YzFhLTQ3ZjYxMTZlMGRkZiIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.JclHFbKF8b3kOhO_WLOxQ9OHgg7x_Xvn1QbdHEyWNdE",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:15:52#11679] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "id": "27cd9d89-fdad-4cf1-880f-c90831f02bf9",
+  "account_id": "96578914",
+  "amount": 10,
+  "currency": "EUR",
+  "subject": "money",
+  "state": "pending_backoffice_transfer",
+  "beneficiary": {
+    "unique_name": null,
+    "contact": {
+      "name": "Tom",
+      "address_line_1": "str. Wine",
+      "address_line_2": null,
+      "city": "Chamonix",
+      "country": null
+    },
+    "bank": {
+      "name": null,
+      "address_line_1": null,
+      "address_line_2": null,
+      "city": null,
+      "country": null
+    },
+    "routing_type": "SEPA",
+    "routing_info": {
+      "remote_iban": "DE26700222000072822331",
+      "remote_bic": "FDDODEMMXXX"
+    }
+  },
+  "created_at": "2017-11-27T16:15:47Z",
+  "updated_at": "2017-11-27T16:15:49Z",
+  "sender": {
+    "firstname": "Vasul",
+    "lastname": "UDCLJZAYWHFWXCY"
+  },
+  "additional_attributes": {
+    "transfer_purpose": "Airline Ticket/Transport"
+  },
+  "external_uid": "d0j67ysvnrmkq4iwaf2ehcuxb8g-t519o3",
+  "beneficiary_id": null,
+  "exchange_rate": null,
+  "exchange_rate_fee": null,
+  "beneficiary_amount": null
+}
+D, [2017-11-27 17:15:53#11679] DEBUG -- : REQUEST METHOD: get, to url: https://api.oney-test.fidor.intern/fidor_api/transfers/27cd9d89-fdad-4cf1-880f-c90831f02bf9
+D, [2017-11-27 17:15:53#11679] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NDMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzk2NTc4OTE0IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjMzN2U0ZGM3LTJjMTktNDYzZS04YzFhLTQ3ZjYxMTZlMGRkZiIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.JclHFbKF8b3kOhO_WLOxQ9OHgg7x_Xvn1QbdHEyWNdE",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:15:53#11679] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "id": "27cd9d89-fdad-4cf1-880f-c90831f02bf9",
+  "account_id": "96578914",
+  "amount": 10,
+  "currency": "EUR",
+  "subject": "money",
+  "state": "pending_backoffice_transfer",
+  "beneficiary": {
+    "unique_name": null,
+    "contact": {
+      "name": "Tom",
+      "address_line_1": "str. Wine",
+      "address_line_2": null,
+      "city": "Chamonix",
+      "country": null
+    },
+    "bank": {
+      "name": null,
+      "address_line_1": null,
+      "address_line_2": null,
+      "city": null,
+      "country": null
+    },
+    "routing_type": "SEPA",
+    "routing_info": {
+      "remote_iban": "DE26700222000072822331",
+      "remote_bic": "FDDODEMMXXX"
+    }
+  },
+  "created_at": "2017-11-27T16:15:47Z",
+  "updated_at": "2017-11-27T16:15:49Z",
+  "sender": {
+    "firstname": "Vasul",
+    "lastname": "UDCLJZAYWHFWXCY"
+  },
+  "additional_attributes": {
+    "transfer_purpose": "Airline Ticket/Transport"
+  },
+  "external_uid": "d0j67ysvnrmkq4iwaf2ehcuxb8g-t519o3",
+  "beneficiary_id": null,
+  "exchange_rate": null,
+  "exchange_rate_fee": null,
+  "beneficiary_amount": null
+}
+D, [2017-11-27 17:15:59#11679] DEBUG -- : REQUEST METHOD: get, to url: https://api.oney-test.fidor.intern/fidor_api/transfers/27cd9d89-fdad-4cf1-880f-c90831f02bf9
+D, [2017-11-27 17:15:59#11679] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NDMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzk2NTc4OTE0IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjMzN2U0ZGM3LTJjMTktNDYzZS04YzFhLTQ3ZjYxMTZlMGRkZiIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.JclHFbKF8b3kOhO_WLOxQ9OHgg7x_Xvn1QbdHEyWNdE",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:15:59#11679] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "id": "27cd9d89-fdad-4cf1-880f-c90831f02bf9",
+  "account_id": "96578914",
+  "amount": 10,
+  "currency": "EUR",
+  "subject": "money",
+  "state": "completed",
+  "beneficiary": {
+    "unique_name": null,
+    "contact": {
+      "name": "Tom",
+      "address_line_1": "str. Wine",
+      "address_line_2": null,
+      "city": "Chamonix",
+      "country": null
+    },
+    "bank": {
+      "name": null,
+      "address_line_1": null,
+      "address_line_2": null,
+      "city": null,
+      "country": null
+    },
+    "routing_type": "SEPA",
+    "routing_info": {
+      "remote_iban": "DE26700222000072822331",
+      "remote_bic": "FDDODEMMXXX"
+    }
+  },
+  "created_at": "2017-11-27T16:15:47Z",
+  "updated_at": "2017-11-27T16:15:55Z",
+  "sender": {
+    "firstname": "Vasul",
+    "lastname": "UDCLJZAYWHFWXCY"
+  },
+  "additional_attributes": {
+    "transfer_purpose": "Airline Ticket/Transport"
+  },
+  "external_uid": "d0j67ysvnrmkq4iwaf2ehcuxb8g-t519o3",
+  "beneficiary_id": null,
+  "exchange_rate": null,
+  "exchange_rate_fee": null,
+  "beneficiary_amount": null
+}
+D, [2017-11-27 17:16:05#11679] DEBUG -- : REQUEST METHOD: get, to url: https://api.oney-test.fidor.intern/fidor_api/accounts/96578914
+D, [2017-11-27 17:16:05#11679] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5NDMsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzk2NTc4OTE0IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjMzN2U0ZGM3LTJjMTktNDYzZS04YzFhLTQ3ZjYxMTZlMGRkZiIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.JclHFbKF8b3kOhO_WLOxQ9OHgg7x_Xvn1QbdHEyWNdE",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:16:05#11679] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "id": "96578914",
+  "account_number": "0000315494",
+  "iban": "FR7612869000010000031549464",
+  "balance": 9970,
+  "balance_available": 9970,
+  "bic": "BACCFR22XXX",
+  "preauth_amount": 0,
+  "cash_flow_per_year": 0,
+  "is_debit_note_enabled": null,
+  "is_trusted": null,
+  "is_locked": false,
+  "currency": "EUR",
+  "overdraft": 0,
+  "garnishee_protected": false,
+  "created_at": "2017-11-27T15:59:18Z",
+  "updated_at": "2017-11-27T16:06:32Z",
+  "customers": [
+    {
+      "id": "96578914",
+      "email": "confirm.transfer.user@1511798036854.com",
+      "first_name": "Vasul",
+      "last_name": "UDCLJZAYWHFWXCY",
+      "additional_first_name": null,
+      "gender": "m",
+      "title": "Mr.",
+      "nick": null,
+      "maiden_name": null,
+      "adr_street": "Cool st. 11/8",
+      "adr_street_number": "111",
+      "adr_post_code": "66974",
+      "adr_city": "Boston",
+      "birthplace": "Boston",
+      "adr_country": "US",
+      "adr_phone": null,
+      "adr_mobile": "+31511798036854",
+      "adr_fax": null,
+      "adr_businessphone": null,
+      "birthday": "1992-04-28T00:00:00+00:00",
+      "is_verified": true,
+      "nationality": "DE",
+      "marital_status": 2,
+      "occupation": null,
+      "religion": 0,
+      "country_of_birth": null,
+      "preferred_language": "EN",
+      "id_card_registration_city": null,
+      "id_card_number": null,
+      "id_card_valid_until": null,
+      "legal": {
+        "tos": true,
+        "privacy_policy": true,
+        "own_interest": true,
+        "community_terms_and_conditions": null,
+        "us_citizen": true,
+        "us_tax_payer": true
+      },
+      "newsletter": null,
+      "affiliate_uid": "7a3c4c03-0001-4483-91d4-999146a3dd9f",
+      "community_user_picture": "https://community./uploads/users/photos//default.jpg",
+      "created_at": "2017-11-27T15:59:18Z",
+      "account_type": "retail",
+      "customer_number": "0031549",
+      "updated_at": "2017-11-27T16:06:32Z",
+      "additional_nationalities": [
+
+      ]
+    }
+  ]
+}
+D, [2017-11-27 17:16:05#11679] DEBUG -- : Example ( (OL-842, SEPA - Non-OL Client - Confirm)) PASSED
+D, [2017-11-27 17:16:05#11679] DEBUG -- : -----------------------------------------

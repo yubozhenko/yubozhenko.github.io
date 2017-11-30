@@ -1,0 +1,87 @@
+{
+  "uid" : "a67e99c87dde7f11",
+  "name" : "Reset password  fail 400 (OL-888, Security Question - Invalid Question)-",
+  "fullName" : "Reset password  fail 400.Reset password  fail 400 (OL-888, Security Question - Invalid Question)-",
+  "historyId" : "dd13486b4c6c0b0072c77a34153a9b6d",
+  "time" : {
+    "start" : 1511799262485,
+    "stop" : 1511799265174,
+    "duration" : 2689
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6cad62dca2c32d04",
+      "name" : "test_log",
+      "source" : "6cad62dca2c32d04.txt",
+      "type" : "text/plain",
+      "size" : 3247
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Reset password service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as Oney live customer i want to reset my password after 3  wrong password attempts (OL-141)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-888"
+  }, {
+    "name" : "thread",
+    "value" : "12054840"
+  }, {
+    "name" : "suite",
+    "value" : "Reset password  fail 400"
+  }, {
+    "name" : "testClass",
+    "value" : "Reset password  fail 400"
+  }, {
+    "name" : "testMethod",
+    "value" : "Reset password  fail 400 (OL-888, Security Question - Invalid Question)-"
+  }, {
+    "name" : "package",
+    "value" : "Reset password  fail 400"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-888",
+    "url" : "https://jira.fidor.de/browse/OL-888",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a67e99c87dde7f11.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

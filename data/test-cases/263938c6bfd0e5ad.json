@@ -1,0 +1,90 @@
+{
+  "uid" : "263938c6bfd0e5ad",
+  "name" : "Update Customer  fail 422  (OL-1304, Customer info is not updated if email has invalid format (two '@' chars))-",
+  "fullName" : "Update Customer  fail 422.Update Customer  fail 422  (OL-1304, Customer info is not updated if email has invalid format (two '@' chars))-",
+  "historyId" : "fdc9dab5fb41b5f2e6d4359bf762970a",
+  "time" : {
+    "start" : 1511799407191,
+    "stop" : 1511799409058,
+    "duration" : 1867
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c3279c0ef33f9527",
+      "name" : "test_log",
+      "source" : "c3279c0ef33f9527.txt",
+      "type" : "text/plain",
+      "size" : 6993
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Update customer service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as an Oney live client i want to update my email/ address so that my private info remains updated(OL-416)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-1304"
+  }, {
+    "name" : "thread",
+    "value" : "8941880"
+  }, {
+    "name" : "suite",
+    "value" : "Update Customer  fail 422"
+  }, {
+    "name" : "testClass",
+    "value" : "Update Customer  fail 422"
+  }, {
+    "name" : "testMethod",
+    "value" : "Update Customer  fail 422  (OL-1304, Customer info is not updated if email has invalid format (two '@' chars))-"
+  }, {
+    "name" : "package",
+    "value" : "Update Customer  fail 422"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-1304",
+    "url" : "https://jira.fidor.de/browse/OL-1304",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "263938c6bfd0e5ad.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

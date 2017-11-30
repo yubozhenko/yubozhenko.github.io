@@ -1,0 +1,3 @@
+D, [2017-11-27 17:14:31#11688] DEBUG -- : Test was skipped, because of unresolved defects (OL-942) 
+D, [2017-11-27 17:14:31#11688] DEBUG -- : Example ( (OL-807, Set Card Limit - Daily - Less Than Transaction Limit (50 000 > single > volume))) PASSED
+D, [2017-11-27 17:14:31#11688] DEBUG -- : -----------------------------------------

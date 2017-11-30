@@ -1,0 +1,87 @@
+{
+  "uid" : "106c0d4b550aebae",
+  "name" : "Lock Card  success 204 after previous two failed attempts  (OL-546, Incorrect Paypin - Two Attempts)-",
+  "fullName" : "Lock Card  success 204 after previous two failed attempts.Lock Card  success 204 after previous two failed attempts  (OL-546, Incorrect Paypin - Two Attempts)-",
+  "historyId" : "3ca27c8b313cf76de8fea72c1e10afa",
+  "time" : {
+    "start" : 1511799268586,
+    "stop" : 1511799276398,
+    "duration" : 7812
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "784ee0882ec014f8",
+      "name" : "test_log",
+      "source" : "784ee0882ec014f8.txt",
+      "type" : "text/plain",
+      "size" : 7298
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to freeze  my debit card so that I can block my card temporary if I can't find it (OL-22)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-546"
+  }, {
+    "name" : "thread",
+    "value" : "11415860"
+  }, {
+    "name" : "suite",
+    "value" : "Lock Card  success 204 after previous two failed attempts"
+  }, {
+    "name" : "testClass",
+    "value" : "Lock Card  success 204 after previous two failed attempts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Lock Card  success 204 after previous two failed attempts  (OL-546, Incorrect Paypin - Two Attempts)-"
+  }, {
+    "name" : "package",
+    "value" : "Lock Card  success 204 after previous two failed attempts"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-546",
+    "url" : "https://jira.fidor.de/browse/OL-546",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "106c0d4b550aebae.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

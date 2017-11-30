@@ -1,0 +1,103 @@
+{
+  "uid" : "2b51af6e92c66ace",
+  "name" : "Get Card cvc  fail 403  (OL-580 ,  OL-552 ,  OL-856 ,  OL-820 ,  OL-576,  OL-900, PayPin is blocked)-Test was skipped, because of unresolved defects (OL-854) ",
+  "fullName" : "Get Card cvc  fail 403.Get Card cvc  fail 403  (OL-580 ,  OL-552 ,  OL-856 ,  OL-820 ,  OL-576,  OL-900, PayPin is blocked)-Test was skipped, because of unresolved defects (OL-854) ",
+  "historyId" : "bb39ca4dbc3f7b628936b6e66665a105",
+  "time" : {
+    "start" : 1511799264428,
+    "stop" : 1511799264430,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusDetails" : {
+    "message" : "",
+    "trace" : "",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusDetails" : {
+      "message" : "",
+      "trace" : "",
+      "flaky" : false
+    },
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3a67ae148c8d6e29",
+      "name" : "test_log",
+      "source" : "3a67ae148c8d6e29.txt",
+      "type" : "text/plain",
+      "size" : 321
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "issue",
+    "value" : "https://jira.fidor.de/browse/OL-854"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as Oney live customer my paypin is blocked when i enter  a wrong paypin during any confirmation process (OL-140)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-580 , https://jira.fidor.de/browse/OL-552 , https://jira.fidor.de/browse/OL-856 , https://jira.fidor.de/browse/OL-820 , https://jira.fidor.de/browse/OL-576, https://jira.fidor.de/browse/OL-900"
+  }, {
+    "name" : "thread",
+    "value" : "3625280"
+  }, {
+    "name" : "suite",
+    "value" : "Get Card cvc  fail 403"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Card cvc  fail 403"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Card cvc  fail 403  (OL-580 ,  OL-552 ,  OL-856 ,  OL-820 ,  OL-576,  OL-900, PayPin is blocked)-Test was skipped, because of unresolved defects (OL-854) "
+  }, {
+    "name" : "package",
+    "value" : "Get Card cvc  fail 403"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-854",
+    "url" : "https://jira.fidor.de/browse/OL-854",
+    "type" : "issue"
+  }, {
+    "name" : "https://jira.fidor.de/browse/OL-580 , https://jira.fidor.de/browse/OL-552 , https://jira.fidor.de/browse/OL-856 , https://jira.fidor.de/browse/OL-820 , https://jira.fidor.de/browse/OL-576, https://jira.fidor.de/browse/OL-900",
+    "url" : "https://jira.fidor.de/browse/OL-580 , https://jira.fidor.de/browse/OL-552 , https://jira.fidor.de/browse/OL-856 , https://jira.fidor.de/browse/OL-820 , https://jira.fidor.de/browse/OL-576, https://jira.fidor.de/browse/OL-900",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b51af6e92c66ace.json",
+  "statusDetailsSafe" : {
+    "message" : "",
+    "trace" : "",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

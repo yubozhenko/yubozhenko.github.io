@@ -1,0 +1,87 @@
+{
+  "uid" : "ff1ea046711225f2",
+  "name" : "Get Question by MSISDN  fail 404  (OL-422, Question is not answered)-",
+  "fullName" : "Get Question by MSISDN  fail 404.Get Question by MSISDN  fail 404  (OL-422, Question is not answered)-",
+  "historyId" : "577955c1b9394f692004c92695c32692",
+  "time" : {
+    "start" : 1511799258600,
+    "stop" : 1511799279233,
+    "duration" : 20633
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bd79ef75dcae107c",
+      "name" : "test_log",
+      "source" : "bd79ef75dcae107c.txt",
+      "type" : "text/plain",
+      "size" : 5051
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Security Question service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL customer i can create my security question's answer so that i use it for future authentications (OL-148)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-422"
+  }, {
+    "name" : "thread",
+    "value" : "11202880"
+  }, {
+    "name" : "suite",
+    "value" : "Get Question by MSISDN  fail 404"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Question by MSISDN  fail 404"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Question by MSISDN  fail 404  (OL-422, Question is not answered)-"
+  }, {
+    "name" : "package",
+    "value" : "Get Question by MSISDN  fail 404"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-422",
+    "url" : "https://jira.fidor.de/browse/OL-422",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff1ea046711225f2.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

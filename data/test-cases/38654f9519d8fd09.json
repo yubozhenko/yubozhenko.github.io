@@ -1,0 +1,87 @@
+{
+  "uid" : "38654f9519d8fd09",
+  "name" : "Unlock pin  fail 403 - three attempts  (OL-630,  OL-635, CVC is Blocked)-",
+  "fullName" : "Unlock pin  fail 403 - three attempts.Unlock pin  fail 403 - three attempts  (OL-630,  OL-635, CVC is Blocked)-",
+  "historyId" : "21fe58c4f093f3dd6d548e9abfe8acc6",
+  "time" : {
+    "start" : 1511799352297,
+    "stop" : 1511799359719,
+    "duration" : 7422
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3f362a88cfd6352a",
+      "name" : "test_log",
+      "source" : "3f362a88cfd6352a.txt",
+      "type" : "text/plain",
+      "size" : 9080
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as Oney live customer i am able to unlock my paypin after entering it wrong 3 times (OL-142)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-630, https://jira.fidor.de/browse/OL-635"
+  }, {
+    "name" : "thread",
+    "value" : "12202300"
+  }, {
+    "name" : "suite",
+    "value" : "Unlock pin  fail 403 - three attempts"
+  }, {
+    "name" : "testClass",
+    "value" : "Unlock pin  fail 403 - three attempts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Unlock pin  fail 403 - three attempts  (OL-630,  OL-635, CVC is Blocked)-"
+  }, {
+    "name" : "package",
+    "value" : "Unlock pin  fail 403 - three attempts"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-630, https://jira.fidor.de/browse/OL-635",
+    "url" : "https://jira.fidor.de/browse/OL-630, https://jira.fidor.de/browse/OL-635",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38654f9519d8fd09.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "a3cf2c155a5a9f6e",
+  "name" : "Card activation  fail 404  (OL-531, Incorrect Card id - Does not Belong to Current User)-",
+  "fullName" : "Card activation  fail 404.Card activation  fail 404  (OL-531, Incorrect Card id - Does not Belong to Current User)-",
+  "historyId" : "978d5c12d6c4a9c05e281bc093d19da0",
+  "time" : {
+    "start" : 1511799298241,
+    "stop" : 1511799301875,
+    "duration" : 3634
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e5ee10db1755cdb7",
+      "name" : "test_log",
+      "source" : "e5ee10db1755cdb7.txt",
+      "type" : "text/plain",
+      "size" : 3932
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to activate my card so that I can use my card (OL-47)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-531"
+  }, {
+    "name" : "thread",
+    "value" : "16298300"
+  }, {
+    "name" : "suite",
+    "value" : "Card activation  fail 404"
+  }, {
+    "name" : "testClass",
+    "value" : "Card activation  fail 404"
+  }, {
+    "name" : "testMethod",
+    "value" : "Card activation  fail 404  (OL-531, Incorrect Card id - Does not Belong to Current User)-"
+  }, {
+    "name" : "package",
+    "value" : "Card activation  fail 404"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-531",
+    "url" : "https://jira.fidor.de/browse/OL-531",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3cf2c155a5a9f6e.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

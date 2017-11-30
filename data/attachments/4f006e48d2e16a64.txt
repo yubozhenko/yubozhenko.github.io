@@ -1,0 +1,36 @@
+D, [2017-11-27 17:14:39#11679] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:14:39#11679] DEBUG -- : Example ( (OL-420, Mobile phone doesn't match any customer)) STARTED
+D, [2017-11-27 17:14:39#11679] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:14:39#11679] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:14:39#11679] DEBUG -- : with body: {
+  "grant_type": "client_credentials"
+}
+D, [2017-11-27 17:14:39#11679] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI4NzksInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiZWQ4MzQ2NjUtOGM5Zi00MGM1LTlmZGQtMGM5NTJkMDQwZTc1IiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.194joviHt8HvmC6rK9RjM5yQkLLIQWOlloMiuIRM67k",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "62a055d09413cf78b9fcce7e57e3466e"
+}
+D, [2017-11-27 17:14:40#11679] DEBUG -- : REQUEST METHOD: get, to url: https://api.oney-test.fidor.intern/fidor_api/security_answers/current?msisdn=88888888888
+D, [2017-11-27 17:14:40#11679] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI4NzksInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiZWQ4MzQ2NjUtOGM5Zi00MGM1LTlmZGQtMGM5NTJkMDQwZTc1IiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.194joviHt8HvmC6rK9RjM5yQkLLIQWOlloMiuIRM67k",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json",
+  "Cache-Control": "no-cache"
+}
+D, [2017-11-27 17:14:40#11679] DEBUG -- : RESPOND WITH: status code 404 and body: {
+  "code": 404,
+  "errors": [
+
+  ],
+  "message": "Mobile phone number doesn't match any customer",
+  "key": [
+    "not_found"
+  ]
+}
+D, [2017-11-27 17:14:40#11679] DEBUG -- : Example ( (OL-420, Mobile phone doesn't match any customer)) PASSED
+D, [2017-11-27 17:14:40#11679] DEBUG -- : -----------------------------------------

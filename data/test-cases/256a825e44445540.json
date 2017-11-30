@@ -1,0 +1,90 @@
+{
+  "uid" : "256a825e44445540",
+  "name" : "Set Card Limit  fail 403  (OL-817, Set Card Limit - Incorrect Paypin - Three Attempts)-",
+  "fullName" : "Set Card Limit  fail 403.Set Card Limit  fail 403  (OL-817, Set Card Limit - Incorrect Paypin - Three Attempts)-",
+  "historyId" : "fd37262362c1229812a59c7d1a316842",
+  "time" : {
+    "start" : 1511799285780,
+    "stop" : 1511799294273,
+    "duration" : 8493
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "74db748a206a4da4",
+      "name" : "test_log",
+      "source" : "74db748a206a4da4.txt",
+      "type" : "text/plain",
+      "size" : 7689
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "major"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client I want to change the Limit Per Transactions, Daily Limit and Limit per ATM withdrawal (OL-26)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-817"
+  }, {
+    "name" : "thread",
+    "value" : "8941880"
+  }, {
+    "name" : "suite",
+    "value" : "Set Card Limit  fail 403"
+  }, {
+    "name" : "testClass",
+    "value" : "Set Card Limit  fail 403"
+  }, {
+    "name" : "testMethod",
+    "value" : "Set Card Limit  fail 403  (OL-817, Set Card Limit - Incorrect Paypin - Three Attempts)-"
+  }, {
+    "name" : "package",
+    "value" : "Set Card Limit  fail 403"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-817",
+    "url" : "https://jira.fidor.de/browse/OL-817",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "256a825e44445540.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "cc06d9dca469e401",
+  "name" : "Get Card Pin  fail 403 - three attempts  (OL-693, TC - Account is locked after getting Paypin with incorrect CVC entered 3 times in a row)-",
+  "fullName" : "Get Card Pin  fail 403 - three attempts.Get Card Pin  fail 403 - three attempts  (OL-693, TC - Account is locked after getting Paypin with incorrect CVC entered 3 times in a row)-",
+  "historyId" : "eb5bc2108721a7475ba40966e1ec5d5",
+  "time" : {
+    "start" : 1511799298207,
+    "stop" : 1511799307241,
+    "duration" : 9034
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2abc9b6c3a4fde6d",
+      "name" : "test_log",
+      "source" : "2abc9b6c3a4fde6d.txt",
+      "type" : "text/plain",
+      "size" : 10725
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to Get Paypin (OL-712)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-693"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "Get Card Pin  fail 403 - three attempts"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Card Pin  fail 403 - three attempts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Card Pin  fail 403 - three attempts  (OL-693, TC - Account is locked after getting Paypin with incorrect CVC entered 3 times in a row)-"
+  }, {
+    "name" : "package",
+    "value" : "Get Card Pin  fail 403 - three attempts"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-693",
+    "url" : "https://jira.fidor.de/browse/OL-693",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc06d9dca469e401.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

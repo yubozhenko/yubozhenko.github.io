@@ -1,0 +1,87 @@
+{
+  "uid" : "db978df5384aba8b",
+  "name" : "Create Card  success 201  (OL-427, Valid Data)-",
+  "fullName" : "Create Card  success 201.Create Card  success 201  (OL-427, Valid Data)-",
+  "historyId" : "a0566a9e26d8f8fb87d498049060113a",
+  "time" : {
+    "start" : 1511799376338,
+    "stop" : 1511799379397,
+    "duration" : 3059
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2c76ae1e225da718",
+      "name" : "test_log",
+      "source" : "2c76ae1e225da718.txt",
+      "type" : "text/plain",
+      "size" : 4812
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to create my paypin so that i can use it for future transactions (OL-147)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-427"
+  }, {
+    "name" : "thread",
+    "value" : "16298300"
+  }, {
+    "name" : "suite",
+    "value" : "Create Card  success 201"
+  }, {
+    "name" : "testClass",
+    "value" : "Create Card  success 201"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create Card  success 201  (OL-427, Valid Data)-"
+  }, {
+    "name" : "package",
+    "value" : "Create Card  success 201"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-427",
+    "url" : "https://jira.fidor.de/browse/OL-427",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db978df5384aba8b.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

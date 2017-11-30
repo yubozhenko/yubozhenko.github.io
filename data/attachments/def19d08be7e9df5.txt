@@ -1,0 +1,29 @@
+D, [2017-11-27 17:14:17#11679] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:14:17#11679] DEBUG -- : Example ( (OL-423, The appropriate response with SQ is returned for MSISDN if it is answered)) STARTED
+D, [2017-11-27 17:14:17#11679] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:14:17#11679] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:14:17#11679] DEBUG -- : with body: {
+  "grant_type": "client_credentials"
+}
+D, [2017-11-27 17:14:17#11679] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI4NTcsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiNzBlMTQ4ZTUtNmExZi00YzRlLWE3YjctZDQwNjgxODRkNzEyIiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.IlA6xgKU_k4k25vMQq9_Ti4GbJF8MtwE_cpREWvOKv4",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "1615ec0e56f434e38119a8b45cafb0b2"
+}
+D, [2017-11-27 17:14:18#11679] DEBUG -- : REQUEST METHOD: get, to url: https://api.oney-test.fidor.intern/fidor_api/security_answers/current?msisdn=31511798030829
+D, [2017-11-27 17:14:18#11679] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI4NTcsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiNzBlMTQ4ZTUtNmExZi00YzRlLWE3YjctZDQwNjgxODRkNzEyIiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.IlA6xgKU_k4k25vMQq9_Ti4GbJF8MtwE_cpREWvOKv4",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json",
+  "Cache-Control": "no-cache"
+}
+D, [2017-11-27 17:14:18#11679] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "question": "FIRST_PET_NAME"
+}
+D, [2017-11-27 17:14:18#11679] DEBUG -- : Example ( (OL-423, The appropriate response with SQ is returned for MSISDN if it is answered)) PASSED
+D, [2017-11-27 17:14:18#11679] DEBUG -- : -----------------------------------------

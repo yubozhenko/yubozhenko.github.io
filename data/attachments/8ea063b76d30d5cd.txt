@@ -1,0 +1,68 @@
+D, [2017-11-27 17:16:45#11677] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:16:45#11677] DEBUG -- : Example ( (OL-371, MSISDN - Already Registered)) STARTED
+D, [2017-11-27 17:16:45#11677] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:16:45#11677] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:16:45#11677] DEBUG -- : with body: {
+  "grant_type": "client_credentials"
+}
+D, [2017-11-27 17:16:45#11677] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDMwMDUsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiZDdjNTA5YWEtYTkzYS00MmNmLWI1ZjAtNTAzMjFhYzk0ZDlmIiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.CiHDE0wYhbbVNuL9FouamN8Pux6rpcHmi2zF-VJeeuM",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "47eda433488200b1d7f6957be10b2ac6"
+}
+D, [2017-11-27 17:16:46#11677] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/fidor_api/customers
+D, [2017-11-27 17:16:46#11677] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDMwMDUsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiZDdjNTA5YWEtYTkzYS00MmNmLWI1ZjAtNTAzMjFhYzk0ZDlmIiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.CiHDE0wYhbbVNuL9FouamN8Pux6rpcHmi2zF-VJeeuM",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json",
+  "Cache-Control": "No-Cache"
+}
+D, [2017-11-27 17:16:46#11677] DEBUG -- : with body: {
+  "email": "msisdn.regregisred@verify.com",
+  "first_name": "Borus",
+  "last_name": "Lopata",
+  "password": "Qwerty123#",
+  "birthday": "1992-04-28",
+  "maiden_name": "noname",
+  "adr_street": "Cool st. 11/8",
+  "adr_street_number": 111,
+  "adr_post_code": 66974,
+  "adr_city": "Boston",
+  "birthplace": "Boston",
+  "adr_country": "US",
+  "marital_status": 2,
+  "nationality": "DE",
+  "adr_phone": null,
+  "title": 1,
+  "us_citizen": true,
+  "us_tax_payer": true,
+  "verification_token": "123321",
+  "gender": "m",
+  "own_interest": true,
+  "tos": true,
+  "privacy_policy": true,
+  "adr_mobile": "+31511798018924",
+  "affiliate_uid": "7a3c4c03-0001-4483-91d4-999146a3dd9f"
+}
+D, [2017-11-27 17:16:46#11677] DEBUG -- : RESPOND WITH: status code 422 and body: {
+  "code": 422,
+  "errors": [
+    {
+      "field": "adr_mobile",
+      "message": "has already been taken",
+      "options": {
+      }
+    }
+  ],
+  "message": "Validation failed",
+  "key": [
+    "validation_failed"
+  ]
+}
+D, [2017-11-27 17:16:46#11677] DEBUG -- : Example ( (OL-371, MSISDN - Already Registered)) PASSED
+D, [2017-11-27 17:16:46#11677] DEBUG -- : -----------------------------------------

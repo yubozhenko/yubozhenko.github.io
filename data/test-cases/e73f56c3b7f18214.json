@@ -1,0 +1,103 @@
+{
+  "uid" : "e73f56c3b7f18214",
+  "name" : "Get Card Pin  fail 401  (OL-687, Security Answer - No value)-Test was skipped, because of unresolved defects (OL-736) ",
+  "fullName" : "Get Card Pin  fail 401.Get Card Pin  fail 401  (OL-687, Security Answer - No value)-Test was skipped, because of unresolved defects (OL-736) ",
+  "historyId" : "c62dfcc9e298f79b0548444cef77ebae",
+  "time" : {
+    "start" : 1511799271274,
+    "stop" : 1511799271276,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusDetails" : {
+    "message" : "",
+    "trace" : "",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusDetails" : {
+      "message" : "",
+      "trace" : "",
+      "flaky" : false
+    },
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "51e56e04907636ec",
+      "name" : "test_log",
+      "source" : "51e56e04907636ec.txt",
+      "type" : "text/plain",
+      "size" : 281
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "issue",
+    "value" : "https://jira.fidor.de/browse/OL-736"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to Get Paypin (OL-712)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-687"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "Get Card Pin  fail 401"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Card Pin  fail 401"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Card Pin  fail 401  (OL-687, Security Answer - No value)-Test was skipped, because of unresolved defects (OL-736) "
+  }, {
+    "name" : "package",
+    "value" : "Get Card Pin  fail 401"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-736",
+    "url" : "https://jira.fidor.de/browse/OL-736",
+    "type" : "issue"
+  }, {
+    "name" : "https://jira.fidor.de/browse/OL-687",
+    "url" : "https://jira.fidor.de/browse/OL-687",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e73f56c3b7f18214.json",
+  "statusDetailsSafe" : {
+    "message" : "",
+    "trace" : "",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

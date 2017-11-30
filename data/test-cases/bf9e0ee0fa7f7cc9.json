@@ -1,0 +1,87 @@
+{
+  "uid" : "bf9e0ee0fa7f7cc9",
+  "name" : "Reorder Card  fail 422  (OL-739, Existent Card Is In Freeze State)-",
+  "fullName" : "Reorder Card  fail 422.Reorder Card  fail 422  (OL-739, Existent Card Is In Freeze State)-",
+  "historyId" : "5972279558fa2601eccc583e426aaf3f",
+  "time" : {
+    "start" : 1511799340535,
+    "stop" : 1511799344464,
+    "duration" : 3929
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6292e6baf171d9ab",
+      "name" : "test_log",
+      "source" : "6292e6baf171d9ab.txt",
+      "type" : "text/plain",
+      "size" : 4095
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to order a new card  (OL-24)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-739"
+  }, {
+    "name" : "thread",
+    "value" : "16298300"
+  }, {
+    "name" : "suite",
+    "value" : "Reorder Card  fail 422"
+  }, {
+    "name" : "testClass",
+    "value" : "Reorder Card  fail 422"
+  }, {
+    "name" : "testMethod",
+    "value" : "Reorder Card  fail 422  (OL-739, Existent Card Is In Freeze State)-"
+  }, {
+    "name" : "package",
+    "value" : "Reorder Card  fail 422"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-739",
+    "url" : "https://jira.fidor.de/browse/OL-739",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf9e0ee0fa7f7cc9.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

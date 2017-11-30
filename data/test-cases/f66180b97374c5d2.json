@@ -1,0 +1,87 @@
+{
+  "uid" : "f66180b97374c5d2",
+  "name" : "User registration  fail 422  (OL-322, Mandatory Field Is Missed)-",
+  "fullName" : "User registration  fail 422.User registration  fail 422  (OL-322, Mandatory Field Is Missed)-",
+  "historyId" : "f7410890b144b4e621e161b5500723d",
+  "time" : {
+    "start" : 1511799404812,
+    "stop" : 1511799405373,
+    "duration" : 561
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c889dcab466c6c18",
+      "name" : "test_log",
+      "source" : "c889dcab466c6c18.txt",
+      "type" : "text/plain",
+      "size" : 3310
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User registration service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "As OL Client i want to enter my personal information so that a client is created (OL-146)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-322"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "User registration  fail 422"
+  }, {
+    "name" : "testClass",
+    "value" : "User registration  fail 422"
+  }, {
+    "name" : "testMethod",
+    "value" : "User registration  fail 422  (OL-322, Mandatory Field Is Missed)-"
+  }, {
+    "name" : "package",
+    "value" : "User registration  fail 422"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-322",
+    "url" : "https://jira.fidor.de/browse/OL-322",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f66180b97374c5d2.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

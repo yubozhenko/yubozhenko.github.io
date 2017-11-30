@@ -1,0 +1,87 @@
+{
+  "uid" : "2519827ca498b3b4",
+  "name" : "Create Card  fail 422  (OL-431, invalid Paypin data - the Paypin starts from 0)-",
+  "fullName" : "Create Card  fail 422.Create Card  fail 422  (OL-431, invalid Paypin data - the Paypin starts from 0)-",
+  "historyId" : "483e79b21dac5b5a01a3fa479d768681",
+  "time" : {
+    "start" : 1511799373210,
+    "stop" : 1511799374903,
+    "duration" : 1693
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "876f554cbd9d0ad5",
+      "name" : "test_log",
+      "source" : "876f554cbd9d0ad5.txt",
+      "type" : "text/plain",
+      "size" : 4095
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to create my paypin so that i can use it for future transactions (OL-147)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-431"
+  }, {
+    "name" : "thread",
+    "value" : "16298300"
+  }, {
+    "name" : "suite",
+    "value" : "Create Card  fail 422"
+  }, {
+    "name" : "testClass",
+    "value" : "Create Card  fail 422"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create Card  fail 422  (OL-431, invalid Paypin data - the Paypin starts from 0)-"
+  }, {
+    "name" : "package",
+    "value" : "Create Card  fail 422"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-431",
+    "url" : "https://jira.fidor.de/browse/OL-431",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2519827ca498b3b4.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

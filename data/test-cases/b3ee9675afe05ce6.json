@@ -1,0 +1,87 @@
+{
+  "uid" : "b3ee9675afe05ce6",
+  "name" : "Card activation  fail 403  (OL-530, No Card Id  )-",
+  "fullName" : "Card activation  fail 403.Card activation  fail 403  (OL-530, No Card Id  )-",
+  "historyId" : "2496f3f9ea880f55b4c99cbdbad76030",
+  "time" : {
+    "start" : 1511799266809,
+    "stop" : 1511799269209,
+    "duration" : 2400
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e2e9537ccada3d47",
+      "name" : "test_log",
+      "source" : "e2e9537ccada3d47.txt",
+      "type" : "text/plain",
+      "size" : 3834
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to activate my card so that I can use my card (OL-47)as Oney live customer my paypin is blocked when i enter  a wrong paypin during any confirmation process (OL-140)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-530"
+  }, {
+    "name" : "thread",
+    "value" : "16298300"
+  }, {
+    "name" : "suite",
+    "value" : "Card activation  fail 403"
+  }, {
+    "name" : "testClass",
+    "value" : "Card activation  fail 403"
+  }, {
+    "name" : "testMethod",
+    "value" : "Card activation  fail 403  (OL-530, No Card Id  )-"
+  }, {
+    "name" : "package",
+    "value" : "Card activation  fail 403"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-530",
+    "url" : "https://jira.fidor.de/browse/OL-530",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b3ee9675afe05ce6.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

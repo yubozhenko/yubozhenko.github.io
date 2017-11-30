@@ -1,0 +1,87 @@
+{
+  "uid" : "4122e402bf402823",
+  "name" : "Create Card  fail 422  (OL-429, Wrong Account ID)-",
+  "fullName" : "Create Card  fail 422.Create Card  fail 422  (OL-429, Wrong Account ID)-",
+  "historyId" : "561ad06eb7cff31ec9dee503dd999c62",
+  "time" : {
+    "start" : 1511799370407,
+    "stop" : 1511799373208,
+    "duration" : 2801
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c51c22eb76202397",
+      "name" : "test_log",
+      "source" : "c51c22eb76202397.txt",
+      "type" : "text/plain",
+      "size" : 3998
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to create my paypin so that i can use it for future transactions (OL-147)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-429"
+  }, {
+    "name" : "thread",
+    "value" : "16298300"
+  }, {
+    "name" : "suite",
+    "value" : "Create Card  fail 422"
+  }, {
+    "name" : "testClass",
+    "value" : "Create Card  fail 422"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create Card  fail 422  (OL-429, Wrong Account ID)-"
+  }, {
+    "name" : "package",
+    "value" : "Create Card  fail 422"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-429",
+    "url" : "https://jira.fidor.de/browse/OL-429",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4122e402bf402823.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

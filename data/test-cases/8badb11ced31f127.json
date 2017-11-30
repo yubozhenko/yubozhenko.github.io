@@ -1,0 +1,87 @@
+{
+  "uid" : "8badb11ced31f127",
+  "name" : "Reorder Card  fail 401  (OL-872, PayPin - Blank)-",
+  "fullName" : "Reorder Card  fail 401.Reorder Card  fail 401  (OL-872, PayPin - Blank)-",
+  "historyId" : "ab063378d6e2167b956fdfbb72eaa90d",
+  "time" : {
+    "start" : 1511799366382,
+    "stop" : 1511799370404,
+    "duration" : 4022
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "17c181dd6e53cb41",
+      "name" : "test_log",
+      "source" : "17c181dd6e53cb41.txt",
+      "type" : "text/plain",
+      "size" : 3988
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to order a new card  (OL-24)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-872"
+  }, {
+    "name" : "thread",
+    "value" : "16298300"
+  }, {
+    "name" : "suite",
+    "value" : "Reorder Card  fail 401"
+  }, {
+    "name" : "testClass",
+    "value" : "Reorder Card  fail 401"
+  }, {
+    "name" : "testMethod",
+    "value" : "Reorder Card  fail 401  (OL-872, PayPin - Blank)-"
+  }, {
+    "name" : "package",
+    "value" : "Reorder Card  fail 401"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-872",
+    "url" : "https://jira.fidor.de/browse/OL-872",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8badb11ced31f127.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "e68118d5e8aeecb4",
+  "name" : "Unfreeze Card  fail 401  (OL-574, Incorrect Paypin - Two Attempts)-",
+  "fullName" : "Unfreeze Card  fail 401.Unfreeze Card  fail 401  (OL-574, Incorrect Paypin - Two Attempts)-",
+  "historyId" : "102279258f234aed9d2b41576fadf509",
+  "time" : {
+    "start" : 1511799298317,
+    "stop" : 1511799305567,
+    "duration" : 7250
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3f123b343ffa0706",
+      "name" : "test_log",
+      "source" : "3f123b343ffa0706.txt",
+      "type" : "text/plain",
+      "size" : 8503
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to freeze  my debit card so that I can block my card temporary if I can't find it (OL-22)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-574"
+  }, {
+    "name" : "thread",
+    "value" : "3625280"
+  }, {
+    "name" : "suite",
+    "value" : "Unfreeze Card  fail 401"
+  }, {
+    "name" : "testClass",
+    "value" : "Unfreeze Card  fail 401"
+  }, {
+    "name" : "testMethod",
+    "value" : "Unfreeze Card  fail 401  (OL-574, Incorrect Paypin - Two Attempts)-"
+  }, {
+    "name" : "package",
+    "value" : "Unfreeze Card  fail 401"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-574",
+    "url" : "https://jira.fidor.de/browse/OL-574",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e68118d5e8aeecb4.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

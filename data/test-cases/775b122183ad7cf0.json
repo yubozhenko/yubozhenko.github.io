@@ -1,0 +1,87 @@
+{
+  "uid" : "775b122183ad7cf0",
+  "name" : "Get Card Pin  fail 403  (OL-699, Security Question Blocked)-",
+  "fullName" : "Get Card Pin  fail 403.Get Card Pin  fail 403  (OL-699, Security Question Blocked)-",
+  "historyId" : "73f18eaadd073da3fc13839a09615ff3",
+  "time" : {
+    "start" : 1511799338944,
+    "stop" : 1511799350439,
+    "duration" : 11495
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f19b2cb9452cc352",
+      "name" : "test_log",
+      "source" : "f19b2cb9452cc352.txt",
+      "type" : "text/plain",
+      "size" : 9682
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to display my pay pin so that I remember my pay pin (OL-50)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-699"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "Get Card Pin  fail 403"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Card Pin  fail 403"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Card Pin  fail 403  (OL-699, Security Question Blocked)-"
+  }, {
+    "name" : "package",
+    "value" : "Get Card Pin  fail 403"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-699",
+    "url" : "https://jira.fidor.de/browse/OL-699",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "775b122183ad7cf0.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

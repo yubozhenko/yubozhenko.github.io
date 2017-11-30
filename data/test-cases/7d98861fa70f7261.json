@@ -1,0 +1,87 @@
+{
+  "uid" : "7d98861fa70f7261",
+  "name" : "Confirm transfers  success 200 after two failed attempts  (OL-851, SEPA - Invalid Paypin - Two Attempts)-",
+  "fullName" : "Confirm transfers  success 200 after two failed attempts.Confirm transfers  success 200 after two failed attempts  (OL-851, SEPA - Invalid Paypin - Two Attempts)-",
+  "historyId" : "8904cd02a6c88824490d86ad7d65c4f2",
+  "time" : {
+    "start" : 1511799546336,
+    "stop" : 1511799582143,
+    "duration" : 35807
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "24bab5909dbff172",
+      "name" : "test_log",
+      "source" : "24bab5909dbff172.txt",
+      "type" : "text/plain",
+      "size" : 34820
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Transfer service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as an Ony live client i want to make a SEPA transfer so that i transfer money using Name and IBAN of a receiver (OL-392)as OL client i want to make P2P transfers to an oney live user so that I can easily and instantly send money to other OL users (OL-43)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-851"
+  }, {
+    "name" : "thread",
+    "value" : "11202880"
+  }, {
+    "name" : "suite",
+    "value" : "Confirm transfers  success 200 after two failed attempts"
+  }, {
+    "name" : "testClass",
+    "value" : "Confirm transfers  success 200 after two failed attempts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Confirm transfers  success 200 after two failed attempts  (OL-851, SEPA - Invalid Paypin - Two Attempts)-"
+  }, {
+    "name" : "package",
+    "value" : "Confirm transfers  success 200 after two failed attempts"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-851",
+    "url" : "https://jira.fidor.de/browse/OL-851",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d98861fa70f7261.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

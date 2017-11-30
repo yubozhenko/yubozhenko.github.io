@@ -1,0 +1,87 @@
+{
+  "uid" : "ed574754759f02b9",
+  "name" : "Get Card Pin  fail 403 - three attempts  (OL-695, Security Question and CVC - Three Incorrect Attempts)-",
+  "fullName" : "Get Card Pin  fail 403 - three attempts.Get Card Pin  fail 403 - three attempts  (OL-695, Security Question and CVC - Three Incorrect Attempts)-",
+  "historyId" : "1ada1db8fcfd45057d4199048aa9b1e4",
+  "time" : {
+    "start" : 1511799316475,
+    "stop" : 1511799327730,
+    "duration" : 11255
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "79b53809fa3b0339",
+      "name" : "test_log",
+      "source" : "79b53809fa3b0339.txt",
+      "type" : "text/plain",
+      "size" : 7477
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to Get Paypin (OL-712)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-695"
+  }, {
+    "name" : "thread",
+    "value" : "4313400"
+  }, {
+    "name" : "suite",
+    "value" : "Get Card Pin  fail 403 - three attempts"
+  }, {
+    "name" : "testClass",
+    "value" : "Get Card Pin  fail 403 - three attempts"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get Card Pin  fail 403 - three attempts  (OL-695, Security Question and CVC - Three Incorrect Attempts)-"
+  }, {
+    "name" : "package",
+    "value" : "Get Card Pin  fail 403 - three attempts"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-695",
+    "url" : "https://jira.fidor.de/browse/OL-695",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed574754759f02b9.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

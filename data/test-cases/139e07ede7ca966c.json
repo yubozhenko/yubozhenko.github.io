@@ -1,0 +1,87 @@
+{
+  "uid" : "139e07ede7ca966c",
+  "name" : "Create transfers  fail 409  (OL-795, External UID - Not Unique)-",
+  "fullName" : "Create transfers  fail 409.Create transfers  fail 409  (OL-795, External UID - Not Unique)-",
+  "historyId" : "3e4f1c0682ac2cb4571ce50286c30eea",
+  "time" : {
+    "start" : 1511799675498,
+    "stop" : 1511799682926,
+    "duration" : 7428
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ec708a2403a1d155",
+      "name" : "test_log",
+      "source" : "ec708a2403a1d155.txt",
+      "type" : "text/plain",
+      "size" : 6934
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Transfer service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as an Ony live client i want to make a SEPA transfer so that i transfer money using Name and IBAN of a receiver (OL-392)as OL client i want to make P2P transfers to an oney live user so that I can easily and instantly send money to other OL users (OL-43)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-795"
+  }, {
+    "name" : "thread",
+    "value" : "12054840"
+  }, {
+    "name" : "suite",
+    "value" : "Create transfers  fail 409"
+  }, {
+    "name" : "testClass",
+    "value" : "Create transfers  fail 409"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create transfers  fail 409  (OL-795, External UID - Not Unique)-"
+  }, {
+    "name" : "package",
+    "value" : "Create transfers  fail 409"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-795",
+    "url" : "https://jira.fidor.de/browse/OL-795",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "139e07ede7ca966c.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

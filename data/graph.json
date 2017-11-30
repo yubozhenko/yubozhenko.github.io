@@ -1,0 +1,4401 @@
+[ {
+  "uid" : "147f053a0a9607e1",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Finland 2 SET)-",
+  "time" : {
+    "start" : 1511799623007,
+    "stop" : 1511799628398,
+    "duration" : 5391
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bca905786fbe6666",
+  "name" : "Check login field presence  success 200  (OL-328, Email - Not Registered)-",
+  "time" : {
+    "start" : 1511799391611,
+    "stop" : 1511799392304,
+    "duration" : 693
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "36620665250b6f5b",
+  "name" : "Update Customer  fail 422  (OL-1339, Customer info is not updated if country field is invalid(more than 3 chars))-",
+  "time" : {
+    "start" : 1511799590647,
+    "stop" : 1511799595912,
+    "duration" : 5265
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "c4cc70b9e5f73777",
+  "name" : "User authentication  fail 400  (OL-351, Incorrect Email and Correct Password)-",
+  "time" : {
+    "start" : 1511799359733,
+    "stop" : 1511799360385,
+    "duration" : 652
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99909b2de3cb9d34",
+  "name" : "Reorder Card  fail 403  (OL-868, Paypin - Three Incorrect Attempts)-",
+  "time" : {
+    "start" : 1511799350792,
+    "stop" : 1511799358566,
+    "duration" : 7774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36d2a222140dd1b4",
+  "name" : "Get Transactions  success 200 (OL-759, Merchant - Purchase Return)-Test was skipped, because of unresolved defects (OL-913) ",
+  "time" : {
+    "start" : 1511799465178,
+    "stop" : 1511799465179,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b2d0b13f777af4ce",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Slovak Republic)-",
+  "time" : {
+    "start" : 1511799685602,
+    "stop" : 1511799690119,
+    "duration" : 4517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1ab25f21977d34b",
+  "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (<))-",
+  "time" : {
+    "start" : 1511799396939,
+    "stop" : 1511799397416,
+    "duration" : 477
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5736b0a8bc101158",
+  "name" : "Create transfers  fail 422  (OL-860, SEPA - External UID - Blank)-",
+  "time" : {
+    "start" : 1511799375468,
+    "stop" : 1511799379560,
+    "duration" : 4092
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "154ea5b629a219b4",
+  "name" : "Create transfers  success 201  (OL-733, P2P - Correct Data - FOS_P2P_EMAIL - Create)-",
+  "time" : {
+    "start" : 1511799309030,
+    "stop" : 1511799314729,
+    "duration" : 5699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "477d774b3c6236f5",
+  "name" : "Create transfers  fail 422  (OL-862, SEPA - Amount - Zero)-",
+  "time" : {
+    "start" : 1511799409591,
+    "stop" : 1511799411816,
+    "duration" : 2225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2e6366d7340631a",
+  "name" : "Update Customer  success 204  (OL-934, Customer Address is updated in case correct PayPin is provided)-Test was skipped, because of unresolved defects (OL-1400) ",
+  "time" : {
+    "start" : 1511799307319,
+    "stop" : 1511799307320,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "beb26b493d062203",
+  "name" : "Unfreeze Card  fail 404  (OL-570, Card ID - Doesn't Belong to User)-",
+  "time" : {
+    "start" : 1511799269095,
+    "stop" : 1511799274112,
+    "duration" : 5017
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56e2f496c9e4b515",
+  "name" : "Card activation  fail 401  (OL-521, No PayPin)-",
+  "time" : {
+    "start" : 1511799256645,
+    "stop" : 1511799259769,
+    "duration" : 3124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c909105f5fc6cfbb",
+  "name" : "Create transfers  fail 422  (OL-846, SEPA - BIC - Invalid (8 letters, at least one special character))-",
+  "time" : {
+    "start" : 1511799405497,
+    "stop" : 1511799409591,
+    "duration" : 4094
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b40e7b9968a1f5cb",
+  "name" : "Set Card Limit  fail 401  (OL-816, Set Card Limit - Incorrect Paypin - Two Attempts)-",
+  "time" : {
+    "start" : 1511799277508,
+    "stop" : 1511799285779,
+    "duration" : 8271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aef96ec00e27b302",
+  "name" : "User authentication  success 200  (OL-344, Correct MSISDN and Password)-",
+  "time" : {
+    "start" : 1511799353508,
+    "stop" : 1511799356819,
+    "duration" : 3311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a67e99c87dde7f11",
+  "name" : "Reset password  fail 400 (OL-888, Security Question - Invalid Question)-",
+  "time" : {
+    "start" : 1511799262485,
+    "stop" : 1511799265174,
+    "duration" : 2689
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1130488b1d08619a",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Bosnia and Herzegovina 2)-",
+  "time" : {
+    "start" : 1511799594503,
+    "stop" : 1511799603431,
+    "duration" : 8928
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb8cdaebd104c575",
+  "name" : "Get Card cvc  fail 403 - three attempts  (OL-528, Incorrect PayPin - Three Attempts)-",
+  "time" : {
+    "start" : 1511799258555,
+    "stop" : 1511799264428,
+    "duration" : 5873
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98fbdcc9c8994eae",
+  "name" : "Foreign Country SEPA Transfers  success 200  (should verify transfer's states are completed)-",
+  "time" : {
+    "start" : 1511799704838,
+    "stop" : 1511799704839,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ba6cb34f667ccc5e",
+  "name" : "Get Card cvc  fail 401  (no manual test case, try to get cvc number from card, using wrong Paypin)-",
+  "time" : {
+    "start" : 1511799249476,
+    "stop" : 1511799254681,
+    "duration" : 5205
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40b51d63aa2c7b38",
+  "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '+')-",
+  "time" : {
+    "start" : 1511799551804,
+    "stop" : 1511799555880,
+    "duration" : 4076
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "e8c549b71ad0afa7",
+  "name" : "Get Card Pin  fail 403 - three attempts  (OL-691, Security Question - Three Incorrect Attempts)-",
+  "time" : {
+    "start" : 1511799307241,
+    "stop" : 1511799316475,
+    "duration" : 9234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c636d415e0baa0f",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Saudi Arabia)-",
+  "time" : {
+    "start" : 1511799512509,
+    "stop" : 1511799521887,
+    "duration" : 9378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbc1b0b17c8348d0",
+  "name" : "Update Customer  fail 422  (OL-1322, Customer info is not updated city field is blank)-",
+  "time" : {
+    "start" : 1511799419384,
+    "stop" : 1511799422945,
+    "duration" : 3561
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "37f30fbf9268a6fa",
+  "name" : "Create transfers  fail 404  (OL-832, P2P - Currency - Incorrect)-Test was skipped, because of unresolved defects (OL-927) ",
+  "time" : {
+    "start" : 1511799666480,
+    "stop" : 1511799666481,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "65746c86308cba6a",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(^))-",
+  "time" : {
+    "start" : 1511799375337,
+    "stop" : 1511799375853,
+    "duration" : 516
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4231835287d9136",
+  "name" : "Create transfers  fail 422  (OL-781, P2P - Routing Type - Blank)-",
+  "time" : {
+    "start" : 1511799428164,
+    "stop" : 1511799436405,
+    "duration" : 8241
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa539e3ea235137e",
+  "name" : "Confirm transfers  success 200  (OL-902, SEPA - Purpose - Blank - Confirm)-",
+  "time" : {
+    "start" : 1511799391985,
+    "stop" : 1511799423641,
+    "duration" : 31656
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0144606ff96ce55",
+  "name" : "Reset password  fail 400 (OL-790, Security Question - Answer is Empty)-",
+  "time" : {
+    "start" : 1511799259897,
+    "stop" : 1511799262485,
+    "duration" : 2588
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cb6eb53496763f7",
+  "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '(')-",
+  "time" : {
+    "start" : 1511799539095,
+    "stop" : 1511799546070,
+    "duration" : 6975
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "a43aae62acc67a4a",
+  "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '@')-",
+  "time" : {
+    "start" : 1511799425539,
+    "stop" : 1511799431510,
+    "duration" : 5971
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "8ed716712b4a09da",
+  "name" : "Update Customer  fail 422  (OL-1332, Customer info is not updated if post code has more than 5 symbols)-",
+  "time" : {
+    "start" : 1511799568661,
+    "stop" : 1511799573044,
+    "duration" : 4383
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "69fbf1dad82801a1",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(!))-",
+  "time" : {
+    "start" : 1511799365503,
+    "stop" : 1511799366636,
+    "duration" : 1133
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd2c0cb83997a9eb",
+  "name" : "Update Customer  fail 422  (OL-1329, Customer info is not updated if post code is blank)-",
+  "time" : {
+    "start" : 1511799564696,
+    "stop" : 1511799568661,
+    "duration" : 3965
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "7a2f268b87e9badb",
+  "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '*')-",
+  "time" : {
+    "start" : 1511799453709,
+    "stop" : 1511799458062,
+    "duration" : 4353
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "f3422de8e324f65e",
+  "name" : "User registration via onboarding fail 422  (OL-724, Email - Invalid Format)-",
+  "time" : {
+    "start" : 1511799633930,
+    "stop" : 1511799633931,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c9859ec89282fdd0",
+  "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '#')-",
+  "time" : {
+    "start" : 1511799431512,
+    "stop" : 1511799436286,
+    "duration" : 4774
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "6c0c0e74f63f98ab",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Luxembourg)-",
+  "time" : {
+    "start" : 1511799477138,
+    "stop" : 1511799484955,
+    "duration" : 7817
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "272c5ef53be929bc",
+  "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '(')-",
+  "time" : {
+    "start" : 1511799368126,
+    "stop" : 1511799372103,
+    "duration" : 3977
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "c698f1929561d53e",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Albania 2)-",
+  "time" : {
+    "start" : 1511799579684,
+    "stop" : 1511799587179,
+    "duration" : 7495
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a1878b9eac9a50e",
+  "name" : "Update Customer  fail 422  (OL-1304, Customer info is not updated if has email invalid format (no '@' character))-",
+  "time" : {
+    "start" : 1511799410699,
+    "stop" : 1511799412180,
+    "duration" : 1481
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "aa3dfa1309fa7da0",
+  "name" : "User registration  fail 422  (OL-335, Name - Numbers and Special Characters)-",
+  "time" : {
+    "start" : 1511799413360,
+    "stop" : 1511799414043,
+    "duration" : 683
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3e35bb9abe3bc3c",
+  "name" : "Update Customer  success 204  (OL-727, Email is updated if correct PayPin is provided)-Test was skipped, because of unresolved defects (OL-1400) ",
+  "time" : {
+    "start" : 1511799307317,
+    "stop" : 1511799307319,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "53921606e1e6146a",
+  "name" : "Create transfers  fail 422  (OL-864, SEPA - Amount - Exceeds Transaction Limit)-",
+  "time" : {
+    "start" : 1511799420455,
+    "stop" : 1511799428163,
+    "duration" : 7708
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c1860b9b9041c99",
+  "name" : "Renew token  fail 400  (OL-408, Incorrect Refresh Token)-",
+  "time" : {
+    "start" : 1511799374184,
+    "stop" : 1511799374622,
+    "duration" : 438
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9ec689aa6ca8300",
+  "name" : "Update Customer  fail 422  (OL-1379, Customer info is not updated if phone field is invalid (letters))-",
+  "time" : {
+    "start" : 1511799603154,
+    "stop" : 1511799607002,
+    "duration" : 3848
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "c7052d6ea448ab2",
+  "name" : "Create transfers  success 201  (OL-877, P2P - Contact Info - Blank - Create)-",
+  "time" : {
+    "start" : 1511799337750,
+    "stop" : 1511799341999,
+    "duration" : 4249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11c50bbcabaab139",
+  "name" : "Create transfers  success 201  (OL-835, Subject - Blank - Create)-",
+  "time" : {
+    "start" : 1511799320196,
+    "stop" : 1511799325353,
+    "duration" : 5157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3dbad0a1a388b2e",
+  "name" : "Create Card  fail 422  (OL-432, invalid Paypin data -  the Paypin contains ascending consecutive digits)-Test was skipped, because of unresolved defects (OL-1241) ",
+  "time" : {
+    "start" : 1511799374904,
+    "stop" : 1511799374905,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f58af47d5de13838",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Malta 2 SET)-",
+  "time" : {
+    "start" : 1511799654307,
+    "stop" : 1511799658326,
+    "duration" : 4019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "feaa3bf4452980a5",
+  "name" : "Set Security Answer  success 201  (OL-413, Valid Answer)-",
+  "time" : {
+    "start" : 1511799315674,
+    "stop" : 1511799321564,
+    "duration" : 5890
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66c7c2e1a646b961",
+  "name" : "Get Card Pin  fail 401  (OL-688, CVC - Not Entered)-",
+  "time" : {
+    "start" : 1511799271277,
+    "stop" : 1511799276604,
+    "duration" : 5327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bacd7ab23d5022df",
+  "name" : "Create transfers  success 201  (OL-840, SEPA - Foreign Country Client - Create)-",
+  "time" : {
+    "start" : 1511799284161,
+    "stop" : 1511799289471,
+    "duration" : 5310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "faad32e817fd29fc",
+  "name" : "User registration  fail 422  (OL-343, Birthday - Invalid Date - Invalid Format(dashes only))-",
+  "time" : {
+    "start" : 1511799412210,
+    "stop" : 1511799412598,
+    "duration" : 388
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c70318a5ca67318a",
+  "name" : "Confirm transfers  fail 422 - three attempts  (OL-892, P2P- Invalid Paypin - Three Attempts)-",
+  "time" : {
+    "start" : 1511799534265,
+    "stop" : 1511799546335,
+    "duration" : 12070
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71286babe0b86436",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Luxembourg 2 SET)-",
+  "time" : {
+    "start" : 1511799649742,
+    "stop" : 1511799654306,
+    "duration" : 4564
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2ad18f0122c52de",
+  "name" : "Update Customer  fail 422  (OL-1380, Customer info is not updated if phone field has more than 16 symbols)-",
+  "time" : {
+    "start" : 1511799611769,
+    "stop" : 1511799613602,
+    "duration" : 1833
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "a5aaa24bd8c60d67",
+  "name" : "Get Transactions  success 200 (OL-760, Merchant - Payment)-Test was skipped, because of unresolved defects (OL-913)  (OL-1429) ",
+  "time" : {
+    "start" : 1511799465179,
+    "stop" : 1511799465180,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "36c8360887597051",
+  "name" : "User registration  success 201  (OL-364, Account is created if different verification Tokens are provided (128-characters length))-",
+  "time" : {
+    "start" : 1511799385905,
+    "stop" : 1511799389272,
+    "duration" : 3367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15f08da7b0cdf9d0",
+  "name" : "Get Questions List  fail 403  (OL-410, Users are not allowed to get the security questions list if they aren't authorized)-",
+  "time" : {
+    "start" : 1511799265179,
+    "stop" : 1511799265216,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "648165bb74e3cd97",
+  "name" : "Create transfers  success 201  (OL-763, P2P - Correct Data - FOS_P2P_PHONE - Create)-",
+  "time" : {
+    "start" : 1511799314730,
+    "stop" : 1511799320195,
+    "duration" : 5465
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66c4e32b8bc22579",
+  "name" : "User registration  fail 422  (OL-342, Account is NOT created if user used the BD with invalid date (Year and month is ok, but the day is '00'))-",
+  "time" : {
+    "start" : 1511799411158,
+    "stop" : 1511799411699,
+    "duration" : 541
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc519f59a497b907",
+  "name" : "Set Card Limit  fail 422  (OL-812, Set Card Limit - ATM - Over Limit (atm = 2001))-Test was skipped, because of unresolved defects (OL-1169) ",
+  "time" : {
+    "start" : 1511799271800,
+    "stop" : 1511799271801,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "94273d542c05978d",
+  "name" : "User registration  fail 422  (not a manual test case, Email - Invalid Length)-",
+  "time" : {
+    "start" : 1511799414044,
+    "stop" : 1511799414046,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4989a834a51bcd5",
+  "name" : "Unfreeze Card  success 204  (OL-568, Valid Data)-",
+  "time" : {
+    "start" : 1511799264431,
+    "stop" : 1511799269094,
+    "duration" : 4663
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f41d6f7d38ac23a",
+  "name" : "Confirm transfers  success 200  (OL-895, SEPA - Subject - Up to 255 Characters - Confirm)-",
+  "time" : {
+    "start" : 1511799314850,
+    "stop" : 1511799342120,
+    "duration" : 27270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d7de0be43f94e1e",
+  "name" : "Set Card Limit  success 204  (OL-810, Set Card Limit - Transaction - Less Than 2000)-",
+  "time" : {
+    "start" : 1511799262465,
+    "stop" : 1511799267081,
+    "duration" : 4616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8425bedd45afae57",
+  "name" : "Confirm transfers  fail 422  (OL-893, P2P - Blank Paypin)-",
+  "time" : {
+    "start" : 1511799504788,
+    "stop" : 1511799512623,
+    "duration" : 7835
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72f737d57faf271d",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Estonia)-",
+  "time" : {
+    "start" : 1511799430370,
+    "stop" : 1511799435945,
+    "duration" : 5575
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1e6b1c46b3c39b6",
+  "name" : "Create transfers  success 201  (OL-906, TC - SEPA via P2p transfer is created if Routing type is set to Email)-",
+  "time" : {
+    "start" : 1511799304779,
+    "stop" : 1511799309029,
+    "duration" : 4250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7716b2bea7f7d0f6",
+  "name" : "Unlock pin  fail 401 - two attempts  (OL-591, Incorrect Security Question - Two Attempts)-",
+  "time" : {
+    "start" : 1511799306281,
+    "stop" : 1511799311577,
+    "duration" : 5296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0dacb16e66ac38",
+  "name" : "User registration  success 201  (OL-377, OL-340,  OL-377, OL-372,  OL-341, OL-360, OL-367,  OL-369, OL-375, Mandatory Fields are Valid)-Test was skipped, because of unresolved defects (OL-1117) ",
+  "time" : {
+    "start" : 1511799360386,
+    "stop" : 1511799360389,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ea7706c0c1a7cf35",
+  "name" : "Reorder Card  fail 422  (OL-850, Existent Card Is In Card Registration Completed Status)-",
+  "time" : {
+    "start" : 1511799344465,
+    "stop" : 1511799350791,
+    "duration" : 6326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "580c04ac2dabc204",
+  "name" : "User authentication  fail 400  (OL-354, Correct Email and Incorrect Password)-",
+  "time" : {
+    "start" : 1511799359156,
+    "stop" : 1511799359732,
+    "duration" : 576
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9617ac1bf77ae1a",
+  "name" : "Set Card Limit  fail 422  (OL-807, Set Card Limit - Daily - Less Than Transaction Limit (50 000 > single > volume))-Test was skipped, because of unresolved defects (OL-942) ",
+  "time" : {
+    "start" : 1511799271797,
+    "stop" : 1511799271797,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "424c79c7eaa697c",
+  "name" : "Get Transactions  success 200 (OL-756, Merchant - Cash Disbursement)-",
+  "time" : {
+    "start" : 1511799419088,
+    "stop" : 1511799433731,
+    "duration" : 14643
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf9e0ee0fa7f7cc9",
+  "name" : "Reorder Card  fail 422  (OL-739, Existent Card Is In Freeze State)-",
+  "time" : {
+    "start" : 1511799340535,
+    "stop" : 1511799344464,
+    "duration" : 3929
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9a247577d72119e",
+  "name" : "User registration via onboarding fail 422  (OL-724, Create Account - Birthday - Invalid Date - Invalid Format)-",
+  "time" : {
+    "start" : 1511799633948,
+    "stop" : 1511799633949,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8b8603cebb525869",
+  "name" : "Lock Card  fail 404  (OL-542, Card ID - Doesn't Belong to User)-",
+  "time" : {
+    "start" : 1511799257822,
+    "stop" : 1511799260490,
+    "duration" : 2668
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91d29772cf2e4b5a",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Cyprus)-",
+  "time" : {
+    "start" : 1511799415584,
+    "stop" : 1511799419028,
+    "duration" : 3444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2eb827fbabad0f0e",
+  "name" : "Card activation  success 204  (OL-598, Account with French Address)-",
+  "time" : {
+    "start" : 1511799250446,
+    "stop" : 1511799256644,
+    "duration" : 6198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97434ad568b064c0",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Belgium)-",
+  "time" : {
+    "start" : 1511799580537,
+    "stop" : 1511799587059,
+    "duration" : 6522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d01a840ca5bc5ae",
+  "name" : "Get Card Pin  success 200  (OL-690, Paypin is displayed after two incorrect Security Question entering)-",
+  "time" : {
+    "start" : 1511799258523,
+    "stop" : 1511799264135,
+    "duration" : 5612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1edafd7bc72498b8",
+  "name" : "Create transfers  success 201  (OL-875, P2P - Transfer Purpose - Blank - Create)-",
+  "time" : {
+    "start" : 1511799332491,
+    "stop" : 1511799337750,
+    "duration" : 5259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23f58507664686ec",
+  "name" : "Confirm transfers  success 200  (OL-844, SEPA - Foreign Country Client - Confirm)-",
+  "time" : {
+    "start" : 1511799365986,
+    "stop" : 1511799391983,
+    "duration" : 25997
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ec8f51e350d9b46",
+  "name" : "Confirm transfers  success 200  (OL-889, SEPA - Subject - Blank - Confirm)-",
+  "time" : {
+    "start" : 1511799280479,
+    "stop" : 1511799314850,
+    "duration" : 34371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f959af7f1b48571",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Macedonia)-",
+  "time" : {
+    "start" : 1511799487902,
+    "stop" : 1511799498882,
+    "duration" : 10980
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d98861fa70f7261",
+  "name" : "Confirm transfers  success 200 after two failed attempts  (OL-851, SEPA - Invalid Paypin - Two Attempts)-",
+  "time" : {
+    "start" : 1511799546336,
+    "stop" : 1511799582143,
+    "duration" : 35807
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f448a853b9ff868",
+  "name" : "User authentication  success 200  (OL-350, Correct Email and Password)-",
+  "time" : {
+    "start" : 1511799350439,
+    "stop" : 1511799353507,
+    "duration" : 3068
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5df5e8c52f281102",
+  "name" : "Reorder Card  success 201  (OL-738, Existent Card Is In Block State)-",
+  "time" : {
+    "start" : 1511799336198,
+    "stop" : 1511799340535,
+    "duration" : 4337
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbbf77ee29ed8493",
+  "name" : "Get Card Pin  fail 401  (OL-686, Security Answer - Incorrect value)-",
+  "time" : {
+    "start" : 1511799267446,
+    "stop" : 1511799271273,
+    "duration" : 3827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b6cf5e7a2849e1a",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(%))-",
+  "time" : {
+    "start" : 1511799368338,
+    "stop" : 1511799370869,
+    "duration" : 2531
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc06d9dca469e401",
+  "name" : "Get Card Pin  fail 403 - three attempts  (OL-693, TC - Account is locked after getting Paypin with incorrect CVC entered 3 times in a row)-",
+  "time" : {
+    "start" : 1511799298207,
+    "stop" : 1511799307241,
+    "duration" : 9034
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ad883f0b0b984fc",
+  "name" : "User registration  success 201  (OL-364, Account is created if different verification Tokens are provided (letters + numbers))-",
+  "time" : {
+    "start" : 1511799381629,
+    "stop" : 1511799383534,
+    "duration" : 1905
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edf6e01162098b10",
+  "name" : "Update Customer  success 204  (OL-1313, Customer info is updated if email has up to 50 symbols)-",
+  "time" : {
+    "start" : 1511799307320,
+    "stop" : 1511799312401,
+    "duration" : 5081
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3883190fb10d2be9",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Czech Republic)-",
+  "time" : {
+    "start" : 1511799419028,
+    "stop" : 1511799423519,
+    "duration" : 4491
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6540c2065bd16385",
+  "name" : "User registration  fail 422  (OL-343, Birthday - Invalid Date - Invalid Format(with special charachter))-",
+  "time" : {
+    "start" : 1511799412723,
+    "stop" : 1511799413360,
+    "duration" : 637
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "216a2fe3ac1abb6c",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(+))-",
+  "time" : {
+    "start" : 1511799362980,
+    "stop" : 1511799363918,
+    "duration" : 938
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bab08b35ffd69f4",
+  "name" : "Create Card  fail 422  (OL-432, invalid Paypin data -  the Paypin contains descending consecutive digits)-Test was skipped, because of unresolved defects (OL-1241) ",
+  "time" : {
+    "start" : 1511799374905,
+    "stop" : 1511799374906,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7d84319ea8c6d208",
+  "name" : "Reset password  fail 400 (OL-787, Error message is displayed and password is NOT changed if incorrect email format is provided)-",
+  "time" : {
+    "start" : 1511799265174,
+    "stop" : 1511799265177,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "83cb980411a70535",
+  "name" : "Set Card Limit  fail 422  (OL-811, Set Card Limit - Transaction - Less Than ATM Limit (volume < atm < 1999.99))-Test was skipped, because of unresolved defects (OL-942) ",
+  "time" : {
+    "start" : 1511799271799,
+    "stop" : 1511799271800,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a2015e401cbd65e9",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Estonia 2 SET)-",
+  "time" : {
+    "start" : 1511799618179,
+    "stop" : 1511799623006,
+    "duration" : 4827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3e275161b915504",
+  "name" : "Block Card  -  success 204  (OL-802, Card Registration Completed - Correct Data)-Test was skipped, because of unresolved defects (OL-1170) ",
+  "time" : {
+    "start" : 1511799257101,
+    "stop" : 1511799257103,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "bf476e8f9f1af70d",
+  "name" : "Unlock pin  fail 403 - three attempts  (OL-624, Security Question is Blocked)-",
+  "time" : {
+    "start" : 1511799342145,
+    "stop" : 1511799352297,
+    "duration" : 10152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a746b050762b7eb",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Belarus)-",
+  "time" : {
+    "start" : 1511799587179,
+    "stop" : 1511799594502,
+    "duration" : 7323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a14989be88f0b9dc",
+  "name" : "Get account data  success 200  (OL-707, Get Account Data)-",
+  "time" : {
+    "start" : 1511799253447,
+    "stop" : 1511799257572,
+    "duration" : 4125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "484656ea09c5d2d8",
+  "name" : "Update Customer  success 204  (OL-1381, Customer info is updated if phone has correct format and valid data)-",
+  "time" : {
+    "start" : 1511799312401,
+    "stop" : 1511799318249,
+    "duration" : 5848
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1974559b02ba119",
+  "name" : "Check login field presence  success 200  (OL-336, MSISDN - Invalid Length)-",
+  "time" : {
+    "start" : 1511799395458,
+    "stop" : 1511799396307,
+    "duration" : 849
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "132a069a0eaaa9ff",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Italy)-",
+  "time" : {
+    "start" : 1511799468981,
+    "stop" : 1511799477137,
+    "duration" : 8156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85cd7fce5cd14a4e",
+  "name" : "Card activation  success 204 after previous 2 failed  (OL-562, Correct CVC and PayPin after Two Wrong Attemps)-",
+  "time" : {
+    "start" : 1511799323898,
+    "stop" : 1511799336197,
+    "duration" : 12299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55f8c27abd2a1430",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Monaco)-",
+  "time" : {
+    "start" : 1511799552920,
+    "stop" : 1511799562076,
+    "duration" : 9156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd8018fe4dedbea3",
+  "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '@')-",
+  "time" : {
+    "start" : 1511799493475,
+    "stop" : 1511799499953,
+    "duration" : 6478
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "13fbc0bf5fe8a232",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Spain 2 SET)-",
+  "time" : {
+    "start" : 1511799693459,
+    "stop" : 1511799696331,
+    "duration" : 2872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dda122532a2da46c",
+  "name" : "Get Card cvc  fail 404  (no manual test case, try to get cvc number from card with wrong card id)-",
+  "time" : {
+    "start" : 1511799254682,
+    "stop" : 1511799258555,
+    "duration" : 3873
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a04d3c72c136c67b",
+  "name" : "Update Customer  fail 422  (OL-1333, Customer info is not updated if post code has invalid format (letters))-",
+  "time" : {
+    "start" : 1511799576944,
+    "stop" : 1511799582024,
+    "duration" : 5080
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "239a338f7df8978e",
+  "name" : "Get Card Pin  fail 401  (OL-686, Security Question - Incorrect value)-",
+  "time" : {
+    "start" : 1511799264139,
+    "stop" : 1511799267445,
+    "duration" : 3306
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bd4d6368f2fb091",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters($))-",
+  "time" : {
+    "start" : 1511799367498,
+    "stop" : 1511799368337,
+    "duration" : 839
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bc80e40159e4a79",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Israel)-",
+  "time" : {
+    "start" : 1511799521888,
+    "stop" : 1511799533573,
+    "duration" : 11685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a36d1064a6c08e42",
+  "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '$')-",
+  "time" : {
+    "start" : 1511799436286,
+    "stop" : 1511799440561,
+    "duration" : 4275
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "67f2be33925b1756",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, France 2 SET)-",
+  "time" : {
+    "start" : 1511799628399,
+    "stop" : 1511799633592,
+    "duration" : 5193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4d2e95c092afae3",
+  "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char ')')-",
+  "time" : {
+    "start" : 1511799372103,
+    "stop" : 1511799374439,
+    "duration" : 2336
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "70f8e11a3e2d657a",
+  "name" : "Get Card Pin  fail 403  (OL-698, CVC Blocked)-",
+  "time" : {
+    "start" : 1511799327731,
+    "stop" : 1511799338943,
+    "duration" : 11212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b7f2c9b0deece7",
+  "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '!')-",
+  "time" : {
+    "start" : 1511799487453,
+    "stop" : 1511799493473,
+    "duration" : 6020
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "8b6d01d41e107b0f",
+  "name" : "User registration  success 201  (OL-323, Account is created if user used a regular email during an account creation)-",
+  "time" : {
+    "start" : 1511799360389,
+    "stop" : 1511799361701,
+    "duration" : 1312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "159f8c727ad9f942",
+  "name" : "Card activation  fail 401, two attempts  (OL-558, Incorrect PayPin Twice)-",
+  "time" : {
+    "start" : 1511799275368,
+    "stop" : 1511799284430,
+    "duration" : 9062
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c64c050a7544522",
+  "name" : "Confirm transfers  success 200 after two failed attempts  (OL-886, P2P- Invalid Paypin - Two Attempts)-",
+  "time" : {
+    "start" : 1511799582144,
+    "stop" : 1511799612437,
+    "duration" : 30293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4dba1d5eed7bfd7",
+  "name" : "User registration via onboarding fail 422  (, Email Address Presence - Invalid Length(more than 50 characters))-",
+  "time" : {
+    "start" : 1511799633953,
+    "stop" : 1511799634105,
+    "duration" : 152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40ee974f4dc11c25",
+  "name" : "Perform transaction with Pre Authorization success 200 (OL-1479, Clearing of Unique transaction is performed after preauthorization)-",
+  "time" : {
+    "start" : 1511799268854,
+    "stop" : 1511799268857,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1ca7273faff5dab2",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(~))-",
+  "time" : {
+    "start" : 1511799378069,
+    "stop" : 1511799379442,
+    "duration" : 1373
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7132c8e5b8ef6995",
+  "name" : "Lock Card  fail 403  (OL-557, Card State - Requirments Check)-Test was skipped, because of unresolved defects (OL-1036) ",
+  "time" : {
+    "start" : 1511799285468,
+    "stop" : 1511799285469,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "116a2be204f06d9e",
+  "name" : "User registration  fail 422  (OL-376, Account is NOT createdif Invalid Affiliate ID is provided)-",
+  "time" : {
+    "start" : 1511799414049,
+    "stop" : 1511799415583,
+    "duration" : 1534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39a82b4a9d28a3eb",
+  "name" : "Perform transaction with Pre Authorization success 200 (OL-1473, Clearing of Purchase with cashback is performed after preauthorization)-",
+  "time" : {
+    "start" : 1511799268844,
+    "stop" : 1511799268848,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f1c416191816624a",
+  "name" : "Set Card Limit  success 204  (OL-799, Set Card Limit - ATM - Maximum ( atm - 2000 EUR))-",
+  "time" : {
+    "start" : 1511799246347,
+    "stop" : 1511799252044,
+    "duration" : 5697
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bd14ae5a39ad4a4",
+  "name" : "Create transfers  success 201  (OL-848, SEPA - Non-OL Client - Create)-",
+  "time" : {
+    "start" : 1511799289472,
+    "stop" : 1511799296209,
+    "duration" : 6737
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7548582f65207e5",
+  "name" : "Create transfers  fail 422  (OL-859, SEPA - Account ID - Does Not Belong to User (another Oney Live client's account))-",
+  "time" : {
+    "start" : 1511799385280,
+    "stop" : 1511799392183,
+    "duration" : 6903
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc41ef97a07c391",
+  "name" : "Get Transactions  success 200 (OL-757, Merchant - Unique Transactions)-",
+  "time" : {
+    "start" : 1511799433731,
+    "stop" : 1511799451926,
+    "duration" : 18195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66c25f4b92a8b9d7",
+  "name" : "Create transfers  success 201  (OL-896, SEPA - Purpose - Blank - Create)-",
+  "time" : {
+    "start" : 1511799273886,
+    "stop" : 1511799279030,
+    "duration" : 5144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b12fa68fe557303",
+  "name" : "Update Customer  fail 422  (OL-1336, Customer info is not updated if country field is blank)-",
+  "time" : {
+    "start" : 1511799582025,
+    "stop" : 1511799587468,
+    "duration" : 5443
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "328a301d7854e5a8",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Kazakhstan)-",
+  "time" : {
+    "start" : 1511799544592,
+    "stop" : 1511799553040,
+    "duration" : 8448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7817186e9ef1d8a4",
+  "name" : "Create transfers  success 201  (OL-909, SEPA - Create Beneficiary - False)-",
+  "time" : {
+    "start" : 1511799296210,
+    "stop" : 1511799300369,
+    "duration" : 4159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "177b6cf3fd6aff38",
+  "name" : "User registration  fail 422  (OL-343, Birthday - Invalid Date - Invalid Format)-",
+  "time" : {
+    "start" : 1511799411699,
+    "stop" : 1511799412209,
+    "duration" : 510
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b251bc78abc377a",
+  "name" : "Check login field presence  success 200  (OL-325, Email - Already Registered)-",
+  "time" : {
+    "start" : 1511799390615,
+    "stop" : 1511799391610,
+    "duration" : 995
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "53e3bb79f2b8c7e0",
+  "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char ']')-",
+  "time" : {
+    "start" : 1511799397753,
+    "stop" : 1511799402202,
+    "duration" : 4449
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "139e07ede7ca966c",
+  "name" : "Create transfers  fail 409  (OL-795, External UID - Not Unique)-",
+  "time" : {
+    "start" : 1511799675498,
+    "stop" : 1511799682926,
+    "duration" : 7428
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57f27380e87a75b3",
+  "name" : "Card activation  fail 403, four attempts  (OL-518, Incorrect PayPin - Three Attempts)-",
+  "time" : {
+    "start" : 1511799310761,
+    "stop" : 1511799323897,
+    "duration" : 13136
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "47436ad994121cd1",
+  "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters ('))-",
+  "time" : {
+    "start" : 1511799403372,
+    "stop" : 1511799404273,
+    "duration" : 901
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad62d92bc8d210fc",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Mauritius)-",
+  "time" : {
+    "start" : 1511799498883,
+    "stop" : 1511799512508,
+    "duration" : 13625
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82f0562db2e1d64",
+  "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char \"'\")-",
+  "time" : {
+    "start" : 1511799404231,
+    "stop" : 1511799405347,
+    "duration" : 1116
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "2af9b5b62acdff75",
+  "name" : "User registration via onboarding fail 422  (OL-724, MSISDN - Already Registered)-",
+  "time" : {
+    "start" : 1511799633938,
+    "stop" : 1511799633939,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a0002eb8ae78c103",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Germany)-",
+  "time" : {
+    "start" : 1511799445644,
+    "stop" : 1511799453241,
+    "duration" : 7597
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b59a24fb12f0697a",
+  "name" : "Create transfers  fail 422  (OL-847, SEPA - BIC - Blank)-",
+  "time" : {
+    "start" : 1511799367635,
+    "stop" : 1511799373500,
+    "duration" : 5865
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "371dfaccfc88bc69",
+  "name" : "Unlock pin  fail 404  (OL-633, Card ID - Doesn't Belong to User)-",
+  "time" : {
+    "start" : 1511799366416,
+    "stop" : 1511799370438,
+    "duration" : 4022
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8badb11ced31f127",
+  "name" : "Reorder Card  fail 401  (OL-872, PayPin - Blank)-",
+  "time" : {
+    "start" : 1511799366382,
+    "stop" : 1511799370404,
+    "duration" : 4022
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cf551cd506d28ca",
+  "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '#')-",
+  "time" : {
+    "start" : 1511799499954,
+    "stop" : 1511799506362,
+    "duration" : 6408
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "5d792adc8a42f1f9",
+  "name" : "Create transfers  fail 422  (OL-839, SEPA - IBAN - Invalid)-",
+  "time" : {
+    "start" : 1511799379562,
+    "stop" : 1511799385278,
+    "duration" : 5716
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef9ed3bcd7edf3b",
+  "name" : "Create transfers  success 201  (OL-834, TC - SEPA transfer is created successfully with Oney Live client's IBAN and BIC)-Test was skipped, because of unresolved defects (OL-1251) ",
+  "time" : {
+    "start" : 1511799273884,
+    "stop" : 1511799273886,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3987dd73d274c1e4",
+  "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char %)-",
+  "time" : {
+    "start" : 1511799364281,
+    "stop" : 1511799368125,
+    "duration" : 3844
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "a48eaf74087c06dc",
+  "name" : "Block Card  -  fail 401  (OL-731, No PayPin)-",
+  "time" : {
+    "start" : 1511799271390,
+    "stop" : 1511799279376,
+    "duration" : 7986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15598289684ff208",
+  "name" : "Set Card Limit  fail 422  (OL-800, Set Card Limit - Daily - Over Limit (more than 50 000 EUR))-Test was skipped, because of unresolved defects (OL-1169) ",
+  "time" : {
+    "start" : 1511799271795,
+    "stop" : 1511799271796,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5831322abb34a5cc",
+  "name" : "Unfreeze Card  fail 404  (OL-571, Card ID - Not Registered)-",
+  "time" : {
+    "start" : 1511799274113,
+    "stop" : 1511799279301,
+    "duration" : 5188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84e0c7f806270002",
+  "name" : "Get Card Pin  fail 404  (OL-684, can not get Paypin with a not yet registered card)-",
+  "time" : {
+    "start" : 1511799293480,
+    "stop" : 1511799298206,
+    "duration" : 4726
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce864d530efc0a33",
+  "name" : "User registration via onboarding fail 422  (OL-724, Create Account - Name - Numbers and Special Characters)-",
+  "time" : {
+    "start" : 1511799633951,
+    "stop" : 1511799633952,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2a7c1eea1f100499",
+  "name" : "Create Card  success 201  (no manual test case, No Paypin value inserted)-",
+  "time" : {
+    "start" : 1511799379397,
+    "stop" : 1511799383001,
+    "duration" : 3604
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d6e53813de9fa0e",
+  "name" : "Get Transactions  success 200 (OL-761, Merchant - Fee Return)-Test was skipped, because of unresolved defects (OL-913) ",
+  "time" : {
+    "start" : 1511799465180,
+    "stop" : 1511799465181,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "57a9d9b5c00d465",
+  "name" : "Create transfers  fail 422  (OL-910, SEPA - Subject - Over 255 Characters)-Test was skipped, because of unresolved defects (OL-1253) ",
+  "time" : {
+    "start" : 1511799397376,
+    "stop" : 1511799397377,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3fd2e1f5e551d9d1",
+  "name" : "Lock Card  fail 403 three attempts  (OL-547, Incorrect Paypin - Three Attempts)-",
+  "time" : {
+    "start" : 1511799276399,
+    "stop" : 1511799285465,
+    "duration" : 9066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0c6820b9086bbb0",
+  "name" : "Create transfers  success 201  (OL-836, P2P - Subject - Up to 255 Symbols - Create)-",
+  "time" : {
+    "start" : 1511799325354,
+    "stop" : 1511799332490,
+    "duration" : 7136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd73370e831c0bdf",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Norway)-",
+  "time" : {
+    "start" : 1511799502353,
+    "stop" : 1511799512210,
+    "duration" : 9857
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c60267876ef0bc49",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Tunisia)-",
+  "time" : {
+    "start" : 1511799564407,
+    "stop" : 1511799571056,
+    "duration" : 6649
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50107b25fa75403b",
+  "name" : "Get Card cvc  success 200  (OL-545, Correct Data)-",
+  "time" : {
+    "start" : 1511799246314,
+    "stop" : 1511799249475,
+    "duration" : 3161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63f7f082a13d8648",
+  "name" : "User registration via onboarding fail 422  (OL-724, Title - Invalid Title)-",
+  "time" : {
+    "start" : 1511799633940,
+    "stop" : 1511799633941,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e3523a4fa6f29e27",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Georgia)-",
+  "time" : {
+    "start" : 1511799533573,
+    "stop" : 1511799544592,
+    "duration" : 11019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2584f0bfc2a22498",
+  "name" : "Reorder Card  fail 401  (OL-867, Paypin - Two Incorrect Attempts)-",
+  "time" : {
+    "start" : 1511799360980,
+    "stop" : 1511799366382,
+    "duration" : 5402
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21aa656712a66e82",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Hungary)-",
+  "time" : {
+    "start" : 1511799459088,
+    "stop" : 1511799463316,
+    "duration" : 4228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1e37c47914fb8db",
+  "name" : "Check login field presence  success 200  (OL-324, MSISDN - Number Is Not Registered)-",
+  "time" : {
+    "start" : 1511799388853,
+    "stop" : 1511799389940,
+    "duration" : 1087
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b4cb40f4c63d0836",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(=))-",
+  "time" : {
+    "start" : 1511799373715,
+    "stop" : 1511799374481,
+    "duration" : 766
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6138c404c81c84e8",
+  "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '!')-",
+  "time" : {
+    "start" : 1511799422945,
+    "stop" : 1511799425538,
+    "duration" : 2593
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "b9be427151384c59",
+  "name" : "Create transfers  fail 422  (OL-866, SEPA - Amount - Invalid (contains special characters))-",
+  "time" : {
+    "start" : 1511799414165,
+    "stop" : 1511799416349,
+    "duration" : 2184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75c386b9e5621c45",
+  "name" : "Create Card  fail 422  (OL-430, invalid Paypin data - the Paypin is not 4-digits long)-",
+  "time" : {
+    "start" : 1511799374906,
+    "stop" : 1511799376337,
+    "duration" : 1431
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6cb0f11778f56e7",
+  "name" : "Lock Card  fail 404  (OL-543, Card ID - Not Registered)-",
+  "time" : {
+    "start" : 1511799253822,
+    "stop" : 1511799257821,
+    "duration" : 3999
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54475d9dd68e4f",
+  "name" : "Get Transactions  success 200 (OL-754, Merchant - ATM Withdrawal)-",
+  "time" : {
+    "start" : 1511799397071,
+    "stop" : 1511799409262,
+    "duration" : 12191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf7c56f15a7b466c",
+  "name" : "User registration via onboarding fail 422  (OL-724, Email more than 50 charachters)-",
+  "time" : {
+    "start" : 1511799633927,
+    "stop" : 1511799633929,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "77560dd67cffdfd0",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Greece)-",
+  "time" : {
+    "start" : 1511799453242,
+    "stop" : 1511799459088,
+    "duration" : 5846
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3768449bbc44cdb1",
+  "name" : "Block Card  -  success 204  (OL-716, Active Card - Correct Data)-",
+  "time" : {
+    "start" : 1511799246326,
+    "stop" : 1511799250736,
+    "duration" : 4410
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a8b86ca15fa0fb6",
+  "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '$')-",
+  "time" : {
+    "start" : 1511799360727,
+    "stop" : 1511799364280,
+    "duration" : 3553
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "a33390baadab3cc1",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Turkey)-",
+  "time" : {
+    "start" : 1511799638406,
+    "stop" : 1511799645820,
+    "duration" : 7414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34d51942b5909bcd",
+  "name" : "Create transfers  fail 404  (OL-903, SEPA - Currency - Invalid (blank))-",
+  "time" : {
+    "start" : 1511799662456,
+    "stop" : 1511799666479,
+    "duration" : 4023
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "87c70076b331b192",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - United Arab Emirates 2)-",
+  "time" : {
+    "start" : 1511799645821,
+    "stop" : 1511799651858,
+    "duration" : 6037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdccabc1538222de",
+  "name" : "Confirm transfers  fail 422  (OL-849, SEPA - Invalid Paypin)-",
+  "time" : {
+    "start" : 1511799485230,
+    "stop" : 1511799493719,
+    "duration" : 8489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3ee9675afe05ce6",
+  "name" : "Card activation  fail 403  (OL-530, No Card Id  )-",
+  "time" : {
+    "start" : 1511799266809,
+    "stop" : 1511799269209,
+    "duration" : 2400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd0c91031ce4ad9e",
+  "name" : "Get Card Pin  success 200  (OL-682, Valid Data)-",
+  "time" : {
+    "start" : 1511799246452,
+    "stop" : 1511799251928,
+    "duration" : 5476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1f1f4065720318b",
+  "name" : "Update Customer  fail 422  (OL-1315, Customer info is not updated if email field is blank)-",
+  "time" : {
+    "start" : 1511799414843,
+    "stop" : 1511799416234,
+    "duration" : 1391
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "60dac8898ea5ce9b",
+  "name" : "Create transfers  success 201  (OL-890, SEPA - Subject - Up to 255 Characters - Create)-",
+  "time" : {
+    "start" : 1511799279030,
+    "stop" : 1511799284160,
+    "duration" : 5130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4122e402bf402823",
+  "name" : "Create Card  fail 422  (OL-429, Wrong Account ID)-",
+  "time" : {
+    "start" : 1511799370407,
+    "stop" : 1511799373208,
+    "duration" : 2801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38e44d63cc0d43aa",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Netherlands)-",
+  "time" : {
+    "start" : 1511799492978,
+    "stop" : 1511799502352,
+    "duration" : 9374
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2e9402a0c41c26f",
+  "name" : "Lock Card  fail 401  (OL-539, Empty Paypin)-",
+  "time" : {
+    "start" : 1511799249020,
+    "stop" : 1511799253821,
+    "duration" : 4801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f35e5574f9b55246",
+  "name" : "Create transfers  fail 422  (OL-866, SEPA - Amount - Invalid (alphabetical characters))-",
+  "time" : {
+    "start" : 1511799411817,
+    "stop" : 1511799414164,
+    "duration" : 2347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9699daab09d74c90",
+  "name" : "Create transfers  success 201  (OL-908, SEPA - Create Beneficiary - True)-",
+  "time" : {
+    "start" : 1511799300369,
+    "stop" : 1511799304778,
+    "duration" : 4409
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8079562cdafe4b8b",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(/))-",
+  "time" : {
+    "start" : 1511799374482,
+    "stop" : 1511799374943,
+    "duration" : 461
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "224de26005f5a38",
+  "name" : "User registration via onboarding fail 422  (OL-724, Create Account - Birthday - Invalid Date - Valid Format)-",
+  "time" : {
+    "start" : 1511799633946,
+    "stop" : 1511799633946,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "838b840850209c90",
+  "name" : "Reorder Card  fail 403  (OL-870, Paypin Blocked)-",
+  "time" : {
+    "start" : 1511799358566,
+    "stop" : 1511799360980,
+    "duration" : 2414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81b33ad5ab4f83a8",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Czech Republic 2 SET)-",
+  "time" : {
+    "start" : 1511799606686,
+    "stop" : 1511799612321,
+    "duration" : 5635
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad815686bdeb49c7",
+  "name" : "Create transfers  success 201  (OL-880, P2P - Create Beneficiary - False)-",
+  "time" : {
+    "start" : 1511799345901,
+    "stop" : 1511799352213,
+    "duration" : 6312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48e7de3acbd47734",
+  "name" : "Unlock pin  fail 401 - two attempts  (OL-627, Incorrect CVC - Two Attempts)-",
+  "time" : {
+    "start" : 1511799311577,
+    "stop" : 1511799320624,
+    "duration" : 9047
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9642fd6e0952c02",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Poland)-",
+  "time" : {
+    "start" : 1511799512210,
+    "stop" : 1511799519318,
+    "duration" : 7108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9bfe9b1f1874187",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, San Marino)-",
+  "time" : {
+    "start" : 1511799562076,
+    "stop" : 1511799568237,
+    "duration" : 6161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed4cd1074f1a0802",
+  "name" : "Create transfers  fail 422  (OL-846, SEPA - BIC - Invalid (14 letters))-",
+  "time" : {
+    "start" : 1511799397377,
+    "stop" : 1511799403331,
+    "duration" : 5954
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f68346512ab29ab",
+  "name" : "Lock Card  success 204  (OL-526, Valid Data)-",
+  "time" : {
+    "start" : 1511799260491,
+    "stop" : 1511799264893,
+    "duration" : 4402
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afdd96505f4d75d3",
+  "name" : "Block Card  -  fail 404  (OL-723, Card Id Does Not Belong to User)-",
+  "time" : {
+    "start" : 1511799257104,
+    "stop" : 1511799260746,
+    "duration" : 3642
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19b67abc78002101",
+  "name" : "Create Card  fail 422  (OL-435, Already Created)-Test was skipped, because of unresolved defects (OL-1229) ",
+  "time" : {
+    "start" : 1511799370405,
+    "stop" : 1511799370406,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "51a31663aa637d86",
+  "name" : "User registration via onboarding success 200  (OL-1143, Customer can be created with all required/not required fields)-",
+  "time" : {
+    "start" : 1511799613603,
+    "stop" : 1511799633927,
+    "duration" : 20324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26ecf19483530fd6",
+  "name" : "Get Card Pin  fail 404  (OL-683, Card ID - does not belong to user)-",
+  "time" : {
+    "start" : 1511799287213,
+    "stop" : 1511799293479,
+    "duration" : 6266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a40d618435da8790",
+  "name" : "Update Customer  fail 422  (OL-1379, Customer info is not updated if phone field is invalid (spec char))-",
+  "time" : {
+    "start" : 1511799607002,
+    "stop" : 1511799611768,
+    "duration" : 4766
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "8b1134337f7594eb",
+  "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '<')-",
+  "time" : {
+    "start" : 1511799381102,
+    "stop" : 1511799385029,
+    "duration" : 3927
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "4d97995dcb0170c8",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(-))-",
+  "time" : {
+    "start" : 1511799363918,
+    "stop" : 1511799365503,
+    "duration" : 1585
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e127ae1b5ae0587f",
+  "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '^')-",
+  "time" : {
+    "start" : 1511799520825,
+    "stop" : 1511799526577,
+    "duration" : 5752
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "d6f87e15cb3977ad",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(_))-",
+  "time" : {
+    "start" : 1511799375854,
+    "stop" : 1511799376823,
+    "duration" : 969
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e24b2c6e807cca32",
+  "name" : "Set Security Answer  fail 422  (OL-417, Incorrect Question)-",
+  "time" : {
+    "start" : 1511799321565,
+    "stop" : 1511799328266,
+    "duration" : 6701
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f44e06be8657c2b",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(&))-",
+  "time" : {
+    "start" : 1511799370870,
+    "stop" : 1511799372144,
+    "duration" : 1274
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae1e31183e877168",
+  "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '$')-",
+  "time" : {
+    "start" : 1511799506363,
+    "stop" : 1511799513438,
+    "duration" : 7075
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "230bde4593359ea1",
+  "name" : "Create transfers  fail 422  (OL-846, SEPA - BIC - Invalid (7 letters))-",
+  "time" : {
+    "start" : 1511799403332,
+    "stop" : 1511799405495,
+    "duration" : 2163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6c4d91011ae5e06",
+  "name" : "Set Card Limit  fail 401  (OL-815, Set Card Limit - Incorrect Paypin)-",
+  "time" : {
+    "start" : 1511799271802,
+    "stop" : 1511799277507,
+    "duration" : 5705
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f8cdfbddf5b9d37",
+  "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (>))-",
+  "time" : {
+    "start" : 1511799397416,
+    "stop" : 1511799399952,
+    "duration" : 2536
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "986d592a3e824b95",
+  "name" : "Update Customer  fail 401  (OL-937, Customer is not updated if PayPin is blank)-",
+  "time" : {
+    "start" : 1511799338166,
+    "stop" : 1511799343653,
+    "duration" : 5487
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f46b2318f09e08d",
+  "name" : "Confirm transfers  fail 422  (OL-894, P2P - Invalid PayPin)-",
+  "time" : {
+    "start" : 1511799512623,
+    "stop" : 1511799521590,
+    "duration" : 8967
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20aca288325464ab",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Moldova 2)-",
+  "time" : {
+    "start" : 1511799625637,
+    "stop" : 1511799630554,
+    "duration" : 4917
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3668e9b8695d5075",
+  "name" : "Create transfers  fail 422  (OL-776, SEPA - Contact - Blank - Cannot Create)-",
+  "time" : {
+    "start" : 1511799356366,
+    "stop" : 1511799361105,
+    "duration" : 4739
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcd88bfd047e5087",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Moldova)-",
+  "time" : {
+    "start" : 1511799553041,
+    "stop" : 1511799564406,
+    "duration" : 11365
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52730050ce5bc7a8",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Latvia)-",
+  "time" : {
+    "start" : 1511799645702,
+    "stop" : 1511799649742,
+    "duration" : 4040
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88a63994b8b0a569",
+  "name" : "Card activation  fail 401, two attempts  (OL-559, Incorrect CVC Twice)-",
+  "time" : {
+    "start" : 1511799284431,
+    "stop" : 1511799293559,
+    "duration" : 9128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5dfd5aa353be37a",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(*))-",
+  "time" : {
+    "start" : 1511799373117,
+    "stop" : 1511799373715,
+    "duration" : 598
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d492c07cc19637d3",
+  "name" : "Update Customer  fail 422  (OL-1304, Customer info is not updated if email has invalid format (No dot in the domain part))-",
+  "time" : {
+    "start" : 1511799412181,
+    "stop" : 1511799413163,
+    "duration" : 982
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "1843364f6d05759e",
+  "name" : "User registration  success 201  (OL-364, Account is created if different verification Tokens are provided (Special characters))-",
+  "time" : {
+    "start" : 1511799383534,
+    "stop" : 1511799385904,
+    "duration" : 2370
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "883b5f7623038d9c",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters('))-",
+  "time" : {
+    "start" : 1511799372145,
+    "stop" : 1511799373116,
+    "duration" : 971
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "df23e0ab19873057",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Poland 2 SET)-",
+  "time" : {
+    "start" : 1511799669884,
+    "stop" : 1511799678514,
+    "duration" : 8630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6a4cbe9c8150a9f",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Denmark)-",
+  "time" : {
+    "start" : 1511799423519,
+    "stop" : 1511799430370,
+    "duration" : 6851
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88de0b46e99570bd",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters({|}))-",
+  "time" : {
+    "start" : 1511799377489,
+    "stop" : 1511799378069,
+    "duration" : 580
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ec3058d6a1c3707",
+  "name" : "Create Card  success 201  (OL-596, Account with French Address)-",
+  "time" : {
+    "start" : 1511799383001,
+    "stop" : 1511799388852,
+    "duration" : 5851
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52d23a0f346b9cec",
+  "name" : "Unlock pin  fail 403 - three attempts  (OL-602, Incorrect Security Question - Three Attempts)-",
+  "time" : {
+    "start" : 1511799320625,
+    "stop" : 1511799332567,
+    "duration" : 11942
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcb218a32e88816e",
+  "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '%')-",
+  "time" : {
+    "start" : 1511799440561,
+    "stop" : 1511799442712,
+    "duration" : 2151
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "dd41335b46eacc5c",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, United Kingdom 2 SET)-",
+  "time" : {
+    "start" : 1511799700295,
+    "stop" : 1511799704837,
+    "duration" : 4542
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c556aaa8d0631099",
+  "name" : "User registration via onboarding fail 422  (OL-724, Email - Already Registered)-",
+  "time" : {
+    "start" : 1511799633933,
+    "stop" : 1511799633934,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f838682fedb0a9d0",
+  "name" : "Get Transactions  success 200 (OL-753, Merchant - Purchase)-",
+  "time" : {
+    "start" : 1511799382613,
+    "stop" : 1511799397070,
+    "duration" : 14457
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6198d108cc7b73d3",
+  "name" : "Create transfers  fail 404  (OL-903, SEPA - Currency - Invalid (Consists of numbers))-",
+  "time" : {
+    "start" : 1511799651859,
+    "stop" : 1511799654781,
+    "duration" : 2922
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce4f2ca20d25339d",
+  "name" : "Confirm transfers  fail 422 - confirm again  (OL-898, P2P - Transfer Already Confirmed)-Test was skipped, because of unresolved defects (OL-972) ",
+  "time" : {
+    "start" : 1511799612438,
+    "stop" : 1511799612439,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d0eaaf823b3d8996",
+  "name" : "Set Card Limit  success 204  (OL-806, Set Card Limit - Daily - Less Than 2000)-",
+  "time" : {
+    "start" : 1511799252044,
+    "stop" : 1511799257861,
+    "duration" : 5817
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6721ed8b2f5ca653",
+  "name" : "Set Card Limit  success 204  (OL-808, Set Card Limit - Transaction - Maximum(atm = 50 000 EUR, volume = 50 000 EUR))-",
+  "time" : {
+    "start" : 1511799257862,
+    "stop" : 1511799262465,
+    "duration" : 4603
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a332b7c66613a7ed",
+  "name" : "Create transfers  fail 422  (OL-865, SEPA - Amount - Exceeds Account Balance)-",
+  "time" : {
+    "start" : 1511799416349,
+    "stop" : 1511799420454,
+    "duration" : 4105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "168773ac758c829",
+  "name" : "Block Card  -  success 204  (OL-726, Card Is Locked - Correct Data)-",
+  "time" : {
+    "start" : 1511799250736,
+    "stop" : 1511799257100,
+    "duration" : 6364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94202177cda815ee",
+  "name" : "Get Questions List  success 200  (OL-411, Users are allowed to get question list with a token generated by password grant type)-",
+  "time" : {
+    "start" : 1511799265216,
+    "stop" : 1511799268833,
+    "duration" : 3617
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "256a825e44445540",
+  "name" : "Set Card Limit  fail 403  (OL-817, Set Card Limit - Incorrect Paypin - Three Attempts)-",
+  "time" : {
+    "start" : 1511799285780,
+    "stop" : 1511799294273,
+    "duration" : 8493
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58d10be3b2e841dc",
+  "name" : "Update Customer  fail 403  (OL-947, Customer is not updated if incorrect PayPin has been entered 3 times)-",
+  "time" : {
+    "start" : 1511799343653,
+    "stop" : 1511799352782,
+    "duration" : 9129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99f12909752660c8",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(#))-",
+  "time" : {
+    "start" : 1511799366637,
+    "stop" : 1511799367497,
+    "duration" : 860
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a6c63ff1b432ab0",
+  "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '&')-",
+  "time" : {
+    "start" : 1511799446868,
+    "stop" : 1511799453708,
+    "duration" : 6840
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "3d29353675bdf025",
+  "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters ([))-",
+  "time" : {
+    "start" : 1511799400695,
+    "stop" : 1511799401858,
+    "duration" : 1163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e08eb4b0afe4d3c",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(`))-",
+  "time" : {
+    "start" : 1511799376823,
+    "stop" : 1511799377489,
+    "duration" : 666
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbc6655f5e44f152",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Netherlands 2 SET)-",
+  "time" : {
+    "start" : 1511799661412,
+    "stop" : 1511799665834,
+    "duration" : 4422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b94fc1bbea5ee66",
+  "name" : "Card activation  fail 401  (OL-527, No CVC)-",
+  "time" : {
+    "start" : 1511799259770,
+    "stop" : 1511799263412,
+    "duration" : 3642
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "106c0d4b550aebae",
+  "name" : "Lock Card  success 204 after previous two failed attempts  (OL-546, Incorrect Paypin - Two Attempts)-",
+  "time" : {
+    "start" : 1511799268586,
+    "stop" : 1511799276398,
+    "duration" : 7812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abcd7ab8dd0f1e4",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Ireland)-",
+  "time" : {
+    "start" : 1511799463317,
+    "stop" : 1511799468980,
+    "duration" : 5663
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22ccda1d696cda84",
+  "name" : "Update Customer  fail 422  (OL-1314, Customer info is not updated if email has more than 50 symbols)-",
+  "time" : {
+    "start" : 1511799413164,
+    "stop" : 1511799414842,
+    "duration" : 1678
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "cfb745ee9151e825",
+  "name" : "User registration  fail 422  (OL-361, Title - Invalid Title)-",
+  "time" : {
+    "start" : 1511799406388,
+    "stop" : 1511799407845,
+    "duration" : 1457
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90edd6fae9380f17",
+  "name" : "Create transfers  fail 422  (OL-786, P2P - Account Id - Does Not Belong To User)-Test was skipped, because of unresolved defects (OL-793)  (OL-1220) ",
+  "time" : {
+    "start" : 1511799436406,
+    "stop" : 1511799436407,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "73e2ad17a3834f8d",
+  "name" : "Get Card Pin  fail 401  (OL-685, Security Question and CVC - Missing)-Test was skipped, because of unresolved defects (OL-736) ",
+  "time" : {
+    "start" : 1511799264136,
+    "stop" : 1511799264138,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a13a21c7626de5d7",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Hungary 2 SET)-",
+  "time" : {
+    "start" : 1511799638964,
+    "stop" : 1511799645702,
+    "duration" : 6738
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c03886c34f5364a",
+  "name" : "Reorder Card  fail 422  (OL-740, Existent Card Is In Active State)-Test was skipped, because of unresolved defects (OL-1229) ",
+  "time" : {
+    "start" : 1511799344464,
+    "stop" : 1511799344465,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b57ce1c06156098f",
+  "name" : "Perform transaction with Pre Authorization success 200 (OL-1482, Clearing of Fee collection is performed after preauthorization)-",
+  "time" : {
+    "start" : 1511799268858,
+    "stop" : 1511799268862,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e3774b5e5dbf28c9",
+  "name" : "User registration  fail 422  (OL-342, Account is NOT created if user used the BD with invalid date (Year and day is ok, but the month is > 12))-",
+  "time" : {
+    "start" : 1511799409633,
+    "stop" : 1511799410724,
+    "duration" : 1091
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a261f6c130d57771",
+  "name" : "Get Transactions  success 200 (OL-752, Merchant - Special Characters)-",
+  "time" : {
+    "start" : 1511799368297,
+    "stop" : 1511799382613,
+    "duration" : 14316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1421a6cf1233edb4",
+  "name" : "Block Card  -  fail 403  (OL-732, No Card ID)-",
+  "time" : {
+    "start" : 1511799298092,
+    "stop" : 1511799301501,
+    "duration" : 3409
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "472280cca5559783",
+  "name" : "Perform transaction with Pre Authorization success 200 (OL-1477, Clearing of Cash disbursement is performed after preauthorization)-",
+  "time" : {
+    "start" : 1511799268849,
+    "stop" : 1511799268852,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "12590feadcc3bf93",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Israel 2)-",
+  "time" : {
+    "start" : 1511799611451,
+    "stop" : 1511799618380,
+    "duration" : 6929
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78d70d25d05051be",
+  "name" : "Update Customer  fail 422  (OL-1304, Customer info is not updated if email has invalid format (dots at beggining and end of local part))-",
+  "time" : {
+    "start" : 1511799409058,
+    "stop" : 1511799410698,
+    "duration" : 1640
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "268dda83c5142fe4",
+  "name" : "User registration  fail 422  (OL-331, Email - Already Registered)-",
+  "time" : {
+    "start" : 1511799404612,
+    "stop" : 1511799404812,
+    "duration" : 200
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed574754759f02b9",
+  "name" : "Get Card Pin  fail 403 - three attempts  (OL-695, Security Question and CVC - Three Incorrect Attempts)-",
+  "time" : {
+    "start" : 1511799316475,
+    "stop" : 1511799327730,
+    "duration" : 11255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "393d144626cf1c03",
+  "name" : "Card activation  fail 404  (OL-560, Incorrect Card id - Card Id Does Not Exist)-",
+  "time" : {
+    "start" : 1511799293560,
+    "stop" : 1511799298240,
+    "duration" : 4680
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "978a9f61dba06a9d",
+  "name" : "Get Card Pin  fail 401  (OL-687, Security Question and Answer - No Value)-Test was skipped, because of unresolved defects (OL-736) ",
+  "time" : {
+    "start" : 1511799264138,
+    "stop" : 1511799264139,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "94a30bf0c6a77d4b",
+  "name" : "Confirm transfers  success 200  (OL-881, P2P - Valid Data - Confirm)-",
+  "time" : {
+    "start" : 1511799423642,
+    "stop" : 1511799485229,
+    "duration" : 61587
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72646493388b20f4",
+  "name" : "User registration via onboarding fail 422  (OL-724, Mandatory Field Is Missed)-",
+  "time" : {
+    "start" : 1511799633935,
+    "stop" : 1511799633936,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9bb0263662ce50fa",
+  "name" : "Confirm transfers  success 200  (OL-842, SEPA - Non-OL Client - Confirm)-",
+  "time" : {
+    "start" : 1511799342121,
+    "stop" : 1511799365985,
+    "duration" : 23864
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5e4132852e29545",
+  "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '#')-",
+  "time" : {
+    "start" : 1511799358171,
+    "stop" : 1511799360726,
+    "duration" : 2555
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "f0a8ef5cfc62d53b",
+  "name" : "Unlock pin  fail 401  (OL-603, No Security Question)-Test was skipped, because of unresolved defects (OL-736) ",
+  "time" : {
+    "start" : 1511799359720,
+    "stop" : 1511799359721,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "868512c917bc2649",
+  "name" : "User registration  fail 422  (OL-368, Gender - Invalid Gender)-",
+  "time" : {
+    "start" : 1511799407845,
+    "stop" : 1511799408564,
+    "duration" : 719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17550a4baa44b4ea",
+  "name" : "Update Customer  fail 422  (OL-1328, Customer info is not updated street number is blank)-",
+  "time" : {
+    "start" : 1511799555881,
+    "stop" : 1511799564695,
+    "duration" : 8814
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "323670626ef63a0",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Cyprus 2 SET)-",
+  "time" : {
+    "start" : 1511799599981,
+    "stop" : 1511799606686,
+    "duration" : 6705
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c245533062450a58",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Bulgaria)-",
+  "time" : {
+    "start" : 1511799587059,
+    "stop" : 1511799592645,
+    "duration" : 5586
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b938b6329fead4cb",
+  "name" : "Card activation  fail 403  (OL-529, Valid Data - Card Already Activated   )-",
+  "time" : {
+    "start" : 1511799269210,
+    "stop" : 1511799275368,
+    "duration" : 6158
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b74d3cfed0da5898",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Switzerland)-",
+  "time" : {
+    "start" : 1511799537832,
+    "stop" : 1511799545473,
+    "duration" : 7641
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "319557a3b8470b04",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Croatia)-",
+  "time" : {
+    "start" : 1511799592645,
+    "stop" : 1511799599981,
+    "duration" : 7336
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a5b9c7cddb628bf",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Spain)-",
+  "time" : {
+    "start" : 1511799568237,
+    "stop" : 1511799574203,
+    "duration" : 5966
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9dc764d82871be2",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Austria)-",
+  "time" : {
+    "start" : 1511799574204,
+    "stop" : 1511799580536,
+    "duration" : 6332
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed49562ddf7372a1",
+  "name" : "Get account data by id fail 404  (OL-710,  OL-714, IBAN - Id Does Not Belong to User)-",
+  "time" : {
+    "start" : 1511799248566,
+    "stop" : 1511799253446,
+    "duration" : 4880
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8db460e2fbac423",
+  "name" : "Get Question by MSISDN  success 200  (OL-423, The appropriate response with SQ is returned for MSISDN if it is answered)-",
+  "time" : {
+    "start" : 1511799257573,
+    "stop" : 1511799258599,
+    "duration" : 1026
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f2d59843e797a8a",
+  "name" : "User registration  fail 422  (OL-371, MSISDN - Already Registered)-",
+  "time" : {
+    "start" : 1511799405374,
+    "stop" : 1511799406388,
+    "duration" : 1014
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6593a7babef847e4",
+  "name" : "User authentication  fail 400  (OL-345, Incorrect MSISDN and Correct Password)-",
+  "time" : {
+    "start" : 1511799356820,
+    "stop" : 1511799358085,
+    "duration" : 1265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fe0a9e102a1cb3f",
+  "name" : "User authentication  fail 400  (OL-348, Incorrect (Empty) Grant Type)-",
+  "time" : {
+    "start" : 1511799359101,
+    "stop" : 1511799359156,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e68118d5e8aeecb4",
+  "name" : "Unfreeze Card  fail 401  (OL-574, Incorrect Paypin - Two Attempts)-",
+  "time" : {
+    "start" : 1511799298317,
+    "stop" : 1511799305567,
+    "duration" : 7250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19fffe1bfc1827df",
+  "name" : "Reset password  success 200 (OL-771, Happy Path)-",
+  "time" : {
+    "start" : 1511799246354,
+    "stop" : 1511799252042,
+    "duration" : 5688
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3cf2c155a5a9f6e",
+  "name" : "Card activation  fail 404  (OL-531, Incorrect Card id - Does not Belong to Current User)-",
+  "time" : {
+    "start" : 1511799298241,
+    "stop" : 1511799301875,
+    "duration" : 3634
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44268782caf9704b",
+  "name" : "Update Customer  fail 422  (OL-1333, Customer info is not updated if post code has invalid format(spec chars))-",
+  "time" : {
+    "start" : 1511799573045,
+    "stop" : 1511799576943,
+    "duration" : 3898
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "3736a288bdf7f42f",
+  "name" : "Block Card  -  fail 404  (OL-725, Card Id Does Not Exist)-",
+  "time" : {
+    "start" : 1511799260747,
+    "stop" : 1511799265671,
+    "duration" : 4924
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffd3e3039c7cd1ab",
+  "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '@')-",
+  "time" : {
+    "start" : 1511799390444,
+    "stop" : 1511799395586,
+    "duration" : 5142
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b0333d3f499f1293",
+  "name" : "Get Card Pin  fail 401  (OL-694, Security Question and CVC - Invalid)-",
+  "time" : {
+    "start" : 1511799281325,
+    "stop" : 1511799287212,
+    "duration" : 5887
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69483e683a1dc967",
+  "name" : "Create transfers  fail 422  (OL-791, P2P - Account ID - Blank)-",
+  "time" : {
+    "start" : 1511799436408,
+    "stop" : 1511799441826,
+    "duration" : 5418
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fae5d43ef4bbd30e",
+  "name" : "Block Card  -  fail 403  (OL-720, PayPin is blocked)-",
+  "time" : {
+    "start" : 1511799290233,
+    "stop" : 1511799298091,
+    "duration" : 7858
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0c564954305ebbf",
+  "name" : "Create transfers  fail 422  (OL-859, SEPA - Account ID - Does Not Belong to User (not yet registered in the system))-",
+  "time" : {
+    "start" : 1511799392183,
+    "stop" : 1511799397375,
+    "duration" : 5192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b8c749513049fc8",
+  "name" : "Create transfers  fail 422  (OL-858, SEPA - Account ID - Blank)-",
+  "time" : {
+    "start" : 1511799373501,
+    "stop" : 1511799375468,
+    "duration" : 1967
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2de453ecf879508e",
+  "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (]))-",
+  "time" : {
+    "start" : 1511799401858,
+    "stop" : 1511799402962,
+    "duration" : 1104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d9a6b78b8c2c573",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Kazakhstan 2)-",
+  "time" : {
+    "start" : 1511799618380,
+    "stop" : 1511799625636,
+    "duration" : 7256
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5dc9f05d8c0dc6db",
+  "name" : "Create transfers  fail 422  (OL-797, P2P - Amount - Invalid)-Test was skipped, because of unresolved defects (OL-1248) ",
+  "time" : {
+    "start" : 1511799455871,
+    "stop" : 1511799455873,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "14cddbb86f0e7f0d",
+  "name" : "Update Customer  fail 422  (OL-1299, Customer info is not updated if already registered email is used)-",
+  "time" : {
+    "start" : 1511799352782,
+    "stop" : 1511799358170,
+    "duration" : 5388
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "aa93890717662a3",
+  "name" : "Lock Card  fail 403  (OL-566, Card State - Registration Completed)-Test was skipped, because of unresolved defects (OL-1170) ",
+  "time" : {
+    "start" : 1511799285466,
+    "stop" : 1511799285468,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "62b215a2e853b32c",
+  "name" : "Create transfers  fail 409  (OL-861, SEPA - External UID - Not Unique)-",
+  "time" : {
+    "start" : 1511799666482,
+    "stop" : 1511799675497,
+    "duration" : 9015
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fd514d8f51673c",
+  "name" : "Renew token  success 200  (OL-415, Client Credentials Grant Type)-",
+  "time" : {
+    "start" : 1511799374034,
+    "stop" : 1511799374183,
+    "duration" : 149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e0920f373ca1c33",
+  "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char ':')-",
+  "time" : {
+    "start" : 1511799375777,
+    "stop" : 1511799377945,
+    "duration" : 2168
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "a55f03fdd8ab3ba5",
+  "name" : "Get Transactions  success 200 (OL-751, Merchant - Letters and Numbers)-",
+  "time" : {
+    "start" : 1511799328267,
+    "stop" : 1511799368297,
+    "duration" : 40030
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "224329dd9b482bf8",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, France)-",
+  "time" : {
+    "start" : 1511799441533,
+    "stop" : 1511799445643,
+    "duration" : 4110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ed39dfe412b57bd",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Slovenia)-",
+  "time" : {
+    "start" : 1511799519319,
+    "stop" : 1511799528609,
+    "duration" : 9290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59dc34d68514f423",
+  "name" : "User registration  success 201  (OL-326, Email - Valid Email with Special Characters(?))-",
+  "time" : {
+    "start" : 1511799374944,
+    "stop" : 1511799375336,
+    "duration" : 392
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "11358ab5e01d957a",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Malta)-",
+  "time" : {
+    "start" : 1511799484956,
+    "stop" : 1511799492978,
+    "duration" : 8022
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b0a9395da6b6fcf",
+  "name" : "User registration  fail 422  (OL-342, Account is NOT created if user used the BD with invalid date (Year and day is ok, but the month is 00))-",
+  "time" : {
+    "start" : 1511799409287,
+    "stop" : 1511799409633,
+    "duration" : 346
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d722ff19054c130",
+  "name" : "Create Card  fail 422  (OL-433, invalid Paypin data - No 3 Unique Digits)-Test was skipped, because of unresolved defects (OL-1241) ",
+  "time" : {
+    "start" : 1511799373208,
+    "stop" : 1511799373210,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "775b122183ad7cf0",
+  "name" : "Get Card Pin  fail 403  (OL-699, Security Question Blocked)-",
+  "time" : {
+    "start" : 1511799338944,
+    "stop" : 1511799350439,
+    "duration" : 11495
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5e5a1a86a46c6c5",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Bosnia and Herzegovina)-",
+  "time" : {
+    "start" : 1511799479824,
+    "stop" : 1511799487901,
+    "duration" : 8077
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1de9656451f63191",
+  "name" : "User registration via onboarding fail 422  (OL-724, Gender - Invalid Gender)-",
+  "time" : {
+    "start" : 1511799633943,
+    "stop" : 1511799633944,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "da283b796ee9a193",
+  "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char ';')-",
+  "time" : {
+    "start" : 1511799377945,
+    "stop" : 1511799381101,
+    "duration" : 3156
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "1cc5556ef0e7893c",
+  "name" : "Create transfers  fail 422  (OL-874, P2P - Subject - More than 255 Symbols)-",
+  "time" : {
+    "start" : 1511799462510,
+    "stop" : 1511799469101,
+    "duration" : 6591
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa98a1ed00faf569",
+  "name" : "Update Customer  fail 422  (OL-1326, Customer info is not updated street number field has more than 10 symbols)-",
+  "time" : {
+    "start" : 1511799481329,
+    "stop" : 1511799487453,
+    "duration" : 6124
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "18d0dea399a8607b",
+  "name" : "Get Question by MSISDN  fail 404  (OL-420, Mobile phone doesn't match any customer)-",
+  "time" : {
+    "start" : 1511799279233,
+    "stop" : 1511799280478,
+    "duration" : 1245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2b5a9d00d510a80",
+  "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '^')-",
+  "time" : {
+    "start" : 1511799442713,
+    "stop" : 1511799446866,
+    "duration" : 4153
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "bf2084669b11f00",
+  "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '(')-",
+  "time" : {
+    "start" : 1511799458063,
+    "stop" : 1511799460724,
+    "duration" : 2661
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "4773de46e7f38ab9",
+  "name" : "Lock Card  fail 401  (OL-541, Incorrect Paypin)-",
+  "time" : {
+    "start" : 1511799246314,
+    "stop" : 1511799249019,
+    "duration" : 2705
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36ea16fd56e9519f",
+  "name" : "Confirm transfers  fail 422 - three attempts  (OL-853, SEPA - Invalid Paypin - Three Attempts)-",
+  "time" : {
+    "start" : 1511799521591,
+    "stop" : 1511799534265,
+    "duration" : 12674
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9abefb9c041bec2",
+  "name" : "User registration  fail 422  (OL-337, Password - Less than 8 Characters)-",
+  "time" : {
+    "start" : 1511799389273,
+    "stop" : 1511799390471,
+    "duration" : 1198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c70ae6c32ab076a3",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Norway 2 SET)-",
+  "time" : {
+    "start" : 1511799665834,
+    "stop" : 1511799669884,
+    "duration" : 4050
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b14772a87fbed86e",
+  "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (:))-",
+  "time" : {
+    "start" : 1511799395502,
+    "stop" : 1511799396349,
+    "duration" : 847
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "743ef7fd0fe7fb5e",
+  "name" : "Create transfers  fail 422  (OL-798, P2P - Amount - Zero)-Test was skipped, because of unresolved defects (OL-1248) ",
+  "time" : {
+    "start" : 1511799455873,
+    "stop" : 1511799455874,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3ff676812c958e34",
+  "name" : "Update Customer  fail 422  (OL-1378, Customer info is not updated if phone field is blank)-",
+  "time" : {
+    "start" : 1511799595913,
+    "stop" : 1511799603153,
+    "duration" : 7240
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "6ce6ba193c4703de",
+  "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (')'))-",
+  "time" : {
+    "start" : 1511799392289,
+    "stop" : 1511799393673,
+    "duration" : 1384
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9b0a01e0664cb3c",
+  "name" : "Get Card  success 200 - pin blocked  (OL-553,  OL-577,  OL-857, Blocked Paypin - Request Doesn't Require Paypin)-",
+  "time" : {
+    "start" : 1511799302407,
+    "stop" : 1511799307316,
+    "duration" : 4909
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c843d425a03d1316",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Monaco 2 SET)-",
+  "time" : {
+    "start" : 1511799658329,
+    "stop" : 1511799661411,
+    "duration" : 3082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1964dc02f71a2e0a",
+  "name" : "Create transfers  success 201  (OL-916, P2P - Create Beneficiary - False)-",
+  "time" : {
+    "start" : 1511799352214,
+    "stop" : 1511799356365,
+    "duration" : 4151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b7b4715a8ab49b5",
+  "name" : "Update Customer  fail 422  (OL-1325, Customer info is not updated street field is blank)-",
+  "time" : {
+    "start" : 1511799475098,
+    "stop" : 1511799481327,
+    "duration" : 6229
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "5f59494196399585",
+  "name" : "Create transfers  fail 422  (OL-845, SEPA - IBAN - Blank)-",
+  "time" : {
+    "start" : 1511799361106,
+    "stop" : 1511799367635,
+    "duration" : 6529
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14bbbf83e4081837",
+  "name" : "Card activation  fail 403, four attempts  (OL-523, TC - Account is locked for card activation with incorrect CVC entered 3 times in a row)-",
+  "time" : {
+    "start" : 1511799301876,
+    "stop" : 1511799310761,
+    "duration" : 8885
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "660f1a08559ebebc",
+  "name" : "Set Card Limit  fail 422  (OL-809, Set Card Limit - Transaction - Over Limit (single = 50 001 EUR))-Test was skipped, because of unresolved defects (OL-1169) ",
+  "time" : {
+    "start" : 1511799271798,
+    "stop" : 1511799271799,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "9e9a1c059c41461c",
+  "name" : "Unlock pin  success 204  (OL-590, Correct Data)-",
+  "time" : {
+    "start" : 1511799301502,
+    "stop" : 1511799306280,
+    "duration" : 4778
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cef0f92d96957425",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Serbia)-",
+  "time" : {
+    "start" : 1511799630555,
+    "stop" : 1511799638406,
+    "duration" : 7851
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "247df6caa31d56cf",
+  "name" : "Unlock pin  fail 404  (OL-632, Card ID - Not Registered)-",
+  "time" : {
+    "start" : 1511799362509,
+    "stop" : 1511799366416,
+    "duration" : 3907
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d423ac90bcafe3b7",
+  "name" : "Foreign Country SEPA Transfers  success 200  (should verify money was charged from account balance)-",
+  "time" : {
+    "start" : 1511799704841,
+    "stop" : 1511799704842,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a0cb08b30aecdaee",
+  "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (())-",
+  "time" : {
+    "start" : 1511799391481,
+    "stop" : 1511799392289,
+    "duration" : 808
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82d0038e687e305",
+  "name" : "Update Customer  fail 401  (OL-945, Customer info is not updated if incorrect PayPin has been entered once)-",
+  "time" : {
+    "start" : 1511799318251,
+    "stop" : 1511799329169,
+    "duration" : 10918
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bff2d236994159c",
+  "name" : "Confirm transfers  success 200  (OL-838, TC - SEPA transfer is confirmed successfully with Oney Live client's IBAN and BIC)-Test was skipped, because of unresolved defects (OL-1251) ",
+  "time" : {
+    "start" : 1511799391983,
+    "stop" : 1511799391984,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1aad1ed651d144ff",
+  "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char '+')-",
+  "time" : {
+    "start" : 1511799464200,
+    "stop" : 1511799469481,
+    "duration" : 5281
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "3d81daca7bdbf8d7",
+  "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (|))-",
+  "time" : {
+    "start" : 1511799404274,
+    "stop" : 1511799404611,
+    "duration" : 337
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38654f9519d8fd09",
+  "name" : "Unlock pin  fail 403 - three attempts  (OL-630,  OL-635, CVC is Blocked)-",
+  "time" : {
+    "start" : 1511799352297,
+    "stop" : 1511799359719,
+    "duration" : 7422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7ad95c042691746",
+  "name" : "Unfreeze Card  fail 401  (OL-573, Incorrect Paypin)-",
+  "time" : {
+    "start" : 1511799286251,
+    "stop" : 1511799298317,
+    "duration" : 12066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4b907714e041537",
+  "name" : "Confirm transfers  fail 422  (OL-852, SEPA - Blank Paypin)-",
+  "time" : {
+    "start" : 1511799493719,
+    "stop" : 1511799504787,
+    "duration" : 11068
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b484c8f57a134eb",
+  "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (,))-",
+  "time" : {
+    "start" : 1511799393674,
+    "stop" : 1511799395501,
+    "duration" : 1827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c7847f2c662c63a",
+  "name" : "Perform transaction with Pre Authorization success 200 (OL-1464, Clearing of Purchase is performed after preauthorization)-",
+  "time" : {
+    "start" : 1511799268834,
+    "stop" : 1511799268838,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "93642091b01578f1",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Switzerland 2 SET)-",
+  "time" : {
+    "start" : 1511799696331,
+    "stop" : 1511799700294,
+    "duration" : 3963
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "619567d67998c909",
+  "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '*')-",
+  "time" : {
+    "start" : 1511799533989,
+    "stop" : 1511799539094,
+    "duration" : 5105
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "5e12f51bb6ee3769",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Slovenia 2 SET)-",
+  "time" : {
+    "start" : 1511799690119,
+    "stop" : 1511799693458,
+    "duration" : 3339
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a42fdcf1fbb2fc8",
+  "name" : "Get Transactions  success 200 (OL-758, Merchant - Fee Collection)-",
+  "time" : {
+    "start" : 1511799451926,
+    "stop" : 1511799465178,
+    "duration" : 13252
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b00e3440e44e813",
+  "name" : "Create transfers  success 201  (OL-833, SEPA - Subject - Blank - Create)-",
+  "time" : {
+    "start" : 1511799268863,
+    "stop" : 1511799273884,
+    "duration" : 5021
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6197ededcaf2507",
+  "name" : "Get Card Pin  success 200  (OL-692, PayPin is displayed after two incorrect CVC entering)-",
+  "time" : {
+    "start" : 1511799251929,
+    "stop" : 1511799258523,
+    "duration" : 6594
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "642d21cfea45e01d",
+  "name" : "User registration  fail 422  (OL-342, Account is NOT created if user used the BD with invalid date (Account is NOT created if user used the BD with invalid date))-",
+  "time" : {
+    "start" : 1511799408565,
+    "stop" : 1511799409286,
+    "duration" : 721
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "241b1cf9804e15ef",
+  "name" : "Card activation  fail 403  (OL-579, PayPin is Blocked)-",
+  "time" : {
+    "start" : 1511799263413,
+    "stop" : 1511799266808,
+    "duration" : 3395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e26839aa5735af3",
+  "name" : "User registration  success 201  (OL-362, US Citizen / Tax Payer - Valid Values)-",
+  "time" : {
+    "start" : 1511799361701,
+    "stop" : 1511799362980,
+    "duration" : 1279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4a363284c00f6bc",
+  "name" : "Create transfers  fail 404  (OL-832, P2P - Currency - Incorrect (Blank))-Test was skipped, because of unresolved defects (OL-927) ",
+  "time" : {
+    "start" : 1511799666481,
+    "stop" : 1511799666482,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4375b1300720fb06",
+  "name" : "Get account data by id success 200  (OL-664, IBAN - Correct Data)-Test was skipped, because of unresolved defects (OL-1251) ",
+  "time" : {
+    "start" : 1511799246313,
+    "stop" : 1511799246316,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "80fd9bb2b1ee0ad7",
+  "name" : "Create transfers  fail 404  (OL-903, SEPA - Currency - Invalid (not currency acronyms))-",
+  "time" : {
+    "start" : 1511799654781,
+    "stop" : 1511799659030,
+    "duration" : 4249
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "334566030f2382b0",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, San Marino 2 SET)-",
+  "time" : {
+    "start" : 1511799678517,
+    "stop" : 1511799685602,
+    "duration" : 7085
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef639cd8f0070ba",
+  "name" : "Create transfers  fail 404  (OL-903, SEPA - Currency - Invalid (Consists of special characters))-",
+  "time" : {
+    "start" : 1511799659030,
+    "stop" : 1511799662455,
+    "duration" : 3425
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4570a7c6950f037",
+  "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '>')-",
+  "time" : {
+    "start" : 1511799385029,
+    "stop" : 1511799390443,
+    "duration" : 5414
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "96aecce64a4e728b",
+  "name" : "Update Customer  fail 422  (OL-1321, Customer info is not updated city field is more than 100 symbols)-",
+  "time" : {
+    "start" : 1511799416234,
+    "stop" : 1511799419383,
+    "duration" : 3149
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "fa24d9dac2dc9347",
+  "name" : "User registration  success 201  (OL-339, Account is created if password has 8 characters)-",
+  "time" : {
+    "start" : 1511799380544,
+    "stop" : 1511799381627,
+    "duration" : 1083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "255ff619e3b711aa",
+  "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '\\')-",
+  "time" : {
+    "start" : 1511799402203,
+    "stop" : 1511799404231,
+    "duration" : 2028
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "84db2ee613d76957",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - United Arab Emirates)-",
+  "time" : {
+    "start" : 1511799571056,
+    "stop" : 1511799579682,
+    "duration" : 8626
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2519827ca498b3b4",
+  "name" : "Create Card  fail 422  (OL-431, invalid Paypin data - the Paypin starts from 0)-",
+  "time" : {
+    "start" : 1511799373210,
+    "stop" : 1511799374903,
+    "duration" : 1693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "676979eeb39612c2",
+  "name" : "Create transfers  success 201  (OL-878, P2P - Bank - Blank - Create)-",
+  "time" : {
+    "start" : 1511799341999,
+    "stop" : 1511799345900,
+    "duration" : 3901
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c92c3b31f6d7c2a",
+  "name" : "Unlock pin  fail 403 - three attempts  (OL-628, Incorrect CVC - Three Attempts)-",
+  "time" : {
+    "start" : 1511799332567,
+    "stop" : 1511799342145,
+    "duration" : 9578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b401e5d3fcfc121",
+  "name" : "Set Card Limit  fail 403  (OL-819, Paypin Is Blocked (Set Card Limit))-",
+  "time" : {
+    "start" : 1511799294274,
+    "stop" : 1511799298699,
+    "duration" : 4425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ed3dcffef69fae9",
+  "name" : "User registration  fail 422  (OL-343, Birthday - Invalid Date - Invalid Format(with letter))-",
+  "time" : {
+    "start" : 1511799412599,
+    "stop" : 1511799412722,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5718f27d3e70794b",
+  "name" : "Card activation  success 204  (OL-515, Valid Data)-",
+  "time" : {
+    "start" : 1511799246314,
+    "stop" : 1511799250445,
+    "duration" : 4131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f776f47f199eb4ac",
+  "name" : "Reset password  fail 400 (OL-784, New Password - Short Password)-",
+  "time" : {
+    "start" : 1511799257883,
+    "stop" : 1511799259896,
+    "duration" : 2013
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8982ce452c252b0f",
+  "name" : "Perform transaction with Pre Authorization success 200 (OL-1471, Clearing of ATM withdrawal  is performed after preauthorization)-",
+  "time" : {
+    "start" : 1511799268840,
+    "stop" : 1511799268843,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8b91237a28c1b9d6",
+  "name" : "Set Card Limit  fail 422  (OL-813, Set Card Limit - ATM - More Than Transaction Limit(volume > singlle < 1999))-Test was skipped, because of unresolved defects (OL-942) ",
+  "time" : {
+    "start" : 1511799271801,
+    "stop" : 1511799271802,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d3e2ccc9cfdcd0ea",
+  "name" : "Set Card Limit  success 204  (OL-814, Set Card Limit - Daily - Maximum (volume = 50 000 EUR))-",
+  "time" : {
+    "start" : 1511799267081,
+    "stop" : 1511799271793,
+    "duration" : 4712
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c1d0a0975a24a60",
+  "name" : "Get Card  success 200  (no manual test case, User doesn't have a card)-",
+  "time" : {
+    "start" : 1511799298700,
+    "stop" : 1511799302406,
+    "duration" : 3706
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8584bd30a72e3917",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Denmark 2 SET)-",
+  "time" : {
+    "start" : 1511799612322,
+    "stop" : 1511799618178,
+    "duration" : 5856
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "263938c6bfd0e5ad",
+  "name" : "Update Customer  fail 422  (OL-1304, Customer info is not updated if email has invalid format (two '@' chars))-",
+  "time" : {
+    "start" : 1511799407191,
+    "stop" : 1511799409058,
+    "duration" : 1867
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7669c993309b30b4",
+  "name" : "Get Card Pin  fail 401  (OL-689, CVC - Not Valid)-",
+  "time" : {
+    "start" : 1511799276605,
+    "stop" : 1511799281324,
+    "duration" : 4719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f2e08a1cfb2f73a",
+  "name" : "Create transfers  fail 422  (OL-796, Amount - Exceeds Transactions Daily Limit)-",
+  "time" : {
+    "start" : 1511799447036,
+    "stop" : 1511799455871,
+    "duration" : 8835
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbc7fbe6f05d6b75",
+  "name" : "Unlock pin  fail 403  (OL-634, Card ID - No Card id)-",
+  "time" : {
+    "start" : 1511799370439,
+    "stop" : 1511799372744,
+    "duration" : 2305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc88ae82146d9406",
+  "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char ',')-",
+  "time" : {
+    "start" : 1511799374440,
+    "stop" : 1511799375776,
+    "duration" : 1336
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "dcac1b5d80944b72",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Albania)-",
+  "time" : {
+    "start" : 1511799469102,
+    "stop" : 1511799479823,
+    "duration" : 10721
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d3aa239824b6536",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Sweden)-",
+  "time" : {
+    "start" : 1511799528609,
+    "stop" : 1511799537831,
+    "duration" : 9222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77256ab9093fd72f",
+  "name" : "Update Customer  fail 422  (OL-1339, Customer info is not updated if country field is invalid)-",
+  "time" : {
+    "start" : 1511799587469,
+    "stop" : 1511799590647,
+    "duration" : 3178
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "eb5c9091d6893aec",
+  "name" : "Block Card  -  fail 403  (OL-719, Incorrect PayPin - Three Attempts)-",
+  "time" : {
+    "start" : 1511799279377,
+    "stop" : 1511799290232,
+    "duration" : 10855
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b434218a7f4024f",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Greece 2 SET)-",
+  "time" : {
+    "start" : 1511799633592,
+    "stop" : 1511799638963,
+    "duration" : 5371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b89689c92a99171",
+  "name" : "Unlock pin  fail 401  (OL-629, No CVC)-",
+  "time" : {
+    "start" : 1511799359721,
+    "stop" : 1511799362509,
+    "duration" : 2788
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b4aac5bdaa37d1e",
+  "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '[')-",
+  "time" : {
+    "start" : 1511799395587,
+    "stop" : 1511799397752,
+    "duration" : 2165
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "db978df5384aba8b",
+  "name" : "Create Card  success 201  (OL-427, Valid Data)-",
+  "time" : {
+    "start" : 1511799376338,
+    "stop" : 1511799379397,
+    "duration" : 3059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79699d432286d168",
+  "name" : "User authentication  fail 400  (OL-346, Correct MSISDN and Incorrect Password)-",
+  "time" : {
+    "start" : 1511799358085,
+    "stop" : 1511799359100,
+    "duration" : 1015
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffd36f69fc6156f1",
+  "name" : "Update Customer  fail 422  (OL-1323, Customer info is not updated city field has invalid char ')')-",
+  "time" : {
+    "start" : 1511799460725,
+    "stop" : 1511799464199,
+    "duration" : 3474
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "ff1ea046711225f2",
+  "name" : "Get Question by MSISDN  fail 404  (OL-422, Question is not answered)-",
+  "time" : {
+    "start" : 1511799258600,
+    "stop" : 1511799279233,
+    "duration" : 20633
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b69da442fd75813",
+  "name" : "Reset password  fail 400 (OL-777, New Password - Empty Field)-",
+  "time" : {
+    "start" : 1511799255492,
+    "stop" : 1511799257883,
+    "duration" : 2391
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "957ee37881388958",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Finland)-",
+  "time" : {
+    "start" : 1511799435946,
+    "stop" : 1511799441533,
+    "duration" : 5587
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4103953945ce4cf5",
+  "name" : "Unfreeze Card  fail 403  (OL-575, Incorrect Paypin - Three Attempts)-",
+  "time" : {
+    "start" : 1511799305567,
+    "stop" : 1511799315673,
+    "duration" : 10106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43f454a1a52b3ed4",
+  "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (\\))-",
+  "time" : {
+    "start" : 1511799402962,
+    "stop" : 1511799403372,
+    "duration" : 410
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c7dc044ca1d1088",
+  "name" : "User registration  success 201  (OL-333, Name - Regular Name)-",
+  "time" : {
+    "start" : 1511799379443,
+    "stop" : 1511799380544,
+    "duration" : 1101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "355cb9c06618791e",
+  "name" : "Check login field presence  success 200  (OL-334, Email Address Presence - Invalid Length)-",
+  "time" : {
+    "start" : 1511799392305,
+    "stop" : 1511799395458,
+    "duration" : 3153
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2b51af6e92c66ace",
+  "name" : "Get Card cvc  fail 403  (OL-580 ,  OL-552 ,  OL-856 ,  OL-820 ,  OL-576,  OL-900, PayPin is blocked)-Test was skipped, because of unresolved defects (OL-854) ",
+  "time" : {
+    "start" : 1511799264428,
+    "stop" : 1511799264430,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "edc8fb06d22280dd",
+  "name" : "Renew token  success 200  (OL-407, Password Grant Type)-",
+  "time" : {
+    "start" : 1511799372745,
+    "stop" : 1511799374034,
+    "duration" : 1289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b50253971f52d20",
+  "name" : "Lock Card  success 204  (OL-555, Card Is Already Frozen)-",
+  "time" : {
+    "start" : 1511799264894,
+    "stop" : 1511799268585,
+    "duration" : 3691
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cc7447e88f0e9f2",
+  "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char ')')-",
+  "time" : {
+    "start" : 1511799546071,
+    "stop" : 1511799551803,
+    "duration" : 5732
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "d1a06a173583088f",
+  "name" : "Unfreeze Card  fail 401  (OL-572, Empty Paypin)-",
+  "time" : {
+    "start" : 1511799279302,
+    "stop" : 1511799286251,
+    "duration" : 6949
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4ae3b44d5aaf03a",
+  "name" : "User registration  fail 422  (OL-327, Email - Invalid Format)-",
+  "time" : {
+    "start" : 1511799390471,
+    "stop" : 1511799391481,
+    "duration" : 1010
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a9d79f30299b85e",
+  "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '%')-",
+  "time" : {
+    "start" : 1511799513438,
+    "stop" : 1511799520824,
+    "duration" : 7386
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "c68c74990787565a",
+  "name" : "Foreign Country SEPA Transfers  success 200  (OL-1062,  OL-1049,  OL-1051, Liechtenstein)-",
+  "time" : {
+    "start" : 1511799545473,
+    "stop" : 1511799552920,
+    "duration" : 7447
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fefff5f2e52e17dc",
+  "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (@))-",
+  "time" : {
+    "start" : 1511799399953,
+    "stop" : 1511799400694,
+    "duration" : 741
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9da3546ef1ca9e9",
+  "name" : "Get account data by id fail 404  (OL-672, IBAN - Customer Id Does not Exist)-",
+  "time" : {
+    "start" : 1511799246316,
+    "stop" : 1511799248565,
+    "duration" : 2249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f66180b97374c5d2",
+  "name" : "User registration  fail 422  (OL-322, Mandatory Field Is Missed)-",
+  "time" : {
+    "start" : 1511799404812,
+    "stop" : 1511799405373,
+    "duration" : 561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "153e37fb5741eae4",
+  "name" : "Get Transactions  success 200 (OL-755, Merchant - Purchase with Cashback)-",
+  "time" : {
+    "start" : 1511799409262,
+    "stop" : 1511799419087,
+    "duration" : 9825
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7960f824a5376295",
+  "name" : "Update Customer  fail 422  (OL-1327, Customer info is not updated street number field has invalid char '&')-",
+  "time" : {
+    "start" : 1511799526577,
+    "stop" : 1511799533988,
+    "duration" : 7411
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "42dbfcc3bcce03f2",
+  "name" : "Update Customer  fail 422  (OL-1324, Customer info is not updated street field has more than 100 symbols)-",
+  "time" : {
+    "start" : 1511799469483,
+    "stop" : 1511799475097,
+    "duration" : 5614
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "7bd175d521a91d4e",
+  "name" : "User registration  fail 422  (OL-329, Account is created and the appropriate response is returned if user used the valid email with special characters (;))-",
+  "time" : {
+    "start" : 1511799396349,
+    "stop" : 1511799396939,
+    "duration" : 590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d47e19d89ebbbba",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Georgia 2)-",
+  "time" : {
+    "start" : 1511799603432,
+    "stop" : 1511799611451,
+    "duration" : 8019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b77bde63e03d391",
+  "name" : "Block Card  -  fail 401  (OL-717, Incorrect PayPin - Two Attempts)-",
+  "time" : {
+    "start" : 1511799265672,
+    "stop" : 1511799271389,
+    "duration" : 5717
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5375e3a8e6cf9144",
+  "name" : "User registration  fail 422  (OL-342, Account is NOT created if user used the BD with invalid date (Year and month is ok, but the day > 31))-",
+  "time" : {
+    "start" : 1511799410725,
+    "stop" : 1511799411157,
+    "duration" : 432
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6c905ef6e63a80",
+  "name" : "Update Customer  fail 422  (OL-1302, Customer info is not updated if email has char '|')-",
+  "time" : {
+    "start" : 1511799405348,
+    "stop" : 1511799407190,
+    "duration" : 1842
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "e73f56c3b7f18214",
+  "name" : "Get Card Pin  fail 401  (OL-687, Security Answer - No value)-Test was skipped, because of unresolved defects (OL-736) ",
+  "time" : {
+    "start" : 1511799271274,
+    "stop" : 1511799271276,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5baecc588a91bf73",
+  "name" : "Create transfers  fail 422  (OL-794, P2P - External UID - Blank)-",
+  "time" : {
+    "start" : 1511799441827,
+    "stop" : 1511799447036,
+    "duration" : 5209
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32765bb06e69dc60",
+  "name" : "Update Customer  fail 401  (OL-946, Customer info is not updated if incorrect PayPin has been entered 2 times)-",
+  "time" : {
+    "start" : 1511799329170,
+    "stop" : 1511799338166,
+    "duration" : 8996
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a82c17fefe3709b0",
+  "name" : "Create transfers  fail 422  (OL-825, P2P - Amount - Exceeds Account Balance)-",
+  "time" : {
+    "start" : 1511799455874,
+    "stop" : 1511799462510,
+    "duration" : 6636
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d420e5df2c0135c",
+  "name" : "Reset password  fail 400 (OL-775, Security Question - Incorrect Answer)-",
+  "time" : {
+    "start" : 1511799252042,
+    "stop" : 1511799255491,
+    "duration" : 3449
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66aced04917f905c",
+  "name" : "Check login field presence  success 200  (OL-320, MSISDN - Already Registered)-",
+  "time" : {
+    "start" : 1511799389941,
+    "stop" : 1511799390615,
+    "duration" : 674
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

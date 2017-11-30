@@ -1,0 +1,49 @@
+D, [2017-11-27 17:14:22#11678] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:14:22#11678] DEBUG -- : Example ((OL-888, Security Question - Invalid Question)) STARTED
+D, [2017-11-27 17:14:22#11678] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:14:22#11678] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:14:22#11678] DEBUG -- : with body: {
+  "grant_type": "client_credentials"
+}
+D, [2017-11-27 17:14:22#11678] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI4NjIsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiNTUxODQxN2ItZGU1ZC00YzFkLWE1MGYtZWY2MjQyMGNmMzUxIiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.Bqpoeb249tHtl8UFWsj1-KqR3YsF3xK9TULJEfGeH3Q",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "5335b2d6a94662e16b2560f413ad9ad7"
+}
+D, [2017-11-27 17:14:23#11678] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/fidor_api/password_resets
+D, [2017-11-27 17:14:23#11678] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI4NjIsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9LZXlzOjpPYXV0aDo6Q2xpZW50LzIiLCJpc3MiOiI0NjY4YjEwNjc2NTQ1ZjYwIiwianRpIjoiNTUxODQxN2ItZGU1ZC00YzFkLWE1MGYtZWY2MjQyMGNmMzUxIiwicmF0ZSI6eyJsIjo5OTk5LCJ0Ijo5OTk5fSwiY2xhaW1zIjpbImNoZWNrX2FjY291bnRfcHJlc2VuY2UiLCJjcmVhdGVfcGFzc3dvcmRfcmVzZXRzIiwicmVhZF9hdmFpbGFibGVfc2VjdXJpdHlfYW5zd2VycyIsInJlZ2lzdGVyX2N1c3RvbWVycyJdfQ.Bqpoeb249tHtl8UFWsj1-KqR3YsF3xK9TULJEfGeH3Q",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:14:23#11678] DEBUG -- : with body: {
+  "identifier": "reset.password.incorrect@1511798031130.com",
+  "question": "ANOTHER_QUESTION",
+  "answer": "Jack",
+  "password": "QweR21Z#"
+}
+D, [2017-11-27 17:14:23#11678] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "success": false
+}
+D, [2017-11-27 17:14:25#11678] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:14:25#11678] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:14:25#11678] DEBUG -- : with body: {
+  "grant_type": "password",
+  "password": "Qwerty123#",
+  "username": "reset.password.incorrect@1511798031130.com"
+}
+D, [2017-11-27 17:14:25#11678] DEBUG -- : RESPOND WITH: status code 400 and body: {
+  "error": "invalid_credentials",
+  "error_description": "locked"
+}
+D, [2017-11-27 17:14:25#11678] DEBUG -- : Example ((OL-888, Security Question - Invalid Question)) PASSED
+D, [2017-11-27 17:14:25#11678] DEBUG -- : -----------------------------------------

@@ -1,0 +1,103 @@
+{
+  "uid" : "4c03886c34f5364a",
+  "name" : "Reorder Card  fail 422  (OL-740, Existent Card Is In Active State)-Test was skipped, because of unresolved defects (OL-1229) ",
+  "fullName" : "Reorder Card  fail 422.Reorder Card  fail 422  (OL-740, Existent Card Is In Active State)-Test was skipped, because of unresolved defects (OL-1229) ",
+  "historyId" : "765cd2886ebacdde8dd538c0f51684fe",
+  "time" : {
+    "start" : 1511799344464,
+    "stop" : 1511799344465,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusDetails" : {
+    "message" : "",
+    "trace" : "",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusDetails" : {
+      "message" : "",
+      "trace" : "",
+      "flaky" : false
+    },
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2930e97423dfb0f3",
+      "name" : "test_log",
+      "source" : "2930e97423dfb0f3.txt",
+      "type" : "text/plain",
+      "size" : 288
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "issue",
+    "value" : "https://jira.fidor.de/browse/OL-1229"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to order a new card  (OL-24)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-740"
+  }, {
+    "name" : "thread",
+    "value" : "16298300"
+  }, {
+    "name" : "suite",
+    "value" : "Reorder Card  fail 422"
+  }, {
+    "name" : "testClass",
+    "value" : "Reorder Card  fail 422"
+  }, {
+    "name" : "testMethod",
+    "value" : "Reorder Card  fail 422  (OL-740, Existent Card Is In Active State)-Test was skipped, because of unresolved defects (OL-1229) "
+  }, {
+    "name" : "package",
+    "value" : "Reorder Card  fail 422"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-1229",
+    "url" : "https://jira.fidor.de/browse/OL-1229",
+    "type" : "issue"
+  }, {
+    "name" : "https://jira.fidor.de/browse/OL-740",
+    "url" : "https://jira.fidor.de/browse/OL-740",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4c03886c34f5364a.json",
+  "statusDetailsSafe" : {
+    "message" : "",
+    "trace" : "",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

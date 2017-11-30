@@ -1,0 +1,4 @@
+D, [2017-11-27 17:14:28#11678] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:14:28#11678] DEBUG -- : Example ((OL-1477, Clearing of Cash disbursement is performed after preauthorization)) STARTED
+D, [2017-11-27 17:14:28#11678] DEBUG -- : Example ((OL-1477, Clearing of Cash disbursement is performed after preauthorization)) FAILED
+D, [2017-11-27 17:14:28#11678] DEBUG -- : -----------------------------------------

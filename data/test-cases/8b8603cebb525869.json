@@ -1,0 +1,87 @@
+{
+  "uid" : "8b8603cebb525869",
+  "name" : "Lock Card  fail 404  (OL-542, Card ID - Doesn't Belong to User)-",
+  "fullName" : "Lock Card  fail 404.Lock Card  fail 404  (OL-542, Card ID - Doesn't Belong to User)-",
+  "historyId" : "1940644325597f94b779b9d6e2bbbfba",
+  "time" : {
+    "start" : 1511799257822,
+    "stop" : 1511799260490,
+    "duration" : 2668
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f1ecdab9b7fbe046",
+      "name" : "test_log",
+      "source" : "f1ecdab9b7fbe046.txt",
+      "type" : "text/plain",
+      "size" : 3886
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to freeze  my debit card so that I can block my card temporary if I can't find it (OL-22)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-542"
+  }, {
+    "name" : "thread",
+    "value" : "11415860"
+  }, {
+    "name" : "suite",
+    "value" : "Lock Card  fail 404"
+  }, {
+    "name" : "testClass",
+    "value" : "Lock Card  fail 404"
+  }, {
+    "name" : "testMethod",
+    "value" : "Lock Card  fail 404  (OL-542, Card ID - Doesn't Belong to User)-"
+  }, {
+    "name" : "package",
+    "value" : "Lock Card  fail 404"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-542",
+    "url" : "https://jira.fidor.de/browse/OL-542",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b8603cebb525869.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

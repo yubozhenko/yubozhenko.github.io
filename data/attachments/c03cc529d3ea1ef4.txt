@@ -1,0 +1,74 @@
+D, [2017-11-27 17:16:23#11681] DEBUG -- : ----------------------------------------
+D, [2017-11-27 17:16:23#11681] DEBUG -- : Example ( (OL-596, Account with French Address)) STARTED
+D, [2017-11-27 17:16:25#11681] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/oauth/token
+D, [2017-11-27 17:16:25#11681] DEBUG -- : with next headers: {
+  "Authorization": "Basic NDY2OGIxMDY3NjU0NWY2MDphZDI4M2M5YjA2MzdjZTc3ZjE5Y2U2N2YyMjIxZTM0Nw==",
+  "Content-Type": "application/json",
+  "Accept": "application/json"
+}
+D, [2017-11-27 17:16:25#11681] DEBUG -- : with body: {
+  "grant_type": "password",
+  "password": "Qwerty123#",
+  "username": "french.create.card@1511798020279.com"
+}
+D, [2017-11-27 17:16:25#11681] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5ODUsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzExMTQ4NjE5IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjNmZmY2NzhmLWQzN2YtNDQ4MS1hYjY3LTYxZDNiZjEwNmQyMCIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.uh2gf2rFfEOv6hqtI6YQMwY9kbUuWLHSCKX2ol3YfAA",
+  "expires_in": 3600,
+  "token_type": "Bearer",
+  "refresh_token": "b8a99118389e329210168782bc74b4cb"
+}
+D, [2017-11-27 17:16:28#11681] DEBUG -- : REQUEST METHOD: post, to url: https://api.oney-test.fidor.intern/fidor_api/cards
+D, [2017-11-27 17:16:28#11681] DEBUG -- : with next headers: {
+  "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTE4MDI5ODUsInN1YiI6ImdpZDovL2F1dGgtc2VydmljZS9Vc2VyLzExMTQ4NjE5IiwiaXNzIjoiNDY2OGIxMDY3NjU0NWY2MCIsImp0aSI6IjNmZmY2NzhmLWQzN2YtNDQ4MS1hYjY3LTYxZDNiZjEwNmQyMCIsInJhdGUiOnsibCI6OTk5OSwidCI6OTk5OX0sImNsYWltcyI6WyJiYW5rX2NoZWNrIiwibWlncmF0ZV90b19jYnMiLCJwb3N0aWRlbnRfZW1haWwiLCJwdXNoX25vdGlmaWNhdGlvbl90b2tlbnMiLCJyZWFkdXBkYXRlX2FjY291bnRfbGltaXRzIiwicmVhZHVwZGF0ZV9jdXN0b21lciIsInJlYWR3cml0ZV9jYXJkIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NhcmRfbGltaXRzIiwicmVhZHdyaXRlX2NvbmZpcm1hYmxlX2FjdGlvbnMiLCJyZWFkd3JpdGVfaW50ZXJuYWxfdHJhbnNmZXIiLCJyZWFkd3JpdGVfb3ZlcmRyYWZ0IiwicmVhZHdyaXRlX3NlY3VyaXR5X2Fuc3dlcnMiLCJyZWFkd3JpdGVfc2VwYV9jcmVkaXRfdHJhbnNmZXIiLCJyZWFkd3JpdGVfc2VwYV9zdGFuZGluZ19vcmRlcnMiLCJyZWFkd3JpdGVfc2hvcnRfdGVybV9sb2FuIiwicmVhZHdyaXRlX3RyYW5zZmVycyIsInJlYWR3cml0ZV90eF9waW4iLCJyZWFkX2FjY291bnRfZnVsbCIsInJlYWRfbWVzc2FnZXMiLCJyZWFkX3ByZWF1dGhfZnVsbCIsInJlYWRfc2VjdXJpdHlfcXVlc3Rpb25zIiwicmVhZF90cmFuc2FjdGlvbl9mdWxsIiwicmVhZF91c2VyX2Z1bGwiLCJ1bmxvY2tfcGluIiwidmlkZW9faWRlbnRzIl19.uh2gf2rFfEOv6hqtI6YQMwY9kbUuWLHSCKX2ol3YfAA",
+  "Accept": "application/vnd.fidor.de; version=1,text/json",
+  "Content-Type": "application/json"
+}
+D, [2017-11-27 17:16:28#11681] DEBUG -- : with body: {
+  "account_id": "11148619",
+  "type": "fidor_smartcard",
+  "pin": "1604",
+  "category": 4
+}
+D, [2017-11-27 17:16:28#11681] DEBUG -- : RESPOND WITH: status code 201 and body: {
+  "id": 8982,
+  "account_id": "11148619",
+  "inscription": "K. WBLFOQBZODTUBIO",
+  "type": "fidor_smartcard",
+  "design": "smart-card",
+  "currency": "EUR",
+  "physical": true,
+  "valid_until": "2020-11-29T23:00:00Z",
+  "balance": 0,
+  "atm_limit": 100000,
+  "transaction_single_limit": 100000,
+  "transaction_volume_limit": 100000,
+  "limits": {
+    "atm": 100000,
+    "single": 100000,
+    "volume": 100000
+  },
+  "email_notification": true,
+  "sms_notification": false,
+  "payed": true,
+  "state": "card_registration_pending",
+  "lock_reason": null,
+  "disabled": false,
+  "atm_details": {
+    "free_period": {
+      "range": "1month",
+      "beginning_at": "2017-10-31T23:00:00Z",
+      "ending_at": "2017-11-30T22:59:59Z",
+      "recurring": true,
+      "card_template_monthly_free_occurrences": 2,
+      "unused_free_atm_withdrawals": 2,
+      "free_occurrences": 2,
+      "occurrences": 0
+    },
+    "fee_fixed": 200
+  },
+  "pan": null,
+  "created_at": "2017-11-27T16:16:28Z",
+  "updated_at": "2017-11-27T16:16:28Z"
+}
+D, [2017-11-27 17:16:28#11681] DEBUG -- : Example ( (OL-596, Account with French Address)) PASSED
+D, [2017-11-27 17:16:28#11681] DEBUG -- : -----------------------------------------

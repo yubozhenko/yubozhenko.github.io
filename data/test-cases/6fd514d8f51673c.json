@@ -1,0 +1,87 @@
+{
+  "uid" : "6fd514d8f51673c",
+  "name" : "Renew token  success 200  (OL-415, Client Credentials Grant Type)-",
+  "fullName" : "Renew token  success 200.Renew token  success 200  (OL-415, Client Credentials Grant Type)-",
+  "historyId" : "4ba207a8808b3b6db7fe17b3a38f549",
+  "time" : {
+    "start" : 1511799374034,
+    "stop" : 1511799374183,
+    "duration" : 149
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d41ba27bb4a7803",
+      "name" : "test_log",
+      "source" : "d41ba27bb4a7803.txt",
+      "type" : "text/plain",
+      "size" : 2692
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Authentication service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as an Oney live App i want to be able to renew API tokens (OL-155)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-415"
+  }, {
+    "name" : "thread",
+    "value" : "12202300"
+  }, {
+    "name" : "suite",
+    "value" : "Renew token  success 200"
+  }, {
+    "name" : "testClass",
+    "value" : "Renew token  success 200"
+  }, {
+    "name" : "testMethod",
+    "value" : "Renew token  success 200  (OL-415, Client Credentials Grant Type)-"
+  }, {
+    "name" : "package",
+    "value" : "Renew token  success 200"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-415",
+    "url" : "https://jira.fidor.de/browse/OL-415",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6fd514d8f51673c.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

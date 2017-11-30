@@ -1,0 +1,87 @@
+{
+  "uid" : "b6cb0f11778f56e7",
+  "name" : "Lock Card  fail 404  (OL-543, Card ID - Not Registered)-",
+  "fullName" : "Lock Card  fail 404.Lock Card  fail 404  (OL-543, Card ID - Not Registered)-",
+  "historyId" : "9e5d5c5fee88f5b2407598a4b82596ed",
+  "time" : {
+    "start" : 1511799253822,
+    "stop" : 1511799257821,
+    "duration" : 3999
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "82663c1cabd175ff",
+      "name" : "test_log",
+      "source" : "82663c1cabd175ff.txt",
+      "type" : "text/plain",
+      "size" : 3872
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Card service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to freeze  my debit card so that I can block my card temporary if I can't find it (OL-22)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-543"
+  }, {
+    "name" : "thread",
+    "value" : "11415860"
+  }, {
+    "name" : "suite",
+    "value" : "Lock Card  fail 404"
+  }, {
+    "name" : "testClass",
+    "value" : "Lock Card  fail 404"
+  }, {
+    "name" : "testMethod",
+    "value" : "Lock Card  fail 404  (OL-543, Card ID - Not Registered)-"
+  }, {
+    "name" : "package",
+    "value" : "Lock Card  fail 404"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-543",
+    "url" : "https://jira.fidor.de/browse/OL-543",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6cb0f11778f56e7.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "1a746b050762b7eb",
+  "name" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Belarus)-",
+  "fullName" : "Create transfers  fail 422.Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Belarus)-",
+  "historyId" : "dfbb0fa22fe84ac4fa9fc30836561933",
+  "time" : {
+    "start" : 1511799587179,
+    "stop" : 1511799594502,
+    "duration" : 7323
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "37ce40a14c1cb4ef",
+      "name" : "test_log",
+      "source" : "37ce40a14c1cb4ef.txt",
+      "type" : "text/plain",
+      "size" : 11698
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Transfer service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as an Ony live client i want to make a SEPA transfer so that i transfer money using Name and IBAN of a receiver (OL-392)as OL client i want to make P2P transfers to an oney live user so that I can easily and instantly send money to other OL users (OL-43)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-1423, https://jira.fidor.de/browse/OL-1054"
+  }, {
+    "name" : "thread",
+    "value" : "12054840"
+  }, {
+    "name" : "suite",
+    "value" : "Create transfers  fail 422"
+  }, {
+    "name" : "testClass",
+    "value" : "Create transfers  fail 422"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create transfers  fail 422  (OL-1423,  OL-1054, SEPA - Belarus)-"
+  }, {
+    "name" : "package",
+    "value" : "Create transfers  fail 422"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-1423, https://jira.fidor.de/browse/OL-1054",
+    "url" : "https://jira.fidor.de/browse/OL-1423, https://jira.fidor.de/browse/OL-1054",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a746b050762b7eb.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

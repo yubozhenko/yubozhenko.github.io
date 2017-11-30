@@ -1,0 +1,87 @@
+{
+  "uid" : "e9da3546ef1ca9e9",
+  "name" : "Get account data by id fail 404  (OL-672, IBAN - Customer Id Does not Exist)-",
+  "fullName" : "Get account data by id fail 404.Get account data by id fail 404  (OL-672, IBAN - Customer Id Does not Exist)-",
+  "historyId" : "5c522dbff522949b4749db1003fa4e07",
+  "time" : {
+    "start" : 1511799246316,
+    "stop" : 1511799248565,
+    "duration" : 2249
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e220e6e0240c4b65",
+      "name" : "test_log",
+      "source" : "e220e6e0240c4b65.txt",
+      "type" : "text/plain",
+      "size" : 3797
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Accounts service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "as OL client i want to see my private information so that I can know if my information is up-to-date (OL-45)"
+  }, {
+    "name" : "testId",
+    "value" : "https://jira.fidor.de/browse/OL-672"
+  }, {
+    "name" : "thread",
+    "value" : "11202880"
+  }, {
+    "name" : "suite",
+    "value" : "Get account data by id fail 404"
+  }, {
+    "name" : "testClass",
+    "value" : "Get account data by id fail 404"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get account data by id fail 404  (OL-672, IBAN - Customer Id Does not Exist)-"
+  }, {
+    "name" : "package",
+    "value" : "Get account data by id fail 404"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://jira.fidor.de/browse/OL-672",
+    "url" : "https://jira.fidor.de/browse/OL-672",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9da3546ef1ca9e9.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

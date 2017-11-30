@@ -1,0 +1,3 @@
+D, [2017-11-27 17:17:35#11678] DEBUG -- : Test was skipped, because of unresolved defects (OL-1248) 
+D, [2017-11-27 17:17:35#11678] DEBUG -- : Example ( (OL-797, P2P - Amount - Invalid)) PASSED
+D, [2017-11-27 17:17:35#11678] DEBUG -- : -----------------------------------------

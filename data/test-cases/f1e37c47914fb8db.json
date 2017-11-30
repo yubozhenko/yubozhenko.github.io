@@ -1,0 +1,83 @@
+{
+  "uid" : "f1e37c47914fb8db",
+  "name" : "Check login field presence  success 200  (OL-324, MSISDN - Number Is Not Registered)-",
+  "fullName" : "Check login field presence  success 200.Check login field presence  success 200  (OL-324, MSISDN - Number Is Not Registered)-",
+  "historyId" : "443ef6f662b7dd05f011a69fb6b64480",
+  "time" : {
+    "start" : 1511799388853,
+    "stop" : 1511799389940,
+    "duration" : 1087
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ef82ab1ee15cebc2",
+      "name" : "test_log",
+      "source" : "ef82ab1ee15cebc2.txt",
+      "type" : "text/plain",
+      "size" : 2354
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User registration service"
+  }, {
+    "name" : "host",
+    "value" : "j-worker01.fidor.intern"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "As OL Client i want to enter my personal information so that a client is created (OL-146)"
+  }, {
+    "name" : "thread",
+    "value" : "16298300"
+  }, {
+    "name" : "suite",
+    "value" : "Check login field presence  success 200"
+  }, {
+    "name" : "testClass",
+    "value" : "Check login field presence  success 200"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check login field presence  success 200  (OL-324, MSISDN - Number Is Not Registered)-"
+  }, {
+    "name" : "package",
+    "value" : "Check login field presence  success 200"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f1e37c47914fb8db.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}
